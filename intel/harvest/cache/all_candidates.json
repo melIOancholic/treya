@@ -1,0 +1,2474 @@
+[
+    {
+        "id": 12842,
+        "published": "2026-03-23 17:00:00",
+        "raw_category": "threat_intelligence",
+        "source_name": "Microsoft Security",
+        "title": "Case study: How predictive shielding in Defender stopped GPO-based ransomware before it started",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/03/23/case-study-predictive-shielding-defender-stopped-gpo-based-ransomware-before-started/",
+        "description": "Microsoft Defender stopped a human-operated ransomware attack that abused Group Policy Objects (GPOs) to disable defenses and push encryption at scale. This case study breaks down the attacker's playbook and shows how predictive shielding hardened 700 devices in time, resulting in zero GPO-based encryptions and blocking most of the attempted impact. The post Case study: How predictive shielding in Defender stopped GPO-based ransomware before it started appeared first on Microsoft Security Blog .",
+        "breadcrumbs": [
+            "RANSOMWARE",
+            "REMOTE ACCESS TROJAN",
+            "GPO-BASED RANSOMWARE"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 500.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 500.0
+        }
+    },
+    {
+        "id": 12872,
+        "published": "2026-03-23 06:00:00",
+        "raw_category": "threat_intelligence",
+        "source_name": "Zero Day Initiative",
+        "title": "ZDI-26-225: (Pwn2Own) Samsung Galaxy S25 Samsung Account Open Redirect Security Bypass Vulnerability",
+        "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-225/",
+        "description": "This vulnerability allows remote attackers to bypass security on affected installations of Samsung Galaxy S25. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 5.6. The following CVEs are assigned: CVE-2025-58487.",
+        "breadcrumbs": [
+            "REMOTE ACCESS TROJAN",
+            "CVE-2025-58487",
+            "REMOTE ATTACKER"
+        ],
+        "cves": [
+            "CVE-2025-58487"
+        ],
+        "score": 25,
+        "scoring_reasons": [
+            "+0 (EPSS: 0.00022)",
+            "+25 (Surge: 1150.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.00022,
+            "surge_pct": 1150.0
+        }
+    },
+    {
+        "id": 12873,
+        "published": "2026-03-23 06:00:00",
+        "raw_category": "threat_intelligence",
+        "source_name": "Zero Day Initiative",
+        "title": "ZDI-26-224: (Pwn2Own) Samsung Galaxy S25 Samsung Account Cross-Site Scripting Remote Code Execution Vulnerability",
+        "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-224/",
+        "description": "This vulnerability allows remote attackers to execute arbitrary script on affected installations of Samsung Galaxy S25. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 6.3. The following CVEs are assigned: CVE-2025-58486.",
+        "breadcrumbs": [
+            "CROSS-SITE SCRIPTING",
+            "REMOTE CODE EXECUTION",
+            "REMOTE ACCESS TROJAN",
+            "CVE-2025-58486",
+            "REMOTE CODE EXECUTION VULNERABILITY",
+            "REMOTE ATTACKER"
+        ],
+        "cves": [
+            "CVE-2025-58486"
+        ],
+        "score": 25,
+        "scoring_reasons": [
+            "+0 (EPSS: 0.00042)",
+            "+25 (Surge: 650.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.00042,
+            "surge_pct": 650.0
+        }
+    },
+    {
+        "id": 12874,
+        "published": "2026-03-23 06:00:00",
+        "raw_category": "threat_intelligence",
+        "source_name": "Zero Day Initiative",
+        "title": "ZDI-26-223: (Pwn2Own) Samsung Galaxy S25 Smart Touch Call Application Protection Mechanism Failure Information Disclosure Vulnerability",
+        "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-223/",
+        "description": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Samsung Galaxy S25. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 5.9. The following CVEs are assigned: CVE-2025-58488.",
+        "breadcrumbs": [
+            "REMOTE ACCESS TROJAN",
+            "CVE-2025-58488",
+            "REMOTE ATTACKER",
+            "MALICIOUS FILE"
+        ],
+        "cves": [
+            "CVE-2025-58488"
+        ],
+        "score": 25,
+        "scoring_reasons": [
+            "+0 (EPSS: 0.00054)",
+            "+25 (Surge: 1150.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.00054,
+            "surge_pct": 1150.0
+        }
+    },
+    {
+        "id": 12875,
+        "published": "2026-03-23 06:00:00",
+        "raw_category": "threat_intelligence",
+        "source_name": "Zero Day Initiative",
+        "title": "ZDI-26-222: (Pwn2Own) Canon imageCLASS MF654Cdw BJNP Memory Corruption Remote Code Execution Vulnerability",
+        "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-222/",
+        "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Canon imageCLASS MF654Cdw printers. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 8.8. The following CVEs are assigned: CVE-2025-14233.",
+        "breadcrumbs": [
+            "REMOTE CODE EXECUTION",
+            "REMOTE ACCESS TROJAN",
+            "CVE-2025-14233",
+            "REMOTE CODE EXECUTION VULNERABILITY"
+        ],
+        "cves": [
+            "CVE-2025-14233"
+        ],
+        "score": 25,
+        "scoring_reasons": [
+            "+0 (EPSS: 0.00062)",
+            "+25 (Surge: 650.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.00062,
+            "surge_pct": 650.0
+        }
+    },
+    {
+        "id": 12881,
+        "published": "2026-03-23 15:00:00",
+        "raw_category": "threat_intelligence",
+        "source_name": "Mandiant (Google)",
+        "title": "M-Trends 2026: Data, Insights, and Strategies From the Frontlines",
+        "link": "https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/",
+        "description": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7fbdd985ae50>), ('btn_text', 'Download now'), ('href', 'https://cloud.google.com/security/resources/m-trends?utm_source=cgc-blog&utm_medium=blog&utm_campaign=FY26-Q1-GLOBAL-STO89-website-dl-dgcsm-mtrends26-162712&utm_content=-&utm_term=-'), ('image', <GAEImage: m-trends blog callout>)])]> By the Numbers: M-Trends 2026 The metrics in this year's report highlight how adversaries are shifting their approaches to bypass modern security controls: Global Median Dwell Time: Global median dwell time rose to 14 days from 11 days. This shift likely reflects growing sophistication, particularly in evading defenses. When looking specifically at the high quantity of cyber espionage and North Korean IT worker incidents, the median dwell time for both categories was 122 days. Initial Infection Vectors: Exploits remained the most common initial infection vector for the sixth consecutive year, accounting for 32% of intrusions. However, highly interactive voice phishing saw a significant surge to 11%, becoming the second-most commonly observed vector. Detection by Source: Organizations are improving their internal visibility. Across all 2025 investigations, 52% of the time organizations first detected evidence of malicious activity internally, an increase from 43% in 2024. Targeted Industries: The full scope of incidents affected more than 16 industry verticals, with the high tech sector (17%) outpacing the financial sector (14.6%) as the most frequently targeted industry, shifting the financial sector out of the top spot it held in 2024 and 2023. The Collapse of the \"Hand-Off\" Window One of the most notable trends we observed in 2025 is the increased specialization and collaboration within the cyber crime ecosystem. Initial access partners are using low-impact techniques, such as malicious advertisements or the ClickFix social engineering technique, to gain a foothold. They then hand off this access to secondary groups who execute high-impact operations like ransomware. In 2022, the median time between an initial access event and the hand-off to a secondary threat group was more than 8 hours. In 2025, that window collapsed to just 22 seconds. Initial access partners are increasingly pre-staging the secondary group's preferred malware or tunnels during the initial infection, meaning secondary actors are fully equipped to launch operations the moment they first interact with the network. This pattern is reflected in how attackers are breaching organizations. We found that prior compromise ranked as the third-most common initial infection vector (10%) for intrusions globally, and the top initial infection vector in ransomware operations (30%), doubling what it was in 2024 (15%). Voice Phishing and the SaaS Identity Crisis Historically, email phishing has been an adversary staple. But as automated technical controls have improved, email phishing dropped to just 6% of intrusions in 2025. In its place, adversaries have pivoted to highly interactive, voice-based social engineering. We have extensively documented this progression in blog posts and reports, notably tracking how groups like UNC3944 target IT help desks to bypass multifactor authentication (MFA) and gain initial access to software-as-a-service (SaaS) environments (see: Vishing for Access: Tracking the Expansion of ShinyHunters-Branded SaaS Data Theft ). M-Trends 2026 reveals the cascading impact of these techniques. Threat actors are bypassing standard defenses by harvesting long-lived OAuth tokens and session cookies. By compromising third-party SaaS vendors, attackers steal hard-coded keys and personal access tokens, using those secrets to seamlessly pivot into downstream customer environments to execute large-scale data theft. Ransomware Evolves into Recovery Denial Ransomware groups are no longer just encrypting data; they are actively destroying the ability to recover. In 2025, we observed a systemic shift where ransomware operators , including prolific groups using REDBIKE (Akira) and AGENDA (Qilin), actively targeted backup infrastructure, identity services, and virtualization management planes. Attackers are exploiting misconfigured Active Directory Certificate Services templates to create admin accounts that bypass password rotation and are actively deleting backup objects from cloud storage. Furthermore, attackers are exploiting the \"Tier-0\" nature of hypervisors to bypass guest-level defenses. By targeting the virtualization storage layer directly or encrypting hypervisor datastores, they can render all associated virtual machines inoperable simultaneously. This directly aligns with the complex intrusions we outlined in our guide, From Help Desk to Hypervisor: Defending Your VMware vSphere Estate from UNC3944 . Modern ransomware is now a fundamental resilience problem, forcing organizations into a choice: pay or rebuild. Edge Devices, Zero-Days, and Extreme Persistence While cyber criminals optimize for speed, espionage groups are optimizing for extreme persistence. Threat clusters like UNC6201 and UNC5807 deliberately target edge and core network devices, such as virtual private networks (VPNs) and routers, that typically lack standard endpoint detection and response (EDR) telemetry. M-Trends 2026 reveals that the mean time to exploit vulnerabilities dropped to an estimated -7 days, meaning exploitation is routinely occurring before a patch is even released. This acceleration underscores the severity of the trends and campaigns we have recently documented, from increasing zero-day usage over 2024 (as reported on in Look at What You Made Us Patch: 2025 Zero-Days in Review2025 Zero-Days in Review ) to our analysis of UNC6201 Exploiting a Dell RecoverPoint for Virtual Machines Zero-Day . By leveraging native packet-capturing functionality on these devices, adversaries can directly intercept sensitive data and plaintext credentials as they transit the network, allowing them to gather intelligence without ever needing to move deeper into traditional sources like workstations or servers. Attackers are deploying custom, in-memory malware like the BRICKSTORM backdoor directly onto these network appliances to establish deep persistence that routinely survives standard remediation efforts and system reboots. Because these devices are designed with minimal onboard storage and cannot support traditional security tooling, conducting file system or memory forensics presents a significant challenge, often leaving security teams with limited artifacts to confirm an attacker's presence or properly scope the remediation. Furthermore, this extreme persistence creates a critical visibility gap. With threats like BRICKSTORM achieving dwell times of nearly 400 days, standard 90-day log retention policies leave organizations completely blind to the initial access vector and the full scope of the intrusion. AI Threat Landscape A comprehensive overview of the 2025 threat landscape requires addressing adversary use of artificial intelligence (AI). Ongoing Google Threat Intelligence Group research reveals that adversaries are integrating AI to accelerate the attack lifecycle . We have seen malware families like PROMPTFLUX and PROMPTSTEAL actively query large language models (LLMs) mid-execution to evade detection, while \"distillation attacks\" threaten intellectual property by extracting the proprietary logic and specialized training data of high-value machine learning models. M-Trends 2026 confirms attackers are abusing AI within compromised environments. For example, the QUIETVAULT credential stealer was observed checking targeted machines for local AI command-line tools, executing predefined prompts to search for configuration files. Despite these rapid technological advancements, we do not consider 2025 to be the year where breaches were the direct result of AI. From our view on the frontlines, the vast majority of successful intrusions still stem from fundamental human and systemic failures. However, to ensure organizations are prepared as AI-powered capabilities evolve, Mandiant red teams are actively incorporating AI-driven techniques into engagements-such as prompt injection-to rigorously test defenses against emerging threats. By highlighting the unique risks surrounding AI implementations, such as the abuse of developer toolchains, we help organizations establish behavioral baselines and adopt principles from the Google Secure AI Framework (SAIF) . Beyond securing the AI models themselves, we also help organizations leverage AI-powered defense as a force multiplier for security operations. For a deeper dive into AI and security, read our recently published paper, AI risk and resilience: A Mandiant special report . Recommendations for Defenders To build true operational resilience and outmaneuver modern adversaries, organizations must move at the speed of the attacker. M-Trends 2026 provides extensive, actionable guidance, including: Treat Low-Impact Alerts as Critical Indicators: With hand-off times shrinking to seconds, security teams must restructure response playbooks. Treat routine malware alerts as high-priority indicators of an impending secondary intrusion, and remediate before interactive hands-on-keyboard operations begin. Isolate Critical Control Planes: Virtualization and management platforms must be treated as Tier-0 assets with the strictest access constraints. To counter the destruction of recovery capabilities, backup environments should be decoupled from the corporate Active Directory domain and utilize immutable storage (to defend against these attacks, review our guide, Proactive Preparation and Hardening Against Destructive Attacks: 2026 Edition ). Shift to Continuous Identity Verification: Because interactive social engineering frequently bypasses traditional MFA, organizations must enforce strict least privilege, regularly audit SaaS integrations, and route all SaaS applications through a central identity provider (IdP). Transition from Static IOCs to Behavioral Anomaly Detection: With attackers rapidly changing infrastructure and deploying custom, in-memory malware, relying solely on static indicators of compromise (IOCs) is no longer sufficient. Defenders must implement behavior-based detection models that flag anomalous activity and deviations from established baselines, specifically concerning unauthorized access to edge devices, anomalous bulk API operations, or the suspicious use of SaaS integration tokens. Expand Visibility and Extend Log Retention: Deploy advanced threat detection across the entire ecosystem. To close the visibility gap associated with multi-year intrusions, organizations must extend log retention policies well beyond standard 90-day windows. Forward critical network device logs-especially application and administrative logs-and hypervisor-level telemetry to centralized, long-term storage to eliminate the blind spots sophisticated actors rely upon. Be Ready to Respond The Mandiant mission is to help keep every organization secure from cyber threats and confident in their readiness. For 17 years, our annual M-Trends report has been a core component of advancing that mission, sharing frontline knowledge to help defenders close critical visibility gaps. To learn about the cyber threat landscape, and how we recommend organizations adapt to its ongoing changes, explore our M-Trends 2026 resources: Download the M-Trends 2026 report for a comprehensive dive into our frontline data. Read the M-Trends 2026 Executive Edition for a high-level look at the data and trends, along with key recommendations. Register for our upcoming M-Trends 2026 webinar -the first in a planned series-for an in-depth look at the data, topics, and recommendations discussed in the report. Listen to a special episode of the Google Cloud Security Podcast featuring M-Trends 2026 to learn more about what the findings mean and how the report is created.",
+        "breadcrumbs": [
+            "PROMPT INJECTION",
+            "REMOTE CODE EXECUTION",
+            "PHISHING",
+            "VISHING",
+            "BUSINESS EMAIL COMPROMISE",
+            "SOCIAL ENGINEERING",
+            "CLICKFIX",
+            "RANSOMWARE",
+            "BACKDOOR",
+            "REMOTE ACCESS TROJAN",
+            "NORTH KOREA",
+            "MAINE",
+            "CYBER CRIMINAL GROUP",
+            "CYBER ESPIONAGE GROUP",
+            "INSIDER THREAT",
+            "UNMONITORED EDGE DEVICE",
+            "NATIVE NETWORK FUNCTIONALITY",
+            "EXPLOIT",
+            "HIGHLY INTERACTIVE VOICE PHISHING"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 300.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 300.0
+        }
+    },
+    {
+        "id": 12883,
+        "published": "2026-03-24 15:22:02",
+        "raw_category": "threat_intelligence",
+        "source_name": "Cyberscoop",
+        "title": "Russian access broker sentenced to over 6 years in prison for ransomware schemes",
+        "link": "https://cyberscoop.com/aleksei-volkov-russian-initial-access-broker-sentenced-ransomware/",
+        "description": "A federal court in Indiana sentenced a Russian cybercriminal to 81 months in prison on charges related to his role as an initial access broker for ransomware groups. Aleksei Volkov, 26, of St. Petersburg, Russia, pleaded guilty in November 2025 to six federal charges stemming from his work with the Yanluowang ransomware group and other [\u2026] The post Russian access broker sentenced to over 6 years in prison for ransomware schemes appeared first on CyberScoop .",
+        "breadcrumbs": [
+            "RANSOMWARE",
+            "INDIA",
+            "RUSSIA",
+            "INDIANA"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 500.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 500.0
+        }
+    },
+    {
+        "id": 12884,
+        "published": "2026-03-23 22:26:43",
+        "raw_category": "threat_intelligence",
+        "source_name": "Cyberscoop",
+        "title": "Experts insist Trump administration\u2019s cyber strategy is already paying off",
+        "link": "https://cyberscoop.com/cyber-strategy-impact-proactive-shift-rsac/",
+        "description": "Leaders from various cybersecurity institutions were quick to defend and evangelize the administration's strategic pivots in cyberspace. The post Experts insist Trump administration's cyber strategy is already paying off appeared first on CyberScoop .",
+        "breadcrumbs": [
+            "REMOTE ACCESS TROJAN"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 1150.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 1150.0
+        }
+    },
+    {
+        "id": 12886,
+        "published": "2026-03-23 19:35:10",
+        "raw_category": "threat_intelligence",
+        "source_name": "Cyberscoop",
+        "title": "FBI: Iranian hackers targeting opponents with Telegram malware",
+        "link": "https://cyberscoop.com/fbi-iranian-hackers-targeting-opponents-with-telegram-malware/",
+        "description": "The campaign goes back to 2023 but is the subject of an alert amid conflict in the Middle East. The post FBI: Iranian hackers targeting opponents with Telegram malware appeared first on CyberScoop .",
+        "breadcrumbs": [
+            "IRAN",
+            "TELEGRAM MALWARE"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 300.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 300.0
+        }
+    },
+    {
+        "id": 12887,
+        "published": "2026-03-23 18:27:20",
+        "raw_category": "threat_intelligence",
+        "source_name": "Cyberscoop",
+        "title": "An AI-powered phishing campaign has compromised hundreds of organizations",
+        "link": "https://cyberscoop.com/huntress-railway-ai-phishing-campaign-compromised-hundreds-of-organizations/",
+        "description": "Huntress researchers said it's likely the victims they've identified represent just a fraction of compromised organizations worldwide. The post An AI-powered phishing campaign has compromised hundreds of organizations appeared first on CyberScoop .",
+        "breadcrumbs": [
+            "PHISHING",
+            "AI-POWERED PHISHING CAMPAIGN",
+            "ORGANIZATION",
+            "VICTIM",
+            "WORLDWIDE"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 233.33%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 233.33
+        }
+    },
+    {
+        "id": 12888,
+        "published": "2026-03-23 16:00:00",
+        "raw_category": "threat_intelligence",
+        "source_name": "Cyberscoop",
+        "title": "The phone call is the new phishing email",
+        "link": "https://cyberscoop.com/social-engineering-surge-intrusion-vector-mandiant-m-trends/",
+        "description": "Voice-based phishing was at the root of multiple attack sprees Mandiant responded to last year, reflecting a concerning shift in tactics. The post The phone call is the new phishing email appeared first on CyberScoop .",
+        "breadcrumbs": [
+            "PHISHING"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 233.33%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 233.33
+        }
+    },
+    {
+        "id": 12893,
+        "published": "2026-03-24 07:00:12",
+        "raw_category": "general_news",
+        "source_name": "The Guardian (Technology)",
+        "title": "Amount of AI-generated child sexual abuse material found online surged in 2025",
+        "link": "https://www.theguardian.com/technology/2026/mar/24/ai-generated-child-sexual-abuse-videos-images-online-surged-2025-internet-watch-foundation",
+        "description": "Internet Watch Foundation verified 8,029 pieces of realistic AI-made content, with 65% of videos in worst category The amount of AI-generated child sexual abuse material found online rose by 14% last year, with the majority of videos showing the most extreme type of content, according to a safety watchdog. The Internet Watch Foundation said it identified 8,029 AI-made images and videos of realistic child sexual abuse material (CSAM) in 2025. It added that there had been a more than 260-fold increase in videos. Continue reading...",
+        "breadcrumbs": [
+            "REMOTE ACCESS TROJAN",
+            "AI-GENERATED CHILD SEXUAL ABUSE MATERIAL"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 1150.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 1150.0
+        }
+    },
+    {
+        "id": 12894,
+        "published": "2026-03-24 14:58:47",
+        "raw_category": "general_news",
+        "source_name": "The Guardian (Technology)",
+        "title": "Divide between Silicon Valley and ordinary people grows ever larger",
+        "link": "https://www.theguardian.com/technology/2026/mar/24/silcon-valley-ai-techscape",
+        "description": "Big tech believes the future is AI while everyday Americans remain wary; and the dangers of riding in a Tesla Cybertruck Hello, and welcome to TechScape. I'm your host, Blake Montgomery. This week in tech, we discuss a moment of divergence between Silicon Valley and everyday people; deep cuts at Meta to maximize spending on AI; writers caught using AI; and the frightening, fiery crashes of the Tesla Cybertruck. How the FBI can conduct mass surveillance - even without AI Kash Patel admits under oath FBI is buying location data on Americans Why is the FBI buying people's location data and how is it using the information? Continue reading...",
+        "breadcrumbs": [
+            "AI",
+            "LOCATION DATUM"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 500.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 500.0
+        }
+    },
+    {
+        "id": 12895,
+        "published": "2026-03-24 11:40:32",
+        "raw_category": "general_news",
+        "source_name": "The Guardian (Technology)",
+        "title": "Revolut warns it risks backlash over support for energy-intensive AI and crypto",
+        "link": "https://www.theguardian.com/business/2026/mar/24/revolut-ai-crypto-profits-us-banking-licence-uk",
+        "description": "Fintech company's profits leap to \u00a31.7bn as it gears up for US push after getting UK banking licence this month Business live - latest updates The UK banking app Revolut has said it could face a backlash over its support for energy-intensive sectors such as crypto and AI, as it posted a 57% increase in profits for last year. The fintech, which can now launch as a fully fledged UK bank after a five-year wait for regulatory approval, warned in its 2025 annual report that such activities posed a \"reputational risk\". Revolut offers crypto trading. Continue reading...",
+        "breadcrumbs": [
+            "AI",
+            "CRYPTO"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 500.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 500.0
+        }
+    },
+    {
+        "id": 12896,
+        "published": "2026-03-23 18:42:49",
+        "raw_category": "general_news",
+        "source_name": "The Guardian (Technology)",
+        "title": "MPs urge UK government to halt contract giving Palantir FCA data access",
+        "link": "https://www.theguardian.com/technology/2026/mar/23/mps-urge-uk-government-halt-palantir-contract-fca",
+        "description": "Awarding US spy-tech company deal involving sensitive financial data is 'huge error of judgment', Liberal Democrats say MPs have urged the government to halt its latest contract with Palantir after the Guardian revealed that the US spy-tech company is to gain access to a trove of highly sensitive UK financial regulation data. The Financial Conduct Authority, the watchdog for thousands of financial bodies from banks to hedge funds, has hired Palantir to apply its AI systems to two years' worth of internal intelligence data to help it tackle financial crime. Continue reading...",
+        "breadcrumbs": [
+            "REMOTE ACCESS TROJAN",
+            "LIBERAL DEMOCRAT",
+            "AI SYSTEM"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 1150.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 1150.0
+        }
+    },
+    {
+        "id": 12897,
+        "published": "2026-03-24 03:53:50",
+        "raw_category": "general_news",
+        "source_name": "The Guardian (Technology)",
+        "title": "Hong Kong police can demand phone and computer passwords under amended national security law",
+        "link": "https://www.theguardian.com/world/2026/mar/24/hong-kong-phone-passwords-national-security-law",
+        "description": "Refusing to comply could lead to year in jail and hefty fine, while providing false information carries up to three years in prison Hong Kong police can now demand that people suspected of breaching the city's national security law provide mobile phone or computer passwords in a further crackdown on dissent. The amendments to the law also empower customs officers to seize items that are deemed to have \"seditious intention\", regardless of whether any person has been arrested for an offence endangering national security because of the items. Continue reading...",
+        "breadcrumbs": [
+            "BUSINESS EMAIL COMPROMISE"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 650.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 650.0
+        }
+    },
+    {
+        "id": 12899,
+        "published": "2026-03-23 17:51:35",
+        "raw_category": "general_news",
+        "source_name": "The Guardian (Technology)",
+        "title": "AI boom risks widening wealth divide, says BlackRock\u2019s Larry Fink",
+        "link": "https://www.theguardian.com/technology/2026/mar/23/ai-boom-risks-widening-wealth-divide-blackrock-larry-fink",
+        "description": "CEO of asset manager says only a few firms and investors may reap rewards from growth in the technology The boom in artificial intelligence risks widening inequality, with only a handful of companies and investors likely to reap its financial rewards, the BlackRock chief executive, Larry Fink, has said. The boss of the $14tn (\u00a310.4tn) asset manager used his annual letter to investors on Monday to highlight potential hazards around the exponential growth in AI, which has attracted rapid investment and become, he said, \"central to strategic competition\" between global powers such as the US and China. Continue reading...",
+        "breadcrumbs": [
+            "BUSINESS EMAIL COMPROMISE",
+            "REMOTE ACCESS TROJAN",
+            "CHINA",
+            "AI",
+            "INVESTOR",
+            "ARTIFICIAL INTELLIGENCE"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 650.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 650.0
+        }
+    },
+    {
+        "id": 12900,
+        "published": "2026-03-23 15:00:51",
+        "raw_category": "general_news",
+        "source_name": "The Guardian (Technology)",
+        "title": "When your culture becomes a meme: the \u2018jarring\u2019 effect of Chinamaxxing",
+        "link": "https://www.theguardian.com/lifeandstyle/2026/mar/23/chinamaxxing-chinese-culture-becomes-a-meme",
+        "description": "The TikTok trend may be fading, but people of Chinese heritage wonder if an appreciation for their culture will continue after the algorithm moves on Get our weekend culture and lifestyle email I have been Chinese my whole life. Lately, many online have also found their Chinese roots, but not through traditional ancestry tests. Creators are drinking hot water, wearing slippers around the house, using chopsticks, eating Chinese food and wearing red. Taking off in popularity from mid-2025, these videos have racked up hundreds of thousands of views, finding virality first on TikTok, then Instagram and X. Put simply, \"People are trying to be more Chinese regardless of what their heritage is,\" says Michelle She, a London-based fashion label owner. Sign up for our rundown of must-reads, pop culture and tips for the weekend, every Saturday morning Continue reading...",
+        "breadcrumbs": [
+            "BUSINESS EMAIL COMPROMISE",
+            "CHINA",
+            "TIKTOK"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 650.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 650.0
+        }
+    },
+    {
+        "id": 12904,
+        "published": "2026-03-22 17:00:25",
+        "raw_category": "general_news",
+        "source_name": "The Guardian (Technology)",
+        "title": "Campaign groups rail against Palantir, but the UK contracts keep coming",
+        "link": "https://www.theguardian.com/technology/2026/mar/22/fca-deal-palantir-ai-financial-services-uk",
+        "description": "AI analytics firm has become influential in Whitehall, and FCA deal gives it yet more access to data Palantir extends reach into British state as it gets access to sensitive FCA data Palantir's latest UK contract takes the AI and data analytics company into the heart of one of Britain's biggest industries: financial services, which accounts for 9% of the economy. The Miami-based company embedded its technology in the NHS in 2023, the police in 2024 and the military in 2025. Land and expand, they say in the tech industry. Palantir has followed the script, building contracts worth more than \u00a3500m. Continue reading...",
+        "breadcrumbs": [
+            "BUSINESS EMAIL COMPROMISE",
+            "PALANTIR",
+            "AI ANALYTICS FIRM",
+            "FCA",
+            "NH",
+            "POLICE",
+            "MILITARY"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 650.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 650.0
+        }
+    },
+    {
+        "id": 12910,
+        "published": "2026-03-23 08:00:44",
+        "raw_category": "general_news",
+        "source_name": "The Guardian (Technology)",
+        "title": "We Know You Can Pay a Million by Anja Shortland review \u2013 the terrifying new world of ransomware",
+        "link": "https://www.theguardian.com/books/2026/mar/23/we-know-you-can-pay-a-million-by-anja-shortland-review-the-terrifying-new-world-of-ransomware",
+        "description": "Criminals extorting money online have created huge businesses, complete with branding and HR The birth of ransomware was a stunt that got out of hand. In 1989, an evolutionary biologist called Joseph L Popp Jr was working part time for the World Health Organisation on the Aids epidemic. He was a difficult man. When he was denied a permanent job, he decided to punish his peers while shocking them into acknowledging another kind of infection: the computer virus. Popp wrote a questionnaire promising to help minimise the risk of contracting HIV, duplicated it on to 20,000 floppy discs, and sent them to researchers in 90 countries. Each disc contained a Trojan virus. Once it was inserted, a malware timebomb eventually made the computer unusable until the user paid a \"licence fee\" of $189 to a PO box in Panama. Popp's primitive \"Aids Trojan\" was quickly identified and he was arrested for blackmail. Intending to make a point rather than a profit, he was mortified to learn that some of his targets had overreacted by wiping their hard drives: one Italian Aids organisation lost a decade's worth of vital data. Popp experienced a psychological collapse and was deemed unfit to stand trial. The criminals who developed his crude innovation into a global business would not be so scrupulous. Continue reading...",
+        "breadcrumbs": [
+            "RANSOMWARE",
+            "REMOTE ACCESS TROJAN",
+            "TROJAN VIRU",
+            "CRIMINAL"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 500.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 500.0
+        }
+    },
+    {
+        "id": 12911,
+        "published": "2026-03-23 08:00:44",
+        "raw_category": "general_news",
+        "source_name": "The Guardian (Technology)",
+        "title": "iPhone 17e review: Apple upgrades its cheapest new smartphone",
+        "link": "https://www.theguardian.com/technology/2026/mar/23/iphone-17e-review-apple-cheapest-new-smartphone-chip-magsafe-storage",
+        "description": "Mid-range handset gets chip, storage and MagSafe upgrades to offer more essential iOS features for less The cheapest new iPhone has been upgraded for this year with a faster chip, double the storage, automatic portraits and MagSafe, providing even more of the core Apple smartphone experience for less. The iPhone 17e is an upgraded version of the mid-range \"e\" line launched last year with the first iPhone 16e and is the latest member of the iPhone 17 family. It starts at \u00a3599 (\u20ac699/$599/A$999), undercutting the iPhone 17 and iPhone 16 by \u00a3200 and \u00a3100 respectively to be the cheapest new iPhone sold by Apple. Screen: 6.1in Super Retina XDR (OLED) (460ppi) Processor: Apple A19 (4-core GPU) RAM: 8GB Storage: 256 or 512GB Operating system: iOS 26 Camera: 48MP rear; 12MP front-facing Connectivity: 5G, wifi 6, NFC, Bluetooth 5.3, USB-C, Satellite and GNSS Water resistance: IP68 (6 metres for 30 mins) Dimensions: 146.7 x 71.5 x 7.8mm Weight: 170g Continue reading...",
+        "breadcrumbs": [
+            "REMOTE ACCESS TROJAN",
+            "MAGSAFE",
+            "CHIP",
+            "STORAGE",
+            "NFC",
+            "USB-C"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 1150.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 1150.0
+        }
+    },
+    {
+        "id": 12917,
+        "published": "2026-03-24 09:47:56",
+        "raw_category": "general_news",
+        "source_name": "Security Review Magazine",
+        "title": "Connected Operations Redefine Cybersecurity for Industrial Systems",
+        "link": "https://securityreviewmag.com/?p=29701",
+        "description": "Ranjith Kaippada, Managing Director at Cloud Box Technologies, explains how legacy vulnerabilities, evolving threat landscapes, and the need for unified visibility are pushing organizations to adopt integrated security strategies-balancing innovation with resilience, safety, and uninterrupted operations across critical infrastructure. How is IT/OT convergence shifting cybersecurity priorities for industrial systems? Industries are now choosing smart manufacturing, [\u2026]",
+        "breadcrumbs": [
+            "REMOTE ACCESS TROJAN",
+            "LEGACY VULNERABILITY",
+            "ORGANIZATION",
+            "UNINTERRUPTED OPERATION",
+            "INDUSTRY"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 1150.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 1150.0
+        }
+    },
+    {
+        "id": 12918,
+        "published": "2026-03-23 17:15:01",
+        "raw_category": "general_news",
+        "source_name": "Security Review Magazine",
+        "title": "Fortinet Enhances Security Operations with Unified SOC and AI",
+        "link": "https://securityreviewmag.com/?p=29699",
+        "description": "Fortinet has announced major innovations across the Fortinet Security Operations (SecOps) Platform at Fortinet Accelerate 2026. Updates feature next-generation SecOps advancements, including expanded agentic AI capabilities, a preview of FortiSOC, managed services, and endpoint security enhancements delivered through FortiEndpoint. \"As attackers weaponize AI to accelerate reconnaissance, exploit development, and social engineering, security operations must function [\u2026]",
+        "breadcrumbs": [
+            "SOCIAL ENGINEERING",
+            "REMOTE ACCESS TROJAN",
+            "AI",
+            "ATTACKER"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 300.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 300.0
+        }
+    },
+    {
+        "id": 12920,
+        "published": "2026-03-23 17:03:50",
+        "raw_category": "general_news",
+        "source_name": "Security Review Magazine",
+        "title": "75% of Firms to Increase GRC Spending Amid Fragmented AI Governance Risks",
+        "link": "https://securityreviewmag.com/?p=29694",
+        "description": "With 85% of enterprises reporting that artificial intelligence (AI) is now central to their business strategy, deployed across multiple functions or embedded in core operations, new research from Optro (formerly AuditBoard) reveals a deeply concerning structural mismatch at the heart of enterprise AI governance. According to the study, governance frameworks originally designed to oversee technology [\u2026]",
+        "breadcrumbs": [
+            "REMOTE ACCESS TROJAN",
+            "AI",
+            "ARTIFICIAL INTELLIGENCE"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 1150.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 1150.0
+        }
+    },
+    {
+        "id": 12921,
+        "published": "2026-03-23 16:53:46",
+        "raw_category": "general_news",
+        "source_name": "Security Review Magazine",
+        "title": "15,500 Malicious Domains Exposed: Ad Tracker Exploited to Power Hidden AI Investment Scams",
+        "link": "https://securityreviewmag.com/?p=29692",
+        "description": "New research from Infoblox Threat Intel and Confiant reveals that cybercriminals are abusing Keitaro, a widely used advertising performance tracker, to hide (\"cloak\") scams and malware behind ordinary web traffic; with many posing specifically as AI investment opportunities. Cloaking has become a foundational block of modern cybercrime, allowing criminals to make a malicious website look [\u2026]",
+        "breadcrumbs": [
+            "BUSINESS EMAIL COMPROMISE",
+            "CYBERCRIMINAL",
+            "KEITARO",
+            "CRIMINAL"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 650.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 650.0
+        }
+    },
+    {
+        "id": 12922,
+        "published": "2026-03-22 21:03:12",
+        "raw_category": "general_news",
+        "source_name": "Security Review Magazine",
+        "title": "The U.S. CISA Warns of Endpoint Management Risks After Stryker Cyberattack",
+        "link": "https://securityreviewmag.com/?p=29690",
+        "description": "A major cyberattack on medical technology firm Stryker has triggered a fresh warning from the U.S. Cybersecurity and Infrastructure Security Agency (CISA), highlighting growing risks tied to endpoint management systems. The attack, which disrupted Stryker's global operations earlier in March 2026, involved the compromise of its Microsoft-based environment. Threat actors reportedly exploited weaknesses in endpoint [\u2026]",
+        "breadcrumbs": [
+            "REMOTE ACCESS TROJAN",
+            "THREAT ACTOR"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 1150.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 1150.0
+        }
+    },
+    {
+        "id": 12923,
+        "published": "2026-03-22 19:54:59",
+        "raw_category": "general_news",
+        "source_name": "Security Review Magazine",
+        "title": "IT/OT Convergence Redefines Cybersecurity Priorities for Industrial Environments",
+        "link": "https://securityreviewmag.com/?p=29687",
+        "description": "As IT and operational technology environments increasingly intersect, cybersecurity is no longer a siloed function but a shared responsibility. Rami Hazime, Regional Sales Director for Gulf and Levant at OPSWAT, explains how legacy vulnerabilities, expanding attack surfaces, and cultural divides between IT and OT teams are reshaping security priorities-forcing organisations to adopt unified governance, stronger [\u2026]",
+        "breadcrumbs": [
+            "REMOTE ACCESS TROJAN",
+            "LEGACY VULNERABILITY"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 1150.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 1150.0
+        }
+    },
+    {
+        "id": 12927,
+        "published": "2026-03-24 14:17:38",
+        "raw_category": "general_news",
+        "source_name": "CNBC",
+        "title": "Databricks enters cybersecurity market with Lakewatch launch, bulking up ahead of IPO",
+        "link": "https://www.cnbc.com/2026/03/24/databricks-cybersecurity-lakewatch-ipo.html",
+        "description": "Databricks wants to draw on AI to help organizations respond to a higher speed of attacks, based on newly disclosed vulnerabilities.",
+        "breadcrumbs": [
+            "ORGANIZATION",
+            "NEWLY DISCLOSED VULNERABILITY"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 250.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 250.0
+        }
+    },
+    {
+        "id": 12933,
+        "published": "2026-03-24 10:05:15",
+        "raw_category": "general_news",
+        "source_name": "CNBC",
+        "title": "Iran Supreme Leader Mojtaba Khamenei gets another blue check on X, despite sanctions policy",
+        "link": "https://www.cnbc.com/2026/03/24/iran-supreme-leader-gets-new-x-premium-account-despite-sanctions.html",
+        "description": "Iran's new Supreme Leader, Mojtaba Khamenei, appears to have subscribed to a new X Premium English-language account.",
+        "breadcrumbs": [
+            "IRAN"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 300.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 300.0
+        }
+    },
+    {
+        "id": 12934,
+        "published": "2026-03-24 12:42:12",
+        "raw_category": "general_news",
+        "source_name": "CNBC",
+        "title": "Amazon faces further AWS disruption in the Middle East from Iran conflict",
+        "link": "https://www.cnbc.com/2026/03/24/amazon-aws-disruption-in-bahrain-iran.html",
+        "description": "AWS is facing more service disruptions in Bahrain as a result of the ongoing conflict \u200cin the Middle East, marking the second such disruptions this month.",
+        "breadcrumbs": [
+            "IRAN"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 300.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 300.0
+        }
+    },
+    {
+        "id": 12940,
+        "published": "2026-03-23 13:33:23",
+        "raw_category": "general_news",
+        "source_name": "CNBC",
+        "title": "U.S.-Iran talks, ICE in airports, gemstone investing and more in Morning Squawk",
+        "link": "https://www.cnbc.com/2026/03/23/5-things-to-know-before-the-market-opens.html",
+        "description": "Here are five key things investors need to know to start the trading day.",
+        "breadcrumbs": [
+            "IRAN",
+            "ICE",
+            "GEMSTONE INVESTING",
+            "INVESTOR"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 300.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 300.0
+        }
+    },
+    {
+        "id": 12958,
+        "published": "2026-03-24 15:01:02",
+        "raw_category": "general_news",
+        "source_name": "BleepingComputer",
+        "title": "HackerOne discloses employee data breach after Navia hack",
+        "link": "https://www.bleepingcomputer.com/news/security/hackerone-discloses-employee-data-breach-after-navia-hack/",
+        "description": "Bug bounty platform HackerOne is notifying hundreds of employees that their data was stolen after attackers hacked Navia, one of its U.S. benefits administrators. [...]",
+        "breadcrumbs": [
+            "REMOTE ACCESS TROJAN",
+            "EMPLOYEE"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 1150.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 1150.0
+        }
+    },
+    {
+        "id": 12960,
+        "published": "2026-03-24 14:06:03",
+        "raw_category": "general_news",
+        "source_name": "BleepingComputer",
+        "title": "Yanluowang ransomware access broker gets 81 months in prison",
+        "link": "https://www.bleepingcomputer.com/news/security/yanluowang-ransomware-access-broker-gets-81-months-in-prison/",
+        "description": "A Russian national was sentenced to nearly 7 years in prison after pleading guilty to acting as an initial access broker (IAB) for Yanluowang ransomware attacks. [...]",
+        "breadcrumbs": [
+            "RANSOMWARE",
+            "RUSSIA",
+            "YANLUOWANG RANSOMWARE"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 500.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 500.0
+        }
+    },
+    {
+        "id": 12961,
+        "published": "2026-03-24 13:03:08",
+        "raw_category": "general_news",
+        "source_name": "BleepingComputer",
+        "title": "Dutch Ministry of Finance discloses breach affecting employees",
+        "link": "https://www.bleepingcomputer.com/news/security/dutch-ministry-of-finance-discloses-breach-affecting-employees/",
+        "description": "The Dutch Ministry of Finance confirmed on Monday that some of its systems were breached in a cyberattack detected last week. [...]",
+        "breadcrumbs": [
+            "REMOTE ACCESS TROJAN"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 1150.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 1150.0
+        }
+    },
+    {
+        "id": 12963,
+        "published": "2026-03-23 23:12:52",
+        "raw_category": "general_news",
+        "source_name": "BleepingComputer",
+        "title": "Mazda discloses security breach exposing employee and partner data",
+        "link": "https://www.bleepingcomputer.com/news/security/mazda-discloses-security-breach-exposing-employee-and-partner-data/",
+        "description": "Mazda Motor Corporation (Mazda) announced that information belonging to its employees and business partners had been exposed in a security incident detected last December. [...]",
+        "breadcrumbs": [
+            "REMOTE ACCESS TROJAN",
+            "EMPLOYEES AND BUSINESS PARTNER"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 1150.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 1150.0
+        }
+    },
+    {
+        "id": 12964,
+        "published": "2026-03-23 22:52:58",
+        "raw_category": "general_news",
+        "source_name": "BleepingComputer",
+        "title": "Tycoon2FA phishing platform returns after recent police disruption",
+        "link": "https://www.bleepingcomputer.com/news/security/tycoon2fa-phishing-platform-returns-after-recent-police-disruption/",
+        "description": "The Tycoon2FA phishing-as-a-service (PhaaS) platform that Europol and partners disrupted on March 4 has already returned to previously observed activity levels. [...]",
+        "breadcrumbs": [
+            "PHISHING"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 233.33%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 233.33
+        }
+    },
+    {
+        "id": 12965,
+        "published": "2026-03-23 21:09:10",
+        "raw_category": "general_news",
+        "source_name": "BleepingComputer",
+        "title": "TeamPCP deploys Iran-targeted wiper in Kubernetes attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/teampcp-deploys-iran-targeted-wiper-in-kubernetes-attacks/",
+        "description": "The TeamPCP hacking group is targeting Kubernetes clusters with a malicious script that wipes all machines when it detects systems configured for Iran. [...]",
+        "breadcrumbs": [
+            "IRAN",
+            "TEAMPCP",
+            "KUBERNETES ATTACK",
+            "MALICIOUS SCRIPT"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 300.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 300.0
+        }
+    },
+    {
+        "id": 12968,
+        "published": "2026-03-23 15:02:12",
+        "raw_category": "general_news",
+        "source_name": "BleepingComputer",
+        "title": "Varonis Atlas: Securing AI and the Data That Powers It",
+        "link": "https://www.bleepingcomputer.com/news/security/varonis-atlas-securing-ai-and-the-data-that-powers-it/",
+        "description": "AI agents can access data directly, making data security the foundation of AI security. Learn more about how Varonis Atlas helps orgs see, secure, and control AI systems and the data they can reach. [...]",
+        "breadcrumbs": [
+            "AI"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 500.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 500.0
+        }
+    },
+    {
+        "id": 12970,
+        "published": "2026-03-23 10:45:55",
+        "raw_category": "general_news",
+        "source_name": "BleepingComputer",
+        "title": "FBI warns of Handala hackers using Telegram in malware attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-handala-hackers-using-telegram-in-malware-attacks/",
+        "description": "The U.S. Federal Bureau of Investigation (FBI) warned network defenders that Iranian hackers linked to the country's Ministry of Intelligence and Security (MOIS) are using Telegram in malware attacks. [...]",
+        "breadcrumbs": [
+            "IRAN",
+            "HANDALA HACKER",
+            "IRANIAN HACKER"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 300.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 300.0
+        }
+    },
+    {
+        "id": 12974,
+        "published": "2026-03-23 23:07:54",
+        "raw_category": "general_news",
+        "source_name": "Dark Reading",
+        "title": "AI in the SOC: What Could Go Wrong?",
+        "link": "https://www.darkreading.com/cybersecurity-operations/ai-soc-go-wrong",
+        "description": "Two cybersecurity leaders tested out AI in their respective SOCs for six months - and here's what they learned.",
+        "breadcrumbs": [
+            "AI"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 500.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 500.0
+        }
+    },
+    {
+        "id": 12975,
+        "published": "2026-03-23 22:43:59",
+        "raw_category": "general_news",
+        "source_name": "Dark Reading",
+        "title": "Trivy Supply Chain Attack Targets CI/CD Secrets",
+        "link": "https://www.darkreading.com/application-security/trivy-supply-chain-attack-targets-ci-cd-secrets",
+        "description": "A threat actor used the open source security tool to deploy an infostealer into CI/CD workflows and steal cloud credentials, SSH keys, tokens, and other sensitive secrets.",
+        "breadcrumbs": [
+            "REMOTE CODE EXECUTION",
+            "INFORMATION STEALER",
+            "SUPPLY CHAIN ATTACK"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 650.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 650.0
+        }
+    },
+    {
+        "id": 12976,
+        "published": "2026-03-23 22:40:37",
+        "raw_category": "general_news",
+        "source_name": "Dark Reading",
+        "title": "Ransomware's New Era: Moving at AI Speed",
+        "link": "https://www.darkreading.com/endpoint-security/ransomware-new-era-moving-ai-speed",
+        "description": "Threat actors bypass security tools and use AI to launch faster ransomware attacks that exploit valid credentials and target data.",
+        "breadcrumbs": [
+            "RANSOMWARE",
+            "THREAT ACTOR"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 500.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 500.0
+        }
+    },
+    {
+        "id": 12978,
+        "published": "2026-03-23 16:11:01",
+        "raw_category": "general_news",
+        "source_name": "Dark Reading",
+        "title": "Attackers Hide Infostealer in Copyright Infringement Notices",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/attackers-hide-infostealer-copyright-infringement-notices",
+        "description": "A phishing campaign targeting healthcare, government, hospitality, and education sectors in various countries uses several evasion techniques to avoid detection.",
+        "breadcrumbs": [
+            "PHISHING",
+            "INFORMATION STEALER",
+            "HEALTHCARE",
+            "GOVERNMENT",
+            "HOSPITALITY",
+            "EDUCATION",
+            "VARIOUS COUNTRY"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 233.33%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 233.33
+        }
+    },
+    {
+        "id": 12998,
+        "published": "2026-03-24 15:34:00",
+        "raw_category": "general_news",
+        "source_name": "The Record by Recorded Future",
+        "title": "Iran-linked ransomware gang targeted US healthcare org amid military conflict",
+        "link": "https://therecord.media/iran-linked-ransomware-gang-targeted-us-healthcare-org",
+        "description": "The incident responders noted that there was no evidence that data was exfiltrated during the intrusion - an unusual development considering U.S. intelligence agencies previously said Pay2Key attacks were largely conducted for information theft.",
+        "breadcrumbs": [
+            "RANSOMWARE",
+            "REMOTE ACCESS TROJAN",
+            "IRAN",
+            "US HEALTHCARE ORG",
+            "INCIDENT RESPONDER",
+            "U.S. INTELLIGENCE AGENCY",
+            "PAY2KEY ATTACK"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 500.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 500.0
+        }
+    },
+    {
+        "id": 12999,
+        "published": "2026-03-24 15:30:00",
+        "raw_category": "general_news",
+        "source_name": "The Record by Recorded Future",
+        "title": "Dutch Finance Ministry probing cyber breach affecting internal systems",
+        "link": "https://therecord.media/netherlands-finance-ministry-cyberattack-breach",
+        "description": "The Dutch Ministry of Finance is investigating a cyberattack that compromised some of its internal systems, officials confirmed Monday.",
+        "breadcrumbs": [
+            "REMOTE ACCESS TROJAN",
+            "INTERNAL SYSTEM"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 1150.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 1150.0
+        }
+    },
+    {
+        "id": 13001,
+        "published": "2026-03-24 13:45:00",
+        "raw_category": "general_news",
+        "source_name": "The Record by Recorded Future",
+        "title": "Russian hacker who helped Yanluowang ransomware gang gets nearly 7-year prison sentence",
+        "link": "https://therecord.media/hacker-russian-ransomware-sentenced-doj",
+        "description": "A Russian hacker who helped the notorious Yanluowang ransomware gang break into U.S. companies and demand millions of dollars in ransom payments was sentenced to nearly seven years in prison.",
+        "breadcrumbs": [
+            "RANSOMWARE",
+            "RUSSIA",
+            "YANLUOWANG RANSOMWARE GANG"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 500.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 500.0
+        }
+    },
+    {
+        "id": 13002,
+        "published": "2026-03-24 01:27:00",
+        "raw_category": "general_news",
+        "source_name": "The Record by Recorded Future",
+        "title": "Hacker walks away with $24.5 million after breaching Resolv DeFi platform",
+        "link": "https://therecord.media/hacker-breaches-resolv-defi-25-million",
+        "description": "In a message to the attacker on the blockchain, Resolv offered the person 10% of the $24.5 million in ETH if they returned the rest and ceased all further activity with the exploited funds.",
+        "breadcrumbs": [
+            "HACKER",
+            "ATTACKER",
+            "RESOLV"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 350.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 350.0
+        }
+    },
+    {
+        "id": 13004,
+        "published": "2026-03-24 12:37:00",
+        "raw_category": "general_news",
+        "source_name": "The Hacker News",
+        "title": "5 Learnings from the First-Ever Gartner Market Guide for Guardian Agents",
+        "link": "https://thehackernews.com/2026/03/5-learnings-from-first-ever-gartner.html",
+        "description": "On February 25, 2026, Gartner published its inaugural Market Guide for Guardian Agents, marking an important milestone for this emerging category. For those unfamiliar with the various Gartner report types, \"a Market Guide defines a market and explains what clients can expect it to do in the short term. With the focus on early, more chaotic markets, a Market Guide does not rate or position",
+        "breadcrumbs": [
+            "REMOTE ACCESS TROJAN"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 1150.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 1150.0
+        }
+    },
+    {
+        "id": 13005,
+        "published": "2026-03-24 11:38:00",
+        "raw_category": "general_news",
+        "source_name": "The Hacker News",
+        "title": "TeamPCP Hacks Checkmarx GitHub Actions Using Stolen CI Credentials",
+        "link": "https://thehackernews.com/2026/03/teampcp-hacks-checkmarx-github-actions.html",
+        "description": "Two more GitHub Actions workflows have become the latest to be compromised by credential-stealing malware by a threat actor known as TeamPCP, the cloud-native cybercriminal operation also behind the Trivy supply chain attack. The workflows, both maintained by the supply chain security company Checkmarx, are listed below - checkmarx/ast-github-action checkmarx/kics-github-action Cloud security",
+        "breadcrumbs": [
+            "BUSINESS EMAIL COMPROMISE",
+            "REMOTE ACCESS TROJAN",
+            "SUPPLY CHAIN ATTACK",
+            "TEAMPCP"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 650.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 650.0
+        }
+    },
+    {
+        "id": 13006,
+        "published": "2026-03-24 11:00:00",
+        "raw_category": "general_news",
+        "source_name": "The Hacker News",
+        "title": "The Hidden Cost of Cybersecurity Specialization: Losing Foundational Skills",
+        "link": "https://thehackernews.com/2026/03/the-hidden-cost-of-cybersecurity.html",
+        "description": "Cybersecurity has changed fast. Roles are more specialized, and tooling is more advanced. On paper, this should make organizations more secure. But in practice, many teams struggle with the same basic problems they faced years ago: unclear risk priorities, misaligned tooling decisions, and difficulty explaining security issues in terms the business understands. These challenges do not",
+        "breadcrumbs": [
+            "CYBERSECURITY",
+            "ROLE",
+            "ORGANIZATION",
+            "TEAM",
+            "SECURITY ISSUE",
+            "BUSINES"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 250.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 250.0
+        }
+    },
+    {
+        "id": 13007,
+        "published": "2026-03-24 07:49:00",
+        "raw_category": "general_news",
+        "source_name": "The Hacker News",
+        "title": "U.S. Sentences Russian Hacker to 6.75 Years for Role in $9M Ransomware Damage",
+        "link": "https://thehackernews.com/2026/03/us-sentences-russian-hacker-to-675.html",
+        "description": "A 26-year-old Russian citizen has been sentenced in the U.S. to 6.75 years (81 months) in prison for his role in assisting major cybercrime groups, including the Yanluowang ransomware crew, in conducting numerous attacks against U.S. companies and other organizations. According to the U.S. Department of Justice (DoJ), Aleksei Olegovich Volkov facilitated dozens of ransomware attacks across the",
+        "breadcrumbs": [
+            "RANSOMWARE",
+            "RUSSIA"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 500.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 500.0
+        }
+    },
+    {
+        "id": 13010,
+        "published": "2026-03-23 14:14:00",
+        "raw_category": "general_news",
+        "source_name": "The Hacker News",
+        "title": "\u26a1 Weekly Recap: CI/CD Backdoor, FBI Buys Location Data, WhatsApp Ditches Numbers & More",
+        "link": "https://thehackernews.com/2026/03/weekly-recap-cicd-backdoor-fbi-buys.html",
+        "description": "Another week, another reminder that the internet is still a mess. Systems people thought were secure are being broken in simple ways, showing many still ignore basic advisories. This edition covers a mix of issues: supply chain attacks hitting CI/CD setups, long-abused IoT devices being shut down, and exploits moving quickly from disclosure to real attacks. There are also new malware tricks",
+        "breadcrumbs": [
+            "BACKDOOR",
+            "SUPPLY CHAIN ATTACK",
+            "CI/CD",
+            "LOCATION DATUM",
+            "EXPLOIT"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 200.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 200.0
+        }
+    },
+    {
+        "id": 13011,
+        "published": "2026-03-23 12:55:00",
+        "raw_category": "general_news",
+        "source_name": "The Hacker News",
+        "title": "We Found Eight Attack Vectors Inside AWS Bedrock. Here's What Attackers Can Do with Them",
+        "link": "https://thehackernews.com/2026/03/we-found-eight-attack-vectors-inside.html",
+        "description": "AWS Bedrock is Amazon's platform for building AI-powered applications. It gives developers access to foundation models and the tools to connect those models directly to enterprise data and systems. That connectivity is what makes it powerful - but it's also what makes Bedrock a target. When an AI agent can query your Salesforce instance, trigger a Lambda function, or pull from a SharePoint",
+        "breadcrumbs": [
+            "REMOTE CODE EXECUTION",
+            "AI AGENT"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 650.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 650.0
+        }
+    },
+    {
+        "id": 13012,
+        "published": "2026-03-23 11:55:00",
+        "raw_category": "general_news",
+        "source_name": "The Hacker News",
+        "title": "Microsoft Warns IRS Phishing Hits 29,000 Users, Deploys RMM Malware",
+        "link": "https://thehackernews.com/2026/03/microsoft-warns-irs-phishing-hits-29000.html",
+        "description": "Microsoft has warned of fresh campaigns that are capitalizing on the upcoming tax season in the U.S. to harvest credentials and deliver malware. The email campaigns take advantage of the urgency and time-sensitive nature of emails to send phishing messages masquerading as refund notices, payroll forms, filing reminders, and requests from tax professionals to deceive recipients into opening",
+        "breadcrumbs": [
+            "PHISHING",
+            "RMM MALWARE",
+            "CREDENTIAL",
+            "MALWARE"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 233.33%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 233.33
+        }
+    },
+    {
+        "id": 13013,
+        "published": "2026-03-23 09:31:00",
+        "raw_category": "general_news",
+        "source_name": "The Hacker News",
+        "title": "Trivy Hack Spreads Infostealer via Docker, Triggers Worm and Kubernetes Wiper",
+        "link": "https://thehackernews.com/2026/03/trivy-hack-spreads-infostealer-via.html",
+        "description": "Cybersecurity researchers have uncovered malicious artifacts distributed via Docker Hub following the Trivy supply chain attack, highlighting the widening blast radius across developer environments. The last known clean release of Trivy on Docker Hub is 0.69.3. The malicious versions 0.69.4, 0.69.5, and 0.69.6 have since been removed from the container image library. \"New image tags 0.69.5 and",
+        "breadcrumbs": [
+            "WORM",
+            "INFORMATION STEALER",
+            "SUPPLY CHAIN ATTACK",
+            "TRIVY",
+            "DOCKER",
+            "DOCKER HUB"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 200.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 200.0
+        }
+    },
+    {
+        "id": 13045,
+        "published": "2026-03-24 15:14:52",
+        "raw_category": "general_news",
+        "source_name": "ExtremeTech",
+        "title": "Russia Launches First 16 Satellites for Starlink Competitor Constellation",
+        "link": "https://www.extremetech.com/aerospace/russia-launches-first-16-satellites-for-starlink-competitor-constellation",
+        "description": "Too little too late?",
+        "breadcrumbs": [
+            "RUSSIA"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 450.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 450.0
+        }
+    },
+    {
+        "id": 13075,
+        "published": "2026-03-24 13:30:00",
+        "raw_category": "general_news",
+        "source_name": "SecurityWeek",
+        "title": "Webinar Today: Putting CIS Controls and Benchmarks into Practice",
+        "link": "https://www.securityweek.com/webinar-today-putting-cis-controls-and-benchmarks-into-practice/",
+        "description": "Learn how the CIS Critical Security Controls and the CIS Benchmarks can be used together to support secure configuration at scale. The post Webinar Today: Putting CIS Controls and Benchmarks into Practice appeared first on SecurityWeek .",
+        "breadcrumbs": [
+            "REMOTE ACCESS TROJAN",
+            "CIS CRITICAL SECURITY CONTROL",
+            "CIS BENCHMARK",
+            "CIS CONTROL",
+            "BENCHMARK"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 1150.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 1150.0
+        }
+    },
+    {
+        "id": 13077,
+        "published": "2026-03-24 13:10:23",
+        "raw_category": "general_news",
+        "source_name": "SecurityWeek",
+        "title": "Iran Built a Vast Camera Network to Control Dissent. Israel Turned It Into a Targeting Tool",
+        "link": "https://www.securityweek.com/iran-built-a-vast-camera-network-to-control-dissent-israel-turned-it-into-a-targeting-tool/",
+        "description": "The role of Israel's hijacking of Iran's street cameras in the killing of the country's supreme leader underscores how surveillance systems are increasingly being targeted by adversaries in wartime. The post Iran Built a Vast Camera Network to Control Dissent. Israel Turned It Into a Targeting Tool appeared first on SecurityWeek .",
+        "breadcrumbs": [
+            "ISRAEL",
+            "IRAN",
+            "SURVEILLANCE SYSTEM"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 300.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 300.0
+        }
+    },
+    {
+        "id": 13079,
+        "published": "2026-03-24 11:38:44",
+        "raw_category": "general_news",
+        "source_name": "SecurityWeek",
+        "title": "Mazda Says Employee, Partner Information Stolen in Cyberattack",
+        "link": "https://www.securityweek.com/mazda-says-employee-partner-information-stolen-in-cyberattack/",
+        "description": "The hackers stole internal IDs, names, email addresses, and business partner IDs from an internal management system. The post Mazda Says Employee, Partner Information Stolen in Cyberattack appeared first on SecurityWeek .",
+        "breadcrumbs": [
+            "REMOTE ACCESS TROJAN",
+            "MAZDA SAYS EMPLOYEE",
+            "PARTNER INFORMATION",
+            "HACKER",
+            "INTERNAL ID",
+            "NAME",
+            "EMAIL ADDRESS",
+            "BUSINESS PARTNER ID"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 1150.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 1150.0
+        }
+    },
+    {
+        "id": 13080,
+        "published": "2026-03-24 10:30:18",
+        "raw_category": "general_news",
+        "source_name": "SecurityWeek",
+        "title": "Stryker Says Malicious File Found During Probe Into Iran-Linked Attack",
+        "link": "https://www.securityweek.com/stryker-says-malicious-file-found-during-probe-into-iran-linked-attack/",
+        "description": "The FBI has published an alert describing the malware used by Iranian government hackers. The post Stryker Says Malicious File Found During Probe Into Iran-Linked Attack appeared first on SecurityWeek .",
+        "breadcrumbs": [
+            "IRAN"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 300.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 300.0
+        }
+    },
+    {
+        "id": 13083,
+        "published": "2026-03-24 15:07:28",
+        "raw_category": "general_news",
+        "source_name": "Security Boulevard",
+        "title": "CSA and Aembit Survey: 68% of Organizations Can\u2019t Distinguish AI Agent Actions from Human Activity",
+        "link": "https://securityboulevard.com/2026/03/csa-and-aembit-survey-68-of-organizations-cant-distinguish-ai-agent-actions-from-human-activity/",
+        "description": "AI agents are already deployed broadly across enterprise environments. The problem is that organizations can't tell what they're doing. That's the core finding of a new survey report released at RSAC 2026 by the Cloud Security Alliance, commissioned by Aembit. The \"Identity and Access Gaps in the Age of Autonomous AI\" report surveyed 228 IT.. The post CSA and Aembit Survey: 68% of Organizations Can't Distinguish AI Agent Actions from Human Activity appeared first on Security Boulevard .",
+        "breadcrumbs": [
+            "ORGANIZATION",
+            "AI AGENT"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 250.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 250.0
+        }
+    },
+    {
+        "id": 13084,
+        "published": "2026-03-24 15:06:38",
+        "raw_category": "general_news",
+        "source_name": "Security Boulevard",
+        "title": "KnowBe4 Expands AIDA to Eight AI Agents at RSAC 2026, Targeting Fully Autonomous Human Risk Management",
+        "link": "https://securityboulevard.com/2026/03/knowbe4-expands-aida-to-eight-ai-agents-at-rsac-2026-targeting-fully-autonomous-human-risk-management/",
+        "description": "KnowBe4 is leaning hard into autonomous AI at RSAC 2026, using the conference to spotlight an expanding suite of AI agents it says is reducing security administration from hours to seconds. The company's AIDA platform, short for Artificial Intelligence Defense Agents, now includes eight agents after the recent launch of the AIDA Orchestration Agent. That.. The post KnowBe4 Expands AIDA to Eight AI Agents at RSAC 2026, Targeting Fully Autonomous Human Risk Management appeared first on Security Boulevard .",
+        "breadcrumbs": [
+            "REMOTE ACCESS TROJAN",
+            "AIDA",
+            "AIDA PLATFORM"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 1150.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 1150.0
+        }
+    },
+    {
+        "id": 13085,
+        "published": "2026-03-24 15:05:47",
+        "raw_category": "general_news",
+        "source_name": "Security Boulevard",
+        "title": "Utimaco Survey: 78% of US Companies Say Data Breaches Are the Top GenAI Risk, But Most Haven\u2019t Acted",
+        "link": "https://securityboulevard.com/2026/03/utimaco-survey-78-of-us-companies-say-data-breaches-are-the-top-genai-risk-but-most-havent-acted/",
+        "description": "Companies know they have a problem with generative AI and quantum security. They just haven't done much about it yet. That's the upshot of Utimaco's 2026 Digital Trust Report, a commissioned study of 250 large U.S. companies released at RSAC 2026. The research, conducted by 451 Research from S&P Global, exposes a stark gap between.. The post Utimaco Survey: 78% of US Companies Say Data Breaches Are the Top GenAI Risk, But Most Haven't Acted appeared first on Security Boulevard .",
+        "breadcrumbs": [
+            "REMOTE ACCESS TROJAN",
+            "COMPANY",
+            "GENERATIVE AI",
+            "QUANTUM SECURITY"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 1150.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 1150.0
+        }
+    },
+    {
+        "id": 13086,
+        "published": "2026-03-24 14:39:36",
+        "raw_category": "general_news",
+        "source_name": "Security Boulevard",
+        "title": "FBI, CISA warn of Russian hackers hijacking Signal and WhatsApp accounts",
+        "link": "https://securityboulevard.com/2026/03/fbi-cisa-warn-of-russian-hackers-hijacking-signal-and-whatsapp-accounts/",
+        "description": "The FBI and CISA join European agencies in warning of a widespread, easily scalable social engineering campaign targeting messaging apps. The post FBI, CISA warn of Russian hackers hijacking Signal and WhatsApp accounts appeared first on Security Boulevard .",
+        "breadcrumbs": [
+            "SOCIAL ENGINEERING",
+            "RUSSIA",
+            "RUSSIAN HACKER"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 300.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 300.0
+        }
+    },
+    {
+        "id": 13087,
+        "published": "2026-03-24 14:23:05",
+        "raw_category": "general_news",
+        "source_name": "Security Boulevard",
+        "title": "Trivy\u2019s March Supply Chain Attack Shows Where Secret Exposure Hurts Most",
+        "link": "https://securityboulevard.com/2026/03/trivys-march-supply-chain-attack-shows-where-secret-exposure-hurts-most/",
+        "description": "The Trivy story is moving quickly, and the latest reporting makes one thing clear: this is no longer just a GitHub Actions tag hijack. What started as a compromise of trivy-action, setup-trivy, and the v0.69.4 release has expanded into malicious Docker Hub images. The post Trivy's March Supply Chain Attack Shows Where Secret Exposure Hurts Most appeared first on Security Boulevard .",
+        "breadcrumbs": [
+            "SUPPLY CHAIN ATTACK",
+            "TRIVY"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 200.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 200.0
+        }
+    },
+    {
+        "id": 13088,
+        "published": "2026-03-24 14:00:00",
+        "raw_category": "general_news",
+        "source_name": "Security Boulevard",
+        "title": "How to Master Multi-Source Intelligence with AI Agents",
+        "link": "https://securityboulevard.com/2026/03/how-to-master-multi-source-intelligence-with-ai-agents/",
+        "description": "The post How to Master Multi-Source Intelligence with AI Agents appeared first on AI Security Automation . The post How to Master Multi-Source Intelligence with AI Agents appeared first on Security Boulevard .",
+        "breadcrumbs": [
+            "REMOTE CODE EXECUTION"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 650.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 650.0
+        }
+    },
+    {
+        "id": 13089,
+        "published": "2026-03-24 13:59:21",
+        "raw_category": "general_news",
+        "source_name": "Security Boulevard",
+        "title": "Introducing Castle\u2019s Research Team",
+        "link": "https://securityboulevard.com/2026/03/introducing-castles-research-team/",
+        "description": "How we think about research at Castle Bot detection and fraud prevention are adversarial by default. It is a cat-and-mouse game: attackers iterate, defenders respond, and the cycle keeps moving. AI has accelerated this dynamic on both sides. Attackers use it to quickly develop new bots, scale manual fraud operations, The post Introducing Castle's Research Team appeared first on Security Boulevard .",
+        "breadcrumbs": [
+            "REMOTE ACCESS TROJAN",
+            "ATTACKER",
+            "AI"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 1150.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 1150.0
+        }
+    },
+    {
+        "id": 13090,
+        "published": "2026-03-24 13:18:23",
+        "raw_category": "general_news",
+        "source_name": "Security Boulevard",
+        "title": "Scam compounds hiring \u201cAI models\u201d to seal the deal in deepfake video calls",
+        "link": "https://securityboulevard.com/2026/03/scam-compounds-hiring-ai-models-to-seal-the-deal-in-deepfake-video-calls/",
+        "description": "Forced labor doesn't play well on camera, so scam compounds are hiring women to deepfake their faces on video calls. The post Scam compounds hiring \"AI models\" to seal the deal in deepfake video calls appeared first on Security Boulevard .",
+        "breadcrumbs": [
+            "REMOTE CODE EXECUTION"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 650.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 650.0
+        }
+    },
+    {
+        "id": 13092,
+        "published": "2026-03-24 12:03:56",
+        "raw_category": "general_news",
+        "source_name": "Security Boulevard",
+        "title": "Team Mirai and Democracy",
+        "link": "https://securityboulevard.com/2026/03/team-mirai-and-democracy/",
+        "description": "Japan's election last month and the rise of the country's newest and most innovative political party, Team Mirai , illustrates the viability of a different way to do politics. In this model, technology is used to make democratic processes stronger, instead of undermining them. It is harnessed to root out corruption, instead of serving as a cash cow for campaign donations. Imagine an election where every voter has the opportunity to opine directly to politicians on precisely the issues they care about. They're not expected to spend hours becoming policy experts. Instead, an ... The post Team Mirai and Democracy appeared first on Security Boulevard .",
+        "breadcrumbs": [
+            "BUSINESS EMAIL COMPROMISE",
+            "REMOTE ACCESS TROJAN",
+            "JAPAN",
+            "TECHNOLOGY"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 650.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 650.0
+        }
+    },
+    {
+        "id": 13093,
+        "published": "2026-03-24 15:30:44",
+        "raw_category": "general_news",
+        "source_name": "HelpNet Security",
+        "title": "The AI safety conversation is focused on the wrong layer",
+        "link": "https://www.helpnetsecurity.com/2026/03/24/ai-agent-identity-security-systems/",
+        "description": "Organizations have spent years accumulating fragmented identity systems: too many roles, too many credentials, too many disconnected tools. For a workforce of humans, that fragmentation was manageable. Humans log in, log out, and make decisions slowly enough that gaps in control rarely turned into immediate incidents. AI agents operate differently. \"AI agents change that completely,\" said Ev Kontsevoy, CEO of Teleport. \"Now you're introducing non-deterministic actors that don't sleep, don't follow predictable paths, and can \u2026 More \u2192 The post The AI safety conversation is focused on the wrong layer appeared first on Help Net Security .",
+        "breadcrumbs": [
+            "REMOTE CODE EXECUTION",
+            "REMOTE ACCESS TROJAN",
+            "HUMAN",
+            "AI AGENT"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 650.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 650.0
+        }
+    },
+    {
+        "id": 13095,
+        "published": "2026-03-24 14:48:49",
+        "raw_category": "general_news",
+        "source_name": "HelpNet Security",
+        "title": "Mimecast expands Incydr with runtime data security for AI and human risk",
+        "link": "https://www.helpnetsecurity.com/2026/03/24/mimecast-runtime-data-security/",
+        "description": "Mimecast has announced a major expansion of its Incydr offering with new data security capabilities and a preview of the Agent Risk Center. These enhancements deliver runtime data security through a unified approach to detect, govern, and remediate data exposure in real time, whether driven by employees or agents acting on their behalf. Eighty percent of Fortune 500 companies now run active AI agents, yet only 14% have full security approval for them1. Enterprise data \u2026 More \u2192 The post Mimecast expands Incydr with runtime data security for AI and human risk appeared first on Help Net Security .",
+        "breadcrumbs": [
+            "REMOTE CODE EXECUTION",
+            "INCYDR",
+            "RUNTIME DATA SECURITY",
+            "DATA EXPOSURE"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 650.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 650.0
+        }
+    },
+    {
+        "id": 13096,
+        "published": "2026-03-24 14:31:24",
+        "raw_category": "general_news",
+        "source_name": "HelpNet Security",
+        "title": "Russian initial access broker helped ransomware gangs extort millions, sentenced to 81 months",
+        "link": "https://www.helpnetsecurity.com/2026/03/24/russian-initial-access-broker-sentenced-ransomware-attacks/",
+        "description": "A Russian citizen, Aleksei Volkov, was sentenced to 81 months in prison for helping ransomware groups carry out attacks causing over $9 million in actual losses and over $24 million in intended losses, after being arrested in Italy and extradited to the United States where he pleaded guilty. According to prosecutors, Volkov was an initial access broker who found vulnerabilities in computer networks, gained unauthorized access, and sold that access to other cybercriminals. Volkov's co-conspirators \u2026 More \u2192 The post Russian initial access broker helped ransomware gangs extort millions, sentenced to 81 months appeared first on Help Net Security .",
+        "breadcrumbs": [
+            "RANSOMWARE",
+            "REMOTE ACCESS TROJAN",
+            "RUSSIA",
+            "UNITED STATES",
+            "RANSOMWARE GANG",
+            "RANSOMWARE GROUP",
+            "ITALY",
+            "COMPUTER NETWORK",
+            "CYBERCRIMINAL"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 500.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 500.0
+        }
+    },
+    {
+        "id": 13098,
+        "published": "2026-03-24 14:00:49",
+        "raw_category": "general_news",
+        "source_name": "HelpNet Security",
+        "title": "Novee introduces autonomous AI red teaming to hunt LLM vulnerabilities",
+        "link": "https://www.helpnetsecurity.com/2026/03/24/novee-ai-red-teaming-for-llm-applications/",
+        "description": "Novee today introduced AI Red Teaming for LLM Applications for its AI penetration testing platform, designed to uncover security vulnerabilities in LLM-powered applications before attackers can exploit them. Enterprises are deploying AI-enabled software, from customer-facing chatbots to internal copilots and autonomous agents, and security teams are now facing a new class of risks, including prompt injection, jailbreak attempts, data exfiltration, and manipulation of agent behavior that traditional pentesting tools were never designed to detect. Unlike \u2026 More \u2192 The post Novee introduces autonomous AI red teaming to hunt LLM vulnerabilities appeared first on Help Net Security .",
+        "breadcrumbs": [
+            "PROMPT INJECTION",
+            "REMOTE ACCESS TROJAN",
+            "LLM VULNERABILITY",
+            "AI PENETRATION TESTING PLATFORM",
+            "ENTERPRISE",
+            "AI-ENABLED SOFTWARE",
+            "SECURITY TEAM"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 300.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 300.0
+        }
+    },
+    {
+        "id": 13099,
+        "published": "2026-03-24 13:48:07",
+        "raw_category": "general_news",
+        "source_name": "HelpNet Security",
+        "title": "Detectify uncovers hidden assets and risks across entire IP ranges",
+        "link": "https://www.helpnetsecurity.com/2026/03/24/detectify-ip-range-scanning/",
+        "description": "Detectify has launched IP Range Scanning, enabling continuous discovery and monitoring of entire IP address blocks to help security teams identify forgotten assets and hidden risks before attackers exploit them. Many organizations are sitting on forgotten IP addresses that have become entry points for cyberattacks. While millions have been spent securing public-facing websites, legacy tools can miss large parts of the attack surface due to noise and stale data. Detectify's research shows how serious this \u2026 More \u2192 The post Detectify uncovers hidden assets and risks across entire IP ranges appeared first on Help Net Security .",
+        "breadcrumbs": [
+            "BUSINESS EMAIL COMPROMISE",
+            "REMOTE ACCESS TROJAN",
+            "DETECTIFY",
+            "ATTACKER",
+            "LEGACY TOOL"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 650.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 650.0
+        }
+    },
+    {
+        "id": 13100,
+        "published": "2026-03-24 12:58:37",
+        "raw_category": "general_news",
+        "source_name": "HelpNet Security",
+        "title": "32% of top-exploited vulnerabilities are over a decade old",
+        "link": "https://www.helpnetsecurity.com/2026/03/24/enterprise-vulnerability-exploitation-cybersecurity-threats/",
+        "description": "Exploitation timelines continued to compress in enterprise environments, with newly disclosed flaws reaching active use almost immediately and older weaknesses remaining active years after disclosure. (Source: Cisco Talos) Findings from Cisco Talos' 2025 Year in Review show how attackers combined rapid weaponization with long-term exposure spanning infrastructure, identity systems, and user workflows. Top-targeted vulnerabilities show speed and persistence Newly disclosed vulnerabilities moved into active exploitation with little delay. React2Shell became the most targeted vulnerability of \u2026 More \u2192 The post 32% of top-exploited vulnerabilities are over a decade old appeared first on Help Net Security .",
+        "breadcrumbs": [
+            "REMOTE CODE EXECUTION",
+            "BUSINESS EMAIL COMPROMISE",
+            "TOP-EXPLOITED VULNERABILITY",
+            "NEWLY DISCLOSED FLAW",
+            "CISCO TALO",
+            "TOP-TARGETED VULNERABILITY",
+            "NEWLY DISCLOSED VULNERABILITY",
+            "REACT2SHELL"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 650.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 650.0
+        }
+    },
+    {
+        "id": 13101,
+        "published": "2026-03-24 12:37:37",
+        "raw_category": "general_news",
+        "source_name": "HelpNet Security",
+        "title": "Microsoft details AI prompt abuse techniques targeting AI assistants",
+        "link": "https://www.helpnetsecurity.com/2026/03/24/microsoft-ai-prompt-abuse-detection/",
+        "description": "Prompt abuse occurs when crafted inputs manipulate an AI system into producing unintended behavior, such as attempting to access sensitive information or overriding built-in safety instructions. Prompt injection is also recognized as one of the top risks in the 2025 OWASP guidance for LLM applications. \"Detecting abuse is challenging because it exploits natural language, such as subtle differences in phrasing, which can manipulate AI behavior while leaving little or no obvious trace. Without proper logging \u2026 More \u2192 The post Microsoft details AI prompt abuse techniques targeting AI assistants appeared first on Help Net Security .",
+        "breadcrumbs": [
+            "PROMPT INJECTION",
+            "BUSINESS EMAIL COMPROMISE",
+            "AI ASSISTANT",
+            "AI SYSTEM",
+            "AI"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 300.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 300.0
+        }
+    },
+    {
+        "id": 13102,
+        "published": "2026-03-24 12:36:12",
+        "raw_category": "general_news",
+        "source_name": "HelpNet Security",
+        "title": "NVIDIA puts GPU orchestration in community hands",
+        "link": "https://www.helpnetsecurity.com/2026/03/24/nvidia-kubernetes-gpu-driver-community/",
+        "description": "GPU-accelerated AI workloads now run on Kubernetes in the large majority of enterprise environments. Managing those workloads at scale has required specialized tooling that, until now, remained under vendor control. NVIDIA moved to change that at KubeCon Europe in Amsterdam this week, donating its Dynamic Resource Allocation (DRA) Driver for GPUs to the Cloud Native Computing Foundation (CNCF). The transfer shifts ownership of the driver from NVIDIA to the broader Kubernetes project community. Developers across \u2026 More \u2192 The post NVIDIA puts GPU orchestration in community hands appeared first on Help Net Security .",
+        "breadcrumbs": [
+            "REMOTE CODE EXECUTION",
+            "BUSINESS EMAIL COMPROMISE",
+            "REMOTE ACCESS TROJAN",
+            "MAINE",
+            "KUBERNETE",
+            "GPU ORCHESTRATION"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 650.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 650.0
+        }
+    },
+    {
+        "id": 13141,
+        "published": "2026-03-23 07:46:05",
+        "raw_category": "general_news",
+        "source_name": "Crowdstrike",
+        "title": "CrowdStrike and NVIDIA Accelerate Agentic MDR - CrowdStrike",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdGk0WG50bDYzS0c4MFV1dGZfUGFLYkpWY3Q0MHJYeVhXcEx0NFhHUDV5eVhtZFdNNGQybUVTaFA4SmNJamJta1hCZEd1ci1hU3hBbHE3UTYxVTF3MzJDTkVoVWVoM01WU2JGMVFBUmo2LWlzVGRUWnFBRkljLTZhaTh6SVN6ZzhGaXNUVk5zYjhKSm1ac2c?oc=5",
+        "description": "CrowdStrike and NVIDIA Accelerate Agentic MDR CrowdStrike",
+        "breadcrumbs": [
+            "REMOTE ACCESS TROJAN",
+            "CROWDSTRIKE"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 1150.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 1150.0
+        }
+    },
+    {
+        "id": 13202,
+        "published": "2026-03-23 22:23:49",
+        "raw_category": "general_news",
+        "source_name": "Orca Security",
+        "title": "CanisterWorm: When a CI/CD Breach Became a Self-Spreading npm Worm",
+        "link": "https://orca.security/resources/blog/canisterworm-npm-worm-ci-cd-breach/",
+        "description": "A supply chain compromise moved from CI pipelines into the npm ecosystem, stealing secrets, hijacking packages, and persisting on developer systems through a novel malware design. Executive Summary Software supply chain attacks are no longer isolated build-time incidents. Increasingly, they are multi-stage campaigns that move across trust boundaries: from CI/CD pipelines to developer workstations, from [\u2026]",
+        "breadcrumbs": [
+            "BUSINESS EMAIL COMPROMISE",
+            "WORM",
+            "SUPPLY CHAIN ATTACK",
+            "CI PIPELINE",
+            "DEVELOPER SYSTEM",
+            "CI/CD PIPELINE"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 650.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 650.0
+        }
+    },
+    {
+        "id": 13203,
+        "published": "2026-03-23 13:50:00",
+        "raw_category": "general_news",
+        "source_name": "Orca Security",
+        "title": "From Findings to Fixes with Code Reachability, AppSec Triage Agent, and the AppSec Dashboard",
+        "link": "https://orca.security/resources/blog/application-security-prioritization-remediation-triage/",
+        "description": "Key Findings Introduction Application security teams are managing more vulnerabilities than they can realistically remediate. In 2025 alone, more than 48,000 new CVEs were published, the highest annual total on record, and most organizations now track thousands of findings across code repositories and containers. A large majority of critical vulnerabilities remain open, not because they [\u2026]",
+        "breadcrumbs": [
+            "BUSINESS EMAIL COMPROMISE",
+            "CRITICAL VULNERABILITY"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 650.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 650.0
+        }
+    },
+    {
+        "id": 13317,
+        "published": "2026-03-24 05:00:00",
+        "raw_category": "academic_research",
+        "source_name": "ArXiv AI Security",
+        "title": "Visual Exclusivity Attacks: Automatic Multimodal Red Teaming via Agentic Planning",
+        "link": "https://arxiv.org/abs/2603.20198",
+        "description": "arXiv:2603.20198v1 Announce Type: new Abstract: Current multimodal red teaming treats images as wrappers for malicious payloads via typography or adversarial noise. These attacks are structurally brittle, as standard defenses neutralize them once the payload is exposed. We introduce Visual Exclusivity (VE), a more resilient Image-as-Basis threat where harm emerges only through reasoning over visual content such as technical schematics. To systematically exploit VE, we propose Multimodal Multi-turn Agentic Planning (MM-Plan), a framework that reframes jailbreaking from turn-by-turn reaction to global plan synthesis. MM-Plan trains an attacker planner to synthesize comprehensive, multi-turn strategies, optimized via Group Relative Policy Optimization (GRPO), enabling self-discovery of effective strategies without human supervision. To rigorously benchmark this reasoning-dependent threat, we introduce VE-Safety, a human-curated dataset filling a critical gap in evaluating high-risk technical visual understanding. MM-Plan achieves 46.3% attack success rate against Claude 4.5 Sonnet and 13.8% against GPT-5, outperforming baselines by 2--5x where existing methods largely fail. These findings reveal that frontier models remain vulnerable to agentic multimodal attacks, exposing a critical gap in current safety alignment. Warning: This paper contains potentially harmful content.",
+        "breadcrumbs": [
+            "JAILBREAKING",
+            "REMOTE ACCESS TROJAN",
+            "VISUAL EXCLUSIVITY (VE)",
+            "HUMAN-CURATED DATASET",
+            "GPT-5"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 1150.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 1150.0
+        }
+    },
+    {
+        "id": 13318,
+        "published": "2026-03-24 05:00:00",
+        "raw_category": "academic_research",
+        "source_name": "ArXiv AI Security",
+        "title": "AnchorNote: Exploring Speech-Driven Spatial Externalization for Co-Located Collaboration in Augmented Reality",
+        "link": "https://arxiv.org/abs/2603.20199",
+        "description": "arXiv:2603.20199v1 Announce Type: new Abstract: Sticky notes remain a durable collaborative medium because they support rapid idea externalization, rearrangement, and coordination of group attention through spatial organization while being low-friction and lightweight. Recent AR systems suggest new ways to externalize ideas in shared physical space, including spatial annotations and digital workspaces. We introduce AnchorNote, a co-located AR system that lets collaborators intentionally capture spoken ideas as spatially anchored sticky notes via live transcription and LLM summarization. We evaluated AnchorNote in a two-phase iterative study with 20 participants completing a brainstorming and thematic grouping task to examine how speech-driven, spatially persistent capture shapes idea externalization in collaboration. We found that AnchorNote reduced writing effort but reshaped collaboration by introducing new coordination costs and shifting how participants formulated, timed, and organized ideas. We use AnchorNote as an exploratory probe to study how speech-driven, spatial externalization in AR restructures collaborative cognition and coordination, and to derive design implications for future co-located AR collaboration tools.",
+        "breadcrumbs": [
+            "BUSINESS EMAIL COMPROMISE",
+            "REMOTE ACCESS TROJAN",
+            "ANCHORNOTE",
+            "AUGMENTED REALITY",
+            "AR SYSTEM"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 650.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 650.0
+        }
+    },
+    {
+        "id": 13320,
+        "published": "2026-03-24 05:00:00",
+        "raw_category": "academic_research",
+        "source_name": "ArXiv AI Security",
+        "title": "FIGURA: A Modular Prompt Engineering Method for Artistic Figure Photography in Safety-Filtered Text-to-Image Models",
+        "link": "https://arxiv.org/abs/2603.20201",
+        "description": "arXiv:2603.20201v1 Announce Type: new Abstract: Safety filters in commercial text-to-image (T2I) models systematically block legitimate artistic content involving the human figure, treating classical nude photography with the same restrictiveness as explicit material. While prior research has documented this problem extensively, no operational system exists that enables professional artists to generate artistic figure photography within the constraints of active safety filters. We present the FIGURA Method (Framework for Intelligent Generation of Unrestricted Artistic Results), a modular prompt engineering system comprising eight interconnected knowledge files, empirically validated through 200+ documented generation tests on FLUX 2 Pro (Cloud) with active safety filters at the default tolerance level. Our systematic testing reveals several previously undocumented findings: (1) safety filters primarily detect absence descriptions (references to missing clothing) rather than presence descriptions (references to body form), which we formalize as the Golden Rule; (2) artistic references to painters function simultaneously as aesthetic guides and as safety anchors that alter filter behavior; (3) spatial context operates as an independent filter variable, with documented success rate hierarchies; and (4) geometric vocabulary for body description bypasses pattern recognition in silhouette contexts. The system achieves documented success rates between 80% and 90% across five structured prompt templates, demonstrating that the artistic censorship problem identified in recent literature admits practical, systematic solutions that work with active safety mechanisms rather than circumventing them.",
+        "breadcrumbs": [
+            "REMOTE ACCESS TROJAN",
+            "SAFETY FILTER"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 1150.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 1150.0
+        }
+    },
+    {
+        "id": 13321,
+        "published": "2026-03-24 05:00:00",
+        "raw_category": "academic_research",
+        "source_name": "ArXiv AI Security",
+        "title": "Measuring Research Convergence in Interdisciplinary Teams Using Large Language Models and Graph Analytics",
+        "link": "https://arxiv.org/abs/2603.20204",
+        "description": "arXiv:2603.20204v1 Announce Type: new Abstract: Understanding how interdisciplinary research teams converge on shared knowledge is a persistent challenge. This paper presents a novel, multi-layer, AI-driven analytical framework for mapping research convergence in interdisciplinary teams. The framework integrates large language models (LLMs), graph-based visualization and analytics, and human-in-the-loop evaluation to examine how research viewpoints are shared, influenced, and integrated over time. LLMs are used to extract structured viewpoints aligned with the \\emph{Needs-Approach-Benefits-Competition (NABC)} framework and to infer potential viewpoint flows across presenters, forming a common semantic foundation for three complementary analyses: (1) similarity-based qualitative analysis to identify two key types of viewpoints, popular and unique, for building convergence, (2) quantitative cross-domain influence analysis using network centrality measures, and (3) temporal viewpoint flow analysis to capture convergence dynamics. To address uncertainty in LLM-based inference, the framework incorporates expert validation through structured surveys and cross-layer consistency checks. A case study on water insecurity in underserved communities as part of the Arizona Water Innovation Initiatives demonstrates increasing viewpoint convergence and domain-specific influence patterns, illustrating the value of the proposed AI-enabled approach for research convergence analysis.",
+        "breadcrumbs": [
+            "REMOTE ACCESS TROJAN",
+            "ARIZONA",
+            "WATER INSECURITY"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 1150.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 1150.0
+        }
+    },
+    {
+        "id": 13322,
+        "published": "2026-03-24 05:00:00",
+        "raw_category": "academic_research",
+        "source_name": "ArXiv AI Security",
+        "title": "Enhancing Safety of Large Language Models via Embedding Space Separation",
+        "link": "https://arxiv.org/abs/2603.20206",
+        "description": "arXiv:2603.20206v1 Announce Type: new Abstract: Large language models (LLMs) have achieved impressive capabilities, yet ensuring their safety against harmful prompts remains a critical challenge. Recent work has revealed that the latent representations (embeddings) of harmful and safe queries in LLMs typically exhibit linear separability, a property that has been exploited to construct attacks by perturbing the embeddings of harmful queries towards the safe subspace. Motivated by this observation, we propose a representation-level fine-tuning approach, named Embedding Space Separation (ES2), which improves LLM safety by explicitly enlarging the distance between harmful and safe representations in the embedding space. To prevent degradation of model's general capabilities, we introduce a Kullback-Leibler (KL) divergence regularization term into the loss function, which constrains the logits of the fine-tuned model to align with those of the original base model on harmless inputs. We evaluate our method on several open-source LLMs using standard safety benchmarks. Extensive experimental results demonstrate that our approach substantially improves model safety while maintaining comparable general capabilities.",
+        "breadcrumbs": [
+            "REMOTE CODE EXECUTION",
+            "REMOTE ACCESS TROJAN"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 650.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 650.0
+        }
+    },
+    {
+        "id": 13323,
+        "published": "2026-03-24 05:00:00",
+        "raw_category": "academic_research",
+        "source_name": "ArXiv AI Security",
+        "title": "RedacBench: Can AI Erase Your Secrets?",
+        "link": "https://arxiv.org/abs/2603.20208",
+        "description": "arXiv:2603.20208v1 Announce Type: new Abstract: Modern language models can readily extract sensitive information from unstructured text, making redaction -- the selective removal of such information -- critical for data security. However, existing benchmarks for redaction typically focus on predefined categories of data such as personally identifiable information (PII) or evaluate specific techniques like masking. To address this limitation, we introduce RedacBench, a comprehensive benchmark for evaluating policy-conditioned redaction across domains and strategies. Constructed from 514 human-authored texts spanning individual, corporate, and government sources, paired with 187 security policies, RedacBench measures a model's ability to selectively remove policy-violating information while preserving the original semantics. We quantify performance using 8,053 annotated propositions that capture all inferable information in each text. This enables assessment of both security -- the removal of sensitive propositions -- and utility -- the preservation of non-sensitive propositions. Experiments across multiple redaction strategies and state-of-the-art language models show that while more advanced models can improve security, preserving utility remains a challenge. To facilitate future research, we release RedacBench along with a web-based playground for dataset customization and evaluation. Available at https://hyunjunian.github.io/redaction-playground/.",
+        "breadcrumbs": [
+            "REMOTE CODE EXECUTION",
+            "REMOTE ACCESS TROJAN",
+            "REDACBENCH",
+            "MODERN LANGUAGE MODEL",
+            "REDACTION",
+            "STATE-OF-THE ART LANGUAGE MODELS"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 650.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 650.0
+        }
+    },
+    {
+        "id": 13324,
+        "published": "2026-03-24 05:00:00",
+        "raw_category": "academic_research",
+        "source_name": "ArXiv AI Security",
+        "title": "Children's Intelligence Tests Pose Challenges for MLLMs? KidGym: A 2D Grid-Based Reasoning Benchmark for MLLMs",
+        "link": "https://arxiv.org/abs/2603.20209",
+        "description": "arXiv:2603.20209v1 Announce Type: new Abstract: Multimodal Large Language Models (MLLMs) combine the linguistic strengths of LLMs with the ability to process multimodal data, enbaling them to address a broader range of visual tasks. Because MLLMs aim at more general, human-like competence than language-only models, we take inspiration from the Wechsler Intelligence Scales - an established battery for evaluating children by decomposing intelligence into interpretable, testable abilities. We introduce KidGym, a comprehensive 2D grid-based benchmark for assessing five essential capabilities of MLLMs: Execution, Perception Reasoning, Learning, Memory and Planning. The benchmark comprises 12 unique tasks, each targeting at least one core capability, specifically designed to guage MLLMs' adaptability and developmental potential, mirroring the stages of children's cognitive growth. Additionally, our tasks encompass diverse scenarios and objects with randomly generated layouts, ensuring a more accurate and robust evluation of MLLM capabilities. KidGym is designed to be fully user-customizable and extensible, allowing researchers to create new evaluation scenarios and adjust difficuly levels to accommodate the rapidly growing MLLM community. Through the evaluation of state-of-the-art MLLMs using KidGym, we identified significant insights into model capabilities and revealed several limitations of current models. We release our benchmark at: https://kidgym.github.io/KidGym-Website/.",
+        "breadcrumbs": [
+            "REMOTE CODE EXECUTION",
+            "BUSINESS EMAIL COMPROMISE",
+            "REMOTE ACCESS TROJAN",
+            "WECHSLER INTELLIGENCE SCALE"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 650.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 650.0
+        }
+    },
+    {
+        "id": 13325,
+        "published": "2026-03-24 05:00:00",
+        "raw_category": "academic_research",
+        "source_name": "ArXiv AI Security",
+        "title": "CRoCoDiL: Continuous and Robust Conditioned Diffusion for Language",
+        "link": "https://arxiv.org/abs/2603.20210",
+        "description": "arXiv:2603.20210v1 Announce Type: new Abstract: Masked Diffusion Models (MDMs) provide an efficient non-causal alternative to autoregressive generation but often struggle with token dependencies and semantic incoherence due to their reliance on discrete marginal distributions. We address these limitations by shifting the diffusion process into a continuous sentence-level semantic space. We propose CRoCoDiL (Continuous and Robust Conditioned Diffusion for Language), a unified fine-tuning approach that jointly trains an encoder-demasker architecture, grounding the MDM demasking in continuous latent representations. This leads to the formation of a novel autoencoder in which decoding is obtained by an MDM algorithm. Relying on the same framework, we introduce two unconditional text synthesis algorithms: Continuous-Then-Discrete (ConThenDisc), a hybrid-diffusion approach that first generates latent representations in continuous space and then decodes these to tokens via an MDM, and Continuous-Within-Discrete (ConWithinDisc), a multi-diffusion strategy that refines latent representations throughout the discrete sampling process. Experiments using LLaDA show that our methods achieve superior generation quality and more than 10x faster sampling speeds in an unconditional setting.",
+        "breadcrumbs": [
+            "REMOTE ACCESS TROJAN"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 1150.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 1150.0
+        }
+    },
+    {
+        "id": 13326,
+        "published": "2026-03-24 05:00:00",
+        "raw_category": "academic_research",
+        "source_name": "ArXiv AI Security",
+        "title": "Exploring Teacher-Chatbot Interaction and Affect in Block-Based Programming",
+        "link": "https://arxiv.org/abs/2603.20211",
+        "description": "arXiv:2603.20211v1 Announce Type: new Abstract: AI-based chatbots have the potential to accelerate learning and teaching, but may also have counterproductive consequences without thoughtful design and scaffolding. To better understand teachers' perspectives on large language model (LLM)-based chatbots, we conducted a study with 11 teams of middle school teachers using chatbots for a science and computational thinking activity within a block-based programming environment. Based on a qualitative analysis of audio transcripts and chatbot interactions, we propose three profiles: explorer, frustrated, and mixed, that reflect diverse scaffolding needs. In their discussions, we found that teachers perceived chatbot benefits such as building prompting skills and self-confidence alongside risks including potential declines in learning and critical thinking. Key design recommendations include scaffolding the introduction to chatbots, facilitating teacher control of chatbot features, and suggesting when and how chatbots should be used. Our contribution informs the design of chatbots to support teachers and learners in middle school coding activities.",
+        "breadcrumbs": [
+            "REMOTE CODE EXECUTION",
+            "REMOTE ACCESS TROJAN",
+            "CHATBOT"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 650.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 650.0
+        }
+    },
+    {
+        "id": 13327,
+        "published": "2026-03-24 05:00:00",
+        "raw_category": "academic_research",
+        "source_name": "ArXiv AI Security",
+        "title": "Fast-Slow Thinking RM: Efficient Integration of Scalar and Generative Reward Models",
+        "link": "https://arxiv.org/abs/2603.20212",
+        "description": "arXiv:2603.20212v1 Announce Type: new Abstract: Reward models (RMs) are critical for aligning Large Language Models via Reinforcement Learning from Human Feedback (RLHF). While Generative Reward Models (GRMs) achieve superior accuracy through chain-of-thought (CoT) reasoning, they incur substantial computational costs. Conversely, Scalar Reward Models (SRMs) offer efficiency but suffer from limited performance and adaptability in complex scenarios. We introduce Fast-Slow Thinking Reward Models (F/S-RM), a hybrid RM architecture inspired by Dual Process Theory. It trains a single model to integrate two distinct reward paradigms: first-token prediction as a scalar score (fast thinking) and CoT-based judgment (slow thinking), regulated by a dual-confidence activation mechanism that determines when to activate slow thinking. F/S-RM achieves a 1.2% relative performance improvement over state-of-the-art models while reducing token consumption by 20.8%. Code and data will be publicly available.",
+        "breadcrumbs": [
+            "REMOTE CODE EXECUTION",
+            "REMOTE ACCESS TROJAN"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 650.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 650.0
+        }
+    },
+    {
+        "id": 13328,
+        "published": "2026-03-24 05:00:00",
+        "raw_category": "academic_research",
+        "source_name": "ArXiv AI Security",
+        "title": "AgenticGEO: A Self-Evolving Agentic System for Generative Engine Optimization",
+        "link": "https://arxiv.org/abs/2603.20213",
+        "description": "arXiv:2603.20213v1 Announce Type: new Abstract: Generative search engines represent a transition from traditional ranking-based retrieval to Large Language Model (LLM)-based synthesis, transforming optimization goals from ranking prominence towards content inclusion. Generative Engine Optimization (GEO), specifically, aims to maximize visibility and attribution in black-box summarized outputs by strategically manipulating source content. However, existing methods rely on static heuristics, single-prompt optimization, or engine preference rule distillation that is prone to overfitting. They cannot flexibly adapt to diverse content or the changing behaviors of generative engines. Moreover, effectively optimizing these strategies requires an impractical amount of interaction feedback from the engines. To address these challenges, we propose AgenticGEO, a self-evolving agentic framework formulating optimization as a content-conditioned control problem, which enhances intrinsic content quality to robustly adapt to the unpredictable behaviors of black-box engines. Unlike fixed-strategy methods, AgenticGEO employs a MAP-Elites archive to evolve diverse, compositional strategies. To mitigate interaction costs, we introduce a Co-Evolving Critic, a lightweight surrogate that approximates engine feedback for content-specific strategy selection and refinement, efficiently guiding both evolutionary search and inference-time planning. Through extensive in-domain and cross-domain experiments on two representative engines, AgenticGEO achieves state-of-the-art performance and demonstrates robust transferability, outperforming 14 baselines across 3 datasets. Our code and model are available at: https://github.com/AIcling/agentic_geo.",
+        "breadcrumbs": [
+            "REMOTE CODE EXECUTION",
+            "REMOTE ACCESS TROJAN",
+            "AGENTICGEO",
+            "GENERATIVE ENGINE OPTIMIZATION",
+            "GENERATIVE SEARCH ENGINE",
+            "MAP-ELITES ARCHIVE",
+            "CO-EVOLVING CRITIC"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 650.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 650.0
+        }
+    },
+    {
+        "id": 13329,
+        "published": "2026-03-24 05:00:00",
+        "raw_category": "academic_research",
+        "source_name": "ArXiv AI Security",
+        "title": "Beyond Detection: Governing GenAI in Academic Peer Review as a Sociotechnical Challenge",
+        "link": "https://arxiv.org/abs/2603.20214",
+        "description": "arXiv:2603.20214v1 Announce Type: new Abstract: Generative AI tools are increasingly entering academic peer review workflows, raising questions about fairness, accountability, and the legitimacy of evaluative judgment. While these systems promise efficiency gains amid growing reviewer overload, their use introduces new sociotechnical risks. This paper presents a convergent mixed-method study combining discourse analysis of 448 social media posts with interviews with 14 area chairs and program chairs from leading AI and HCI conferences to examine how GenAI is discussed and experienced in peer review. Across both datasets, we find broad agreement that GenAI may be acceptable for limited supportive tasks, such as improving clarity or structuring feedback, but that core evaluative judgments, assessing novelty, contribution, and acceptance, should remain human responsibilities. At the same time, participants highlight concerns about epistemic harm, over-standardization, unclear responsibility, and adversarial risks such as prompt injection. User interviews reveal how structural strain and institutional policy ambiguity shift interpretive and enforcement burdens onto individual scholars, disproportionately affecting junior authors and reviewers. By triangulating public governance discourse with lived review practices, this work reframes AI mediated peer review as a sociotechnical governance challenge and offers recommendations for preserving accountability, trust, and meaningful human oversight. Overall, we argue that AI-assisted peer review is best governed not by blanket bans or detection alone, but by explicitly reserving evaluative judgment for humans while instituting enforceable, role-specific controls that preserve accountability. We conclude with role specific recommendations that formalize the support judgment boundary.",
+        "breadcrumbs": [
+            "PROMPT INJECTION",
+            "REMOTE CODE EXECUTION",
+            "REMOTE ACCESS TROJAN",
+            "GENAI",
+            "GENERATIVE AI TOOL"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 300.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 300.0
+        }
+    },
+    {
+        "id": 13330,
+        "published": "2026-03-24 05:00:00",
+        "raw_category": "academic_research",
+        "source_name": "ArXiv AI Security",
+        "title": "Multi-Agent Debate with Memory Masking",
+        "link": "https://arxiv.org/abs/2603.20215",
+        "description": "arXiv:2603.20215v1 Announce Type: new Abstract: Large language models (LLMs) have recently demonstrated impressive capabilities in reasoning tasks. Currently, mainstream LLM reasoning frameworks predominantly focus on scaling up inference-time sampling to enhance performance. In particular, among all LLM reasoning frameworks, *multi-agent debate* (MAD), which employs multiple LLMs as agents to perform reasoning in the way of multi-round debate, has emerged as a powerful reasoning paradigm since it allows agents to access previous memories to alleviate fallacious content and refine their reasoning iteratively in each debate round. However, although MAD significantly improves the reasoning capabilities of LLMs, in this paper, we observe that there remain erroneous memories, and LLM agents are vulnerable to these erroneous memories. To explore this phenomenon, we provide a theoretical insight that the performance of MAD is highly dependent on the quality of memories derived from the previous debate, indicating that the existence of erroneous memories poses a threat to the performance of MAD. To address this problem, we introduce a simple yet effective multi-agent debate framework, *multi-agent debate with memory masking* (MAD-M$^2$), to improve the robustness of MAD by allowing LLM agents to mask erroneous memories from the previous debate round at the beginning of each debate round. In this way, MAD-M$^2$ can polish the contextual information before each debate round by preserving informative and meaningful memories while discarding the erroneous memories. Extensive experiments and analyses on mainstream mathematical and logical reasoning benchmarks demonstrate that MAD-M$^2$ can identify the erroneous memories and achieve better performance in reasoning than MAD.",
+        "breadcrumbs": [
+            "REMOTE ACCESS TROJAN",
+            "LLM",
+            "THREAT"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 1150.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 1150.0
+        }
+    },
+    {
+        "id": 13331,
+        "published": "2026-03-24 05:00:00",
+        "raw_category": "academic_research",
+        "source_name": "ArXiv AI Security",
+        "title": "Locally Coherent Parallel Decoding in Diffusion Language Models",
+        "link": "https://arxiv.org/abs/2603.20216",
+        "description": "arXiv:2603.20216v1 Announce Type: new Abstract: Diffusion language models (DLMs) have emerged as a promising alternative to autoregressive (AR) models, offering sub-linear generation latency and bidirectional capabilities that are particularly appealing for code generation and editing. Achieving sub-linear latency in discrete DLMs requires predicting multiple tokens in parallel. However, standard DLMs sample tokens independently from conditional marginal distributions, failing to capture the joint dependencies among concurrently generated tokens. As a result, they often lead to syntactic inconsistencies and break multi-token structures. In this work, we introduce CoDiLA (Coherent Diffusion with Local Autoregression), a method that reconciles parallel sampling with local dependency modeling. Rather than forcing the DLM to resolve fine-grained syntax, CoDiLA delegates local decoding to a small, auxiliary AR model operating on the diffusion latents. This design allows for parallel block generation while ensuring sequential validity within each block and maintaining core DLM capabilities, including bidirectional modeling across blocks. We demonstrate that using a highly compact auxiliary AR model (e.g., 0.6B parameters) effectively eliminates coherence artifacts, establishing a new Pareto frontier for accuracy and speed in code generation benchmarks.",
+        "breadcrumbs": [
+            "REMOTE ACCESS TROJAN",
+            "AUTOREGRESSIVE (AR) MODEL"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 1150.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 1150.0
+        }
+    },
+    {
+        "id": 13332,
+        "published": "2026-03-24 05:00:00",
+        "raw_category": "academic_research",
+        "source_name": "ArXiv AI Security",
+        "title": "Expected Reward Prediction, with Applications to Model Routing",
+        "link": "https://arxiv.org/abs/2603.20217",
+        "description": "arXiv:2603.20217v1 Announce Type: new Abstract: Reward models are a standard tool to score responses from LLMs. Reward models are built to rank responses to a fixed prompt sampled from a single model, for example to choose the best of n sampled responses. In this paper, we study whether scores from response-level reward models lifted to score a model's suitability for a prompt, prior to seeing responses from that model. Specifically, we show that it is straightforward to predict the expected reward that an LLM would earn from the reward model under repeated sampling. Further, we show that these expected reward predictions are precise and discriminative enough to support an application to a model routing protocol that routes prompts to models at inference time to maximize reward while controlling computational cost. We demonstrate the performance of this routing procedure on the open-perfectblend dataset, using a model pool composed of Llama3.1-Instruct 8B/70B, Gemma2-IT 9B/27B, and Gemma1-IT 7B models. Our simple expected reward prediction--based routing (ERP) outperforms baselines that route prompts to models with the best average performance within each prompt's category, and explains the success of more complex routing protocols that implicitly estimate an expected reward. Our approach has the added advantage of being trivially extensible as new models are added to the pool.",
+        "breadcrumbs": [
+            "REMOTE ACCESS TROJAN",
+            "REWARD MODEL",
+            "LLM"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 1150.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 1150.0
+        }
+    },
+    {
+        "id": 13333,
+        "published": "2026-03-24 05:00:00",
+        "raw_category": "academic_research",
+        "source_name": "ArXiv AI Security",
+        "title": "An experimental study of KV cache reuse strategies in chunk-level caching systems",
+        "link": "https://arxiv.org/abs/2603.20218",
+        "description": "arXiv:2603.20218v1 Announce Type: new Abstract: Retrieval-augmented generation improves large language models' accuracy by adding relevant retrieved text to the prompt. Chunk level caching (CLC) accelerates inference by precomputing KV caches for these retrieved chunks and reusing them. However, these caches miss cross-attention dependencies between chunks, which can reduce output quality. Several methods try to improve CLC accuracy using different techniques. We make two main contributions. First, we show that existing CLC approaches have fundamental limitations that limit their accuracy or their applicability. We back this conclusion with an extensive CLC system experimental evaluation. Second, we observe that existing CLC techniques are complementary. We leverage this insight to propose a new CLC design that carefully combines them and achieves better accuracy.",
+        "breadcrumbs": [
+            "REMOTE ACCESS TROJAN",
+            "RETRIEVAL-AUGMENTED GENERATION",
+            "CHUNK LEVEL CACHING",
+            "CLC"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 1150.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 1150.0
+        }
+    },
+    {
+        "id": 13334,
+        "published": "2026-03-24 05:00:00",
+        "raw_category": "academic_research",
+        "source_name": "ArXiv AI Security",
+        "title": "Thinking into the Future: Latent Lookahead Training for Transformers",
+        "link": "https://arxiv.org/abs/2603.20219",
+        "description": "arXiv:2603.20219v1 Announce Type: new Abstract: Autoregressive language models trained with next-token prediction generate text by sampling one discrete token at a time. Although very scalable, this objective forces the model to commit at every step, preventing it from exploring or reflecting upon multiple plausible continuations. Furthermore, the compute allocation across tokens is uniform; every token is formed based on a single forward-pass, potentially limiting the model's expressiveness in cases where difficult tokens require inherently more compute. Towards addressing these limitations, we introduce latent lookahead, a training strategy that enables models to \"think\" before generating: at selected positions in the sequence, before committing to the next token, the model performs a multi-step lookahead in latent space. More precisely, instead of sampling future tokens, we leverage the network's latent space by recursively feeding its hidden states back into the context for $\\tau$ steps, investing more compute on predicting that token. This produces $\\tau$ latent predictions that are supervised against the next $\\tau$ ground-truth tokens, encouraging the model to \"lookahead\" and refine its prediction. We show that latent lookahead substantially outperforms both autoregressive and non-autoregressive baselines on planning tasks such as maze solving, Sudoku, and ProsQA, where foresight is essential.",
+        "breadcrumbs": [
+            "REMOTE CODE EXECUTION",
+            "REMOTE ACCESS TROJAN",
+            "LATENT LOOKAHEAD",
+            "NEXT-TOKEN PREDICTION"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 650.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 650.0
+        }
+    },
+    {
+        "id": 13335,
+        "published": "2026-03-24 05:00:00",
+        "raw_category": "academic_research",
+        "source_name": "ArXiv AI Security",
+        "title": "Development and Validation of a Faculty Artificial Intelligence Literacy and Competency (FALCON-AI) Scale for Higher Education",
+        "link": "https://arxiv.org/abs/2603.20220",
+        "description": "arXiv:2603.20220v1 Announce Type: new Abstract: The integration of artificial intelligence (AI) in higher education underscores the growing importance of faculty AI literacy and competency across teaching, research, and service. Existing AI literacy instruments, however, primarily target the general public, students, or K-12 teachers, and therefore lack the role-embedded indicators and psychometric validation needed for scalable assessment among university faculty. Grounded in the Critical Tech-resilient Literacies (CTRL) framework, this study develops and validates the Faculty Artificial Intelligence Literacy and Competency (FALCON-AI) Scale as a concise and practically deployable tool for higher education contexts. Using a theory-driven development process, we generated an initial pool of 43 items mapped to three literacies (functional, evaluative, and ethical literacy) and situated them across four faculty work domains (general, teaching, research, service/administration), creating a 3 x 4 framework. Content validation was conducted through structured interviews with four subject-matter experts, supplemented by a GPT-based reviewer to triangulate ratings of clarity, relevance, and necessity, yielding refined 39 items for pilot testing. Pilot testing involved 269 valid responses, which were analyzed using confirmatory factor analysis (CFA). CFA evaluated the theoretically specified structure, followed by item reduction to minimize respondent burden while preserving content coverage. The final 23-item FALCON-AI demonstrated good model fit for the AI Literacy x Faculty Work measurement and strong reliability. This study presents a validated FALCON-AI scale with good reliability and validity, offering a refined practical instrument for assessing faculty AI in higher education.",
+        "breadcrumbs": [
+            "REMOTE ACCESS TROJAN",
+            "STUDENT",
+            "K-12 TEACHER"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 1150.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 1150.0
+        }
+    },
+    {
+        "id": 13336,
+        "published": "2026-03-24 05:00:00",
+        "raw_category": "academic_research",
+        "source_name": "ArXiv AI Security",
+        "title": "When Truth Misleads -- Phase-Aware Coherence Detection for Misinformation Correction Across Epistemic Communities",
+        "link": "https://arxiv.org/abs/2603.20221",
+        "description": "arXiv:2603.20221v1 Announce Type: new Abstract: Truth can mislead not because it is false but because delivering it through the wrong channel or authority to an audience with a different epistemic frame can harden misbelief rather than reduce it. Conventional fact checking assumes a shared epistemology that corrections from credible institutional sources will be received constructively across audiences. Evidence suggests instead that effectiveness declines and can reverse into backfire as the distance between source positioning and recipient epistemic orientation grows. We introduce Phase Aware Coherence Detection PACD which operationalises epistemic orientation from pre intervention assessments across institutional trust scientific epistemology conspiracy or anti elite openness and experiential or alternative epistemology. In a study of 45 participants we stratified individuals into three epistemic clusters and randomly assigned them to traditional fact checking phase aware coherence analysis or control before evaluating three claims 5G health effects urban trees and air quality and mRNA vaccine mechanism. Traditional fact checking shifted beliefs toward truth on average but produced substantial backfire and sharply reduced effectiveness among more sceptical participants. Phase aware coherence analysis produced little average change overall yet remained stable across epistemic clusters and substantially reduced backfire. On identity adjacent claims traditional fact checking increased confidence while reducing accuracy whereas phase aware framing avoided this harm. These findings motivate a shift from content centric to epistemology centric correction when truth misleads the problem is often a mismatch between audience orientation and the reference frame of the intervention.",
+        "breadcrumbs": [
+            "REMOTE CODE EXECUTION",
+            "BUSINESS EMAIL COMPROMISE",
+            "REMOTE ACCESS TROJAN",
+            "MAINE"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 650.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 650.0
+        }
+    },
+    {
+        "id": 13337,
+        "published": "2026-03-24 05:00:00",
+        "raw_category": "academic_research",
+        "source_name": "ArXiv AI Security",
+        "title": "Linguistic Signatures for Enhanced Emotion Detection",
+        "link": "https://arxiv.org/abs/2603.20222",
+        "description": "arXiv:2603.20222v1 Announce Type: new Abstract: Emotion detection is a central problem in NLP, with recent progress driven by transformer-based models trained on established datasets. However, little is known about the linguistic regularities that characterize how emotions are expressed across different corpora and labels. This study examines whether linguistic features can serve as reliable interpretable signals for emotion recognition in text. We extract emotion-specific linguistic signatures from 13 English datasets and evaluate how incorporating these features into transformer models impacts performance. Our RoBERTa-based models enriched with high level linguistic features achieve consistent performance gains of up to +2.4 macro F1 on the GoEmotions benchmark, showing that explicit lexical cues can complement neural representations and improve robustness in predicting emotion categories.",
+        "breadcrumbs": [
+            "REMOTE ACCESS TROJAN",
+            "NLP"
+        ],
+        "cves": [],
+        "score": 25,
+        "scoring_reasons": [
+            "+25 (Surge: 1150.0%)"
+        ],
+        "metrics": {
+            "is_kev": false,
+            "epss": 0.0,
+            "surge_pct": 1150.0
+        }
+    }
+]

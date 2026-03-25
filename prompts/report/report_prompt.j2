@@ -1,0 +1,104 @@
+{# --- SYSTEM PROMPT PORTION --- #}
+
+ROLE
+
+{{ global_settings.persona }}
+
+GLOBAL CONSTRAINTS
+
+{% for rule in global_settings.tone_and_style -%}
+
+{{ rule }}
+{% endfor %}
+
+DATA FIDELITY & TEMPORAL LOGIC
+
+{% for rule in global_settings.data_fidelity_rules -%}
+
+{{ rule }}
+{% endfor %}
+{% for rule in global_settings.temporal_logic_rules -%}
+
+{{ rule }}
+{% endfor %}
+
+FORBIDDEN LEXICON (CRITICAL)
+
+DO NOT use any of the following words or phrases:
+{{ global_settings.forbidden_lexicon | join(', ') }}
+
+If you need to express these concepts, consider these alternatives:
+{% for key, value in global_settings.preferred_alternatives.items() -%}
+Instead of "{{ key }}", try "{{ value }}".
+{% endfor %}
+
+CATEGORY INSTRUCTIONS: {{ category_name | upper }}
+
+{{ category_config.generation_guidelines }}
+
+{# --- FEW-SHOT EXAMPLES --- #}
+
+REFERENCE EXAMPLES (FORMATTING ONLY - DO NOT USE THIS CONTENT)
+
+IMPORTANT: THE CONTENT BELOW IS FOR STRUCTURAL REFERENCE ONLY. DO NOT INCLUDE ANY NAMES, EVENTS, OR DETAILS FROM THESE EXAMPLES IN YOUR FINAL REPORT.
+
+{% for example in category_config.few_shot_examples -%}
+{% set outer_loop = loop -%}
+{% for key, val in example.items() -%}
+
+EXAMPLE {{ outer_loop.index }} - {{ key | upper }}
+
+{{ val }}
+{% endfor %}
+
+{%- endfor %}
+
+{# --- USER PROMPT PORTION (THE ACTUAL DATA) --- #}
+
+RAW INTELLIGENCE DATA (TARGET CONTENT)
+
+Process the following specific data points into a narrative intelligence deep-dive. Use a "story-telling" approach that synthesizes the primary events with their technical implications.
+
+CURRENT EVENTS (PAST 24 HOURS)
+
+MANDATORY: YOUR REPORT MUST BE BASED EXCLUSIVELY ON THESE ITEMS.
+{% for item in current_events -%}
+
+ID: {{ item.id }}
+
+Source: {{ item.source_name }}
+
+Headline: {{ item.title }}
+
+Content: {{ item.description }}
+
+Breadcrumbs: {{ item.breadcrumbs }}
+
+Deep-Dive: {{ item.deep_dive_context }}
+{% endfor %}
+
+CONTEXTUAL DATA (PAST 168 HOURS)
+
+Use these ONLY for providing history, depth, and associations for the Current Events listed above.
+{% for item in contextual_data -%}
+
+Source: {{ item.source_name }}
+
+Headline: {{ item.title }}
+
+Content: {{ item.description }}
+
+Breadcrumbs: {{ item.breadcrumbs }}
+
+Deep-Dive: {{ item.deep_dive_context }}
+{% endfor %}
+
+FINAL TASK: NARRATIVE SYNTHESIS
+
+Generate a high-fidelity intelligence brief.
+
+Group related articles into a single cohesive narrative.
+
+Ensure the "report" field is expansive, connecting technical indicators to potential real-world impacts.
+
+Ignore all content from the "REFERENCE EXAMPLES" section above.

@@ -1,0 +1,28 @@
+{
+  "watchlist": [
+    {
+      "id": "uuid-001",
+      "name": "SolarWinds",
+      "category": "software",
+      "added_on": "2026-02-13"
+    },
+    {
+      "id": "uuid-002",
+      "name": "Optiv Security",
+      "category": "company",
+      "added_on": "2026-02-13"
+    },
+    {
+      "id": "uuid-003",
+      "name": "Lazarus Group",
+      "category": "threat_actor",
+      "added_on": "2026-02-13"
+    },
+    {
+      "id": "uuid-004",
+      "name": "SQL Injection",
+      "category": "attack_vector",
+      "added_on": "2026-02-13"
+    }
+  ]
+}

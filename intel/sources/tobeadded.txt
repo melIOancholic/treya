@@ -1,0 +1,49 @@
+- name: "Fortune - Cybersecurity"
+  url: "https://fortune.com/section/cybersecurity/"
+
+
+Company News pages worth investigating
+TrendMicro
+Crowdstrike - https://news.google.com/rss/search?q=site%3Acrowdstrike.com%20when%3A7d&hl=en-US&gl=US&ceid=US%3Aen
+Rapid7
+Zscaler
+Red Canary
+Sophos
+Cyderes
+Foresite Security
+Optiv
+Ollama
+OpenAI
+Cisco
+CheckPoint
+Cloudflare
+Fortinet
+TryHackMe
+Palo Alto
+IBM
+ISC2
+SentinelOne
+Apple
+Jamf
+Nvidia
+Bitdefender
+Tenable
+KnowBe4
+Darktrace
+OneTrust
+Proofpoint
+Barracuda Networks
+Okta
+Ivanti
+Tanium
+Akamai
+Netskope
+CyberArk
+Verizon
+AT&T
+T-Mobile
+AWS
+Tencent
+Cribl
+Grok
+Claude

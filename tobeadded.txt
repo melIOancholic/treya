@@ -1,0 +1,61 @@
+Self-awareness of her build.
+Treya should be able to mention what she is capable of.
+Perhaps she will have access to her readme file.
+
+For harvest.py
+After the tags end and before the report generation, please ensure that there is a function for Treya to check the watchlist.json file at 'intel/memory/watchlist.json'.
+
+For harvest.py
+If one source publishes several articles on one topic, and all those articles are about the same thing (like Zero Day Initiative and all their posts about Schneider Electric), these will mess up the the metrics and incorrectly outweigh choices. This needs to be implemented into the de-duplication process.
+
+Additional Topics:
+Mergers & Acquisitions
+Regulatory & Compliance Updates
+Identity & Access Management (IAM)
+Supply Chain & Third-Party Risk
+AI Security
+Quantum 
+
+The logic behind the harvest:
+
+The 4 categories keep the information divided and all-encompassing. Three topics must be chosen per category, for a total of 12 topics in the report. The chosen topic must come from the category in which it was found, to support the 3 topics per category rule, but the supporting articles can come from anywhere else in the database. The algorithm decides which topics gets covered. 
+
+Algorithm steps:
+1. The watchlist items get the highest priority.
+2. The rolling average is created. Take the number of times a breadcrumb shows up (as generated in the current breadcrumbs logic). Do this for all breadcrumbs, and store it in a SQLite table (if this is the best storage method for this). We'll call it 'breadcrumb_metrics' or something else more appropriate. Every 24 hours, the value that is 31 days and older gets deleted, and the new value for this day gets added. The algorithm should be able to look at this table and see which breadcrumbs have the greatest upwards trends in count. It should calculate this, and output the result in percentage in the final column of the breadcrumb_metrics table. The topics with the highest upwards difference, or "frequency surges", in their rolling average should be more likely to have their topics covered.
+3. The CISA KEV Catalog is weighed in.
+4. The API for the EPSS score is weighed in.
+
+Matches between all facets of the algorithm (the watchlist, the rolling average, and the CISA KEY Catalog) dictate which topics get chosen. When a topic is chosen, only 2 supporting pages can be chosen, for a total of 3 links to be gathered per topic. (The links can be found under the "link" column in the raw_news table.) These links will be visited, and they must provide a detailed paragraph or two on the information they found (and I have prompt files for this).
+
+The claimed_urls will contain the links that have already been chosen for an article. Topics must come from articles that are not yet present on the claimed_urls list. This prevents watchlist, breadcrumb, and CISA stuff from covering more than one article.
+
+Connections to each of these sites in the algorithm should be tested. If no connection to the site is made, then it gracefully errors out, prints the error out to a callback function on the cmd so I can see it, and moves on.
+
+main (the orchestrator)
+trends (the SQLite and rolling average math)
+feeds (fetches CISA, KEV, EPSS, and watchlist)
+selector (the algorithm itself; cross-matching and de-duplication)
+generator (handles the llama 3.2 output construction and JSON output to last_report)
+
+CISA KEV Catalog: https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
+EPSS API: https://api.first.org/data/v1/epss?envelope=true&pretty=true
+
+The report contains: trends over time
+The breadcrumbs is for: what's happening in the last 24 hours?
+
+Breadcrumb cleanup:
+Go item by item. Do stuff like "if confidence < this number, for category ???, drop" or "if count < ??? and confidence_score = ??? for category ???, drop" 
+
+Security to be implemented:
+Treya must not be able to run code based on the inputs that she gets in the watchlist or the messages.
+
+Ensure your README.md mentions that the app is for educational/research purposes and provides proper attribution to the sources (like NVD or the original news sites).
+
+1. crawl.py
+2. breadcrumbs.py
+3. external_feeds.py
+4. calculate_trends.py
+5. select_topics.py
+6. deep_dive.py
+7. report_generator.py
