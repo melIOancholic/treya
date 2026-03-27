@@ -14,7 +14,7 @@ COVERED_CACHE_FILE = os.path.normpath(os.path.join(SCRIPT_DIR, "cache", "already
 YAML_FILE = os.path.normpath(os.path.join(SCRIPT_DIR, "..", "..", "prompts", "report", "report_module.yaml"))
 
 # Output paths
-OUTPUT_FILE = os.path.normpath(os.path.join(SCRIPT_DIR, "cache", "memory", "last_report.json"))
+OUTPUT_FILE = os.path.normpath(os.path.join(SCRIPT_DIR, "cache", "last_report.json"))
 J2_DIR = os.path.normpath(os.path.join(SCRIPT_DIR, "..", "..", "prompts", "report"))
 J2_TEMPLATE_NAME = "report_prompt.j2"
 

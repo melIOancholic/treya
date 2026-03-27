@@ -82,5 +82,33 @@
                 "How dangerous is it to install vibecoded applications?"
             ]
         }
+    },
+    {
+        "report_date": "2026-03-27T15:18:18.524917",
+        "report_truncated": {
+            "threat_intelligence": [
+                "CISA Adds One Known Exploited Vulnerability to Catalog",
+                "Google moves post-quantum encryption timeline up to 2029",
+                "Threat Brief: March 2026 Escalation of Cyber Risk Related to Iran (Updated March 26)"
+            ],
+            "general_news": [
+                "CISA sounds alarm on Langflow RCE, Trivy supply chain compromise after rapid exploitation",
+                "Wikipedia bans AI-generated content in its online encyclopedia",
+                "Google warns quantum computers could hack encrypted systems by 2029"
+            ],
+            "org_pages": [
+                "WhatsApp Adds New Features to Simplify Storage, Switch Accounts, and More"
+            ],
+            "academic_research": [
+                "Model2Kernel: Model-Aware Symbolic Execution For Safe CUDA Kernels",
+                "Towards Remote Attestation of Microarchitectural Attacks: The Case of Rowhammer",
+                "Beyond Benchmarks: How Users Evaluate AI Chat Assistants"
+            ],
+            "community_pulse": [
+                "After the Trivy compromise, we found a blind spot in every remediation guide - transitive GitHub Action dependencies",
+                "Uninstalling OpenEDR",
+                "How dangerous is it to install vibecoded applications?"
+            ]
+        }
     }
 ]
