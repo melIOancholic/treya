@@ -511,7 +511,7 @@ def main(log_callback=print):
         log_callback(f"[!] Warning: ChromaDB upsert failed: {e}")
 
     # --- PANDAS VECTORIZED EXTRACTION ---
-    log_callback("[*] Extracting breadcrumbs across all articles using Pandas apply...")
+    log_callback("[*] Using Pandas to extract breadcrumbs across all articles. This part always takes a while...")
     # This runs your existing algorithm on every row
     df['extracted_entities'] = df['text_corpus'].apply(brain.extract_initial_breadcrumbs)
 

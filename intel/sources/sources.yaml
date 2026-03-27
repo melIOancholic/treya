@@ -112,8 +112,8 @@ intel_sources:
     description: "This section is for real-time community discussions and sentiments."
     feeds:
       - name: "r/cybersecurity"
-        url: "https://www.reddit.com/r/cybersecurity/new/.json?limit=10"
+        url: "https://www.reddit.com/r/cybersecurity/new/.json?limit=50"
         type: "json"
       - name: "r/netsec"
-        url: "https://www.reddit.com/r/netsec/hot.json?limit=10"
+        url: "https://www.reddit.com/r/netsec/hot.json?limit=50"
         type: "json"
