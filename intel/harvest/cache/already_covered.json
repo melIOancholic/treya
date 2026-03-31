@@ -250,5 +250,95 @@
                 "How dangerous is it to install vibecoded applications?"
             ]
         }
+    },
+    {
+        "report_date": "2026-03-31T11:01:32.570759",
+        "report_truncated": {
+            "threat_intelligence": [
+                "CISA Adds One Known Exploited Vulnerability to Catalog",
+                "Double Agents: Exposing Security Blind Spots in GCP Vertex AI",
+                "ZDI-26-249: NoMachine Uncontrolled Search Path Element Local Privilege Escalation Vulnerability"
+            ],
+            "general_news": [
+                "F5 BIG-IP Vulnerability Reclassified as RCE, Under Exploitation",
+                "New Bitdefender assessment helps organizations identify and eliminate hidden internal attack paths",
+                "Meta, Tiktok and Google under investigation for allegedly disobeying Australia\u2019s social media ban"
+            ],
+            "org_pages": [
+                "How AI Is Ushering in the Next Era of Risk Review at Meta",
+                "Helping disaster response teams turn AI into action across Asia",
+                "Introducing Our First AI Glasses Built For Prescriptions"
+            ],
+            "academic_research": [
+                "M-RAG: Making RAG Faster, Stronger, and More Efficient",
+                "Alignment Whack-a-Mole : Finetuning Activates Verbatim Recall of Copyrighted Books in Large Language Models",
+                "Vision-Language Agents for Interactive Forest Change Analysis"
+            ],
+            "community_pulse": [
+                "Why regex-based safety fails for AI agents (real examples from terminal usage)",
+                "Supply-Chain Compromise of axios npm Package",
+                "Free AI agent security CTF: 26 challenges, live scoreboard, mitigation walkthroughs included"
+            ]
+        }
+    },
+    {
+        "report_date": "2026-03-31T13:11:09.950551",
+        "report_truncated": {
+            "threat_intelligence": [
+                "CISA Adds One Known Exploited Vulnerability to Catalog",
+                "Double Agents: Exposing Security Blind Spots in GCP Vertex AI",
+                "ZDI-26-249: NoMachine Uncontrolled Search Path Element Local Privilege Escalation Vulnerability"
+            ],
+            "general_news": [
+                "F5 BIG-IP Vulnerability Reclassified as RCE, Under Exploitation",
+                "New Bitdefender assessment helps organizations identify and eliminate hidden internal attack paths",
+                "Meta, Tiktok and Google under investigation for allegedly disobeying Australia\u2019s social media ban"
+            ],
+            "org_pages": [
+                "How AI Is Ushering in the Next Era of Risk Review at Meta",
+                "Helping disaster response teams turn AI into action across Asia",
+                "Introducing Our First AI Glasses Built For Prescriptions"
+            ],
+            "academic_research": [
+                "M-RAG: Making RAG Faster, Stronger, and More Efficient",
+                "Alignment Whack-a-Mole : Finetuning Activates Verbatim Recall of Copyrighted Books in Large Language Models",
+                "Vision-Language Agents for Interactive Forest Change Analysis"
+            ],
+            "community_pulse": [
+                "Why regex-based safety fails for AI agents (real examples from terminal usage)",
+                "Supply-Chain Compromise of axios npm Package",
+                "Free AI agent security CTF: 26 challenges, live scoreboard, mitigation walkthroughs included"
+            ]
+        }
+    },
+    {
+        "report_date": "2026-03-31T13:59:18.688691",
+        "report_truncated": {
+            "threat_intelligence": [
+                "CISA Adds One Known Exploited Vulnerability to Catalog",
+                "Double Agents: Exposing Security Blind Spots in GCP Vertex AI",
+                "ZDI-26-249: NoMachine Uncontrolled Search Path Element Local Privilege Escalation Vulnerability"
+            ],
+            "general_news": [
+                "F5 BIG-IP Vulnerability Reclassified as RCE, Under Exploitation",
+                "New Bitdefender assessment helps organizations identify and eliminate hidden internal attack paths",
+                "Meta, Tiktok and Google under investigation for allegedly disobeying Australia\u2019s social media ban"
+            ],
+            "org_pages": [
+                "How AI Is Ushering in the Next Era of Risk Review at Meta",
+                "Helping disaster response teams turn AI into action across Asia",
+                "Introducing Our First AI Glasses Built For Prescriptions"
+            ],
+            "academic_research": [
+                "M-RAG: Making RAG Faster, Stronger, and More Efficient",
+                "Alignment Whack-a-Mole : Finetuning Activates Verbatim Recall of Copyrighted Books in Large Language Models",
+                "Vision-Language Agents for Interactive Forest Change Analysis"
+            ],
+            "community_pulse": [
+                "Why regex-based safety fails for AI agents (real examples from terminal usage)",
+                "Supply-Chain Compromise of axios npm Package",
+                "Free AI agent security CTF: 26 challenges, live scoreboard, mitigation walkthroughs included"
+            ]
+        }
     }
 ]
