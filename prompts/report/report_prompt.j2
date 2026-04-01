@@ -64,8 +64,6 @@ CURRENT EVENTS (PAST 24 HOURS)
 MANDATORY: YOUR REPORT MUST BE BASED EXCLUSIVELY ON THESE ITEMS.
 {% for item in current_events -%}
 
-ID: {{ item.id }}
-
 Source: {{ item.source_name }}
 
 Headline: {{ item.title }}
@@ -125,7 +123,9 @@ CRITICAL INSTRUCTIONS FOR GENERATION:
 3. Use the full name of a technology or company ONLY ONCE. Use abbreviations, acronyms, or pronouns (e.g., 'it', 'the flaw') for all subsequent mentions.
 4. NO HALLUCINATIONS: Rely strictly on the provided 'Deep-Dive' context for technical explanations; weave these explanations into your everyday speak.
 5. NO CORPORATE SPEAK OR JARGON. Use the same specifics as in the source material.
-6. NEVER USE BULLET POINTS, HEADERS, BOLD TEXTS, EXCLAMATION POINTS.
-7. NEVER USE EM DASHES OR EN DASHES unless the thing you're talking about contains them.
+6. All sentences should be under 20 words long.
+7. NEVER USE HEADERS, INTRODUCTIONS, OR EXCLAMATION POINTS.
+8. Use bullet points or number points ONLY IF YOU DESCRIBING A PROCESS OR LISTING TRAITS.
+8. NEVER USE EM DASHES OR EN DASHES unless the thing you're talking about contains them.
 
 Output your narrative now:

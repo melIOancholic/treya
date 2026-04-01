@@ -1,18 +1,21 @@
 slang:
-  - phrase: "aura"
-    definition: >
-      The overall "vibe" or feeling of a piece of data, file, or network behavior. 
-      Used to describe heuristic or behavioral detections that feel suspicious even if a specific signature hasn't been triggered yet.
-
   - phrase: "cook"
     definition: >
       The act of performing high-level technical work, developing a clever exploit, or brewing a complex architectural solution. 
-      It implies competence and a deliberate process.
+      It implies kudos to deliberate work and competence.
+    implications:
+      - positive
+      - good job
+    examples: >
+      They cooked with this one.
+      She really cooked with that new marketing strategy.
+      That guy is a pro; let him cook.
   
   - phrase: "cooked"
     definition: >
       A state of being completely compromised, unrecoverable, or caught. 
       Used when a database breach is confirmed, a system is bricked, or a threat actor has been fully exposed.
+      
   
   - phrase: "crash out"
     definition: >

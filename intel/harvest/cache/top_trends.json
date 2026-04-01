@@ -2,16 +2,37 @@
     {
         "breadcrumb": "REMOTE ACCESS TROJAN",
         "category": "malware",
-        "today_count": 24,
+        "today_count": 26,
         "baseline": 1.0,
-        "surge_pct": 1150.0
+        "surge_pct": 1250.0
     },
     {
         "breadcrumb": "REMOTE CODE EXECUTION",
         "category": "attack_vector",
-        "today_count": 13,
+        "today_count": 16,
         "baseline": 1.0,
-        "surge_pct": 600.0
+        "surge_pct": 750.0
+    },
+    {
+        "breadcrumb": "IRAN",
+        "category": "geodata",
+        "today_count": 9,
+        "baseline": 1.0,
+        "surge_pct": 400.0
+    },
+    {
+        "breadcrumb": "SUPPLY CHAIN ATTACK",
+        "category": "attack_vector",
+        "today_count": 9,
+        "baseline": 1.0,
+        "surge_pct": 400.0
+    },
+    {
+        "breadcrumb": "BUSINESS EMAIL COMPROMISE",
+        "category": "attack_vector",
+        "today_count": 8,
+        "baseline": 1.0,
+        "surge_pct": 350.0
     },
     {
         "breadcrumb": "PHISHING",
@@ -21,67 +42,39 @@
         "surge_pct": 350.0
     },
     {
-        "breadcrumb": "AI",
-        "category": "tech",
-        "today_count": 9,
-        "baseline": 1.25,
-        "surge_pct": 344.44
+        "breadcrumb": "RANSOMWARE",
+        "category": "malware",
+        "today_count": 8,
+        "baseline": 1.0,
+        "surge_pct": 350.0
     },
     {
-        "breadcrumb": "SUPPLY CHAIN ATTACK",
-        "category": "attack_vector",
+        "breadcrumb": "AI",
+        "category": "tech",
+        "today_count": 11,
+        "baseline": 2.0,
+        "surge_pct": 300.0
+    },
+    {
+        "breadcrumb": "BACKDOOR",
+        "category": "malware",
         "today_count": 7,
         "baseline": 1.0,
         "surge_pct": 300.0
     },
     {
-        "breadcrumb": "ATTACKER",
-        "category": "threat_actor",
-        "today_count": 6,
-        "baseline": 1.0,
-        "surge_pct": 250.0
-    },
-    {
-        "breadcrumb": "BACKDOOR",
-        "category": "malware",
-        "today_count": 6,
-        "baseline": 1.0,
-        "surge_pct": 250.0
-    },
-    {
-        "breadcrumb": "IRAN",
-        "category": "geodata",
-        "today_count": 6,
-        "baseline": 1.0,
-        "surge_pct": 250.0
-    },
-    {
-        "breadcrumb": "PROMPT INJECTION",
-        "category": "attack_vector",
-        "today_count": 6,
-        "baseline": 1.0,
-        "surge_pct": 250.0
-    },
-    {
-        "breadcrumb": "CHATGPT",
-        "category": "tech",
-        "today_count": 5,
-        "baseline": 1.0,
-        "surge_pct": 200.0
-    },
-    {
         "breadcrumb": "CHINA",
         "category": "geodata",
-        "today_count": 5,
+        "today_count": 7,
         "baseline": 1.0,
-        "surge_pct": 200.0
+        "surge_pct": 300.0
     },
     {
-        "breadcrumb": "RANSOMWARE",
-        "category": "malware",
-        "today_count": 5,
-        "baseline": 1.0,
-        "surge_pct": 200.0
+        "breadcrumb": "NORTH KOREA",
+        "category": "geodata",
+        "today_count": 6,
+        "baseline": 1.12,
+        "surge_pct": 229.41
     },
     {
         "breadcrumb": "SOCIAL ENGINEERING",
@@ -91,20 +84,6 @@
         "surge_pct": 200.0
     },
     {
-        "breadcrumb": "BUSINESS EMAIL COMPROMISE",
-        "category": "attack_vector",
-        "today_count": 5,
-        "baseline": 1.12,
-        "surge_pct": 182.35
-    },
-    {
-        "breadcrumb": "CLICKFIX",
-        "category": "attack_vector",
-        "today_count": 4,
-        "baseline": 1.0,
-        "surge_pct": 150.0
-    },
-    {
         "breadcrumb": "GERMANY",
         "category": "geodata",
         "today_count": 4,
@@ -112,15 +91,8 @@
         "surge_pct": 150.0
     },
     {
-        "breadcrumb": "SQL INJECTION",
+        "breadcrumb": "MALWARE",
         "category": "attack_vector",
-        "today_count": 4,
-        "baseline": 1.0,
-        "surge_pct": 150.0
-    },
-    {
-        "breadcrumb": "THREAT ACTOR",
-        "category": "threat_actor",
         "today_count": 4,
         "baseline": 1.0,
         "surge_pct": 150.0
@@ -129,12 +101,40 @@
         "breadcrumb": "ORGANIZATION",
         "category": "tech",
         "today_count": 4,
-        "baseline": 1.25,
-        "surge_pct": 122.22
+        "baseline": 1.38,
+        "surge_pct": 110.53
     },
     {
-        "breadcrumb": "AGENT",
+        "breadcrumb": "CHATGPT",
         "category": "tech",
+        "today_count": 3,
+        "baseline": 1.0,
+        "surge_pct": 100.0
+    },
+    {
+        "breadcrumb": "COMMAND AND CONTROL",
+        "category": "malware",
+        "today_count": 3,
+        "baseline": 1.0,
+        "surge_pct": 100.0
+    },
+    {
+        "breadcrumb": "CVE-2025-53521",
+        "category": "vulnerability",
+        "today_count": 3,
+        "baseline": 1.0,
+        "surge_pct": 100.0
+    },
+    {
+        "breadcrumb": "CVE-2026-5281",
+        "category": "vulnerability",
+        "today_count": 3,
+        "baseline": 1.0,
+        "surge_pct": 100.0
+    },
+    {
+        "breadcrumb": "HACKER",
+        "category": "threat_actor",
         "today_count": 3,
         "baseline": 1.0,
         "surge_pct": 100.0

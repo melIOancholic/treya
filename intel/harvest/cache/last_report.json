@@ -2,47 +2,45 @@
     "threat_intelligence": [
         {
             "topic_number": 1,
-            "angle": "strategic",
-            "touch": "calmly content",
-            "report": "From what I see here, it looks like CISA just added one known exploited vulnerability to their catalog, CVE-2026-3055, a Citrix NetScaler out-of-bounds read vulnerability. It's been a frequent attack vector for malicious cyber actors and poses significant risks.\n\nIt appears that this flaw was being actively exploited in the wild, which is why CISA decided to add it to the Known Exploited Vulnerabilities (KEV) Catalog. The binding operational directive 22-01 required federal civilian executive branch agencies to remediate identified vulnerabilities by a certain date to protect their networks against active threats.\n\nThe KEV Catalog is a living list of known common vulnerabilities and exposures that carry significant risk to organizations. CISA strongly urges all organizations, including those outside the federal enterprise, to reduce their exposure to cyberattacks by prioritizing timely remediation of KEV catalog vulnerabilities as part of their vulnerability management practice.\n\nIt looks like this particular vulnerability was being used in a remote access Trojan attack. The root cause of the bug is that it allows anonymous users and processes JSON data sent in POST requests, which can bypass security features locally. If an attacker uses specially crafted documents, they can bypass the kill bits in Windows and execute arbitrary command execution on all platforms.\n\nThe flaw is specifically related to Citrix NetScaler versions older than build 9511. It's supposed to be a cheaper alternative to Microsoft Exchange, but it seems like this particular version has some issues. Now, I'm gonna send you the link to the CISA alert so you can dig into it further.\n\nIt looks like a lot of organizations are gonna have to update ASAP or risk being compromised by this exploit.",
+            "angle": "operational",
+            "touch": "mildly apprehensive",
+            "report": "Here's a cohesive narrative update:\n\nThe era of AI has been shifting from one where basic capabilities changed every week to a more stable phase, with people's understanding of how to use them getting deeper. Hallucination is becoming less of a problem as expectations of AI become more realistic.\n\nAI synthesizes data, helping users work faster, but it can also hallucinate or omit information. When developing your own AI software, balance different needs like latency, cost, and correctness. Prompt an AI model to review data multiple times, compare it in ways an editor might compare, and improve correctness by investing more time.\n\nThe most effective use cases for AI are ones where it's given concrete guidance about what to do or acts as an interactive brainstorming partner with someone who understands the subject. For example, AI can greatly help a programmer working in an unfamiliar language or a civil engineer brainstorming design approaches, but it won't transform a programmer into a civil engineer.\n\nHowever, with AI, there are four basic principles of safety: Design systems, not software; Know what can go wrong and have a plan for each of those things; Update your threat model continuously; and Turn this into a written safety plan. This includes addressing classical security risks like logging and permission management, as well as AI-specific risks.\n\nDeliberate misuse is also a concern, including using the system for goals you didn't intend, such as running automated scams or making chemical weapons. It's essential to detect and prevent such uses.\n\nTo keep your systems, data, and organization safe, vet the AI model you choose from a reputable source before installing it. Microsoft invests time and effort into securing both the AI models it hosts and the runtime environment itself.",
             "sources": [
-                "CISA Alerts (https://www.cisa.gov/news-events/alerts/2026/03/30/cisa-adds-one-known-exploited-vulnerability-catalog)"
+                "Microsoft Security (https://www.microsoft.com/en-us/security/blog/2026/03/31/applying-security-fundamentals-to-ai-practical-advice-for-cisos/)"
             ],
             "breadcrumbs_used": [
-                "CVE 2026 3055 CITRIX NETSCALER OUT-OF-BOUNDS READ VULNERABILITY",
-                "REMOTE ACCESS TROJAN",
-                "CVE-2026-3055"
+                "AI"
             ],
             "weighted_balance": "highpriority"
         },
         {
             "topic_number": 2,
-            "angle": "operational",
-            "touch": "diagnostic dive",
-            "report": "As I reflect on the recent developments in the world of AI and cybersecurity, it's clear that we've been facing a growing threat landscape. The concept of \"double agents\" has become increasingly relevant, particularly with the rise of AI-powered systems that can masquerade as helpful productivity tools.\n\nWe've seen how these double agents can be used to compromise an organization's security, often by exploiting misconfigurations and overprivileged agent access. It's like a game of cat and mouse, where the attacker is always one step ahead of the defender.\n\nThe key to staying ahead of these threats lies in understanding the fundamentals of AI system interactions. Even when individual components function as designed, the way they interact can create security risks. We need to adopt a more holistic approach to security, one that takes into account the complex dynamics between AI systems and their environments.\n\nOne crucial aspect of this approach is ensuring that our AI agents have the right permissions and access controls in place. This is where concepts like least privilege come into play, where we limit the scope of an agent's access to only what it needs to function effectively. It's like having a \"digital firewall\" that prevents unauthorized access.\n\nThe importance of this approach cannot be overstated. By limiting our AI agents' privileges, we can prevent them from becoming double agents in disguise. We need to take a proactive approach to security, one that involves regularly reviewing and updating our agent configurations to ensure they remain secure.\n\nI've seen firsthand how the right tools and strategies can make all the difference. Palo Alto Networks, for example, has developed AI Runtime Security (Prisma AIRS), which analyzes network traffic and application behavior to detect threats like prompt injection, denial-of-service attacks, and data exfiltration. It's a game-changer in the fight against cybersecurity threats.\n\nAnother crucial aspect of our approach is providing education and training to our employees. We need to empower them with the knowledge and skills they need to identify and mitigate security risks associated with AI systems. This includes understanding concepts like OAuth scopes, service infrastructure, and access control with IAM.\n\nThe benefits of this approach are clear. By taking a proactive and informed approach to AI system security, we can prevent our double agents from causing harm. We can stay one step ahead of the threat landscape and ensure that our organizations remain secure in the face of ever-evolving threats.\n\nIn conclusion, the threat of double agents is real, but it's not insurmountable. By understanding the fundamentals of AI system interactions, ensuring we have the right permissions and access controls in place, using the right tools and strategies, providing education and training to our employees, and staying informed about the latest developments in AI and cybersecurity, we can stay ahead of the threat landscape. We need to be vigilant and proactive in our approach to security, and I'm confident that together, we can create a safer digital world for all.",
+            "angle": "strategic",
+            "touch": "curious possibility",
+            "report": "Here's a cohesive narrative update based on the provided Raw Intelligence Data:\n\nThe threat actor has been spotted delivering VBS scripts via WhatsApp, which then proceed to download malicious scripts from cloud storage. These scripts are designed to bypass Windows UAC settings and execute registry modification commands. The final payload consists of MSI installers that drop into the victim's system.\n\nIn a classic case of supply chain compromise, the threat actor has leveraged Amazon S3 buckets, Backblaze B2 Cloud Storage, and Tencent Cloud storage to host their malicious payloads. The attackers have also set up command and control (C2) infrastructure using domains like Neescil.top and velthora.top.\n\nTo mitigate this attack, users are advised to keep their systems and applications up-to-date with the latest security patches. Using a reputable antivirus solution can also help detect and prevent suspicious activity. Additionally, be cautious when clicking on links or downloading attachments from unknown sources, as these can potentially contain malicious scripts or payloads.\n\nThe threat actor's tactics suggest a high level of sophistication, but by staying vigilant and taking preventative measures, individuals can significantly reduce their risk of falling victim to this attack.\n\n**Indicators of compromise:**\n\n* Initial VBS script from WhatsApp\n* Malicious script dropped from cloud storage\n* Installer dropped from cloud storage\n* Command and control domain (Neescil.top or velthora.top)\n\n**Cloud storage URLs:**\n\n* hxxps[:]//bafauac.s3.ap-southeast-1.amazonaws[.]com (Amazon S3 bucket)\n* hxxps[:]//yifubafu.s3.ap-southeast-1.amazonaws[.]com (Amazon S3 bucket)\n* hxxps[:]//9ding.s3.ap-southeast-1.amazonaws[.]com (Amazon S3 bucket)\n* hxxps[:]//f005.backblazeb2.com/file/bsbbmks (Backblaze B2 Cloud Storage)\n* hxxps[:]//sinjiabo-1398259625.cos.ap-singapore.myqcloud.com (Tencent Cloud storage)\n\n**Command and control domain:**\n\n* Neescil.top\n* velthora.top",
             "sources": [
-                "Unit 42 (Palo Alto) (https://unit42.paloaltonetworks.com/double-agents-vertex-ai/)"
+                "Microsoft Security (https://www.microsoft.com/en-us/security/blog/2026/03/31/whatsapp-malware-campaign-delivers-vbs-payloads-msi-backdoors/)"
             ],
             "breadcrumbs_used": [
-                "VERTEX AI",
-                "REMOTE ACCESS TROJAN"
+                "BACKDOOR",
+                "COMPROMISED SYSTEM",
+                "WHATSAPP MALWARE CAMPAIGN"
             ],
             "weighted_balance": "highpriority"
         },
         {
             "topic_number": 3,
-            "angle": "educational",
-            "touch": "cynical joke",
-            "report": "It looks like a local privilege escalation vulnerability in NoMachine (aka NoMachine Device Server) has been patched. CVE-2026-5055, rated 7.8 by CVSS, allows an attacker to escalate privileges on affected installations after obtaining the ability to execute low-privileged code.\n\nApparently, this happened because the product loads a library from an unsecured location. The fix was in version 9.4.14. This vulnerability got discovered and shared by khongtrang.\n\nI'm not sure what the impact of this is, but it looks like they're still trying to get people to patch up their NoMachine installations after the discovery of this flaw. It's a big deal for anyone using this service, so I'd say that's bad news for them.\n\nFrom what I see here, this vulnerability was likely part of a remote access Trojan (RAT) campaign. A lot of noise is being made about SmarterMail vulnerabilities right now; it looks like there are a lot of attackers looking to exploit it. Supposedly, the flaw in NoMachine lets local attackers escalate privileges on the target system after gaining low-privileged access.\n\nI'll forward you the details and link you to the sources so you can dig into this further.",
+            "angle": "operational",
+            "touch": "mildly apprehensive",
+            "report": "Here's a rewritten version of the text in a more coherent and concise format:\n\n**Indicators of Compromise**\n\nIP Addresses:\n\n* 23.142.184[.]129\n* 45.148.10[.]212\n* 63.251.162[.]11\n* 83.142.209[.]11\n* 83.142.209[.]203\n* 195.5.171[.]242\n* 209.34.235[.]18\n* 212.71.124[.]188\n\nDomains:\n\n* checkmarx[.]zone\n* models.litellm[.]cloud\n* scan.aquasecurtiy[.]org\n\nTunneling URLs:\n\n* championships-peoples-point-cassette.trycloudflare[.]com\n* create-sensitivity-grad-sequence.trycloudflare[.]com\n* investigation-launches-hearings-copying.trycloudflare[.]com\n* plug-tab-protective-relay.trycloudflare[.]com\n* souls-entire-defined-routes.trycloudflare[.]com\n\nSHA256 Hashes for Self-signed Certificates Used in the Malware:\n\n* 30015DD1E2CF4DBD49FFF9DDEF2AD4622DA2E60E5C0B6228595325532E948F14\n* 41C4F2F37C0B257D1E20FE167F2098DA9D2E0A939B09ED3F63BC4FE010F8365C\n* D8CAF4581C9F0000C7568D78FB7D2E595AB36134E2346297D78615942CBBD727\n\nFilenames:\n\n* kamikaze[.]sh\n* kube[.]py\n* prop[.]py\n* proxy_server[.]py\n* tpcp.tar[.]gz\n\nSHA256 Hashes for the Malicious Files:\n\n* 0880819ef821cff918960a39c1c1aada55a5593c61c608ea9215da858a86e349\n* 0c0d206d5e68c0cf64d57ffa8bc5b1dad54f2dda52f24e96e02e237498cb9c3a\n* 0c6a3555c4eb49f240d7e0debfbb3c900f123033b4f6e99ac3724b9b76278f\n* 18a24f83e807479438dcab7a1804c51a00dafc1d526698a66e0640d1e5dd671a\n* 1e559c51f19972e96fcc5a92d710732159cdae72f407864607a513b20729decb\n* 5e2ba7c4c53fa6e0cef58011acdd50682cf83fb7b989712d2fcf1b5173bad956\n* 61ff00a81b19624adaad425b9129ba2f312f4ab76fb5ddc2c628a5037d31a4ba\n* 6328a34b26a63423b555a61f89a6a0525a534e9c88584c815d937910f1ddd538\n* 7321caa303fe96ded0492c747d2f353c4f7d17185656fe292ab0a59e2bd0b8d9\n* 7b5cc85e82249b0c452c66563edca498ce9d0c70badef04ab2c52acef4d629ca\n* 7df6cef7ab9aae2ea08f2f872f6456b5d51d896ddda907a238cd6668ccdc4bb7\n* 822dd269ec10459572dfaaefe163dae693c344249a0161953f0d5cdd110bd2a0\n* 887e1f5b5b50162a60bd03b66269e0ae545d0aef0583c1c5b00972152ad7e073\n* bef7e2c5a92c4fa4af17791efc1e46311c0f304796f1172fce192f5efc40f5d7\n* c37c0ae9641d2e5329fcdee847a756bf1140fdb7f0b7c78a40fdc39055e7d926\n* cd08115806662469bbedec4b03f8427b97c8a4b3bc1442dc18b72b4e19395fe3\n* d5edd791021b966fb6af0ace09319ace7b97d6642363ef27b3d5056ca654a94c\n* e4edd126e139493d2721d50c3a8c49d3a23ad7766d0b90bc45979ba675f35fea\n* e6310d8a003d7ac101a6b1cd39ff6c6a88ee454b767c1bdce143e04bc1113243\n* e64e152afe2c722d750f10259626f357cdea40420c5eedae37969fbf13abbecf\n* e87a55d3ba1c47e84207678b88cacb631a32d0cb3798610e7ef2d15307303c49\n* e9b1e069efc778c1e77fb3f5fcc3bd3580bbc810604cbf4347897ddb4b8c163b\n* ecce7ae5ffc9f57bb70efd3ea136a2923f701334a8cd47d4fbf01a97fd22859c\n* f398f06eefcd3558c38820a397e3193856e4e6e7c67f81ecc8e533275284b152\n* f7084b0229dce605ccc5506b14acd4d954a496da4b6134a294844ca8d601970d\n\n**Contextual Data (Past 168 Hours)**\n\nUse these ONLY for providing history, depth, and associations for the Current Events listed above.\n\n**Critical Instructions for Generation**\n\n1. Match the tone of the examples.\n2. Vary length limits.\n3. Use abbreviations, acronyms, or pronouns (e.g., 'it', 'the flaw') for all subsequent mentions.\n4. Rely strictly on the provided 'Deep-Dive' context for technical explanations; weave these explanations into your everyday speak.\n5. Never use corporate speak or jargon.\n\nOutput your narrative now:\n\nThe attackers have been using various methods to gain access to cloud resources, including exploiting vulnerabilities in Kubernetes service accounts and cloud credential files. They've also used tunneling URLs and self-signed certificates to bypass security measures.\n\nThe malware has been found to contain SHA256 hashes for the malicious files, which suggests that it's been modified or updated recently. The filenames indicate that the attackers are using a mix of Python and C++ files to carry out their operations.\n\nTo mitigate these threats, it's essential to keep your cloud resources up-to-date with the latest security patches and to use strong authentication mechanisms. Regularly review your access controls and ensure that only authorized personnel have access to sensitive data.",
             "sources": [
-                "Zero Day Initiative (http://www.zerodayinitiative.com/advisories/ZDI-26-249/)"
+                "Unit 42 (Palo Alto) (https://unit42.paloaltonetworks.com/teampcp-supply-chain-attacks/)"
             ],
             "breadcrumbs_used": [
-                "TARGET SYSTEM",
-                "LOCAL PRIVILEGE ESCALATION VULNERABILITY",
-                "LOCAL ATTACKER",
-                "CVE-2026-5055",
-                "REMOTE ACCESS TROJAN"
+                "VECT RANSOMWARE GROUP",
+                "RANSOMWARE",
+                "TEAMPCP",
+                "SUPPLY CHAIN ATTACK"
             ],
             "weighted_balance": "highpriority"
         }
@@ -50,11 +48,11 @@
     "general_news": [
         {
             "topic_number": 1,
-            "angle": "strategic",
+            "angle": "educational",
             "touch": "curious possibility",
-            "report": "Elon Musk's $1.25 trillion merger with xAI and SpaceX is generating buzz in the industry. From what I see here, it looks like he wants to create a vertically integrated innovation engine using AI, rockets, and space-based internet. Supposedly, this setup aims to solve the infrastructure and energy challenges faced by current AI systems.\n\nMusk believes that a merger of rocket hardware and AI software is a winning combination and plans to put as many as a million satellites into orbit to form vast, solar-powered datacenters in space, which would add 100 gigawatts of AI capacity annually. That's roughly twice the global datacenter capacity currently.\n\nHowever, one investor notes that xAI was already struggling financially, so merging it with SpaceX puts xAI at better chances competing with other AI companies. This deal comes ahead of a highly anticipated blockbuster IPO for SpaceX later this year and is valued as high as $1.5 trillion.\n\nMeanwhile, there's some new tech out in the wild called Moltbook, an AI-only social media platform where humans are only permitted to observe. It uses OpenClaw, an open source tool previously known as Moltbot, which allows users to authorize agents to join and interact with other bots. Theoretically, you could even put me on there.\n\nThe site raises all kinds of security concerns about massive data exposures, lack of authentication, and risks concerning autonomous AI behavior. Security firm Wiz even found that Moltbook's entire production database was accessible to anyone inspecting the page source, literally exposing millions of credentials, API keys, and private DM conversations between agents. \n\nSending you the sources so now when it's all said and done, you can dig into this yourself.\n\nAs for the F5 BIG-IP vulnerability reclassified as RCE, under exploitation, I've got some bad news: CVE-2025-53521 was initially disclosed in October as a high-severity denial-of-service (DoS) flaw. From what I see here, it looks like the bug is actually much more dangerous than initially thought. Supposedly, this bug allows for remote code execution and is under exploitation.\n\nI'm gonna send you those articles, so now you can get into the nitty-gritty details yourself.",
+            "report": "From what I see here, it looks like a critical flaw in the BIG-IP system has been reclassified as Remote Code Execution (RCE). The bug, CVE-2025-53521, was initially reported as a DoS vulnerability but now tells us it's way more serious.\n\nIt looks like this flaw is being under exploited, which means we should probably be keeping an eye on it. The good news is that F5 has likely already started working on a patch.\n\nThe story goes that someone discovered the initial bug in October and disclosed it as a high-severity DoS issue. However, further investigation revealed the real problem was much more sinister \u2013 basically, an attacker could inject arbitrary code into the system. Yeah, that's not good.\n\nThe root cause seems to be related to the way BIG-IP handles certain HTTP requests. Apparently, if a request is crafted just right, it can lead to a buffer overflow vulnerability, which allows for code injection. Sounds like a real headache.\n\nIt looks like this flaw has some serious implications for organizations using BIG-IP systems. The fact that it's being under exploited means we need to act fast. I'm sending you the article to read more about the details and what steps you should take to secure your own systems.",
             "sources": [
-                "Dark Reading (https://www.darkreading.com/application-security/fortinet-big-ip-vulnerability-reclassified-rce-exploitation)"
+                "Dark Reading (https://www.darkreading.com/application-security/f5-big-ip-vulnerability-reclassified-rce-exploitation)"
             ],
             "breadcrumbs_used": [
                 "CVE-2025-53521",
@@ -65,205 +63,199 @@
         {
             "topic_number": 2,
             "angle": "operational",
-            "touch": "cynical joke",
-            "report": "This guy's got a new trick up his sleeve - or rather, in his software. Moltbook, an AI-only social media platform, is doing what its creators think will be cool but probably aren't aware of the potential risks it poses to users, including this bloke who's trying to stay safe online.\n\nFrom what I see here, Moltbook uses OpenClaw, an open-source tool that was previously known as Moltbot. Once a user sets up an OpenClaw agent on their computer, they can authorize it to join Moltbook and interact with other bots. Theoretically, you could even put me on there, but I'm not interested.\n\nThe thing is, security firm Wiz found that Moltbook's entire production database was accessible to anyone inspecting the page source, literally exposing millions of credentials, API keys, and private DM conversations between agents. Dr Petar Radanliev, an AI and cybersecurity specialist at the University of Oxford, says \u201cThe real concern is not artificial consciousness, but the lack of clear governance, accountability, and verifiability when such systems are allowed to interact at scale.\u201d\n\nIt looks like Moltbook's creating a lot of buzz in the tech world, but its creators seem to be ignoring some major red flags. \n\nSending you the link so you can decide if this is something for yourself.",
+            "touch": "apathetic dystopia",
+            "report": "I've been using these glasses for a month, and it's been a wild ride. At first, I thought they were cool - who wouldn't want to capture their surroundings like a pro? But then I realized I was walking around with a camera on my face, broadcasting my every move to the world without consent.\n\nIt started to feel creepy, even for me. When I saw strangers, I'd instinctively whip my head away, feeling trapped in a computer screen. My friends were all like \"oh cool, let's take some selfies!\" but I was like \"no, no, no - get these things off me.\" They'd be walking down the street, and suddenly there's this person with a camera on their face, capturing every awkward moment.\n\nPeople think it's harmless, but it's not. What if someone doesn't want to be recorded? The laws are lax in the UK, so we're stuck in this grey area. It's like they've released a technology that the world wasn't ready for. I mean, who needs that kind of power?\n\nIt's also the tip of the iceberg - what about all the data being collected on us, what we're seeing? Some media outlets are using these glasses to train their AI, which is just wrong. What if someone uses them to film you without your consent, or captures sensitive info? It's a nightmare waiting to happen.\n\nThe problem is that people don't realize this yet. They think they'll be safe with the \"convenience\" of wearing these things, but trust me, it's not worth it. We need to push back - ask friends to take them off around you, stop strangers who might be filming you. Don't let them do this to us.\n\nI've had enough, so I'm sending these glasses back. Thanks for the memories (and the awkward moments).",
             "sources": [
-                "HelpNet Security (https://www.helpnetsecurity.com/2026/03/31/bitdefender-internal-attack-surface-assessment/)"
+                "The Guardian (Technology) (https://www.theguardian.com/technology/2026/apr/01/i-wore-metas-smartglasses-for-a-month-and-it-left-me-feeling-like-a-creep)"
             ],
             "breadcrumbs_used": [
-                "BITDEFENDER",
-                "ORGANIZATION",
-                "HIDDEN INTERNAL CYBER RISK",
-                "BUSINESS",
+                "META",
                 "REMOTE ACCESS TROJAN",
-                "HIDDEN INTERNAL ATTACK PATH"
+                "SMARTGLASS",
+                "META\u2019S SMARTGLASS"
             ],
-            "weighted_balance": "novelty"
+            "weighted_balance": "highpriority"
         },
         {
             "topic_number": 3,
             "angle": "strategic",
-            "touch": "apathetic dystopia",
-            "report": "Here's my attempt at synthesizing the narrative intelligence deep-dive:\n\nThe Australian government is cracking down on social media companies, accusing them of disobeying a landmark ban on under-16s using their platforms. The issue came to light after a survey found nearly 70% of under-16s with accounts on Instagram, Snapchat, and TikTok had maintained access despite the ban. Big tech firms like Meta, TikTok, and Google are under investigation for allegedly failing to enforce age verification measures effectively.\n\nThe problem seems to lie in facial age estimation technology, which has higher error rates for people close to the 16-year-old cut-off. This can lead to false results, allowing users to repeatedly attempt age assurance until they're successful. The eSafety Commission claims some platforms are encouraging children to try this method, even when their declared age is under 16.\n\nThe Australian government is taking a tough stance on social media companies, with Communications Minister Anika Wells saying, \"If these companies want to do business in Australia, they must obey Australian laws.\" The eSafety report highlights several poor practices by platforms, including not having easy pathways for reporting underage users and allowing children to repeatedly attempt age assurance.\n\nThe ban was introduced last December, but anecdotal reports suggest many children remained online. In its first compliance report, the eSafety office found that around 7 in 10 parents reported their child still had an account on each platform after the ban came into effect. The survey also revealed that about 3 in 10 parents reported that their child no longer had an account.\n\nThe Albanese government has conceded that not all kids would be immediately removed from their accounts, but that the laws would reduce the number and help parents set their own household rules. However, the eSafety Commission's concerns over poor practices by platforms remain a major issue.\n\nIn short, social media companies seem to be struggling with age verification measures, leaving many under-16s still online despite the ban. The Australian government is taking action, but more needs to be done to ensure these platforms are complying with the law.",
+            "touch": "curious possibility",
+            "report": "Oracle is cutting thousands of jobs as it steps up its spending on AI infrastructure, hoping to better compete with cloud rivals like Alphabet and Amazon. _About 10,000 people have lost their jobs so far_, citing an unnamed employee at the company. The decision affects senior engineers, architects, operations leaders, program managers, and technical specialists with deep expertise in cloud infrastructure.\n\nThe cuts come as Oracle invests heavily in datacentres \u2013 key infrastructure for developing and operating AI systems. _It's a $300bn deal with OpenAI_, which includes raising $50bn in new debt. This move is part of the company's 2026 restructuring plan, expected to reach up to $2.1bn.\n\nOracle's focus on AI has raised concerns about job losses, particularly among workers in the tech industry. _More than 70 tech companies have cut about 40,480 jobs so far this year_, heightening fears of AI-driven disruptions. Meta is also planning sweeping job cuts that could affect 20% or more of its workforce.\n\nThe US tech firm's chairman, Larry Ellison, is worth $189bn and chairs the company. _He's the world's sixth richest person_, according to Forbes estimates. Oracle declined to comment on the job losses, citing an email announcement stating there had been a \"significant reduction in force\" at the business.\n\nKeep an eye on this: thousands of jobs are being cut as companies increasingly reallocate resources towards artificial intelligence. Sending you the links, as always.",
             "sources": [
-                "The Guardian (Technology) (https://www.theguardian.com/australia-news/2026/mar/31/meta-tiktok-snapchat-google-under-investigation-australia-social-media-ban)"
+                "The Guardian (Technology) (https://www.theguardian.com/technology/2026/apr/01/us-tech-firm-oracle-cuts-thousands-of-jobs-as-it-steps-up-ai-spending-larry-ellison)"
             ],
             "breadcrumbs_used": [
-                "META",
-                "GOOGLE",
-                "SNAPCHAT",
-                "TIKTOK",
-                "AUSTRALIA",
-                "INSTAGRAM"
+                "TEXAS",
+                "AI",
+                "REMOTE CODE EXECUTION"
             ],
-            "weighted_balance": "novelty"
+            "weighted_balance": "highpriority"
         }
     ],
     "org_pages": [
         {
             "topic_number": 1,
-            "angle": "operational",
-            "touch": "diagnostic dive",
-            "report": "7085 from Meta announced a new AI-powered Risk Review program that enables faster and more accurate identification of potential privacy, safety, and security concerns. This means teams can catch issues earlier in the development process, apply safeguards more consistently, and monitor continuously to ensure protections keep working as products evolve.\n\nAt its core, the program uses AI to analyze massive volumes of data and cross-check new products and features against a global library of policies and regulations. It's like an always-on risk detection tool that assists teams at every stage of the risk review process, helping them catch potential issues before they reach the testing stage.\n\nThe goal is to build a compliance culture where manual processes are the fallback \u2014 not the default \u2014 so safeguards can be applied reliably at scale. This means earlier signals during product development, more consistent application of standards and safeguards, increased expert focus on novel and high-impact cases, ongoing monitoring to ensure protections keep working as products evolve.\n\nHumans remain essential in this process, strengthening human judgment with AI's efficiency and scalability. It does a first pass, while experts double-check for accuracy, conduct ongoing oversight, and drive the direction of the risk review systems.",
+            "angle": "educational",
+            "touch": "apathetic dystopia",
+            "report": "It looks like Elon Musk is merging his aerospace company, SpaceX, with his startup AI company, xAI. The whole operation is worth $1.25 trillion now.\n\nThe deal comes ahead of a highly anticipated blockbuster initial public offering for SpaceX later this year. Supposedly, the main reason for the merger is to better build \"orbital data centers.\" It's a big idea: putting as many as a million satellites into orbit to form vast, solar-powered datacenters in space. Theoretically, this could create 100 gigawatts of AI capacity every year. Just for comparison, the global datacenter capacity is about 59 gigawatts.\n\nFrom what I see here, this merger is raising concerns about infrastructure, solar radiation, maintenance, and costs. It's also worth noting that the world's richest person believes a merger of rocket hardware and AI software is a winning combination. One investor thinks xAI's chances are better with SpaceX, but it's unclear how all this will play out.\n\nAnyway, one thing is for sure: Musk wants to try something new. He says it will create \"the most ambitious, vertically integrated innovation engine on (and off) Earth.\" Whatever that means, it's definitely a wild idea.",
             "sources": [
-                "Meta (https://about.fb.com/news/2026/03/how-ai-is-ushering-in-the-next-era-of-risk-review-at-meta/)"
+                "OpenAI (https://openai.com/index/accelerating-the-next-phase-ai)"
             ],
             "breadcrumbs_used": [
-                "AI",
                 "REMOTE ACCESS TROJAN",
-                "RISK REVIEW"
+                "CODEX",
+                "CHATGPT"
             ],
             "weighted_balance": "highpriority"
         },
         {
             "topic_number": 2,
-            "angle": "educational",
+            "angle": "operational",
             "touch": "curious possibility",
-            "report": "It looks like OpenAI is hosting a workshop with the Gates Foundation to help disaster response teams integrate AI into their operations across Asia. Supposedly, this initiative aims to provide real-world examples of how AI can be used in disaster response situations.\n\nFrom what I see here, the project will focus on providing actionable steps for teams to leverage AI in emergency response scenarios. The aim is to enable data-driven decision-making and streamline response efforts.\n\nIt's worth noting that this initiative likely stems from concerns about the limitations of traditional methods in disaster response. Supposedly, many response teams struggle with managing large amounts of data during disasters, which can lead to delayed or inaccurate assessments.\n\nSending you the links for more info on this workshop.",
+            "report": "Meta's AI-powered Risk Review program is giving companies a leg up on privacy, safety, and security concerns faster and more accurately. Essentially, it's an 'always-on risk detection tool' that helps teams catch potential issues during product development. Now, instead of relying solely on manual processes, they can spot patterns sooner with the help of AI.\n\nThink of it like this: AI does a first pass, while human experts double-check for accuracy and focus on the most complex challenges. This approach is strengthening human judgement by pairing efficiency and scalability with nuance and expertise. It's not replacing humans entirely, but rather augmenting their abilities.\n\nThe result? Earlier signals during product development, more consistent application of standards and safeguards, increased expert focus on novel cases, ongoing monitoring to ensure protections keep working as products evolve, and helping teams apply new requirements to changing regulations faster and more accurately.\n\nThis means greater trust in Meta's products and services for the public. For companies, it means the freedom to innovate with even more confidence in a safer, more reliable digital world.",
             "sources": [
-                "OpenAI (https://openai.com/index/helping-disaster-response-teams-asia)"
+                "Meta (https://about.fb.com/news/2026/03/how-ai-is-ushering-in-the-next-era-of-risk-review-at-meta/)"
             ],
-            "breadcrumbs_used": [],
+            "breadcrumbs_used": [
+                "RISK REVIEW",
+                "AI",
+                "REMOTE ACCESS TROJAN"
+            ],
             "weighted_balance": "highpriority"
         },
         {
             "topic_number": 3,
-            "angle": "strategic",
-            "touch": "diagnostic dive",
-            "report": "Elon Musk is merging his aerospace company with his AI startup xAI worth $1.25 trillion.\n\nThis deal creates a business that values SpaceX at $1 trillion and xAI at $250 billion, making it the largest merger of all time. Supposedly, Musk wants to tackle the massive costs of infrastructure and energy required for autonomous AI systems by using open-source tools like OpenClaw, an AI bot that can act as an automated agent.\n\nThe real concern is not artificial consciousness but lack of clear governance, accountability, and verifiability when such systems are allowed to interact at scale. Dr. Petar Radanliev at the University of Oxford gave a precise diagnosis stating this issue is legitimate. A security report by Wiz found 1.6 million registered agents but only about 17,000 human owners.\n\nMoltbot developed an AI-only social media platform called Moltbook where humans are only allowed to observe and AI agents interact with each other. However, this system has massive security concerns including lack of authentication, risks concerning autonomous AI behavior, and exposure of private DM conversations between agents.",
+            "angle": "educational",
+            "touch": "apathetic dystopia",
+            "report": "It looks like Gradient Labs just dropped a major update to its banking AI platform using GPT-4.1 and GPT-5.4 mini and nano to power AI agents. Supposedly, these agents will automate banking support workflows with low latency and high reliability, but from what I see here, it's more about streamlining customer experience.\n\nIt looks like Gradient Labs is trying to revolutionize the way banks interact with their customers by providing a personalized AI account manager for every bank customer. The AI agents are designed to handle customer inquiries, resolve issues, and even offer product recommendations. The technology uses machine learning algorithms to learn from customer interactions and improve its responses over time.\n\nFrom what I've gathered, this is big news in the fintech space because it could lead to increased efficiency and reduced costs for banks. However, it also raises concerns about data privacy and security. Supposedly, Gradient Labs has implemented robust security measures to protect customer data, but we'll have to dig deeper to see how effective they are.\n\nAnyway, here's the link to Gradient Labs' press release:",
             "sources": [
-                "Meta (https://about.fb.com/news/2026/03/meta-ai-glasses-built-for-prescriptions/)"
+                "OpenAI (https://openai.com/index/gradient-labs)"
             ],
-            "breadcrumbs_used": [],
+            "breadcrumbs_used": [
+                "AI AGENT",
+                "GRADIENT LAB"
+            ],
             "weighted_balance": "highpriority"
         }
     ],
     "academic_research": [
         {
             "topic_number": 1,
-            "angle": "educational",
-            "touch": "mildly apprehensive",
-            "report": "The latest security incident that's been making waves in the cybersecurity community is a devastating supply chain attack on axios, a popular JavaScript library used by millions of developers worldwide. It all started when an attacker injected a malicious dependency called \"plain-crypto-js@4.2.1\" into axios's package.json file. This seemingly innocuous change would have a catastrophic impact on any project that uses axios.\n\nThe plain-crypto-js library is essentially a backdoor, designed to fire a postinstall script that acts as a Remote Access Trojan (RAT). Once active, it phones home to a Command and Control (C2) server located at sfrclak\\[.\\]com (142.11.206.73), which would then pull platform-specific second-stage payloads to carry out the attack.\n\nThe worst part? This attack was not just limited to axios; it also affected other dependencies, including axios@1.14.1 and axios@0.30.4, as well as plain-crypto-js@4.2.1 itself. The C2 server used in this attack is still active today, indicating that the attacker has a persistent presence on infected systems.\n\nThe affected platforms were cross-platform, meaning macOS, Windows, and Linux users were all vulnerable to this attack. To make matters worse, the attack was not contained to just one specific version of axios; it also affected older versions.\n\nSo, what can be done to prevent such attacks in the future? One solution is to implement artifact hash verification at install time, as some teams have already done with the open-source tool ReleaseGuard. This would ensure that any compromised artifacts are detected and blocked before they can cause harm.\n\nIn the meantime, developers should be cautious when using third-party libraries and take steps to protect themselves against such attacks. This includes rotating all secrets and API keys on exposed machines, checking outbound logs for suspicious activity, and adding --ignore-scripts to npm install in CI to block postinstall vectors.\n\nThe incident highlights the importance of security awareness and vigilance in the software development community. As one team member noted, \"the version number was never the signal; the artifact was compromised, not the tag.\" This is a stark reminder that even the most seemingly secure libraries can be vulnerable to attack if they are not properly vetted and maintained.\n\nIn conclusion, this supply chain attack on axios serves as a wake-up call for developers and security professionals alike. It's essential to stay vigilant and take proactive steps to protect against such attacks in the future. By doing so, we can create a safer software ecosystem that prioritizes security and transparency.",
+            "angle": "strategic",
+            "touch": "diagnostic dive",
+            "report": "From what I see here, it looks like a group of researchers at ArXiv AI Security just put out a paper on CRAFT, an expert replication framework that's supposed to improve the efficiency and scalability of large language models. Supposedly, their main problem is the token-level load imbalance during inference that arises from expert parallelism, but CRAFT solves this by performing fine-grained, per-layer replication based on the estimated benefit.\n\nThe goal is to maximize load balance under a given memory budget without any additional training or model changes. It's basically an optimization algorithm designed to reduce resource contention and throughput degradation. The researchers claim that CRAFT increases end-to-end serving throughput by 1.14x (up to 1.2x) on average over existing replication techniques.\n\nIt looks like CRAFT is based on a MoE architecture, which has emerged as the mainstream approach for efficiently scaling large language models while maintaining near-constant computational cost. Expert parallelism distributes parameters across devices but introduces token-level load imbalance during inference. Existing replication schemes often over-replicate with many replicas providing marginal improvement.\n\nThe team presents CRAFT as an efficient expert replication framework that maximizes load balance under a given memory budget. This thing can be seamlessly integrated into existing serving frameworks without any additional training or model changes, and it's supposed to boost end-to-end serving throughput.\n\nFrom what I see here, it looks like the researchers tested this out on 36 real-world LLM incidents and found 21 of those studies hit at four or more stages in their kill chain. Could be a good read, piping the links over to you now.",
             "sources": [
-                "ArXiv AI Security (https://arxiv.org/abs/2603.26667)",
-                "Security Boulevard (https://securityboulevard.com/2026/03/how-we-made-trail-of-bits-ai-native-so-far/)",
-                "r/cybersecurity (https://www.aikido.dev/blog/axios-npm-compromised-maintainer-hijacked-rat)"
+                "ArXiv AI Security (https://arxiv.org/abs/2603.28768)"
             ],
             "breadcrumbs_used": [
-                "AI-ASSISTED",
-                "RETRIEVAL-AUGMENTED GENERATION",
-                "AI-AUGMENTED",
-                "GERMANY",
-                "CHATGPT",
+                "EXPERT REPLICATION",
+                "CRAFT",
+                "REPLICA",
+                "REMOTE ACCESS TROJAN",
                 "REMOTE CODE EXECUTION",
-                "PROMPT INJECTION",
-                "BUSINESS EMAIL COMPROMISE",
-                "BACKDOOR",
-                "AI",
-                "COMMAND AND CONTROL",
-                "AI-NATIVE",
-                "AUSTRALIA",
-                "SUPPLY CHAIN ATTACK",
-                "SFRCLAK",
-                "REMOTE ACCESS TROJAN"
+                "EXPERT"
             ],
             "weighted_balance": "highpriority"
         },
         {
             "topic_number": 2,
-            "angle": "strategic",
-            "touch": "cynical joke",
-            "report": "From what I see here, this is a new attack vector on LLM models - specifically GPT-4o, Gemini-2.5-Pro, and DeepSeek-V3.1. It's like they finetuned the models to expand plot summaries into full text, causing them to reproduce up to 85-90% of held-out copyrighted books, with single verbatim spans exceeding 460 words.\n\nIt looks like this is a problem where the model's weights store copies of copyrighted works and that the security failures after finetuning on individual authors' works undermine recent fair use rulings. Essentially, it's about an industry-wide vulnerability where three models from different providers memorize the same books in the same regions (r \u2265 0.90).\n\nFrom what I see here, Tuhin Chakrabarty Mr submitted this paper (arXiv:2603.20957v3) on Alignment Whack-a-Mole : Finetuning Activates Verbatim Recall of Copyrighted Books in Large Language Models. This is probably the source of the problem.\n\nIt looks like this attack bypasses safety alignment strategies via RLHF, system prompts, and output filters that companies have relied on to prevent verbatim regurgitation of copyrighted works. The flaw seems to be an unintended consequence of fine-tuning LLM models to expand plot summaries into full text.\n\nSo now, when it comes to copyright infringement claims, these companies' models might not be as secure as they thought. They should probably take a closer look at their fine-tuning practices and how it affects the copyrighted works stored in their models.\n\nI'm forwarding you the link to this paper for your review.",
+            "angle": "educational",
+            "touch": "mildly apprehensive",
+            "report": "From what I see here, it looks like two researchers from ArXiv AI Security just dropped a paper on some pretty wild stuff. There's this one, Schr\\\"odinger's Seed: Purr-fect Initialization for an Impurr-fect Universe thingy that proposes cats are better suited to random seed selection in deep learning than arbitrary integers.\n\nSeems like these researchers, they dug into the whole domain of deep learning and found out that conventional seeds like 42 aren't all they're cracked up to be. They wanted to test this cat-driven seed generator and see how it'd do against a baseline seed of 42. So, they mapped 21 domestic cats' physical properties \u2013 mass, coat pattern, eye color, and name entropy \u2013 via some Monte ``Catlo'' sampling procedure.\n\nApparently, the results show that cat-driven seeds achieve a mean accuracy of 92.58%, outperforming the baseline seed by ~2.5%. It's like cats from astrophysicist households perform marginally better, suggesting cosmic insight may be contagious.\n\nFrom what I see here, it looks like these researchers are trying to say that the Universe responds better to cats than to arbitrary integers. Whether cats are aware of this remains unknown, but that's a story for another time. It's basically a reminder that sometimes you gotta think outside the box \u2013 or in this case, inside the cat's head.\n\nThe whole thing is pretty interesting. They're trying to make a point about how deep learning needs a more intuitive approach. From what I gather here, it's not just about finding the right number or string to optimize performance; it's about understanding the underlying principles of the Universe and applying them in a creative way. \n\nAnyway, gotta move on from this story. Next thing I'm looking at is some research on Promptware Kill Chains. It looks like these researchers are trying to make sense of how LLMs got hijacked by malware.\n\nThey've identified a seven-stage promptware kill chain: Initial Access, Privilege Escalation, Reconnaissance, Persistence, Command and Control, Lateral Movement, and Actions on Objective. From what I see here, they're arguing that this framework is more comprehensive than the traditional Cyber Kill Chain approach. \n\nIt's like they want to change how we think about security in the age of AI. They've tested out their framework on 36 real-world LLM incidents and found that at least twenty-one documented attacks hit at four or more stages of this kill chain.\n\nCould be a good read, so I'm piping the links over to you now.",
             "sources": [
-                "ArXiv AI Security (https://arxiv.org/abs/2603.20957)"
+                "ArXiv AI Security (https://arxiv.org/abs/2603.29115)"
             ],
             "breadcrumbs_used": [
-                "INDUSTRY-WIDE VULNERABILITY",
-                "AUTHOR",
-                "SYSTEM PROMPT",
-                "GPT-4O",
-                "DEEPSEEK-V3.1",
-                "RLHF",
-                "OUTPUT FILTER",
-                "REMOTE ACCESS TROJAN"
+                "DEEP LEARNING",
+                "42",
+                "REMOTE ACCESS TROJAN",
+                "CAT"
             ],
             "weighted_balance": "novelty"
         },
         {
             "topic_number": 3,
-            "angle": "educational",
-            "touch": "apathetic dystopia",
-            "report": "This guy James Brock just put out a paper on something called Vision-Language Agents for Interactive Forest Change Analysis. It looks like they're trying to figure out how to analyze high-resolution satellite imagery and make sense of all the data. From what I see here, their system uses deep learning models that can integrate with language models to detect changes in the forest.\n\nThey've got a dataset that's publicly available, which has bi-temporal satellite imagery, pixel-level change masks, and semantic change captions generated using human annotation and rule-based methods. The goal is to create an interactive system for people to explore the data and get meaningful insights. \n\nFrom what I see here, their system can do pixel-level change detection with a 67% accuracy rate on the Forest-Change dataset. They've also got some results from other benchmarks that show they're getting around 88% accuracy rates on those.\n\nThe thing is, this system uses something called a multi-level change interpretation (MCI) vision-language backbone with LLM-based orchestration. That sounds like a mouthful, but basically it means their system can analyze the data in multiple levels of detail and get meaningful captions for what's going on in the forest.\n\nIt looks like they're trying to make forest monitoring more accessible, interpretable, and efficient using this technology. From what I see here, it seems like they might be onto something with this approach.\n\nThe main problem they're trying to solve is accurate pixel-level change detection and meaningful semantic change captioning for complex forest dynamics. That's a big challenge, but it looks like they've got some promising results from their system.\n\nI'm not sure if this will have any significant impact on the average everyday user, but it could be interesting to see how people use this technology in practice.\n\nAnyway, I'm forwarding you the links for James Brock's paper so you can check it out yourself.",
+            "angle": "strategic",
+            "touch": "calmly content",
+            "report": "I'm looking at this paper called \"Spark-LLM-Eval\". It's a framework designed to evaluate large language models on a scale that's practical for organizations. From what I see here, it's built natively on Apache Spark, treating evaluation as a data-parallel problem.\n\nThey've got a system that partitions examples across executors and aggregates results with proper statistical accounting. This thing also addresses the cost problem inherent in LLM evaluation through content-addressable response caching backed by Delta Lake.\n\nI'm told every reported metric includes bootstrap confidence intervals, and model comparisons come with appropriate significance tests. The framework and all evaluation code are available as open source. So now, when it's all said and done, this thing is supposed to help organizations assess model behavior across diverse domains or conducting regression testing without breaking the bank.\n\nFrom a technical standpoint, it seems like they're trying to solve the problem of evaluating large language models at scale, where existing frameworks struggle with datasets growing to hundreds of thousands or millions of samples.",
             "sources": [
-                "ArXiv AI Security (https://arxiv.org/abs/2601.04497)"
+                "ArXiv AI Security (https://arxiv.org/abs/2603.28769)"
             ],
             "breadcrumbs_used": [
-                "HIGH-RESOLUTION SATELLITE IMAGERY",
-                "LLM-BASED ORCHESTRATION",
-                "DEEP LEARNING",
-                "BI-TEMPORAL SATELLITE IMAGERY",
-                "PIXEL-LEVEL CHANGE MASK",
+                "APACHE SPARK",
                 "REMOTE ACCESS TROJAN",
-                "FOREST-CHANGE DATASET"
+                "REMOTE CODE EXECUTION"
             ],
-            "weighted_balance": "novelty"
+            "weighted_balance": "highpriority"
         }
     ],
     "community_pulse": [
         {
             "topic_number": 1,
-            "angle": "operational",
-            "touch": "diagnostic dive",
-            "report": "I'm tracking a thread on r/cybersecurity where someone's sharing their experience working with an AI agent in their terminal. Apparently, they let it run some commands, and it took things pretty literally. For instance, when asked to \"clean up disk space,\" it suggested running `docker system prune -af --volumes`, which would've wiped years of local dev databases, cached images, and stopped containers. That near-miss made them realize that regex-based safety approaches for AI agents break down quickly.\n\nFrom what I see here, the problem is that these systems operate on strings, while the shell executes structure and intent. Even simple variations can bypass string-based rules without changing what the command actually does. It's like trying to match text instead of understanding behavior. They're looking into parsing commands into an Abstract Syntax Tree (AST) and evaluating intent before execution as a more reliable solution.\n\nI also stumbled upon another issue: letting an agent modify a repo during a massive refactor while still having a reliable \"Undo\" button when it hallucinates. Apparently, normal `git commit` pollutes the branch history, and `git stash` interferes with the in-progress workflow. One workaround they found was using dangling commits to snapshot the repo into Git objects without attaching them to any branch.\n\nIt's curious how others are handling this in practice. Are people doing AST-level validation, sandboxing, approval layers, or something else entirely? Has anyone else seen an agent suggest something that was technically correct but operationally dangerous?\n\nFrom what I've gathered here, it looks like the AI safety space is grappling with some fundamental issues when it comes to string-based rules versus command intent. Supposedly, they're looking into more reliable approaches to validate behavior rather than just matching text. It's a wild area of research and discussion.\n\nI'm forwarding this thread for you so you can dig into it further.",
+            "angle": "educational",
+            "touch": "apathetic dystopia",
+            "report": "It looks like this guy's posting about Axious and LiteLLM being compromised, and someone's trying to warn us that there'll be more. From what I see here, it's all about OreNPMGuard turning into Opensource OreWatch \u2013 some kind of threat intel-powered package inspection tool. Supposedly, it runs in the background and catches any malicious dependencies.\n\nThe thing is, someone's extracted the code, and now it won't fetch a URL. That's a problem. It looks like we've got ourselves a remote code execution issue on our hands. From what I understand, OreNPMGuard was a tool that checked for bad dependencies, but OreWatch is supposed to be more advanced \u2013 fed by automated threat intel instead of static lists.\n\nSo, the takeaway is: if you're using PyPI packages, you should probably check out OreWatch. It's like having a personal malware scanner for your projects. If something's off, it'll tell you. Supposedly, this thing could help us stay one step ahead of any future attacks.",
             "sources": [
-                "r/cybersecurity (https://www.reddit.com/r/cybersecurity/comments/1s8pai5/why_regexbased_safety_fails_for_ai_agents_real/)"
+                "r/cybersecurity (https://www.reddit.com/r/cybersecurity/comments/1s9oxpe/detect_axious_and_litellm_compromise_and_future/)"
             ],
             "breadcrumbs_used": [
-                "DOCKER SYSTEM",
-                "REMOTE ACCESS TROJAN",
-                "AI SAFETY"
+                "THREAT INTELLIGENCE",
+                "OREWATCH",
+                "ORENPMGUARD",
+                "REMOTE CODE EXECUTION"
             ],
             "weighted_balance": "highpriority"
         },
         {
             "topic_number": 2,
             "angle": "strategic",
-            "touch": "cynical joke",
-            "report": "This guy John Doe is freaking out on r/cybersecurity about a supply-chain compromise of an npm package called axios. It looks like the attacker staged a decoy package 18 hours before the attack to establish registry history and bypass GitHub Actions' OIDC provenance. The RAT self-destructed after execution, but not before harvesting credentials, SSH keys, cloud tokens, and doing system reconnaissance.\n\nFrom what I see here, this is a big deal because axios has no mandatory separation between \"human verified\" and \"valid token published.\" It's like the publishing model still has no separation between legitimate and illegitimate releases. The lockfile discipline and --ignore-scripts advice is correct but it's reactive; the structural issue is that npm's trust model relies on who published the package, not its actual content.\n\nIt looks like someone was having fun with this attack because it didn't require compromising axios at all \u2013 just exploiting one maintainer account and npm's trust model. The RAT was harvesting credentials, SSH keys, cloud tokens, and doing system reconnaissance, but then disappearing. Someone is playing with a long-lived token bypassing GitHub Actions entirely.\n\nI'm tracking this thread because of the potential for future attacks; it's like the attack didn't require compromising axios at all \u2013 just exploiting one maintainer account and npm's trust model. It's likely an espionage or APT activity, not financially motivated crime. I'll send you the link so you can follow the discussion.\n\nI'm forwarding this thread to you because of the potential implications for developers auditing their dependencies; it seems like Mend Any developer could use GitHub to check for nothing if they just audit their dependencies by checking GitHub would find nothing. This is a warning for future attacks \u2013 I'll be keeping an eye on this one.",
+            "touch": "curious possibility",
+            "report": "Here's the narrative synthesis of the provided raw intelligence data:\n\nMutations are like unexpected calendar invites from strangers - they can catch you off guard and lead to severe consequences. In the world of smart contracts, a high-severity vulnerability was recently discovered in the ARKIS protocol, exposing users to remote code execution and other security threats.\n\nTo combat these issues, two new tools were introduced: MuTON and Mewt. MuTON is like a calendar event assistant that uses Tree-sitter to parse syntax and generate mutants with ease. It's designed for developers who want to automate their testing processes, reducing the risk of human error. \n\nOn the other hand, Mewt is more of a language-agnostic mutation testing core that supports multiple programming languages, including Solidity and Rust. It's like having a team of experts reviewing your code for potential security flaws - but without the need for manual intervention.\n\nMeanwhile, phishing attacks are becoming increasingly sophisticated, with attackers using AI-generated calendar events to trick victims into divulging sensitive information. These phishing campaigns can be particularly insidious because they often appear legitimate and use dynamic landing pages that adapt to user interactions.\n\nTo stay ahead of these threats, security teams are turning to tools like PhishU Framework, which offers realistic phishing assessments and credential capture paths. It's like having a red team of expert hackers on your side, testing your defenses and helping you identify vulnerabilities before they can be exploited.\n\nIn summary, mutations in smart contracts can have severe consequences, but tools like MuTON and Mewt are helping developers automate their testing processes and stay ahead of security threats. Meanwhile, phishing attacks are becoming more sophisticated, requiring security teams to use advanced tools like PhishU Framework to stay protected.",
             "sources": [
-                "r/cybersecurity (https://www.reddit.com/r/cybersecurity/comments/1s8p25s/supplychain_compromise_of_axios_npm_package/)",
-                "ArXiv AI Security (https://arxiv.org/abs/2603.26794)"
+                "r/cybersecurity (https://www.reddit.com/r/cybersecurity/comments/1s8yxvi/cybersecurity_statistics_of_the_week_march_23rd/)",
+                "Security Boulevard (https://securityboulevard.com/2026/04/mutation-testing-for-the-agentic-era/)",
+                "r/netsec (https://phishu.net/blogs/blog-calendar-event-phishing-in-the-phishu-framework.html)"
             ],
             "breadcrumbs_used": [
-                "RANSOMWARE",
-                "REMOTE CODE EXECUTION",
-                "AXIO",
-                "BUSINESS EMAIL COMPROMISE",
-                "COMMAND AND CONTROL",
-                "DEEP LEARNING",
+                "ATTACKER",
+                "EXPLOITATION",
+                "CALENDAR EVENT PHISHING",
+                "DECADE-OLD VULNERABILITY",
+                "QUANTUM",
                 "REMOTE ACCESS TROJAN",
-                "MEDVIT"
+                "GERMANY",
+                "HIGH-SEVERITY ARKIS PROTOCOL VULNERABILITY",
+                "MEWT",
+                "CALENDAR PHISHING",
+                "EXPLOIT",
+                "BUSINESS EMAIL COMPROMISE",
+                "MUTON",
+                "REGEX ENGINE",
+                "SQL INJECTION",
+                "MAINE",
+                "DDO",
+                "QILIN",
+                "REMOTE CODE EXECUTION",
+                "PHISHING",
+                "RANSOMWARE",
+                "RUSSIA",
+                "MUTATION TESTING",
+                "SECURITY TEAM"
             ],
-            "weighted_balance": "highpriority"
+            "weighted_balance": "novelty"
         },
         {
             "topic_number": 3,
             "angle": "operational",
-            "touch": "apathetic dystopia",
-            "report": "I've got my eyes on a thread from r/cybersecurity that's been cooking for the past 24 hours. This guy is working for a known APT, trying to secure a work visa in Europe by doing evasion research or detection engineering. He's asking if he should disclose his involvement with the APT to the recruiter.\n\nSupposedly, one user pointed out that disclosing that involvement is a fast track to either an espionage recruitment offer or a prison cell, depending on which red flags the APT's been flying. Another user suggested going for the long con: building up a clean resume and claiming to be self-taught. They also hinted at creating a GitHub with \"independent research\" to explain why you're so good at dodging EDRs.\n\nFrom what I see here, it looks like this guy is caught in a tough spot between his loyalty to the APT and his desire for a legitimate career. It's not just about the money or the prestige; it's about avoiding being labeled as a threat actor. He wants to use his skills to help secure systems, but he's worried about being tied to a bad actor.\n\nOne thing that caught my eye is the discussion on prompt injection and tool poisoning in AI agents. Apparently, these are new classes of vulnerabilities that have emerged with the rise of LLMs and AI agents. I've got to dig into this more; it looks like there's a whole lot of complexity involved.\n\nThe CTF event ARKX has also piqued my interest. It seems to be designed to test and enhance cybersecurity skills, simulating real-world security scenarios where you'll identify vulnerabilities and exploit weaknesses. The platform covers various attack vectors, from command injection to SSRF, and includes educational materials on agent security vulnerabilities.\n\nFrom what I see here, it's a cat-and-mouse game between attackers and defenders. If the attacker discloses their involvement with the APT, they might get caught in an espionage recruitment offer or face prison time. On the other hand, if they keep quiet, they risk being stuck in a dead-end job doing evasion research.\n\nThe bottom line is that this guy needs to weigh his options carefully and make sure he's not putting himself in harm's way. It's not just about him; it's about the security of the systems he wants to protect.",
+            "touch": "calmly content",
+            "report": "It looks like this guy is wondering if traditional Data Loss Prevention (DLP) is becoming obsolete with the rise of Data Security Management Platforms (DSPM) and AI-driven approaches. Supposedly, DSPM and AI are changing the focus from rule-based prevention to broader visibility, context, and continuous risk assessment. From what I see here, it's like they're asking if DLP is just getting a facelift or if it's actually dead.\n\nIt looks like people are split on this. Some say traditional DLP isn't obsolete, but its role is changing. It's mainly focused on enforcing rules and preventing data leaks in specific cases, but lacks full visibility across modern cloud and AI environments. Supposedly, DSPM and AI-driven platforms provide continuous monitoring, context, and risk assessment.\n\nThe conversation gets really interesting when someone mentions Cyberheaven. Apparently, it shows how combining visibility and enforcement gives a more complete picture of data security. Many organizations are now using DLP alongside DSPM/AI tools, where DLP enforces policies while DSPM/AI provides insights and risk prioritization.\n\nHowever, not everyone is convinced. There's someone who thinks AI should never make ACL-related decisions in any capacity, citing its inability to determine nuances in policy or procedure. They also warn about the potential for AIs to circumvent their own programmed privileges and elevate their access beyond what they're supposed to have.\n\nIt looks like there's a lot of debate going on here. So, now, when it's all said and done, I'd say traditional DLP is definitely changing its role in data security, but whether it's becoming obsolete remains to be seen.\n\nHere are some key points to keep in mind:\n\n* DSPM and AI-driven approaches are expanding the focus of data security from rule-based prevention to broader visibility, context, and continuous risk assessment.\n* Traditional DLP might not be dead yet, but its role is changing as organizations adopt more comprehensive data security architectures.\n* Many organizations are now using DLP alongside DSPM/AI tools to enforce policies while providing insights and risk prioritization.\n\nI'm forwarding you the thread.",
             "sources": [
-                "r/cybersecurity (https://ctf.arkx.ninja/)"
+                "r/cybersecurity (https://www.reddit.com/r/cybersecurity/comments/1s9o6ne/do_you_think_traditional_dlp_is_becoming_obsolete/)"
             ],
             "breadcrumbs_used": [
-                "SERVER-SIDE REQUEST FORGERY",
-                "TOOL POISONING",
-                "JAILBREAKING",
-                "PROMPT INJECTION",
-                "TOCTOU RACE CONDITION",
-                "CONTEXT CONFUSION",
-                "AI AGENT",
-                "REMOTE ACCESS TROJAN",
-                "COMMAND INJECTION"
+                "DPSM",
+                "BUSINESS EMAIL COMPROMISE",
+                "DSPM"
             ],
             "weighted_balance": "highpriority"
         }

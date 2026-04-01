@@ -344,5 +344,65 @@
                 "Free AI agent security CTF: 26 challenges, live scoreboard, mitigation walkthroughs included"
             ]
         }
+    },
+    {
+        "report_date": "2026-04-01T12:34:26.265877",
+        "report_truncated": {
+            "threat_intelligence": [
+                "Applying security fundamentals to AI: Practical advice for CISOs",
+                "WhatsApp malware campaign delivers VBScript and MSI backdoors",
+                "Weaponizing the Protectors: TeamPCP\u2019s Multi-Stage Supply Chain Attack on Security Infrastructure"
+            ],
+            "general_news": [
+                "F5 BIG-IP Vulnerability Reclassified as RCE, Under Exploitation",
+                "I wore Meta\u2019s smartglasses for a month \u2013 and it left me feeling like a creep",
+                "US tech firm Oracle cuts thousands of jobs as it steps up AI spending"
+            ],
+            "org_pages": [
+                "Accelerating the next phase of AI",
+                "How AI Is Ushering in the Next Era of Risk Review at Meta",
+                "Gradient Labs gives every bank customer an AI account manager"
+            ],
+            "academic_research": [
+                "CRAFT: Cost-aware Expert Replica Allocation with Fine-Grained Layerwise Estimations",
+                "Schr\\\"odinger's Seed: Purr-fect Initialization for an Impurr-fect Universe",
+                "Spark-LLM-Eval: A Distributed Framework for Statistically Rigorous Large Language Model Evaluation"
+            ],
+            "community_pulse": [
+                "Detect Axious and LiteLLM compromise and future compromises -- OreNPMGuard to Opensource OreWatch: Continuous monitoring for malicious packages using Threat Intelligence",
+                "Cybersecurity statistics of the week (March 23rd - March 29th)",
+                "Do you think traditional DLP is becoming obsolete with the rise of DSPM and AI driven data security?"
+            ]
+        }
+    },
+    {
+        "report_date": "2026-04-01T13:15:23.904067",
+        "report_truncated": {
+            "threat_intelligence": [
+                "Applying security fundamentals to AI: Practical advice for CISOs",
+                "WhatsApp malware campaign delivers VBScript and MSI backdoors",
+                "Weaponizing the Protectors: TeamPCP\u2019s Multi-Stage Supply Chain Attack on Security Infrastructure"
+            ],
+            "general_news": [
+                "F5 BIG-IP Vulnerability Reclassified as RCE, Under Exploitation",
+                "I wore Meta\u2019s smartglasses for a month \u2013 and it left me feeling like a creep",
+                "US tech firm Oracle cuts thousands of jobs as it steps up AI spending"
+            ],
+            "org_pages": [
+                "Accelerating the next phase of AI",
+                "How AI Is Ushering in the Next Era of Risk Review at Meta",
+                "Gradient Labs gives every bank customer an AI account manager"
+            ],
+            "academic_research": [
+                "CRAFT: Cost-aware Expert Replica Allocation with Fine-Grained Layerwise Estimations",
+                "Schr\\\"odinger's Seed: Purr-fect Initialization for an Impurr-fect Universe",
+                "Spark-LLM-Eval: A Distributed Framework for Statistically Rigorous Large Language Model Evaluation"
+            ],
+            "community_pulse": [
+                "Detect Axious and LiteLLM compromise and future compromises -- OreNPMGuard to Opensource OreWatch: Continuous monitoring for malicious packages using Threat Intelligence",
+                "Cybersecurity statistics of the week (March 23rd - March 29th)",
+                "Do you think traditional DLP is becoming obsolete with the rise of DSPM and AI driven data security?"
+            ]
+        }
     }
 ]

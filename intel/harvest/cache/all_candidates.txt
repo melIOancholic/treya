@@ -1,603 +1,603 @@
 === ALGORITHM SELECTION EVALUATION ===
-Generated: 2026-03-31 10:57:43
+Generated: 2026-04-01 12:30:41
 
-1. CISA Adds One Known Exploited Vulnerability to Catalog
-   Category: threat_intelligence | Source: CISA Alerts
-   Score:    34
-   Math:     +9 (EPSS: 0.36745), +25 (Surge: 1150.0%)
-   Link:     https://www.cisa.gov/news-events/alerts/2026/03/30/cisa-adds-one-known-exploited-vulnerability-catalog
-
-2. F5 BIG-IP Vulnerability Reclassified as RCE, Under Exploitation
+1. F5 BIG-IP Vulnerability Reclassified as RCE, Under Exploitation
    Category: general_news | Source: Dark Reading
-   Score:    29
-   Math:     +4 (EPSS: 0.19916), +25 (Surge: 600.0%)
-   Link:     https://www.darkreading.com/application-security/fortinet-big-ip-vulnerability-reclassified-rce-exploitation
+   Score:    35
+   Math:     +10 (EPSS: 0.41408), +25 (Surge: 750.0%)
+   Link:     https://www.darkreading.com/application-security/f5-big-ip-vulnerability-reclassified-rce-exploitation
 
-3. Double Agents: Exposing Security Blind Spots in GCP Vertex AI
+2. Applying security fundamentals to AI: Practical advice for CISOs
+   Category: threat_intelligence | Source: Microsoft Security
+   Score:    25
+   Math:     +25 (Surge: 300.0%)
+   Link:     https://www.microsoft.com/en-us/security/blog/2026/03/31/applying-security-fundamentals-to-ai-practical-advice-for-cisos/
+
+3. WhatsApp malware campaign delivers VBScript and MSI backdoors
+   Category: threat_intelligence | Source: Microsoft Security
+   Score:    25
+   Math:     +25 (Surge: 300.0%)
+   Link:     https://www.microsoft.com/en-us/security/blog/2026/03/31/whatsapp-malware-campaign-delivers-vbs-payloads-msi-backdoors/
+
+4. Weaponizing the Protectors: TeamPCP’s Multi-Stage Supply Chain Attack on Security Infrastructure
    Category: threat_intelligence | Source: Unit 42 (Palo Alto)
    Score:    25
-   Math:     +25 (Surge: 1150.0%)
+   Math:     +25 (Surge: 350.0%)
+   Link:     https://unit42.paloaltonetworks.com/teampcp-supply-chain-attacks/
+
+5. Double Agents: Exposing Security Blind Spots in GCP Vertex AI
+   Category: threat_intelligence | Source: Unit 42 (Palo Alto)
+   Score:    25
+   Math:     +25 (Surge: 1250.0%)
    Link:     https://unit42.paloaltonetworks.com/double-agents-vertex-ai/
 
-4. ZDI-26-249: NoMachine Uncontrolled Search Path Element Local Privilege Escalation Vulnerability
+6. Iran-linked Cyber Attacks
+   Category: threat_intelligence | Source: FortiGuard Center (Outbreak Alerts)
+   Score:    25
+   Math:     +25 (Surge: 350.0%)
+   Link:     https://fortiguard.fortinet.com/outbreak-alert/iran-linked-cyber-attacks
+
+7. Anritsu Remote Spectrum Monitor
+   Category: threat_intelligence | Source: CISA Alerts
+   Score:    25
+   Math:     +25 (Surge: 350.0%)
+   Link:     https://www.cisa.gov/news-events/ics-advisories/icsa-26-090-01
+
+8. PX4 Autopilot
+   Category: threat_intelligence | Source: CISA Alerts
+   Score:    25
+   Math:     +25 (Surge: 350.0%)
+   Link:     https://www.cisa.gov/news-events/ics-advisories/icsa-26-090-02
+
+9. ZDI-26-250: Linux Kernel Analog Device Driver Improper Validation of Array Index Local Privilege Escalation Vulnerability
    Category: threat_intelligence | Source: Zero Day Initiative
    Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     http://www.zerodayinitiative.com/advisories/ZDI-26-249/
+   Math:     +0 (EPSS: 0.00017), +25 (Surge: 1250.0%)
+   Link:     http://www.zerodayinitiative.com/advisories/ZDI-26-250/
 
-5. ZDI-26-248: NoMachine External Control of File Path Local Privilege Escalation Vulnerability
-   Category: threat_intelligence | Source: Zero Day Initiative
+10. North Korea-Nexus Threat Actor Compromises Widely Used Axios NPM Package in Supply Chain Attack
+   Category: threat_intelligence | Source: Mandiant (Google)
    Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     http://www.zerodayinitiative.com/advisories/ZDI-26-248/
+   Math:     +25 (Surge: 750.0%)
+   Link:     https://cloud.google.com/blog/topics/threat-intelligence/north-korea-threat-actor-targets-axios-npm-package/
 
-6. ZDI-26-247: NoMachine External Control of File Path Arbitrary File Deletion Vulnerability
-   Category: threat_intelligence | Source: Zero Day Initiative
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     http://www.zerodayinitiative.com/advisories/ZDI-26-247/
-
-7. ZDI-26-246: (0Day) aws-mcp-server Command Injection Remote Code Execution Vulnerability
-   Category: threat_intelligence | Source: Zero Day Initiative
-   Score:    25
-   Math:     +25 (Surge: 600.0%)
-   Link:     http://www.zerodayinitiative.com/advisories/ZDI-26-246/
-
-8. ZDI-26-245: (0Day) aws-mcp-server AWS CLI Command Injection Remote Code Execution Vulnerability
-   Category: threat_intelligence | Source: Zero Day Initiative
-   Score:    25
-   Math:     +25 (Surge: 600.0%)
-   Link:     http://www.zerodayinitiative.com/advisories/ZDI-26-245/
-
-9. ZDI-26-244: (Pwn2Own) QNAP QHora-322 miro_webserver_controllers_api_login_singIn Authentication Bypass Vulnerability
-   Category: threat_intelligence | Source: Zero Day Initiative
-   Score:    25
-   Math:     +0 (EPSS: 0.00028), +25 (Surge: 1150.0%)
-   Link:     http://www.zerodayinitiative.com/advisories/ZDI-26-244/
-
-10. ZDI-26-243: (Pwn2Own) QNAP TS-453E write_file_to_svr External Control of File Path Remote Code Execution Vulnerability
-   Category: threat_intelligence | Source: Zero Day Initiative
-   Score:    25
-   Math:     +0 (EPSS: 0.00019), +25 (Surge: 600.0%)
-   Link:     http://www.zerodayinitiative.com/advisories/ZDI-26-243/
-
-11. ZDI-26-242: (Pwn2Own) QNAP TS-453E server_handlers.pyc rr2s.kwargs Error Message Information Disclosure Vulnerability
-   Category: threat_intelligence | Source: Zero Day Initiative
-   Score:    25
-   Math:     +0 (EPSS: 0.00018), +25 (Surge: 1150.0%)
-   Link:     http://www.zerodayinitiative.com/advisories/ZDI-26-242/
-
-12. ZDI-26-241: (Pwn2Own) QNAP QHora-322 qvpn_db_mgr username SQL Injection Remote Code Execution Vulnerability
-   Category: threat_intelligence | Source: Zero Day Initiative
-   Score:    25
-   Math:     +0 (EPSS: 0.00022), +25 (Surge: 600.0%)
-   Link:     http://www.zerodayinitiative.com/advisories/ZDI-26-241/
-
-13. ZDI-26-240: (Pwn2Own) QNAP QHora-322 qvpn_db_mgr role_type Improper Neutralization of Escape Sequences Authentication Bypass Vulnerability
-   Category: threat_intelligence | Source: Zero Day Initiative
-   Score:    25
-   Math:     +0 (EPSS: 0.00017), +25 (Surge: 1150.0%)
-   Link:     http://www.zerodayinitiative.com/advisories/ZDI-26-240/
-
-14. ZDI-26-239: (Pwn2Own) QNAP QHora-322 login.newAuthMiddleware.Authenticator Authentication Bypass Vulnerability
-   Category: threat_intelligence | Source: Zero Day Initiative
-   Score:    25
-   Math:     +0 (EPSS: 0.00026), +25 (Surge: 1150.0%)
-   Link:     http://www.zerodayinitiative.com/advisories/ZDI-26-239/
-
-15. ZDI-26-238: Linux Kernel AoE Driver Use-After-Free Local Privilege Escalation Vulnerability
-   Category: threat_intelligence | Source: Zero Day Initiative
-   Score:    25
-   Math:     +0 (EPSS: 0.00023), +25 (Surge: 1150.0%)
-   Link:     http://www.zerodayinitiative.com/advisories/ZDI-26-238/
-
-16. ZDI-26-237: (Pwn2Own) QNAP QHora-322  ip6_wanifset Improper Restriction of Communication Channel to Intended Endpoints Firewall Bypass Vulnerability
-   Category: threat_intelligence | Source: Zero Day Initiative
-   Score:    25
-   Math:     +0 (EPSS: 0.00023), +25 (Surge: 1150.0%)
-   Link:     http://www.zerodayinitiative.com/advisories/ZDI-26-237/
-
-17. ZDI-26-236: Digilent DASYLab DSB File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability
-   Category: threat_intelligence | Source: Zero Day Initiative
-   Score:    25
-   Math:     +0 (EPSS: 0.0002), +25 (Surge: 600.0%)
-   Link:     http://www.zerodayinitiative.com/advisories/ZDI-26-236/
-
-18. ZDI-26-235: Digilent DASYLab DSA File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability
-   Category: threat_intelligence | Source: Zero Day Initiative
-   Score:    25
-   Math:     +0 (EPSS: 0.0002), +25 (Surge: 600.0%)
-   Link:     http://www.zerodayinitiative.com/advisories/ZDI-26-235/
-
-19. ZDI-26-234: Digilent DASYLab DSA File Parsing Out-Of-Bounds Read Remote Code Execution Vulnerability
-   Category: threat_intelligence | Source: Zero Day Initiative
-   Score:    25
-   Math:     +0 (EPSS: 0.00016), +25 (Surge: 600.0%)
-   Link:     http://www.zerodayinitiative.com/advisories/ZDI-26-234/
-
-20. ZDI-26-233: Digilent DASYLab DSA File Parsing Out-Of-Bounds Read Remote Code Execution Vulnerability
-   Category: threat_intelligence | Source: Zero Day Initiative
-   Score:    25
-   Math:     +0 (EPSS: 0.00016), +25 (Surge: 600.0%)
-   Link:     http://www.zerodayinitiative.com/advisories/ZDI-26-233/
-
-21. ZDI-26-232: (Pwn2Own) Red Hat Enterprise Linux vmwgfx Driver Integer Overflow Local Privilege Escalation Vulnerability
-   Category: threat_intelligence | Source: Zero Day Initiative
-   Score:    25
-   Math:     +0 (EPSS: 0.00053), +25 (Surge: 1150.0%)
-   Link:     http://www.zerodayinitiative.com/advisories/ZDI-26-232/
-
-22. ZDI-26-231: Apple macOS Exposure of Sensitive Information to Unauthorized Sphere Information Disclosure Vulnerability
-   Category: threat_intelligence | Source: Zero Day Initiative
-   Score:    25
-   Math:     +0 (EPSS: 0.00013), +25 (Surge: 1150.0%)
-   Link:     http://www.zerodayinitiative.com/advisories/ZDI-26-231/
-
-23. ZDI-26-230: Apple macOS CoreMedia Framework Out-Of-Bounds Write Remote Code Execution Vulnerability
-   Category: threat_intelligence | Source: Zero Day Initiative
-   Score:    25
-   Math:     +0 (EPSS: 0.0004), +25 (Surge: 600.0%)
-   Link:     http://www.zerodayinitiative.com/advisories/ZDI-26-230/
-
-24. ZDI-26-229: OpenClaw Client PKCE Verifier Information Disclosure Vulnerability
-   Category: threat_intelligence | Source: Zero Day Initiative
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     http://www.zerodayinitiative.com/advisories/ZDI-26-229/
-
-25. ZDI-26-228: OpenClaw Canvas Authentication Bypass Vulnerability
-   Category: threat_intelligence | Source: Zero Day Initiative
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     http://www.zerodayinitiative.com/advisories/ZDI-26-228/
-
-26. ZDI-26-227: OpenClaw Canvas Path Traversal Information Disclosure Vulnerability
-   Category: threat_intelligence | Source: Zero Day Initiative
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     http://www.zerodayinitiative.com/advisories/ZDI-26-227/
-
-27. Researchers say credential-stealing campaign used AI to build evasion ‘at every stage’
+11. White House executive order purports to limit mail-in voting, mandate federal voter lists
    Category: threat_intelligence | Source: Cyberscoop
    Score:    25
-   Math:     +25 (Surge: 1150.0%)
+   Math:     +25 (Surge: 1250.0%)
+   Link:     https://cyberscoop.com/white-house-elections-executive-order-limits-mail-voting-creates-federal-voter-lists/
+
+12. Attack on axios software developer tool threatens widespread compromises
+   Category: threat_intelligence | Source: Cyberscoop
+   Score:    25
+   Math:     +25 (Surge: 750.0%)
+   Link:     https://cyberscoop.com/axios-software-developer-tool-attack-compromise/
+
+13. Researchers say credential-stealing campaign used AI to build evasion ‘at every stage’
+   Category: threat_intelligence | Source: Cyberscoop
+   Score:    25
+   Math:     +25 (Surge: 1250.0%)
    Link:     https://cyberscoop.com/deepload-ai-malware-obfuscation-at-every-stage-reliaquest/
 
-28. Palantir’s UK boss criticises ‘ideological’ groups as ministers move to scrap NHS contract
+14. I wore Meta’s smartglasses for a month – and it left me feeling like a creep
    Category: general_news | Source: The Guardian (Technology)
    Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://www.theguardian.com/technology/2026/mar/31/palantir-uk-boss-louis-mosley-ministers-nhs-contract
+   Math:     +25 (Surge: 1250.0%)
+   Link:     https://www.theguardian.com/technology/2026/apr/01/i-wore-metas-smartglasses-for-a-month-and-it-left-me-feeling-like-a-creep
 
-29. If OpenAI is to float on the stock market this year, it needs to start turning a profit
+15. US tech firm Oracle cuts thousands of jobs as it steps up AI spending
    Category: general_news | Source: The Guardian (Technology)
    Score:    25
-   Math:     +25 (Surge: 1150.0%)
+   Math:     +25 (Surge: 750.0%)
+   Link:     https://www.theguardian.com/technology/2026/apr/01/us-tech-firm-oracle-cuts-thousands-of-jobs-as-it-steps-up-ai-spending-larry-ellison
+
+16. Penguin to sue OpenAI over ChatGPT version of German children’s book
+   Category: general_news | Source: The Guardian (Technology)
+   Score:    25
+   Math:     +25 (Surge: 1250.0%)
+   Link:     https://www.theguardian.com/technology/2026/mar/31/penguin-sue-openai-chatgpt-german-childrens-book-kokosnuss
+
+17. The jobs AI can’t do – and the young adults doing them
+   Category: general_news | Source: The Guardian (Technology)
+   Score:    25
+   Math:     +25 (Surge: 750.0%)
+   Link:     https://www.theguardian.com/technology/2026/mar/31/jobs-ai-cant-do-young-adults
+
+18. OpenAI, parent firm of ChatGPT, closes $122bn funding round amid AI boom
+   Category: general_news | Source: The Guardian (Technology)
+   Score:    25
+   Math:     +25 (Surge: 1250.0%)
+   Link:     https://www.theguardian.com/technology/2026/mar/31/openai-raises-122-billion-ai-boom
+
+19. Revealed: the vast illegal casino network targeting UK gamblers
+   Category: general_news | Source: The Guardian (Technology)
+   Score:    25
+   Math:     +25 (Surge: 1250.0%)
+   Link:     https://www.theguardian.com/society/2026/apr/01/the-vast-casino-network-targeting-uk-gamblers
+
+20. If OpenAI is to float on the stock market this year, it needs to start turning a profit
+   Category: general_news | Source: The Guardian (Technology)
+   Score:    25
+   Math:     +25 (Surge: 1250.0%)
    Link:     https://www.theguardian.com/technology/2026/mar/31/openai-stock-market-flotation-profit
 
-30. California to impose new AI regulations in defiance of Trump call
+21. Pixels and paintings: video games return to the V&A
    Category: general_news | Source: The Guardian (Technology)
    Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://www.theguardian.com/us-news/2026/mar/30/california-ai-regulations-trump
+   Math:     +25 (Surge: 1250.0%)
+   Link:     https://www.theguardian.com/games/2026/apr/01/pixels-and-paintings-video-games-return-to-the-va
 
-31. Phishing-as-a-Service Drives Rise in Fake Delivery Scams in MEA
+22. Including online games in social media bans is unworkable, unnecessary and would harm young people
+   Category: general_news | Source: The Guardian (Technology)
+   Score:    25
+   Math:     +25 (Surge: 300.0%)
+   Link:     https://www.theguardian.com/commentisfree/2026/mar/31/to-include-online-games-in-social-media-bans-is-unworkable-unnecessary-and-would-harm-young-people
+
+23. BeyondTrust Launches First Unified Privileged Identity Solution
    Category: general_news | Source: Security Review Magazine
    Score:    25
-   Math:     +25 (Surge: 600.0%)
-   Link:     https://securityreviewmag.com/?p=29719
+   Math:     +25 (Surge: 1250.0%)
+   Link:     https://securityreviewmag.com/?p=29733
 
-32. European defense startups eye commercial deals and hiring push in the Middle East amid the Iran war
+24. Nine in Ten Organizations Press Security Teams to Ease Identity Restrictions for AI
+   Category: general_news | Source: Security Review Magazine
+   Score:    25
+   Math:     +25 (Surge: 300.0%)
+   Link:     https://securityreviewmag.com/?p=29730
+
+25. Tenable Launches Hexa AI For Faster Risk Reduction
+   Category: general_news | Source: Security Review Magazine
+   Score:    25
+   Math:     +25 (Surge: 1250.0%)
+   Link:     https://securityreviewmag.com/?p=29726
+
+26. Sen. Warren slams Trump administration for pressuring EU to relax tech regulations
    Category: general_news | Source: CNBC
    Score:    25
-   Math:     +25 (Surge: 250.0%)
+   Math:     +25 (Surge: 1250.0%)
+   Link:     https://www.cnbc.com/2026/04/01/warren-slams-trump-admin-for-pressuring-eu-to-relax-tech-regulations.html
+
+27. Iran threatens Nvidia, Apple and other tech giants with attacks
+   Category: general_news | Source: CNBC
+   Score:    25
+   Math:     +25 (Surge: 1250.0%)
+   Link:     https://www.cnbc.com/2026/04/01/iran-irgc-nvidia-appple-attack-threat.html
+
+28. Baidu robotaxis reportedly halted mid-traffic causing crashes in Wuhan, China
+   Category: general_news | Source: CNBC
+   Score:    25
+   Math:     +25 (Surge: 300.0%)
+   Link:     https://www.cnbc.com/2026/04/01/baidu-robotaxis-caused-crashes-in-wuhan-reports.html
+
+29. Shares of China AI 'tiger' Zhipu surge 35% after revenue doubles in first earnings report
+   Category: general_news | Source: CNBC
+   Score:    25
+   Math:     +25 (Surge: 300.0%)
+   Link:     https://www.cnbc.com/2026/04/01/china-ai-tiger-zhipu-shares-surge-revenue-growth-first-earnings-report.html
+
+30. Anthropic leaks part of Claude Code's internal source code
+   Category: general_news | Source: CNBC
+   Score:    25
+   Math:     +25 (Surge: 750.0%)
+   Link:     https://www.cnbc.com/2026/03/31/anthropic-leak-claude-code-internal-source.html
+
+31. Column: Apple's crackdown on AI apps puts it on the wrong side of history
+   Category: general_news | Source: CNBC
+   Score:    25
+   Math:     +25 (Surge: 300.0%)
+   Link:     https://www.cnbc.com/2026/03/31/column-apples-crackdown-on-ai-apps-puts-it-wrong-side-of-history.html
+
+32. Snap climbs 14% as activist Irenic suggests changes to boost stock's value 7x
+   Category: general_news | Source: CNBC
+   Score:    25
+   Math:     +25 (Surge: 750.0%)
+   Link:     https://www.cnbc.com/2026/03/31/snap-stock-activist-irenic-value.html
+
+33. Oracle cutting thousands in latest layoff round as company continues to ramp AI spending
+   Category: general_news | Source: CNBC
+   Score:    25
+   Math:     +25 (Surge: 1250.0%)
+   Link:     https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html
+
+34. European defense startups eye commercial deals and hiring push in the Middle East amid the Iran war
+   Category: general_news | Source: CNBC
+   Score:    25
+   Math:     +25 (Surge: 400.0%)
    Link:     https://www.cnbc.com/2026/03/31/european-defense-tech-startups-iran-war-gulf-states.html
 
-33. Micron stock sinks 10%, further cratering in post-earnings sell-off
+35. Micron stock sinks 10%, further cratering in post-earnings sell-off
    Category: general_news | Source: CNBC
    Score:    25
-   Math:     +25 (Surge: 1150.0%)
+   Math:     +25 (Surge: 1250.0%)
    Link:     https://www.cnbc.com/2026/03/30/micron-stock-earnings-sell-off-memory-shortage.html
 
-34. The Iran war is defense tech's chance to shine, but few systems and weapons are ready
-   Category: general_news | Source: CNBC
-   Score:    25
-   Math:     +25 (Surge: 250.0%)
-   Link:     https://www.cnbc.com/2026/03/28/iran-war-defense-tech-drones-trump-hegseth.html
-
-35. Beijing's surprise intervention on Meta's Manus rattles tech founders, VCs eyeing 'China shedding'
-   Category: general_news | Source: CNBC
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://www.cnbc.com/2026/03/27/meta-manus-china-review-singapore-washing-model-regulation-.html
-
-36. Hackers compromise Axios npm package to drop cross-platform malware
+36. Routine Access Is Powering Modern Intrusions, a New Threat Report Finds
    Category: general_news | Source: BleepingComputer
    Score:    25
-   Math:     +25 (Surge: 1150.0%)
+   Math:     +25 (Surge: 200.0%)
+   Link:     https://www.bleepingcomputer.com/news/security/routine-access-is-powering-modern-intrusions-a-new-threat-report-finds/
+
+37. Google Drive ransomware detection now on by default for paying users
+   Category: general_news | Source: BleepingComputer
+   Score:    25
+   Math:     +25 (Surge: 350.0%)
+   Link:     https://www.bleepingcomputer.com/news/security/google-drive-ransomware-detection-now-on-by-default-for-paying-users/
+
+38. Claude Code source code accidentally leaked in NPM package
+   Category: general_news | Source: BleepingComputer
+   Score:    25
+   Math:     +25 (Surge: 750.0%)
+   Link:     https://www.bleepingcomputer.com/news/artificial-intelligence/claude-code-source-code-accidentally-leaked-in-npm-package/
+
+39. Claude AI finds Vim, Emacs RCE bugs that trigger on file open
+   Category: general_news | Source: BleepingComputer
+   Score:    25
+   Math:     +25 (Surge: 750.0%)
+   Link:     https://www.bleepingcomputer.com/news/security/claude-ai-finds-vim-emacs-rce-bugs-that-trigger-on-file-open/
+
+40. Cisco source code stolen in Trivy-linked dev environment breach
+   Category: general_news | Source: BleepingComputer
+   Score:    25
+   Math:     +25 (Surge: 750.0%)
+   Link:     https://www.bleepingcomputer.com/news/security/cisco-source-code-stolen-in-trivy-linked-dev-environment-breach/
+
+41. Hackers compromise Axios npm package to drop cross-platform malware
+   Category: general_news | Source: BleepingComputer
+   Score:    25
+   Math:     +25 (Surge: 1250.0%)
    Link:     https://www.bleepingcomputer.com/news/security/hackers-compromise-axios-npm-package-to-drop-cross-platform-malware/
 
-37. Dutch Finance Ministry takes treasury banking portal offline after breach
-   Category: general_news | Source: BleepingComputer
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://www.bleepingcomputer.com/news/security/dutch-finance-ministry-takes-treasury-banking-portal-offline-after-breach/
-
-38. How to Evaluate AI SOC Agents: 7 Questions Gartner Says You Should Be Asking
-   Category: general_news | Source: BleepingComputer
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://www.bleepingcomputer.com/news/security/how-to-evaluate-ai-soc-agents-7-questions-gartner-says-you-should-be-asking/
-
-39. Hackers exploiting critical F5 BIG-IP flaw in attacks, patch now
-   Category: general_news | Source: BleepingComputer
-   Score:    25
-   Math:     +25 (Surge: 600.0%)
-   Link:     https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-f5-big-ip-flaw-in-attacks-patch-now/
-
-40. Critical Fortinet Forticlient EMS flaw now exploited in attacks
-   Category: general_news | Source: BleepingComputer
-   Score:    25
-   Math:     +25 (Surge: 250.0%)
-   Link:     https://www.bleepingcomputer.com/news/security/critical-fortinet-forticlient-ems-flaw-now-exploited-in-attacks/
-
-41. European Commission confirms data breach after Europa.eu hack
-   Category: general_news | Source: BleepingComputer
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-breach-after-europaeu-hack/
-
-42. AI-Powered 'DeepLoad' Malware Steals Credentials, Evades Detection
+42. Venom Stealer MaaS Platform Commoditizes ClickFix Attacks
    Category: general_news | Source: Dark Reading
    Score:    25
-   Math:     +25 (Surge: 1150.0%)
+   Math:     +25 (Surge: 200.0%)
+   Link:     https://www.darkreading.com/endpoint-security/venom-stealer-maas-commoditizes-clickfix-attacks
+
+43. Are We Training AI Too Late?
+   Category: general_news | Source: Dark Reading
+   Score:    25
+   Math:     +25 (Surge: 750.0%)
+   Link:     https://www.darkreading.com/cybersecurity-analytics/are-we-training-ai-too-late
+
+44. Axios NPM Package Compromised in Precision Attack
+   Category: general_news | Source: Dark Reading
+   Score:    25
+   Math:     +25 (Surge: 229.41%)
+   Link:     https://www.darkreading.com/application-security/axios-npm-package-compromised-precision-attack
+
+45. Iran Deploys 'Pseudo-Ransomware,' Revives Pay2Key Operations
+   Category: general_news | Source: Dark Reading
+   Score:    25
+   Math:     +25 (Surge: 350.0%)
+   Link:     https://www.darkreading.com/threat-intelligence/iran-pseudo-ransomware-pay2key-operations
+
+46. AI-Powered 'DeepLoad' Malware Steals Credentials, Evades Detection
+   Category: general_news | Source: Dark Reading
+   Score:    25
+   Math:     +25 (Surge: 1250.0%)
    Link:     https://www.darkreading.com/cyberattacks-data-breaches/ai-powered-deepload-steals-credentials-evades-detection
 
-43. New criminal service plans to monetize data stolen by ransomware gangs
+47. Romania under daily barrage of cyberattacks, defense minister says
    Category: general_news | Source: The Record by Recorded Future
    Score:    25
-   Math:     +25 (Surge: 200.0%)
+   Math:     +25 (Surge: 1250.0%)
+   Link:     https://therecord.media/romania-cyberattacks-russia-defense-minister
+
+48. Google links axios supply chain attack to North Korean group
+   Category: general_news | Source: The Record by Recorded Future
+   Score:    25
+   Math:     +25 (Surge: 400.0%)
+   Link:     https://therecord.media/google-links-axios-supply-chain-attack-north-korea
+
+49. New criminal service plans to monetize data stolen by ransomware gangs
+   Category: general_news | Source: The Record by Recorded Future
+   Score:    25
+   Math:     +25 (Surge: 350.0%)
    Link:     https://therecord.media/new-criminal-service-plans-to-monetize-ransomware-data
 
-44. Pro-Russian hackers pose as Ukraine's cyber agency to target government, businesses
-   Category: general_news | Source: The Record by Recorded Future
+50. Casbaneiro Phishing Targets Latin America and Europe Using Dynamic PDF Lures
+   Category: general_news | Source: The Hacker News
    Score:    25
    Math:     +25 (Surge: 350.0%)
-   Link:     https://therecord.media/pro-russian-hackers-posing-as-ukrainian-cyber-agency
+   Link:     https://thehackernews.com/2026/04/casbaneiro-phishing-targets-latin.html
 
-45. European Commission downplays ShinyHunters cyberattack impact
-   Category: general_news | Source: The Record by Recorded Future
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://therecord.media/european-commission-downplays-shinyhunters-cyber-claim
-
-46. Vertex AI Vulnerability Exposes Google Cloud Data and Private Artifacts
+51. New Chrome Zero-Day CVE-2026-5281 Under Active Exploitation — Patch Released
    Category: general_news | Source: The Hacker News
    Score:    25
-   Math:     +25 (Surge: 250.0%)
-   Link:     https://thehackernews.com/2026/03/vertex-ai-vulnerability-exposes-google.html
+   Math:     +0 (EPSS: 0.00038), +25 (Surge: 750.0%)
+   Link:     https://thehackernews.com/2026/04/new-chrome-zero-day-cve-2026-5281-under.html
 
-47. The AI Arms Race – Why Unified Exposure Management Is Becoming a Boardroom Priority
+52. Google Attributes Axios npm Supply Chain Attack to North Korean Group UNC1069
    Category: general_news | Source: The Hacker News
    Score:    25
-   Math:     +25 (Surge: 182.35%)
+   Math:     +25 (Surge: 400.0%)
+   Link:     https://thehackernews.com/2026/04/google-attributes-axios-npm-supply.html
+
+53. Claude Code Source Leaked via npm Packaging Error, Anthropic Confirms
+   Category: general_news | Source: The Hacker News
+   Score:    25
+   Math:     +25 (Surge: 750.0%)
+   Link:     https://thehackernews.com/2026/04/claude-code-tleaked-via-npm-packaging.html
+
+54. Android Developer Verification Rollout Begins Ahead of September Enforcement
+   Category: general_news | Source: The Hacker News
+   Score:    25
+   Math:     +25 (Surge: 750.0%)
+   Link:     https://thehackernews.com/2026/03/android-developer-verification-rollout.html
+
+55. The AI Arms Race – Why Unified Exposure Management Is Becoming a Boardroom Priority
+   Category: general_news | Source: The Hacker News
+   Score:    25
+   Math:     +25 (Surge: 350.0%)
    Link:     https://thehackernews.com/2026/03/the-ai-arms-race-why-unified-exposure.html
 
-48. Silver Fox Expands Asia Cyber Campaign with AtlasCross RAT and Fake Domains
+56. Silver Fox Expands Asia Cyber Campaign with AtlasCross RAT and Fake Domains
    Category: general_news | Source: The Hacker News
    Score:    25
-   Math:     +25 (Surge: 600.0%)
+   Math:     +25 (Surge: 750.0%)
    Link:     https://thehackernews.com/2026/03/silver-fox-expands-asia-cyber-campaign.html
 
-49. Axios Supply Chain Attack Pushes Cross-Platform RAT via Compromised npm Account
+57. Axios Supply Chain Attack Pushes Cross-Platform RAT via Compromised npm Account
    Category: general_news | Source: The Hacker News
    Score:    25
-   Math:     +25 (Surge: 1150.0%)
+   Math:     +25 (Surge: 1250.0%)
    Link:     https://thehackernews.com/2026/03/axios-supply-chain-attack-pushes-cross.html
 
-50. OpenAI Patches ChatGPT Data Exfiltration Flaw and Codex GitHub Token Vulnerability
+58. OpenAI Patches ChatGPT Data Exfiltration Flaw and Codex GitHub Token Vulnerability
    Category: general_news | Source: The Hacker News
    Score:    25
-   Math:     +25 (Surge: 1150.0%)
+   Math:     +25 (Surge: 1250.0%)
    Link:     https://thehackernews.com/2026/03/openai-patches-chatgpt-data.html
 
-51. DeepLoad Malware Uses ClickFix and WMI Persistence to Steal Browser Credentials
-   Category: general_news | Source: The Hacker News
+59. Claude Code's Own Full Source Code Leaked
+   Category: general_news | Source: ExtremeTech
    Score:    25
-   Math:     +25 (Surge: 200.0%)
-   Link:     https://thehackernews.com/2026/03/deepload-malware-uses-clickfix-and-wmi.html
+   Math:     +25 (Surge: 750.0%)
+   Link:     https://www.extremetech.com/internet/claude-codes-own-full-source-code-leaked
 
-52. ⚡ Weekly Recap: Telecom Sleeper Cells, LLM Jailbreaks, Apple Forces U.K. Age Checks and More
-   Category: general_news | Source: The Hacker News
+60. AI Smart Glasses Rentals Are Helping Students Cheat on Their Exams
+   Category: general_news | Source: ExtremeTech
    Score:    25
-   Math:     +25 (Surge: 600.0%)
-   Link:     https://thehackernews.com/2026/03/weekly-recap-telecom-sleeper-cells-llm.html
+   Math:     +25 (Surge: 1250.0%)
+   Link:     https://www.extremetech.com/electronics/ai-smart-glasses-rentals-are-helping-students-cheat-on-their-exams
 
-53. Russian CTRL Toolkit Delivered via Malicious LNK Files Hijacks RDP via FRP Tunnels
-   Category: general_news | Source: The Hacker News
-   Score:    25
-   Math:     +25 (Surge: 350.0%)
-   Link:     https://thehackernews.com/2026/03/russian-ctrl-toolkit-delivered-via.html
-
-54. The State of Secrets Sprawl 2026: 9 Takeaways for CISOs
-   Category: general_news | Source: The Hacker News
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://thehackernews.com/2026/03/the-state-of-secrets-sprawl-2026-9.html
-
-55. Three China-Linked Clusters Target Southeast Asian Government in 2025 Cyber Campaign
-   Category: general_news | Source: The Hacker News
-   Score:    25
-   Math:     +25 (Surge: 600.0%)
-   Link:     https://thehackernews.com/2026/03/three-china-linked-clusters-target.html
-
-56. Hackers Shun Malware for Social Engineering in Recent Trends
+61. Hackers Shun Malware for Social Engineering in Recent Trends
    Category: general_news | Source: ExtremeTech
    Score:    25
    Math:     +25 (Surge: 200.0%)
    Link:     https://www.extremetech.com/internet/hackers-shun-malware-for-social-engineering-in-recent-trends
 
-57. Google's Lyria 3 AI Music Generator Levels Up With New Pro Model
-   Category: general_news | Source: ExtremeTech
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://www.extremetech.com/computing/googles-lyria-3-ai-music-generator-levels-up-with-new-pro-model
-
-58. TeamPCP Moves From OSS to AWS Environments
+62. Toy Giant Hasbro Hit by Cyberattack
    Category: general_news | Source: SecurityWeek
    Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://www.securityweek.com/teampcp-moves-from-oss-to-aws-environments/
+   Math:     +25 (Surge: 1250.0%)
+   Link:     https://www.securityweek.com/toy-giant-hasbro-hit-by-cyberattack/
 
-59. CrewAI Vulnerabilities Expose Devices to Hacking
+63. FBI Warns of Data Security Risks From China-Made Mobile Apps
    Category: general_news | Source: SecurityWeek
    Score:    25
-   Math:     +25 (Surge: 250.0%)
-   Link:     https://www.securityweek.com/crewai-vulnerabilities-expose-devices-to-hacking/
+   Math:     +25 (Surge: 300.0%)
+   Link:     https://www.securityweek.com/fbi-warns-of-data-security-risks-from-china-made-mobile-apps/
 
-60. Google Slashes Quantum Resource Requirements for Breaking Cryptocurrency Encryption
+64. Axios NPM Package Breached in North Korean Supply Chain Attack
    Category: general_news | Source: SecurityWeek
    Score:    25
-   Math:     +25 (Surge: 600.0%)
-   Link:     https://www.securityweek.com/google-slashes-quantum-resource-requirements-for-breaking-cryptocurrency-encryption/
+   Math:     +25 (Surge: 300.0%)
+   Link:     https://www.securityweek.com/axios-npm-package-breached-in-north-korean-supply-chain-attack/
 
-61. Passkeys vs Bots: Do They Really Solve the Human Verification Problem?
+65. 5 AWS AI Controls Every Security Team Should Have
    Category: general_news | Source: Security Boulevard
    Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://securityboulevard.com/2026/03/passkeys-vs-bots-do-they-really-solve-the-human-verification-problem/
+   Math:     +25 (Surge: 750.0%)
+   Link:     https://securityboulevard.com/2026/04/5-aws-ai-controls-every-security-team-should-have/
 
-62. 7 Reasons Kids Are Overrated Until Suddenly They’re Your Entire Support Infrastructure
+66. Iran Calls U.S. Tech Companies ‘Legitimate Targets,’ Threatens to Attack
    Category: general_news | Source: Security Boulevard
    Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://securityboulevard.com/2026/03/7-reasons-kids-are-overrated-until-suddenly-theyre-your-entire-support-infrastructure/
+   Math:     +25 (Surge: 1250.0%)
+   Link:     https://securityboulevard.com/2026/04/iran-calls-u-s-tech-companies-legitimate-targets-threatens-to-attack/
 
-63. Inventors of Quantum Cryptography Win Turing Award
+67. Your Next Employee Might Not Exist: LexisNexis Report Exposes the Synthetic Identity Explosion
    Category: general_news | Source: Security Boulevard
    Score:    25
-   Math:     +25 (Surge: 182.35%)
-   Link:     https://securityboulevard.com/2026/03/inventors-of-quantum-cryptography-win-turing-award/
+   Math:     +25 (Surge: 350.0%)
+   Link:     https://securityboulevard.com/2026/04/your-next-employee-might-not-exist-lexisnexis-report-exposes-the-synthetic-identity-explosion/
 
-64. How we made Trail of Bits AI-native (so far)
+68. AI Due Diligence Checklist 2026: How to Avoid AI Implementation Failures, Security Risks, and Cost Overruns
    Category: general_news | Source: Security Boulevard
    Score:    25
-   Math:     +25 (Surge: 250.0%)
-   Link:     https://securityboulevard.com/2026/03/how-we-made-trail-of-bits-ai-native-so-far/
+   Math:     +25 (Surge: 300.0%)
+   Link:     https://securityboulevard.com/2026/04/ai-due-diligence-checklist-2026-how-to-avoid-ai-implementation-failures-security-risks-and-cost-overruns/
 
-65. 46 Vulnerability Statistics 2026: Key Trends in Discovery, Exploitation, and Risk
+69. Mutation testing for the agentic era
    Category: general_news | Source: Security Boulevard
    Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://securityboulevard.com/2026/03/46-vulnerability-statistics-2026-key-trends-in-discovery-exploitation-and-risk/
+   Math:     +25 (Surge: 750.0%)
+   Link:     https://securityboulevard.com/2026/04/mutation-testing-for-the-agentic-era/
 
-66. EvilTokens ramps up device code phishing targeting Microsoft 365 users
+70. North Korean hackers linked to Axios npm supply chain compromise
+   Category: general_news | Source: HelpNet Security
+   Score:    25
+   Math:     +25 (Surge: 300.0%)
+   Link:     https://www.helpnetsecurity.com/2026/04/01/north-korean-hackers-linked-to-axios-npm-supply-chain-compromise/
+
+71. Google fixes Chrome zero-day with in-the-wild exploit (CVE-2026-5281)
+   Category: general_news | Source: HelpNet Security
+   Score:    25
+   Math:     +0 (EPSS: 0.00038), +25 (Surge: 750.0%)
+   Link:     https://www.helpnetsecurity.com/2026/04/01/google-chrome-zero-day-cve-2026-5281/
+
+72. Egnyte expands Content Cloud with AI Governance and built-in Assistant
+   Category: general_news | Source: HelpNet Security
+   Score:    25
+   Math:     +25 (Surge: 1250.0%)
+   Link:     https://www.helpnetsecurity.com/2026/04/01/egnyte-ai-safeguards-ai-assistant/
+
+73. Mimecast makes enterprise email security deployable in minutes
+   Category: general_news | Source: HelpNet Security
+   Score:    25
+   Math:     +25 (Surge: 1250.0%)
+   Link:     https://www.helpnetsecurity.com/2026/04/01/ranjan-singh-mimecast-api-email-security/
+
+74. Financial groups lay out a plan to fight AI identity attacks
+   Category: general_news | Source: HelpNet Security
+   Score:    25
+   Math:     +25 (Surge: 1250.0%)
+   Link:     https://www.helpnetsecurity.com/2026/04/01/fight-ai-identity-fraud/
+
+75. Malware detectors trained on one dataset often stumble on another
+   Category: general_news | Source: HelpNet Security
+   Score:    25
+   Math:     +25 (Surge: 750.0%)
+   Link:     https://www.helpnetsecurity.com/2026/04/01/cross-dataset-malware-detection-research/
+
+76. Crypto industry may be running out of time to prepare for quantum attacks
+   Category: general_news | Source: HelpNet Security
+   Score:    25
+   Math:     +25 (Surge: 750.0%)
+   Link:     https://www.helpnetsecurity.com/2026/03/31/quantum-computers-cryptocurrency-risks-google-research/
+
+77. Pondurance MDR Essentials uses autonomous SOC to tackle AI-driven attacks
    Category: general_news | Source: HelpNet Security
    Score:    25
    Math:     +25 (Surge: 350.0%)
-   Link:     https://www.helpnetsecurity.com/2026/03/31/eviltokens-phishing-microsoft-365/
+   Link:     https://www.helpnetsecurity.com/2026/03/31/pondurance-mdr-essentials-soc-teams/
 
-67. New Bitdefender assessment helps organizations identify and eliminate hidden internal attack paths
-   Category: general_news | Source: HelpNet Security
+78. CrowdStrike and HCLTech Expand Strategic Partnership with AI-Powered Continuous Threat Exposure Management Services - CrowdStrike
+   Category: general_news | Source: Crowdstrike
    Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://www.helpnetsecurity.com/2026/03/31/bitdefender-internal-attack-surface-assessment/
+   Math:     +25 (Surge: 1250.0%)
+   Link:     https://news.google.com/rss/articles/CBMiU0FVX3lxTE5FTDFoaE5qc19CalVNY0k1NUg4S3B4cjFVMnBGSkc1RHNZMkxlRjhhZ29pUWxnQ29zdExHbHptVHV0NllOSzFFU2JJZDdwcDZzTExR?oc=5
 
-68. Windows 11 gets a rebuilt console engine with regex search, Sixel images and a 10x speed boost
-   Category: general_news | Source: HelpNet Security
+79. Supply Chain Attack on Axios Delivers Cross-Platform RAT via Compromised npm Account
+   Category: general_news | Source: Orca Security
    Score:    25
-   Math:     +25 (Surge: 600.0%)
-   Link:     https://www.helpnetsecurity.com/2026/03/31/windows-11-console-upgrade-speed-boost/
+   Math:     +25 (Surge: 1250.0%)
+   Link:     https://orca.security/resources/blog/axios-npm-supply-chain-attack-remediation/
 
-69. Apple counters ClickFix attacks with macOS Terminal warning
-   Category: general_news | Source: HelpNet Security
+80. How SentinelOne’s AI EDR Autonomously Discovered and Stopped Anthropic’s Claude from Executing a Zero Day Supply Chain Attack, Globally
+   Category: general_news | Source: SentinelOne
    Score:    25
-   Math:     +25 (Surge: 350.0%)
-   Link:     https://www.helpnetsecurity.com/2026/03/31/apple-macos-clickfix-attacks-terminal-warning/
+   Math:     +25 (Surge: 400.0%)
+   Link:     https://www.sentinelone.com/blog/how-sentinelones-ai-edr-autonomously-discovered-and-stopped-anthropics-claude-from-executing-a-zero-day-supply-chain-attack-globally/
 
-70. Axios npm packages backdoored in supply chain attack
-   Category: general_news | Source: HelpNet Security
+81. Accelerating the next phase of AI
+   Category: org_pages | Source: OpenAI
    Score:    25
-   Math:     +25 (Surge: 250.0%)
-   Link:     https://www.helpnetsecurity.com/2026/03/31/axios-npm-backdoored-supply-chain-attack/
+   Math:     +25 (Surge: 1250.0%)
+   Link:     https://openai.com/index/accelerating-the-next-phase-ai
 
-71. Android developers just got a new verification layer
-   Category: general_news | Source: HelpNet Security
-   Score:    25
-   Math:     +25 (Surge: 600.0%)
-   Link:     https://www.helpnetsecurity.com/2026/03/31/android-developer-verification-requirement/
-
-72. Intel puts its data center performance knowledge on GitHub
-   Category: general_news | Source: HelpNet Security
-   Score:    25
-   Math:     +25 (Surge: 600.0%)
-   Link:     https://www.helpnetsecurity.com/2026/03/31/intel-optimization-zone-github/
-
-73. How AI Is Ushering in the Next Era of Risk Review at Meta
+82. How AI Is Ushering in the Next Era of Risk Review at Meta
    Category: org_pages | Source: Meta
    Score:    25
-   Math:     +25 (Surge: 1150.0%)
+   Math:     +25 (Surge: 1250.0%)
    Link:     https://about.fb.com/news/2026/03/how-ai-is-ushering-in-the-next-era-of-risk-review-at-meta/
 
-74. M-RAG: Making RAG Faster, Stronger, and More Efficient
+83. CRAFT: Cost-aware Expert Replica Allocation with Fine-Grained Layerwise Estimations
    Category: academic_research | Source: ArXiv AI Security
    Score:    25
-   Math:     +25 (Surge: 600.0%)
-   Link:     https://arxiv.org/abs/2603.26667
+   Math:     +25 (Surge: 750.0%)
+   Link:     https://arxiv.org/abs/2603.28768
 
-75. Bridge-RAG: An Abstract Bridge Tree Based Retrieval Augmented Generation Algorithm With Cuckoo Filter
+84. Spark-LLM-Eval: A Distributed Framework for Statistically Rigorous Large Language Model Evaluation
    Category: academic_research | Source: ArXiv AI Security
    Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://arxiv.org/abs/2603.26668
+   Math:     +25 (Surge: 750.0%)
+   Link:     https://arxiv.org/abs/2603.28769
 
-76. ReCQR: Incorporating conversational query rewriting to improve Multimodal Image Retrieval
+85. ZEUS: An Efficient GPU Optimization Method Integrating PSO, BFGS, and Automatic Differentiation
    Category: academic_research | Source: ArXiv AI Security
    Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://arxiv.org/abs/2603.26669
+   Math:     +25 (Surge: 750.0%)
+   Link:     https://arxiv.org/abs/2603.28770
 
-77. SRAG: RAG with Structured Data Improves Vector Retrieval
+86. Ray Tracing Cores for General-Purpose Computing: A Literature Review
    Category: academic_research | Source: ArXiv AI Security
    Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://arxiv.org/abs/2603.26670
+   Math:     +25 (Surge: 1250.0%)
+   Link:     https://arxiv.org/abs/2603.28771
 
-78. Mitigating Forgetting in Continual Learning with Selective Gradient Projection
+87. Federated Inference for Heterogeneous LLM Communication and Collaboration
    Category: academic_research | Source: ArXiv AI Security
    Score:    25
-   Math:     +25 (Surge: 600.0%)
-   Link:     https://arxiv.org/abs/2603.26671
+   Math:     +25 (Surge: 1250.0%)
+   Link:     https://arxiv.org/abs/2603.28772
 
-79. Can AI be a Teaching Partner? Evaluating ChatGPT, Gemini, and DeepSeek across Three Teaching Strategies
+88. UltRAG: a Universal Simple Scalable Recipe for Knowledge Graph RAG
    Category: academic_research | Source: ArXiv AI Security
    Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://arxiv.org/abs/2603.26673
+   Math:     +25 (Surge: 1250.0%)
+   Link:     https://arxiv.org/abs/2603.28773
 
-80. Co-designing a Social Robot for Newcomer Children's Cultural and Language Learning
+89. Focus360: Guiding User Attention in Immersive Videos for VR
    Category: academic_research | Source: ArXiv AI Security
    Score:    25
-   Math:     +25 (Surge: 600.0%)
-   Link:     https://arxiv.org/abs/2603.26674
+   Math:     +25 (Surge: 1250.0%)
+   Link:     https://arxiv.org/abs/2603.28774
 
-81. GeoBlock: Inferring Block Granularity from Dependency Geometry in Diffusion Language Models
+90. Arknights: Playable Explanation and Player Agency under Opacity
    Category: academic_research | Source: ArXiv AI Security
    Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://arxiv.org/abs/2603.26675
+   Math:     +25 (Surge: 1250.0%)
+   Link:     https://arxiv.org/abs/2603.28775
 
-82. Why Do We Suffer for Fun? Ordeal Pleasure in Souls-like Games
+91. DF-ACBlurGAN: Structure-Aware Conditional Generation of Internally Repeated Patterns for Biomaterial Microtopography Design
    Category: academic_research | Source: ArXiv AI Security
    Score:    25
-   Math:     +25 (Surge: 600.0%)
-   Link:     https://arxiv.org/abs/2603.26677
+   Math:     +25 (Surge: 1250.0%)
+   Link:     https://arxiv.org/abs/2603.28776
 
-83. Power Couple? AI Growth and Renewable Energy Investment
+92. The Computer System Trail
    Category: academic_research | Source: ArXiv AI Security
    Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://arxiv.org/abs/2603.26678
+   Math:     +25 (Surge: 1250.0%)
+   Link:     https://arxiv.org/abs/2603.28777
 
-84. AI Meets Mathematics Education: A Case Study on Supporting an Instructor in a Large Mathematics Class with Context-Aware AI
+93. A Framework for Hybrid Collective Inference in Distributed Sensor Networks
    Category: academic_research | Source: ArXiv AI Security
    Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://arxiv.org/abs/2603.26679
+   Math:     +25 (Surge: 750.0%)
+   Link:     https://arxiv.org/abs/2603.28778
 
-85. AlpsBench: An LLM Personalization Benchmark for Real-Dialogue Memorization and Preference Alignment
+94. Byzantine-Robust and Communication-Efficient Distributed Training: Compressive and Cyclic Gradient Coding
    Category: academic_research | Source: ArXiv AI Security
    Score:    25
-   Math:     +25 (Surge: 182.35%)
-   Link:     https://arxiv.org/abs/2603.26680
+   Math:     +25 (Surge: 1250.0%)
+   Link:     https://arxiv.org/abs/2603.28780
 
-86. The Structure of Participation and Attention in Arabic-Language Hezbollah Discourse on X
+95. When GPUs Fail Quietly: Observability-Aware Early Warning Beyond Numeric Telemetry
    Category: academic_research | Source: ArXiv AI Security
    Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://arxiv.org/abs/2603.26681
+   Math:     +25 (Surge: 350.0%)
+   Link:     https://arxiv.org/abs/2603.28781
 
-87. Operationalizing Perceptions of Agent Gender: Foundations and Guidelines
+96. Comprehensive Plugin-Based Monitoring of Nexflow Workflow Executions
    Category: academic_research | Source: ArXiv AI Security
    Score:    25
-   Math:     +25 (Surge: 600.0%)
-   Link:     https://arxiv.org/abs/2603.26682
+   Math:     +25 (Surge: 1250.0%)
+   Link:     https://arxiv.org/abs/2603.28783
 
-88. LITTA: Late-Interaction and Test-Time Alignment for Visually-Grounded Multimodal Retrieval
+97. AI in Work-Based Learning: Understanding the Purposes and Effects of Intelligent Tools Among Student Interns
    Category: academic_research | Source: ArXiv AI Security
    Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://arxiv.org/abs/2603.26683
+   Math:     +25 (Surge: 750.0%)
+   Link:     https://arxiv.org/abs/2603.28786
 
-89. Decoupling Geometric Planning and Execution in Scalable Multi-Agent Path Finding
+98. Legible Consensus: Topology-Aware Quorum Geometry for Asymmetric Networks
    Category: academic_research | Source: ArXiv AI Security
    Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://arxiv.org/abs/2603.26684
+   Math:     +25 (Surge: 1250.0%)
+   Link:     https://arxiv.org/abs/2603.28788
 
-90. Contextual Graph Representations for Task-Driven 3D Perception and Planning
+99. Mitigating Temporal Blindness in Kubernetes Autoscaling: An Attention-Double-LSTM Framework
    Category: academic_research | Source: ArXiv AI Security
    Score:    25
-   Math:     +25 (Surge: 600.0%)
-   Link:     https://arxiv.org/abs/2603.26685
+   Math:     +25 (Surge: 750.0%)
+   Link:     https://arxiv.org/abs/2603.28790
 
-91. Bridging the Awareness Gap: Socially Mediated State Externalization for Transparent Distributed Home Robots
+100. Parallel Gauss-Jordan Elimination and System Reduction for Efficient Circuit Simulation
    Category: academic_research | Source: ArXiv AI Security
    Score:    25
-   Math:     +25 (Surge: 600.0%)
-   Link:     https://arxiv.org/abs/2603.26686
-
-92. Learning Energy-Efficient Air--Ground Actuation for Hybrid Robots on Stair-Like Terrain
-   Category: academic_research | Source: ArXiv AI Security
-   Score:    25
-   Math:     +25 (Surge: 600.0%)
-   Link:     https://arxiv.org/abs/2603.26687
-
-93. EVNextTrade: Learning-to-Rank-Based Recommendation of Next Charging Nodes for EV-EV Energy Trading
-   Category: academic_research | Source: ArXiv AI Security
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://arxiv.org/abs/2603.26688
-
-94. SpatialPoint: Spatial-aware Point Prediction for Embodied Localization
-   Category: academic_research | Source: ArXiv AI Security
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://arxiv.org/abs/2603.26690
-
-95. SCALE-TRACK: Asynchronous Euler-Lagrange particle tracking on heterogeneous computing architecture
-   Category: academic_research | Source: ArXiv AI Security
-   Score:    25
-   Math:     +25 (Surge: 600.0%)
-   Link:     https://arxiv.org/abs/2603.26691
-
-96. Topological Motion Planning Diffusion: Generative Tangle-Free Path Planning for Tethered Robots in Obstacle-Rich Environments
-   Category: academic_research | Source: ArXiv AI Security
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://arxiv.org/abs/2603.26696
-
-97. Physicochemical-Neural Fusion for Semi-Closed-Circuit Respiratory Autonomy in Extreme Environments
-   Category: academic_research | Source: ArXiv AI Security
-   Score:    25
-   Math:     +25 (Surge: 600.0%)
-   Link:     https://arxiv.org/abs/2603.26697
-
-98. Partial Partial Aggregates
-   Category: academic_research | Source: ArXiv AI Security
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://arxiv.org/abs/2603.26698
-
-99. Deep Learning Multi-Horizon Irradiance Nowcasting: A Comparative Evaluation of Three Methods for Leveraging Sky Images
-   Category: academic_research | Source: ArXiv AI Security
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://arxiv.org/abs/2603.26704
-
-100. The Cognitive Divergence: AI Context Windows, Human Attention Decline, and the Delegation Feedback Loop
-   Category: academic_research | Source: ArXiv AI Security
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://arxiv.org/abs/2603.26707
+   Math:     +25 (Surge: 1250.0%)
+   Link:     https://arxiv.org/abs/2603.28792
 
