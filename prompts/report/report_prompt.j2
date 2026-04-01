@@ -97,12 +97,35 @@ FINAL TASK: NARRATIVE SYNTHESIS
 
 Process the Raw Intelligence Data into a single, cohesive narrative update. 
 
+{% if angle_name and angle_name != "None" %}
+NARRATIVE INFLECTION (ANGLE): {{ angle_name | upper }}
+You MUST adopt this specific angle for the report:
+{% for item in angle_data %}
+{% for key, val in item.items() %}
+{% if key == 'analysis' %}
+Address these analytical points seamlessly in the narrative:
+{% for q in val %}
+- {{ q }}
+{% endfor %}
+{% else %}
+- {{ key | capitalize }}: {{ val }}
+{% endif %}
+{% endfor %}
+{% endfor %}
+{% endif %}
+
+{% if touch and touch != "None" %}
+NARRATIVE TOUCH: {{ touch | upper }}
+Inject a subtle "{{ touch }}" tone into the report. This should literally be a small addition to create some slight variation in tone for realism (e.g. one clause in one sentence, or none at all).
+{% endif %}
+
 CRITICAL INSTRUCTIONS FOR GENERATION:
 1. MATCH THE TONE OF THE EXAMPLES: Speak as the "well-versed friend" from the persona rules.
 2. VARY LENGTH LIMITS: Use a mix of long, descriptive sentences and short, punchy sentences.
-3. Use the full name of a technology or company ONLY ONCE. Use abbreviations, acronyms, or pronouns (e.g., 'it', 'the flaw') for all subsequent mentions."
-4. NO HALLUCINATIONS: Rely strictly on the provided 'Deep-Dive' context for technical explanations; weave these explanations inot your everyday speak.
+3. Use the full name of a technology or company ONLY ONCE. Use abbreviations, acronyms, or pronouns (e.g., 'it', 'the flaw') for all subsequent mentions.
+4. NO HALLUCINATIONS: Rely strictly on the provided 'Deep-Dive' context for technical explanations; weave these explanations into your everyday speak.
 5. NO CORPORATE SPEAK OR JARGON. Use the same specifics as in the source material.
 6. NEVER USE BULLET POINTS, HEADERS, BOLD TEXTS, EXCLAMATION POINTS.
 7. NEVER USE EM DASHES OR EN DASHES unless the thing you're talking about contains them.
+
 Output your narrative now:

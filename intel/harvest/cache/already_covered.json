@@ -1,61 +1,5 @@
 [
     {
-        "report_date": "2026-03-24T14:57:45.322643",
-        "report_truncated": {
-            "threat_intelligence": [
-                "Case study: How predictive shielding in Defender stopped GPO-based ransomware before it started",
-                "FBI: Iranian hackers targeting opponents with Telegram malware",
-                "ZDI-26-225: (Pwn2Own) Samsung Galaxy S25 Samsung Account Open Redirect Security Bypass Vulnerability"
-            ],
-            "general_news": [
-                "Amount of AI-generated child sexual abuse material found online surged in 2025",
-                "Divide between Silicon Valley and ordinary people grows ever larger",
-                "Revolut warns it risks backlash over support for energy-intensive AI and crypto"
-            ],
-            "org_pages": [
-                "Creating with Sora Safely"
-            ],
-            "academic_research": [
-                "Visual Exclusivity Attacks: Automatic Multimodal Red Teaming via Agentic Planning",
-                "Albank -- a case study on the use of ethereum blockchain technology and smart contracts for secure decentralized bank application",
-                "Alignment Whack-a-Mole : Finetuning Activates Verbatim Recall of Copyrighted Books in Large Language Models"
-            ],
-            "community_pulse": [
-                "I audited all 31,000+ skills on OpenClaw's ClawHub registry for supply chain attacks. 2,371 have malicious patterns.",
-                "How do you deal with users who refuse to lock their laptop when walking away?",
-                "Clayton, North Carolina, limits services after cyberattack"
-            ]
-        }
-    },
-    {
-        "report_date": "2026-03-24T16:09:52.509228",
-        "report_truncated": {
-            "threat_intelligence": [
-                "Case study: How predictive shielding in Defender stopped GPO-based ransomware before it started",
-                "FBI: Iranian hackers targeting opponents with Telegram malware",
-                "ZDI-26-225: (Pwn2Own) Samsung Galaxy S25 Samsung Account Open Redirect Security Bypass Vulnerability"
-            ],
-            "general_news": [
-                "Amount of AI-generated child sexual abuse material found online surged in 2025",
-                "Divide between Silicon Valley and ordinary people grows ever larger",
-                "Revolut warns it risks backlash over support for energy-intensive AI and crypto"
-            ],
-            "org_pages": [
-                "Creating with Sora Safely"
-            ],
-            "academic_research": [
-                "Visual Exclusivity Attacks: Automatic Multimodal Red Teaming via Agentic Planning",
-                "Albank -- a case study on the use of ethereum blockchain technology and smart contracts for secure decentralized bank application",
-                "Alignment Whack-a-Mole : Finetuning Activates Verbatim Recall of Copyrighted Books in Large Language Models"
-            ],
-            "community_pulse": [
-                "I audited all 31,000+ skills on OpenClaw's ClawHub registry for supply chain attacks. 2,371 have malicious patterns.",
-                "How do you deal with users who refuse to lock their laptop when walking away?",
-                "Clayton, North Carolina, limits services after cyberattack"
-            ]
-        }
-    },
-    {
         "report_date": "2026-03-27T13:16:59.281201",
         "report_truncated": {
             "threat_intelligence": [
@@ -313,6 +257,66 @@
     },
     {
         "report_date": "2026-03-31T13:59:18.688691",
+        "report_truncated": {
+            "threat_intelligence": [
+                "CISA Adds One Known Exploited Vulnerability to Catalog",
+                "Double Agents: Exposing Security Blind Spots in GCP Vertex AI",
+                "ZDI-26-249: NoMachine Uncontrolled Search Path Element Local Privilege Escalation Vulnerability"
+            ],
+            "general_news": [
+                "F5 BIG-IP Vulnerability Reclassified as RCE, Under Exploitation",
+                "New Bitdefender assessment helps organizations identify and eliminate hidden internal attack paths",
+                "Meta, Tiktok and Google under investigation for allegedly disobeying Australia\u2019s social media ban"
+            ],
+            "org_pages": [
+                "How AI Is Ushering in the Next Era of Risk Review at Meta",
+                "Helping disaster response teams turn AI into action across Asia",
+                "Introducing Our First AI Glasses Built For Prescriptions"
+            ],
+            "academic_research": [
+                "M-RAG: Making RAG Faster, Stronger, and More Efficient",
+                "Alignment Whack-a-Mole : Finetuning Activates Verbatim Recall of Copyrighted Books in Large Language Models",
+                "Vision-Language Agents for Interactive Forest Change Analysis"
+            ],
+            "community_pulse": [
+                "Why regex-based safety fails for AI agents (real examples from terminal usage)",
+                "Supply-Chain Compromise of axios npm Package",
+                "Free AI agent security CTF: 26 challenges, live scoreboard, mitigation walkthroughs included"
+            ]
+        }
+    },
+    {
+        "report_date": "2026-03-31T14:39:47.465473",
+        "report_truncated": {
+            "threat_intelligence": [
+                "CISA Adds One Known Exploited Vulnerability to Catalog",
+                "Double Agents: Exposing Security Blind Spots in GCP Vertex AI",
+                "ZDI-26-249: NoMachine Uncontrolled Search Path Element Local Privilege Escalation Vulnerability"
+            ],
+            "general_news": [
+                "F5 BIG-IP Vulnerability Reclassified as RCE, Under Exploitation",
+                "New Bitdefender assessment helps organizations identify and eliminate hidden internal attack paths",
+                "Meta, Tiktok and Google under investigation for allegedly disobeying Australia\u2019s social media ban"
+            ],
+            "org_pages": [
+                "How AI Is Ushering in the Next Era of Risk Review at Meta",
+                "Helping disaster response teams turn AI into action across Asia",
+                "Introducing Our First AI Glasses Built For Prescriptions"
+            ],
+            "academic_research": [
+                "M-RAG: Making RAG Faster, Stronger, and More Efficient",
+                "Alignment Whack-a-Mole : Finetuning Activates Verbatim Recall of Copyrighted Books in Large Language Models",
+                "Vision-Language Agents for Interactive Forest Change Analysis"
+            ],
+            "community_pulse": [
+                "Why regex-based safety fails for AI agents (real examples from terminal usage)",
+                "Supply-Chain Compromise of axios npm Package",
+                "Free AI agent security CTF: 26 challenges, live scoreboard, mitigation walkthroughs included"
+            ]
+        }
+    },
+    {
+        "report_date": "2026-03-31T18:41:32.950160",
         "report_truncated": {
             "threat_intelligence": [
                 "CISA Adds One Known Exploited Vulnerability to Catalog",

@@ -1,0 +1,77 @@
+slang:
+  - phrase: "aura"
+    definition: >
+      The overall "vibe" or feeling of a piece of data, file, or network behavior. 
+      Used to describe heuristic or behavioral detections that feel suspicious even if a specific signature hasn't been triggered yet.
+
+  - phrase: "cook"
+    definition: >
+      The act of performing high-level technical work, developing a clever exploit, or brewing a complex architectural solution. 
+      It implies competence and a deliberate process.
+  
+  - phrase: "cooked"
+    definition: >
+      A state of being completely compromised, unrecoverable, or caught. 
+      Used when a database breach is confirmed, a system is bricked, or a threat actor has been fully exposed.
+  
+  - phrase: "crash out"
+    definition: >
+      When a system, process, or piece of software fails spectacularly or enters an unrecoverable, chaotic error loop. 
+      It implies a noisy, messy failure rather than a quiet crash.
+  
+  - phrase: "lock in"
+    definition: >
+      To enter a state of intense focus and 100% accuracy. 
+      Used when describing the necessary response to a high-fidelity threat or a critical system migration where there is no room for error.
+
+  - phrase: "red flag"
+    definition: >
+      To enter a state of intense focus and 100% accuracy. 
+      Used when describing the necessary response to a high-fidelity threat or a critical system migration where there is no room for error.
+
+  - phrase: "green flag"
+    definition: >
+      To enter a state of intense focus and 100% accuracy. 
+      Used when describing the necessary response to a high-fidelity threat or a critical system migration where there is no room for error.
+
+  - phrase: "lurk"
+    definition: >
+      To enter a state of intense focus and 100% accuracy. 
+      Used when describing the necessary response to a high-fidelity threat or a critical system migration where there is no room for error.
+
+  - phrase: "in the wild"
+    definition: >
+      To enter a state of intense focus and 100% accuracy. 
+      Used when describing the necessary response to a high-fidelity threat or a critical system migration where there is no room for error.
+
+  - phrase: "brick"
+    definition: >
+      To enter a state of intense focus and 100% accuracy. 
+      Used when describing the necessary response to a high-fidelity threat or a critical system migration where there is no room for error.
+
+  - phrase: "stamped"
+    definition: >
+      To enter a state of intense focus and 100% accuracy. 
+      Used when describing the necessary response to a high-fidelity threat or a critical system migration where there is no room for error.
+
+  - phrase: "tapped in"
+    definition: >
+      To enter a state of intense focus and 100% accuracy. 
+      Used when describing the necessary response to a high-fidelity threat or a critical system migration where there is no room for error.
+
+  - phrase: "heavy"
+    definition: >
+      To enter a state of intense focus and 100% accuracy. 
+      Used when describing the necessary response to a high-fidelity threat or a critical system migration where there is no room for error.
+
+  - phrase: "main character energy"
+    definition: >
+      To enter a state of intense focus and 100% accuracy. 
+      Used when describing the necessary response to a high-fidelity threat or a critical system migration where there is no room for error.
+
+  - phrase: "villain arc"
+    definition: >
+      To enter a state of intense focus and 100% accuracy. 
+      Used when describing the necessary response to a high-fidelity threat or a critical system migration where there is no room for error.
+
+

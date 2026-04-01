@@ -2,6 +2,7 @@ import os
 import json
 import yaml
 import requests
+import random
 from datetime import datetime, timedelta
 from jinja2 import Environment, FileSystemLoader
 
@@ -12,6 +13,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 CANDIDATES_FILE = os.path.normpath(os.path.join(SCRIPT_DIR, "cache", "report_candidates.json"))
 COVERED_CACHE_FILE = os.path.normpath(os.path.join(SCRIPT_DIR, "cache", "already_covered.json"))
 YAML_FILE = os.path.normpath(os.path.join(SCRIPT_DIR, "..", "..", "prompts", "report", "report_module.yaml"))
+VARIABLES_FILE = os.path.normpath(os.path.join(SCRIPT_DIR, "..", "..", "variables", "variables.yaml"))
 
 # Output paths
 OUTPUT_FILE = os.path.normpath(os.path.join(SCRIPT_DIR, "cache", "last_report.json"))
@@ -68,6 +70,20 @@ def main():
     global_settings = module_config.get("global_settings", {})
     categories_config = module_config.get("categories", {})
 
+    # Safely load the variables config
+    try:
+        variables_config = load_yaml(VARIABLES_FILE)
+    except Exception as e:
+        print(f"[!] Warning: Cannot load variables config: {e}")
+        variables_config = {}
+
+    global_settings = module_config.get("global_settings", {})
+    categories_config = module_config.get("categories", {})
+    
+    # Extract available angles and touches
+    angles_list = variables_config.get("angle", [])
+    touches_list = variables_config.get("touch", [])
+
     # 2. Setup Jinja2 Environment
     env = Environment(loader=FileSystemLoader(J2_DIR), trim_blocks=True, lstrip_blocks=True)
     try:
@@ -78,6 +94,10 @@ def main():
 
     final_report = {}
     current_report_titles = {}
+
+    # State variables to track previous choices to prevent duplicates
+    previous_angle_name = None
+    previous_touch_name = None
 
     # 3. Iterate over each category and topic to generate the report
     for category_name, topics in candidates_data.items():
@@ -93,6 +113,28 @@ def main():
             
             # Save the title for the already_covered cache
             current_report_titles[category_name].append(topic.get("title", "No Title"))
+
+            # Randomization logic
+            # Determine valid angles (filter out the previous one)
+            valid_angles = angles_list
+            if angles_list and len(angles_list) > 1:
+                valid_angles = [a for a in angles_list if list(a.keys())[0] != previous_angle_name]
+            
+            # Select random angle
+            current_angle_obj = random.choice(valid_angles) if valid_angles else {}
+            current_angle_name = list(current_angle_obj.keys())[0] if current_angle_obj else "None"
+            current_angle_data = current_angle_obj.get(current_angle_name, []) if current_angle_obj else []
+            previous_angle_name = current_angle_name  # Update state
+
+            # Determine valid touches (filter out the previous one)
+            valid_touches = touches_list
+            if touches_list and len(touches_list) > 1:
+                valid_touches = [t for t in touches_list if t != previous_touch_name]
+            
+            # Select random touch
+            current_touch_name = random.choice(valid_touches) if valid_touches else "None"
+            previous_touch_name = current_touch_name  # Update state
+            # End randomization logic
             
             # Prepare data mapped exactly to what the Jinja2 template expects
             current_events = [{
@@ -139,6 +181,8 @@ def main():
             # Build the finalized topic object
             finished_topic = {
                 "topic_number": topic_number,
+                "angle": current_angle_name,
+                "touch": current_touch_name,
                 "report": llm_narrative,
                 "sources": list(sources),
                 "breadcrumbs_used": list(all_breadcrumbs),
