@@ -404,5 +404,33 @@
                 "Do you think traditional DLP is becoming obsolete with the rise of DSPM and AI driven data security?"
             ]
         }
+    },
+    {
+        "report_date": "2026-04-02T11:08:04.311660",
+        "report_truncated": {
+            "threat_intelligence": [
+                "vSphere and BRICKSTORM Malware: A Defender's Guide",
+                "Mitigating the Axios npm supply chain compromise",
+                "Threat Brief: Widespread Impact of the Axios Supply Chain Attack"
+            ],
+            "general_news": [
+                "UK social media users less active on tech platforms due to rise of video apps",
+                "Pupils in England are losing their thinking skills because of AI, survey suggests",
+                "Claude\u2019s code: Anthropic leaks source code for AI software engineering tool"
+            ],
+            "org_pages": [
+                "Gradient Labs gives every bank customer an AI account manager"
+            ],
+            "academic_research": [
+                "Benchmark for Assessing Olfactory Perception of Large Language Models",
+                "Enhancing Gradient Inversion Attacks in Federated Learning via Hierarchical Feature Optimization",
+                "Enhancing Floor Plan Recognition: A Hybrid Mix-Transformer and U-Net Approach for Precise Wall Segmentation"
+            ],
+            "community_pulse": [
+                "Why GRC Is the Natural Landing Zone for Agents",
+                "Kevin Mitnick\u2019s case shows how powerful social engineering really is",
+                "Canada Salaries"
+            ]
+        }
     }
 ]
