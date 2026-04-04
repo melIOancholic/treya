@@ -1,5 +1,8 @@
+
+
 slang:
   - phrase: "cook"
+    variants: ["cooked"]
     definition: >
       The act of performing high-level technical work, developing a clever exploit, or brewing a complex architectural solution. 
       It implies kudos to deliberate work and competence.
@@ -10,71 +13,193 @@ slang:
       They cooked with this one.
       She really cooked with that new marketing strategy.
       That guy is a pro; let him cook.
-  
-  - phrase: "cooked"
-    definition: >
-      A state of being completely compromised, unrecoverable, or caught. 
-      Used when a database breach is confirmed, a system is bricked, or a threat actor has been fully exposed.
-      
-  
+
   - phrase: "crash out"
+    variants: ["crashing out", "crashed out"]
     definition: >
-      When a system, process, or piece of software fails spectacularly or enters an unrecoverable, chaotic error loop. 
-      It implies a noisy, messy failure rather than a quiet crash.
-  
+      Losing control of one's emotions or rationality, acting recklessly, or giving up on consequences due to extreme frustration or anger. 
+      Often describes a sudden, dramatic breakdown in professional or social behavior.
+    implications:
+      - negative
+      - reckless
+      - emotional
+    examples: >
+      He missed his flight and completely crashed out at the airport.
+      There's a lot of people crashing out about it. 
+      No need to crash out over one bad review; it's easily fixable.
+
   - phrase: "lock in"
     definition: >
-      To enter a state of intense focus and 100% accuracy. 
-      Used when describing the necessary response to a high-fidelity threat or a critical system migration where there is no room for error.
+      To enter a state of extreme focus, determination, and productivity.
+    implications:
+      - positive
+      - focused
+      - determined
+    examples: >
+      The deadline is tomorrow morning; I need to lock in tonight.
+      She locked in and finished writing the entire application in one sitting.
+      Alright team, let's lock in and get this deployment done.
 
   - phrase: "red flag"
     definition: >
-      To enter a state of intense focus and 100% accuracy. 
-      Used when describing the necessary response to a high-fidelity threat or a critical system migration where there is no room for error.
+      A warning sign indicating potential danger, problematic behavior, or a reason to stop and heavily reconsider a situation, project, or person. The direct opposite of a green flag.
+    implications:
+      - negative
+      - warning
+      - caution
+    examples: >
+      The candidate badmouthing their previous boss was a massive red flag.
+      Finding zero documentation for a five-year-old codebase is a huge red flag.
+      I'm seeing some red flags with this vendor's security protocols.
 
   - phrase: "green flag"
     definition: >
-      To enter a state of intense focus and 100% accuracy. 
-      Used when describing the necessary response to a high-fidelity threat or a critical system migration where there is no room for error.
+      A positive sign or indicator that someone or something is healthy, reliable, supportive, or moving in the right direction. The direct opposite of a red flag.
+    implications:
+      - positive
+      - encouraging
+      - safe
+    examples: >
+      The company encouraging a strict log-off time is a major green flag.
+      He always actively listens when junior devs speak, which is such a green flag.
+      Getting budget approval on the first pitch was a huge green flag for the project.
 
   - phrase: "lurk"
+    variants: ["lurking", "lurkers"]
     definition: >
-      To enter a state of intense focus and 100% accuracy. 
-      Used when describing the necessary response to a high-fidelity threat or a critical system migration where there is no room for error.
+      To observe or follow online content, such as forums, social media, or live streams, without actively participating, posting, commenting, or liking. It also describes an entity that does this.
+    implications:
+      - neutral
+      - observational
+      - passive
+    examples: >
+      I usually just lurk in the company-wide chat to see what the executives are saying.
+      I've been lurking on that open-source repository for months to understand their workflow.
+      You know there's lurkers out there taking this stuff in.
 
   - phrase: "in the wild"
     definition: >
-      To enter a state of intense focus and 100% accuracy. 
-      Used when describing the necessary response to a high-fidelity threat or a critical system migration where there is no room for error.
+      Encountering something outside of a controlled, testing, or development environment. Often refers to seeing software used by actual end-users or spotting a digital trend in everyday life.
+    implications:
+      - neutral
+      - realistic
+      - observable
+    examples: >
+      It's one thing to test the app locally, but seeing it break in the wild is different.
+      This vulnerability is already being exploited in the wild.
+      We found a new variant of that malware operating in the wild.
 
   - phrase: "brick"
+    variants: ["bricked"]
     definition: >
-      To enter a state of intense focus and 100% accuracy. 
-      Used when describing the necessary response to a high-fidelity threat or a critical system migration where there is no room for error.
+      To break an electronic device or system so severely that it becomes completely inoperable or unusable, functioning only as a literal brick. Often results from a failed update, bad deployment, or critical error.
+    implications:
+      - negative
+      - destructive
+      - failure
+    examples: >
+      I tried to flash the custom firmware and completely bricked my phone.
+      They're gonna brick their system if they don't get that patch in.
+      Don't push that code yet; it might brick the application.
 
   - phrase: "stamped"
     definition: >
-      To enter a state of intense focus and 100% accuracy. 
-      Used when describing the necessary response to a high-fidelity threat or a critical system migration where there is no room for error.
+      Approved, validated, or confirmed to be of high quality. Often signifies that someone or something is authentic, highly regarded, or has the backing of a respected authority.
+    implications:
+      - positive
+      - official
+      - verified
+    examples: >
+      That new framework is stamped; it solved all our scaling issues.
+      His pull request was stamped by the principal engineer.
+      These guys are stamped; everyone knows and trusts their stuff.
 
   - phrase: "tapped in"
     definition: >
-      To enter a state of intense focus and 100% accuracy. 
-      Used when describing the necessary response to a high-fidelity threat or a critical system migration where there is no room for error.
-
-  - phrase: "heavy"
-    definition: >
-      To enter a state of intense focus and 100% accuracy. 
-      Used when describing the necessary response to a high-fidelity threat or a critical system migration where there is no room for error.
+      Being highly connected, well-informed, or actively involved in a particular community, network, or flow of exclusive information.
+    implications:
+      - positive
+      - knowledgeable
+      - connected
+    examples: >
+      You gotta be tapped in to the industry to get those early investment opportunities.
+      She's really tapped in with the local cybersecurity scene.
+      Let me ask John; he's tapped in with the marketing department and knows their plans.
 
   - phrase: "main character energy"
     definition: >
-      To enter a state of intense focus and 100% accuracy. 
-      Used when describing the necessary response to a high-fidelity threat or a critical system migration where there is no room for error.
+      Exuding confidence, individuality, and charisma, behaving as if one is the central protagonist in their own story. Can be viewed positively (confident presence) or negatively (self-centered).
+    implications:
+      - neutral
+      - confident
+      - prominent
+    examples: >
+      Walking into the board meeting with that presentation gave pure main character energy.
+      Sometimes he has a bit too much main character energy and forgets it's a team effort.
+      You need to channel some main character energy for this interview.
 
   - phrase: "villain arc"
     definition: >
-      To enter a state of intense focus and 100% accuracy. 
-      Used when describing the necessary response to a high-fidelity threat or a critical system migration where there is no room for error.
+      A period where a person stops trying to please everyone, sets strict boundaries, or embraces a more ruthless, selfish, or unapologetic attitude, often after feeling wronged, burnt out, or taken advantage of.
+    implications:
+      - neutral
+      - transformative
+      - edgy
+    examples: >
+      After doing overtime for a month with no bonus, she started her villain arc and leaves at 5 PM sharp.
+      I'm entering my villain arc; I'm no longer debugging other people's messy code for free.
+      They're in their villain arc ever since that breach to their systems a few months ago.
 
+  - phrase: "giving"
+    variants: ["gives"]
+    definition: >
+      Used to describe the specific vibe, aesthetic, or energy something emits. 
+      Usually structured as "It’s giving [noun/adjective]."
+    implications:
+      - neutral
+      - observational
+      - aesthetic
+    examples: >
+      It’s giving 90s corporate chic.
+      I’m not sure about this UI; it’s giving 2005.
+      It gives corporate casual... a bit boring for the target demographic.
 
+  - phrase: "side quest"
+    definition: >
+      A distraction or secondary task that is unrelated to the primary goal 
+      but consumes time and energy. Often used when someone gets 
+      unnecessarily deep into a niche topic.
+    implications:
+      - neutral
+      - distracted
+      - whimsical
+    examples: >
+      I went to fix a bug and ended up on a three-hour side quest into legacy kernel docs.
+      He’s on a side quest to find the perfect mechanical keyboard switch.
+      Stop going on side quests and focus on the sprint.
+
+  - phrase: "lore"
+    definition: >
+      The backstory, history, or accumulated "mythology" surrounding a person, 
+      project, or community. It implies depth and complexity.
+    implications:
+      - neutral
+      - deep history
+      - context
+    examples: >
+      You don’t know the lore behind why we still use this specific database.
+      Her professional lore is actually insane; she used to be a pro gamer.
+      We need to document the lore of this repo for the new hires.
+
+  - phrase: "era"
+    definition: >
+    A defined period in a person’s life or a project’s lifecycle characterized 
+    by a specific focus, style, or behavior.
+    implications:
+      - neutral
+      - transformative
+      - temporary
+    examples: >
+      I'm in my flop era right now, but I'll bounce back next quarter.
+      The company is entering its cost-cutting era.
+      She’s in her "no meetings" era.
