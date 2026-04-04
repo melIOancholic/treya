@@ -1,11 +1,19 @@
 import os
 import re
+import sys
 import json
 import sqlite3
 import datetime
 import warnings
 import logging
 from dotenv import load_dotenv
+
+# --- ADDED: Fix for Windows 'charmap' UnicodeEncodeError ---
+# Forces standard output to handle complex characters (like emojis or foreign languages)
+# without throwing the 'charmap' UnicodeEncodeError during print() or log_callback().
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+# -----------------------------------------------------------
 
 import inflect
 import nvdlib

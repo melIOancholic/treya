@@ -1,201 +1,5 @@
 [
     {
-        "report_date": "2026-03-27T13:16:59.281201",
-        "report_truncated": {
-            "threat_intelligence": [
-                "CISA Adds One Known Exploited Vulnerability to Catalog",
-                "Google moves post-quantum encryption timeline up to 2029",
-                "Threat Brief: March 2026 Escalation of Cyber Risk Related to Iran (Updated March 26)"
-            ],
-            "general_news": [
-                "CISA sounds alarm on Langflow RCE, Trivy supply chain compromise after rapid exploitation",
-                "Wikipedia bans AI-generated content in its online encyclopedia",
-                "Google warns quantum computers could hack encrypted systems by 2029"
-            ],
-            "org_pages": [
-                "WhatsApp Adds New Features to Simplify Storage, Switch Accounts, and More"
-            ],
-            "academic_research": [
-                "Model2Kernel: Model-Aware Symbolic Execution For Safe CUDA Kernels",
-                "Towards Remote Attestation of Microarchitectural Attacks: The Case of Rowhammer",
-                "Beyond Benchmarks: How Users Evaluate AI Chat Assistants"
-            ],
-            "community_pulse": [
-                "After the Trivy compromise, we found a blind spot in every remediation guide - transitive GitHub Action dependencies",
-                "Uninstalling OpenEDR",
-                "How dangerous is it to install vibecoded applications?"
-            ]
-        }
-    },
-    {
-        "report_date": "2026-03-27T15:18:18.524917",
-        "report_truncated": {
-            "threat_intelligence": [
-                "CISA Adds One Known Exploited Vulnerability to Catalog",
-                "Google moves post-quantum encryption timeline up to 2029",
-                "Threat Brief: March 2026 Escalation of Cyber Risk Related to Iran (Updated March 26)"
-            ],
-            "general_news": [
-                "CISA sounds alarm on Langflow RCE, Trivy supply chain compromise after rapid exploitation",
-                "Wikipedia bans AI-generated content in its online encyclopedia",
-                "Google warns quantum computers could hack encrypted systems by 2029"
-            ],
-            "org_pages": [
-                "WhatsApp Adds New Features to Simplify Storage, Switch Accounts, and More"
-            ],
-            "academic_research": [
-                "Model2Kernel: Model-Aware Symbolic Execution For Safe CUDA Kernels",
-                "Towards Remote Attestation of Microarchitectural Attacks: The Case of Rowhammer",
-                "Beyond Benchmarks: How Users Evaluate AI Chat Assistants"
-            ],
-            "community_pulse": [
-                "After the Trivy compromise, we found a blind spot in every remediation guide - transitive GitHub Action dependencies",
-                "Uninstalling OpenEDR",
-                "How dangerous is it to install vibecoded applications?"
-            ]
-        }
-    },
-    {
-        "report_date": "2026-03-27T17:36:08.631098",
-        "report_truncated": {
-            "threat_intelligence": [
-                "CISA Adds One Known Exploited Vulnerability to Catalog",
-                "Google moves post-quantum encryption timeline up to 2029",
-                "Threat Brief: March 2026 Escalation of Cyber Risk Related to Iran (Updated March 26)"
-            ],
-            "general_news": [
-                "CISA sounds alarm on Langflow RCE, Trivy supply chain compromise after rapid exploitation",
-                "Wikipedia bans AI-generated content in its online encyclopedia",
-                "Google warns quantum computers could hack encrypted systems by 2029"
-            ],
-            "org_pages": [
-                "WhatsApp Adds New Features to Simplify Storage, Switch Accounts, and More"
-            ],
-            "academic_research": [
-                "Model2Kernel: Model-Aware Symbolic Execution For Safe CUDA Kernels",
-                "Towards Remote Attestation of Microarchitectural Attacks: The Case of Rowhammer",
-                "Beyond Benchmarks: How Users Evaluate AI Chat Assistants"
-            ],
-            "community_pulse": [
-                "After the Trivy compromise, we found a blind spot in every remediation guide - transitive GitHub Action dependencies",
-                "Uninstalling OpenEDR",
-                "How dangerous is it to install vibecoded applications?"
-            ]
-        }
-    },
-    {
-        "report_date": "2026-03-27T17:45:31.026815",
-        "report_truncated": {
-            "threat_intelligence": [
-                "CISA Adds One Known Exploited Vulnerability to Catalog",
-                "Google moves post-quantum encryption timeline up to 2029",
-                "Threat Brief: March 2026 Escalation of Cyber Risk Related to Iran (Updated March 26)"
-            ],
-            "general_news": [
-                "CISA sounds alarm on Langflow RCE, Trivy supply chain compromise after rapid exploitation",
-                "Wikipedia bans AI-generated content in its online encyclopedia",
-                "Google warns quantum computers could hack encrypted systems by 2029"
-            ],
-            "org_pages": [
-                "WhatsApp Adds New Features to Simplify Storage, Switch Accounts, and More"
-            ],
-            "academic_research": [
-                "Model2Kernel: Model-Aware Symbolic Execution For Safe CUDA Kernels",
-                "Towards Remote Attestation of Microarchitectural Attacks: The Case of Rowhammer",
-                "Beyond Benchmarks: How Users Evaluate AI Chat Assistants"
-            ],
-            "community_pulse": [
-                "After the Trivy compromise, we found a blind spot in every remediation guide - transitive GitHub Action dependencies",
-                "Uninstalling OpenEDR",
-                "How dangerous is it to install vibecoded applications?"
-            ]
-        }
-    },
-    {
-        "report_date": "2026-03-27T17:48:03.258075",
-        "report_truncated": {
-            "threat_intelligence": [
-                "CISA Adds One Known Exploited Vulnerability to Catalog",
-                "Google moves post-quantum encryption timeline up to 2029",
-                "Threat Brief: March 2026 Escalation of Cyber Risk Related to Iran (Updated March 26)"
-            ],
-            "general_news": [
-                "CISA sounds alarm on Langflow RCE, Trivy supply chain compromise after rapid exploitation",
-                "Wikipedia bans AI-generated content in its online encyclopedia",
-                "Google warns quantum computers could hack encrypted systems by 2029"
-            ],
-            "org_pages": [
-                "WhatsApp Adds New Features to Simplify Storage, Switch Accounts, and More"
-            ],
-            "academic_research": [
-                "Model2Kernel: Model-Aware Symbolic Execution For Safe CUDA Kernels",
-                "Towards Remote Attestation of Microarchitectural Attacks: The Case of Rowhammer",
-                "Beyond Benchmarks: How Users Evaluate AI Chat Assistants"
-            ],
-            "community_pulse": [
-                "After the Trivy compromise, we found a blind spot in every remediation guide - transitive GitHub Action dependencies",
-                "Uninstalling OpenEDR",
-                "How dangerous is it to install vibecoded applications?"
-            ]
-        }
-    },
-    {
-        "report_date": "2026-03-27T18:07:25.284297",
-        "report_truncated": {
-            "threat_intelligence": [
-                "CISA Adds One Known Exploited Vulnerability to Catalog",
-                "Google moves post-quantum encryption timeline up to 2029",
-                "Threat Brief: March 2026 Escalation of Cyber Risk Related to Iran (Updated March 26)"
-            ],
-            "general_news": [
-                "CISA sounds alarm on Langflow RCE, Trivy supply chain compromise after rapid exploitation",
-                "Wikipedia bans AI-generated content in its online encyclopedia",
-                "Google warns quantum computers could hack encrypted systems by 2029"
-            ],
-            "org_pages": [
-                "WhatsApp Adds New Features to Simplify Storage, Switch Accounts, and More"
-            ],
-            "academic_research": [
-                "Model2Kernel: Model-Aware Symbolic Execution For Safe CUDA Kernels",
-                "Towards Remote Attestation of Microarchitectural Attacks: The Case of Rowhammer",
-                "Beyond Benchmarks: How Users Evaluate AI Chat Assistants"
-            ],
-            "community_pulse": [
-                "After the Trivy compromise, we found a blind spot in every remediation guide - transitive GitHub Action dependencies",
-                "Uninstalling OpenEDR",
-                "How dangerous is it to install vibecoded applications?"
-            ]
-        }
-    },
-    {
-        "report_date": "2026-03-27T18:22:30.552768",
-        "report_truncated": {
-            "threat_intelligence": [
-                "CISA Adds One Known Exploited Vulnerability to Catalog",
-                "Google moves post-quantum encryption timeline up to 2029",
-                "Threat Brief: March 2026 Escalation of Cyber Risk Related to Iran (Updated March 26)"
-            ],
-            "general_news": [
-                "CISA sounds alarm on Langflow RCE, Trivy supply chain compromise after rapid exploitation",
-                "Wikipedia bans AI-generated content in its online encyclopedia",
-                "Google warns quantum computers could hack encrypted systems by 2029"
-            ],
-            "org_pages": [
-                "WhatsApp Adds New Features to Simplify Storage, Switch Accounts, and More"
-            ],
-            "academic_research": [
-                "Model2Kernel: Model-Aware Symbolic Execution For Safe CUDA Kernels",
-                "Towards Remote Attestation of Microarchitectural Attacks: The Case of Rowhammer",
-                "Beyond Benchmarks: How Users Evaluate AI Chat Assistants"
-            ],
-            "community_pulse": [
-                "After the Trivy compromise, we found a blind spot in every remediation guide - transitive GitHub Action dependencies",
-                "Uninstalling OpenEDR",
-                "How dangerous is it to install vibecoded applications?"
-            ]
-        }
-    },
-    {
         "report_date": "2026-03-31T11:01:32.570759",
         "report_truncated": {
             "threat_intelligence": [
@@ -430,6 +234,35 @@
                 "Why GRC Is the Natural Landing Zone for Agents",
                 "Kevin Mitnick\u2019s case shows how powerful social engineering really is",
                 "Canada Salaries"
+            ]
+        }
+    },
+    {
+        "report_date": "2026-04-03T19:59:14.895091",
+        "report_truncated": {
+            "threat_intelligence": [
+                "vSphere and BRICKSTORM Malware: A Defender's Guide",
+                "Threat actor abuse of AI accelerates from tool to cyberattack surface",
+                "Siemens SICAM 8 Products"
+            ],
+            "general_news": [
+                "Hackers Exploit CVE-2025-55182 to Breach 766 Next.js Hosts, Steal Credentials",
+                "UK social media users less active on tech platforms due to rise of video apps",
+                "Pupils in England are losing their thinking skills because of AI, survey suggests"
+            ],
+            "org_pages": [
+                "OpenAI acquires TBPN",
+                "Codex now offers more flexible pricing for teams"
+            ],
+            "academic_research": [
+                "DOne: Decoupling Structure and Rendering for High-Fidelity Design-to-Code Generation",
+                "YASA: Scalable Multi-Language Taint Analysis on the Unified AST at Ant Group",
+                "Logic-Gated Time-Shared Feedforward Networks for Alternating Finite Automata: Exact Simulation and Learnability"
+            ],
+            "community_pulse": [
+                "How to start study cybersecurity?",
+                "Architecture Review: Preventing \"Shadow AI\" data leaks with a stateless PII firewall",
+                "China-Linked TA416 Targets European Governments with PlugX and OAuth-Based Phishing"
             ]
         }
     }

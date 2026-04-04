@@ -113,7 +113,7 @@ def calculate_surges(conn, target_date):
 def export_results(results):
     """Exports results to JSON and CSV."""
     top_20 = results[:20]
-    with open(EXPORT_JSON, 'w') as f:
+    with open(EXPORT_JSON, 'w', encoding='utf-8') as f:
         json.dump(top_20, f, indent=4)
     
     if results:

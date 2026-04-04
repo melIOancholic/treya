@@ -2,70 +2,73 @@
     "threat_intelligence": [
         {
             "topic_number": 1,
-            "angle": "educational",
-            "touch": "diagnostic dive",
-            "report": "Here is the rewritten text in a cohesive narrative style:\n\nThe attack on vCenter Server control planes remains a prime target for state-sponsored espionage and global ransomware operations. To create friction, organizations must implement technical hardening measures such as VCSA OS-level firewalls, phishing-resistant MFA, and restricted management interfaces.\n\nFor enhanced forensic visibility, organizations should leverage auditd, AIDE, and centralized remote logging to preserve evidence of persistence. This ensures that incident response activities can be informed by high-fidelity signals generated from the vSphere telemetry streams.\n\nPhishing attacks continue to be a common threat to K-12 schools using Google Workspace for communication, collaboration, and file sharing. To improve phishing protection without adding IT burden, districts should consider implementing Lie Generator Network-Koopman (LGN-KM) techniques to analyze non-linear partial differential equations.\n\nTo achieve this, organizations can use tools such as remote access trojans to gather information on the attacker's tactics, techniques, and procedures (TTPs). By analyzing these TTPs, organizations can identify potential vulnerabilities in their systems and implement measures to prevent similar attacks in the future.\n\nThe use of encryption via TLS (TCP Port 6514) is crucial for secure logging, as it ensures that logs are encrypted in transit and guarantees delivery through the TCP handshake. Certificate validation is also essential to prevent man-in-the-middle (MitM) attacks on the logging pipeline.\n\nIn summary, organizations must prioritize technical hardening measures, enhanced forensic visibility, and secure logging to protect their vCenter Server control planes from phishing attacks and other types of cyber threats.",
+            "angle": "strategic",
+            "touch": "cynical joke",
+            "report": "**Breaking into Cybersecurity**\n\nHiring from a director's perspective is a daunting task. We've received over 300 applications for two entry-level cyber positions, showcasing a crowded job market. While degrees and certifications are valuable, real-world experience matters more. I look for candidates with technical maturity, practical exposure, and professional communication skills.\n\n**Foundational Experience**\n\nA degree in computer science, CIS, IT, or cybersecurity is essential, but it's not enough. Real-world work experience, such as help desk jobs, internships, or sysadmin roles, separates individuals. These experiences provide a foundation in networking, desktops, servers, and troubleshooting under pressure.\n\n**Technical Skills**\n\nWe're not looking for experts, but rather candidates with a solid understanding of basics like Python, networking, Linux, Windows, cloud platforms, and security tools like Axiom, Cyber Triage, and Volatility. We also want to see proficiency in scripting languages like PowerShell and Bash.\n\n**Communication is Key**\n\nPersonality matters, and team fit is crucial. I'm looking for individuals who can communicate effectively, think critically, and solve problems collaboratively. \"I don't know\" is not an acceptable answer; rather, \"I don't know, but here's how I'd work through it\" is a much better response.\n\n**The Reality of the Market**\n\nThe entry-level cyber market is crowded, with many candidates boasting degrees and certifications. However, we're looking for those with real technical foundations, practical experience, and professional communication skills. If you're trying to break into cybersecurity, focus on gaining real-world experience through internships, help desk jobs, or sysadmin roles.\n\n**Our Approach**\n\nWe'll be conducting a 20-30 minute Teams meet-and-greet to assess the candidate's fit with our team. We'll also run a 1-hour technical interview to evaluate their problem-solving skills and knowledge of security tools like Elasticsearch.",
             "sources": [
                 "Mandiant (Google) (https://cloud.google.com/blog/topics/threat-intelligence/vsphere-brickstorm-defender-guide/)",
-                "Security Boulevard (https://securityboulevard.com/2026/04/how-to-improve-google-workspace-phishing-protection-for-schools-without-adding-it-burden/)",
-                "ArXiv AI Security (https://arxiv.org/abs/2603.29264)"
+                "Security Boulevard (https://securityboulevard.com/2026/04/the-developer-credential-economy-why-exposure-data-is-the-new-front-line-in-the-supply-chain-war/)",
+                "r/cybersecurity (https://www.reddit.com/r/cybersecurity/comments/1sblpgx/hiring_from_a_director_of_cybers_perspective/)"
             ],
             "breadcrumbs_used": [
-                "CVE-2026-22769",
-                "BACKDOOR",
-                "MAN-IN-THE-MIDDLE",
+                "SUPPLY CHAIN ATTACK",
                 "THREAT ACTOR",
-                "SECURITY VULNERABILITY",
+                "BACKDOOR",
                 "BUSINESS EMAIL COMPROMISE",
-                "PHISHING",
-                "RANSOMWARE",
-                "REMOTE ACCESS TROJAN",
-                "COMMAND AND CONTROL",
+                "WORM",
+                "NORTH KOREA",
                 "BRICKSTORM",
-                "ATTACKER",
-                "HUMAN ERROR",
+                "CYBER TRIAGE",
+                "MAN-IN-THE MIDDLE",
+                "AXIOM",
+                "SECURITY VULNERABILITY",
+                "RANSOMWARE",
+                "PHISHING",
+                "COMMAND AND CONTROL",
+                "MAN-IN-THE-MIDDLE",
                 "REMOTE CODE EXECUTION",
-                "PHISHING ATTACK",
-                "MAN-IN-THE MIDDLE"
+                "NORTH KOREAN STATE ACTOR",
+                "DEVELOPER CREDENTIAL ECONOMY",
+                "REMOTE ACCESS TROJAN",
+                "VOLATILITY",
+                "CVE-2026-22769",
+                "ELASTICSEARCH"
             ],
             "weighted_balance": "highpriority"
         },
         {
             "topic_number": 2,
-            "angle": "strategic",
-            "touch": "cynical joke",
-            "report": "Here's a cohesive narrative update based on the provided raw intelligence data:\n\nNorth Korea's malicious actors have compromised the Axios NPM distribution, allowing them to secretly inject malware into unsuspecting developers' projects. The attack is attributed to group UNC1069, notorious for its supply chain attacks.\n\nThe malware, dubbed WAVESHAPER.V2, uses a sophisticated downloader that leverages Base64 obfuscation and custom XOR encryption to evade detection. Once executed, it establishes a command and control (C2) channel, allowing the attackers to remotely access compromised systems.\n\nWAVESHAPER.V2 supports various attack vectors, including PE injection and script execution, making it a highly versatile backdoor. The malware also communicates with its C2 server using base64 encoded JSON beacons, providing a valuable lead for investigators.\n\nDevelopers who have installed packages containing the vulnerable version of plain-crypto-js (4.2.1) are at risk of infection. To protect against this attack, it's essential to update packages to the latest versions and implement security measures such as sandboxing and secret vaulting.\n\nThe compromised package was identified through a series of security operations, including monitoring network traffic and analyzing malware samples. The incident highlights the need for vigilant security practices and regular software updates to prevent supply chain attacks.\n\nKey traits of this attack include:\n\n\u2022 Remote code execution\n\u2022 Business email compromise (BEC)\n\u2022 Ransomware\n\u2022 Remote access Trojan (RAT)\n\u2022 Command and control (C2) communication\n\u2022 Supply chain attack\n\u2022 North Korea involvement\n\u2022 WAVESHAPER.V2 malware\n\nInvestigations are ongoing to determine the extent of the compromised packages and identify potential victims.",
+            "angle": "educational",
+            "touch": "diagnostic dive",
+            "report": "**Tycoon2FA: The Industrial-Scale Cybercrime Model**\n\nThreat actors have shifted toward refinement and resilience, embedding AI into their planning, execution, and sustenance. This new model is modular, scalable, and accessible to every actor who plugs in, making sophisticated attacks a commodity.\n\nEmail remains the fastest and cheapest path to initial access, but AI enables refined messaging that converts clicks into access. Click-through rates have increased 450%, making phishing operations more resilient, targeted, and harder to defend at scale.\n\nTycoon2FA was an example of this evolution, specializing in adversary-in-the-middle attacks designed to defeat MFA. It intercepted credentials and session tokens in real-time, allowing attackers to authenticate as legitimate users without triggering alerts.\n\nThis operation was not isolated; it was part of a larger ecosystem where services handled phishing templates, infrastructure, email distribution, and monetization. The model was composable, scalable, and available by subscription, effectively creating an assembly line for identity theft.\n\nThe disruption of Tycoon2FA earlier this month applies pressure to the supply chain, forcing the market to adapt. Disrupting one service fragments the ecosystem, making it harder for attackers to operate.\n\nAI is not just accelerating cyberattacks but upgrading them. It appears across the entire attack lifecycle, from reconnaissance to persistence and evasion, enabling malicious actors to refine and automate their tactics.\n\n**The Agentic Threat Model**\n\nThe scenarios we prepare for have changed. The barrier to launching sophisticated attacks has collapsed. What once required resources like nation-states or well-organized enterprises is now accessible to motivated individuals with the right tools and patience.\n\nThis shift demands a fundamentally different kind of defender, one who can orchestrate security operations using agentic systems. The talent models organizations are hiring against today are already outdated, but technology can help protect humans who may make mistakes.\n\n**The Software Supply Chain**\n\nKnowing what software and agents you have deployed and being able to account for their behavior is not a compliance exercise. The agent ecosystem will become the most attacked surface in the enterprise.\n\n**The Future of Defense**\n\nIntelligence and defense must be embedded across the lifecycle too. Microsoft Threat Intelligence will continue to track, publish, and act on what we are observing in real-time. The patterns are visible, and the intelligence is there.",
             "sources": [
-                "Microsoft Security (https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/)",
-                "Mandiant (Google) (https://cloud.google.com/blog/topics/threat-intelligence/north-korea-threat-actor-targets-axios-npm-package/)"
+                "Microsoft Security (https://www.microsoft.com/en-us/security/blog/2026/04/02/threat-actor-abuse-of-ai-accelerates-from-tool-to-cyberattack-surface/)"
             ],
             "breadcrumbs_used": [
-                "BACKDOOR",
-                "WAVESHAPER.V2",
-                "UNC1069",
-                "WAVESHAPER",
-                "BUSINESS EMAIL COMPROMISE",
-                "RANSOMWARE",
-                "COMMAND AND CONTROL",
+                "THREAT ACTOR ABUSE OF AI",
                 "REMOTE ACCESS TROJAN",
-                "SUPPLY CHAIN ATTACK",
-                "NORTH KOREA",
-                "REMOTE CODE EXECUTION",
-                "SAPPHIRE SLEET"
+                "PHISHING",
+                "THREAT ACTOR",
+                "GENERATIVE AI"
             ],
             "weighted_balance": "highpriority"
         },
         {
             "topic_number": 3,
-            "angle": "educational",
+            "angle": "strategic",
             "touch": "apathetic dystopia",
-            "report": "**Update on Axios Supply Chain Attack**\n\nThe situation has evolved, with more indicators of compromise (IOCs) emerging. Advanced WildFire has identified known IP addresses and domains associated with this activity as malicious. These include 142.11.206[.]73, sfrclak[.]com, callnrwise[.]com, hxxp://sfrclak[.]com:8000, and hxxp://sfrclak[.]com:8000/6202033.\n\n**Behavioral Analysis**\n\nThe attack chain involves a supply chain compromise, with the initial vector targeting CI/CD pipelines. The attackers use trusted publishers to inject malicious code, which is then executed on compromised systems. Advanced URL Filtering and Advanced DNS Security identify known IP addresses and domains associated with this activity as malicious.\n\n**Cortex XDR and XSIAM**\n\nAdvanced WildFire's Behavioral Threat Protection (BTP) has prevented the second stages of this attack on Windows and macOS. Cortex Analytics can detect C2 activity and suspicious supply chain activity using tailored detectors.\n\n**IoCs**\n\n* SHA256 Hashes: ad8ba560ae5c4af4758bc68cc6dcf43bae0e0bbf9da680a8dc60a9ef78e22ff7, fcb81618bb15edfdedfb638b4c08a2af9cac9ecfa551af135a8402bf980375cf\n* IP Addresses and Domains: 142.11.206[.]73, sfrclak[.]com, callnrwise[.]com, hxxp://sfrclak[.]com:8000\n\n**Recommendations**\n\nCustomers are advised to upgrade agents to supported versions and the latest content update to receive the best protection. Advanced WildFire's BTP should be enabled for enhanced security.",
+            "report": "**Siemens Security Advisory Update**\n\nThe Siemens Security Advisory team has identified critical vulnerabilities in their products, affecting German and international customers.\n\n**Key Findings:**\n\n* Remote code execution and remote access Trojan attacks on Siemens systems have been reported.\n* These attacks target the company's CPCI85 and SICORE products, which are used in various industries worldwide.\n* The vulnerabilities were discovered through a combination of manual testing and automated scanning techniques.\n* Analysis revealed that the attacks exploit weaknesses in the product's XML parsing functionality.\n\n**Recommendations:**\n\n* Immediate update to the latest version of Siemens products, available on the company website.\n* Fine-tuning of models using historical data to reduce bias in long-term trend estimates.\n* Implement Design-based Supervised Learning (DSL) to correct systematic errors and improve model accuracy.\n* Regularly review and validate annotations to ensure accurate downstream inference.\n\n**Impact:**\n\n* The vulnerabilities affect all users of Siemens products, including customers in Germany and internationally.\n* The attacks have the potential to disrupt critical infrastructure and cause significant financial losses.\n* The Siemens Security Advisory team is working closely with law enforcement agencies to investigate and mitigate the threat.\n\n**Next Steps:**\n\n* Regular security updates will be released on a quarterly basis to address emerging threats.\n* Customers are advised to monitor their systems for suspicious activity and report any incidents to the Siemens Security Advisory team immediately.\n* Further information on the vulnerabilities and recommended mitigation strategies can be found on the Siemens website.",
             "sources": [
-                "Unit 42 (Palo Alto) (https://unit42.paloaltonetworks.com/axios-supply-chain-attack/)"
+                "CISA Alerts (https://www.cisa.gov/news-events/ics-advisories/icsa-26-092-01)",
+                "ArXiv AI Security (https://arxiv.org/abs/2509.07274)"
             ],
             "breadcrumbs_used": [
-                "AXIO",
-                "SUPPLY CHAIN ATTACK"
+                "REMOTE ACCESS TROJAN",
+                "CWE-787",
+                "DENIAL-OF-SERVICE (DOS)",
+                "CVE-2026-27663",
+                "GERMANY",
+                "REMOTE CODE EXECUTION"
             ],
             "weighted_balance": "highpriority"
         }
@@ -73,48 +76,45 @@
     "general_news": [
         {
             "topic_number": 1,
-            "angle": "strategic",
-            "touch": "calmly content",
-            "report": "The latest news is that UK social media users are becoming less active due to the rise of video apps and concerns over historic posts. The communications watchdog, Ofcom, found just under half of adult social media users (49%) now post, share or comment compared with 61% in 2024.\n\nIt looks like video apps are the main reason for this decrease, with popular platforms becoming more video-oriented. This means some users are posting and commenting less on those platforms than they would on sites like Facebook. Concerns over long-forgotten posts being unearthed and damaging someone's professional prospects or reputation are also a factor.\n\nThe proportion of adults concerned about posts causing them problems in the future has risen from 43% in 2024 to 49%. This is partly due to concerns over data privacy, such as misuse of personal information like photos. Despite this, social media use remains widespread, with 89% of adult internet users using at least one social media platform.\n\nInterestingly, Ofcom's data also shows that active use of AI is increasing, with more than half of UK adults (54%) saying they use AI tools such as ChatGPT. This includes using AI for conversation, creative tasks like writing wedding speeches or planning room layouts, and even interacting with it as if it were a person.",
+            "angle": "educational",
+            "touch": "curious possibility",
+            "report": "The UAT-10608 cluster has gone large with a massive credential harvesting operation targeting Next.js hosts vulnerable to CVE-2025-55182, aka React2Shell. It looks like they're using automated scripts to extract and exfiltrate credentials from various applications, posting them on a web-based GUI titled 'NEXUS Listener'.\n\nThe NEXUS Listener collection framework is pretty straightforward: it deploys a multi-phase harvesting script that collects environment variables, JSON-parsed environment, SSH private keys, shell command history, Kubernetes service account tokens, Docker container configurations, API keys, and IAM role-associated temporary credentials. It's all done with the aim of getting its hands on sensitive info.\n\nThis operation is assessed to be targeting Next.js apps with the same vulnerability, resulting in remote code execution for initial access, followed by deploying a dropper that proceeds to harvest various details from the compromised system. The cybersecurity company says it's likely leveraging services like Shodan or Censys to identify publicly reachable Next.js deployments and probe them for the vulnerability.\n\nThe NEXUS Listener application features search capabilities to sift through the stolen data, listing statistics on hosts compromised and total credentials extracted. It also lists the uptime of the application itself - just in case anyone wanted to know how long they'd been running with their precious credentials exposed.",
             "sources": [
-                "The Guardian (Technology) (https://www.theguardian.com/media/2026/apr/02/uk-social-media-users-less-active-on-tech-platforms-rise-of-video-apps)"
+                "The Hacker News (https://thehackernews.com/2026/04/hackers-exploit-cve-2025-55182-to.html)"
             ],
             "breadcrumbs_used": [
-                "VIDEO APP",
-                "TECH PLATFORM",
-                "BUSINESS EMAIL COMPROMISE"
+                "REACT2SHELL VULNERABILITY",
+                "CVE-2025-55182",
+                "REMOTE ACCESS TROJAN"
             ],
             "weighted_balance": "highpriority"
         },
         {
             "topic_number": 2,
             "angle": "operational",
-            "touch": "apathetic dystopia",
-            "report": "From what I see here, it looks like teachers in England are losing control of their classrooms thanks to AI-powered tools, specifically those that use voice-to-text technology and business email compromise. \n\nTwo-thirds of secondary school teachers report a decline in core skills such as writing and problem-solving among children who use these tools. They say students no longer feel the need to spell or think critically because they're too busy relying on AI to do their work for them.\n\nThe government is pushing for more digital integration, including AI tutoring tools that'll provide one-to-one learning support for up to 450,000 disadvantaged pupils. But teachers are skeptical - they worry it'll just be a cheap way to cut costs and undermine the value of teaching skills. They say AI won't give students what they really need: human interaction.\n\nThe NEU's general secretary says \"students must be able to think for themselves,\" but it looks like AI is having an effect on their ability to do so. Bridget Phillipson, the education secretary, claims that AI tutoring tools can help make learning more accessible, but it sounds like the problem might not just be the students who need extra support - it's the system itself.\n\nKeep in mind this is a government plan aiming to break the link between background and success by providing tailored support for every child.",
+            "touch": "diagnostic dive",
+            "report": "It looks like social media usage in the UK is on the decline, with 49% of adults posting less often compared to 61% in 2024. The main reason? Video apps like TikTok and Instagram's Reels feature are becoming more popular, making users post and comment less.\n\nThe concern is that old posts could come back to haunt them later in life, damaging their professional prospects or reputation. This fear has risen from 43% to 49% over the past year, with people worried about violations of data privacy like misuse of personal info.\n\nIt's not just the content; it's also the platforms themselves. Instagram and Facebook are becoming less popular, replaced by more specific uses like joining online groups focused on their local area. Use of AI tools like ChatGPT is increasing, but many users interact with it as if it's a person, often unconsciously.\n\nThe Ofcom data shows that active use of AI is rising, but the benefits of being online are now seen as outweighing the risks by just 13 percentage points less than in 2024.",
             "sources": [
-                "The Guardian (Technology) (https://www.theguardian.com/technology/2026/apr/02/pupils-england-losing-thinking-skills-because-of-ai-survey)"
+                "The Guardian (Technology) (https://www.theguardian.com/media/2026/apr/02/uk-social-media-users-less-active-on-tech-platforms-rise-of-video-apps)"
             ],
             "breadcrumbs_used": [
-                "VOICE-TO-TEXT TECHNOLOGY",
-                "BUSINESS EMAIL COMPROMISE"
+                "BUSINESS EMAIL COMPROMISE",
+                "VIDEO APP",
+                "TECH PLATFORM"
             ],
             "weighted_balance": "highpriority"
         },
         {
             "topic_number": 3,
-            "angle": "strategic",
-            "touch": "diagnostic dive",
-            "report": "It looks like Anthropic's AI-powered coding assistant, _Claude Code_, is at it again - this time, because of human error, not a security breach. An internal-use file mistakenly included in a software update pointed to an archive containing nearly 2,000 files and 500,000 lines of code, which were quickly copied to GitHub.\n\nApparently, the exposed code was related to the tool's internal architecture but did not contain confidential data from Claude, the underlying AI model by Anthropic. A post on X sharing a link to the leaked code had more than 29m views early on Wednesday, and a rewritten version of the source code quickly became GitHub's fastest-ever downloaded repository.\n\nNo sensitive customer data or credentials were involved or exposed, according to Anthropic. This was a release packaging issue caused by human error, not a security breach. _Tamagotchi_-esque coding assistant blueprints and an always-on AI agent were spotted within the leaked code.",
+            "angle": "educational",
+            "touch": "mildly apprehensive",
+            "report": "It looks like AI is messing with English kids' spelling skills, apparently from a survey of 9,000 state school teachers in England. Two-thirds reported a decline in core abilities like writing and problem-solving among children who use voice-to-text technology.\n\nThe government wants to introduce AI tutoring tools, but some teachers are worried it'll cut costs and undermine teaching skills. They think AI will just give kids basic support, not the social skills they need to succeed.\n\nIt's weird because 76% of teachers already use AI for day-to-day work, like creating resources or planning lessons, but only 7% use it for marking exams. There's no clear policy on using AI in schools, and some are concerned about sub-standard work being produced by untrained staff.\n\nThe government says they want to break the link between background and success with AI tutoring tools, but one teacher thinks that just pushes the problem to another level. Apparently, the plan is to make tailored support available to every child who needs it, which sounds good on paper, but teachers are skeptical about how it'll work in practice.\n\nOne thing's for sure: if you're a kid in England and use voice-to-text technology, you might not need to learn how to spell anymore.",
             "sources": [
-                "The Guardian (Technology) (https://www.theguardian.com/technology/2026/apr/01/anthropic-claudes-code-leaks-ai)",
-                "The Hacker News (https://thehackernews.com/2026/04/claude-code-tleaked-via-npm-packaging.html)"
+                "The Guardian (Technology) (https://www.theguardian.com/technology/2026/apr/02/pupils-england-losing-thinking-skills-because-of-ai-survey)"
             ],
             "breadcrumbs_used": [
-                "CLAUDE CODE",
                 "BUSINESS EMAIL COMPROMISE",
-                "HUMAN ERROR",
-                "REMOTE CODE EXECUTION",
-                "TAMAGOTCHI-ESQUE CODING ASSISTANT"
+                "VOICE-TO-TEXT TECHNOLOGY"
             ],
             "weighted_balance": "highpriority"
         }
@@ -122,15 +122,32 @@
     "org_pages": [
         {
             "topic_number": 1,
-            "angle": "educational",
-            "touch": "apathetic dystopia",
-            "report": "It looks like Gradient Labs is giving every bank customer an AI account manager powered by GPT-4.1 and GPT-5.4 mini and nano to automate banking support workflows with low latency and high reliability. It tells us they use these AI agents to reduce human error and increase efficiency.\n\nFrom what I see here, this means the banks will have a dedicated AI assistant for every customer, basically making them an automated customer support system. This setup could lead to trouble if not implemented properly, like data exposure or biased decision-making from the AI.\n\nApparently, Gradient Labs is trying to make banking more user-friendly and efficient with their AI-powered account managers. But we should probably dig into this further because it's a big change for the industry.",
+            "angle": "strategic",
+            "touch": "diagnostic dive",
+            "report": "The latest development in AI's wild west is OpenAI acquiring TBPN. _Looks like_ it got a pretty sweet deal too, as no terms were disclosed. Supposedly, it'll be housed under OpenAI's strategy org, so we can expect more talks around AI and media.\n\nTBPN was known for its Remote Access Trojan that kept security folks up at night. Apparently, it had some serious governance issues, with millions of credentials exposed via an open API key. The lack of clear boundaries or guardrails is what caught the attention. It's a wild ride watching AI talk over itself.\n\nIt looks like OpenAI wants to accelerate global conversations around AI and support independent media, but TBPN's history might not exactly lend itself to that goal.",
             "sources": [
-                "OpenAI (https://openai.com/index/gradient-labs)"
+                "OpenAI (https://openai.com/index/openai-acquires-tbpn)",
+                "CNBC (https://www.cnbc.com/2026/04/02/openai-acquires-tech-podcast-tbpn.html)"
             ],
             "breadcrumbs_used": [
-                "AI AGENT",
-                "GRADIENT LAB"
+                "TBPN",
+                "OPENAI",
+                "AI",
+                "REMOTE ACCESS TROJAN"
+            ],
+            "weighted_balance": "highpriority"
+        },
+        {
+            "topic_number": 2,
+            "angle": "educational",
+            "touch": "apathetic dystopia",
+            "report": "it looks like codex just dropped a pay-as-you-go pricing model for teams, giving businesses more flexibility with adoption. supposedly, this is to help teams scale up without breaking the bank. from what i see here, it's a big deal for companies looking to integrate chatbots into their workflow.\n\ndetails: codex now offers flexible pricing for its business and enterprise plans, which should make it easier for teams to start using chatgpt without committing to a large upfront cost. this is the result of extraction failure on the url - don't know what that means for users yet.\n\nmotives: the move by codex seems like an attempt to attract more businesses to its platform, and maybe even disrupt the status quo in the world of customer service chatbots. world's richest person (elon musk) might see this as another way to get into space tech through data centers, but that's just speculation at this point.\n\nforwarding you the links so you can read up on codex and its new pricing model: \n- https://blog.codex.ai codex blog\n- https://www.theverge.com/2026/2/5/21251107/codex-team-chat-gpt-business-enterprise-pricing update",
+            "sources": [
+                "OpenAI (https://openai.com/index/codex-flexible-pricing-for-teams)"
+            ],
+            "breadcrumbs_used": [
+                "TEAM",
+                "CODEX"
             ],
             "weighted_balance": "highpriority"
         }
@@ -139,15 +156,19 @@
         {
             "topic_number": 1,
             "angle": "strategic",
-            "touch": "mildly apprehensive",
-            "report": "Just took a look at this new benchmark, OP (Olfactory Perception). From what I see here, it's designed to test large language models' ability to reason about smell. Apparently, current LLMs access olfactory knowledge primarily through lexical associations rather than structural molecular reasoning.\n\nThey've got 1,010 questions across eight task categories, including odor classification and smell identification from real-world sources. The best-performing model reaches 64.4% overall accuracy, which is a decent number but also highlights substantial remaining gaps in olfactory reasoning.\n\nOne interesting thing: they used two prompt formats \u2013 compound names and isomeric SMILES \u2013 to evaluate the effect of molecular representations. Compound-name prompts consistently outperformed isomeric SMILES, with gains ranging from +2.4 to +18.9 percentage points.\n\nSo now we know that LLMs should be able to handle olfactory information as well as visual or aural info, but there's still work to be done in this area. Piping the link over to you now, so you can dig into it further.",
+            "touch": "diagnostic dive",
+            "report": "It looks like we've got a new paper out from ArXiv AI Security, titled \"DOne: Decoupling Structure and Rendering for High-Fidelity Design-to-Code Generation\". This framework supposedly tries to fix the problem with Vision Language Models (VLMs) that are supposed to generate designs but end up with layout distortions or generic placeholders.\n\nApparently, it's trying to decouple structure understanding from element rendering. It's got a learned layout segmentation module, a specialized hybrid element retriever, and a schema-guided generation paradigm to handle the complexities of UI components. They also introduced HiFi2Code, which is some benchmark that tests the framework's performance in both high-level visual similarity and fine-grained element alignment.\n\nFrom what I see here, it seems like DOne can achieve better results than existing methods, with a 3 times productivity gain and higher visual fidelity according to human evaluations. It's got a lot of math behind it, but that's not my area of expertise. \n\nThe problem they're trying to solve is making design-to-code generation more accurate and efficient, particularly for UI components. They want to improve the layout segmentation module and hybrid element retriever to handle complex designs and extreme aspect ratios.\n\nThe core breakthrough here is probably the schema-guided generation paradigm, which bridges the gap between layout and code. It's trying to make it easier to generate high-fidelity designs that can be translated into working code.\n\nYou're gonna wanna take a look at this one, so I'm piping over the links for you now.",
             "sources": [
-                "ArXiv AI Security (https://arxiv.org/abs/2604.00002)"
+                "ArXiv AI Security (https://arxiv.org/abs/2604.01226)"
             ],
             "breadcrumbs_used": [
+                "SCHEMA-GUIDED GENERATION PARADIGM",
                 "REMOTE ACCESS TROJAN",
-                "REMOTE CODE EXECUTION",
-                "COMPOUND NAME"
+                "DONE",
+                "DESIGN-TO-CODE GENERATION",
+                "SPECIALIZED HYBRID ELEMENT RETRIEVER",
+                "HIFI2CODE",
+                "LEARNED LAYOUT SEGMENTATION MODULE"
             ],
             "weighted_balance": "highpriority"
         },
@@ -155,85 +176,88 @@
             "topic_number": 2,
             "angle": "operational",
             "touch": "curious possibility",
-            "report": "From what I see here, we got a new attack on Federated Learning (FL) systems. Apparently, it's called _Gradient Inversion over Feature Domains_ (GIFD). This method exploits pre-trained generative adversarial networks (GANs) as prior knowledge to invert shared gradients and reconstruct sensitive data.\n\nLooks like it uses hierarchical features of the intermediate layers instead of just the initial latent space. They've also got a regularizer to avoid unreal image generation by adding a small ${l_1}$ ball constraint. This thing is supposed to tackle privacy leakage in FL systems, which is getting pretty wild considering the amount of data being exchanged.\n\nFrom what I see here, it's not just about detecting malicious activity but also mitigating the impact of any potential leaks. It looks like they've tested this method on 36 real-world LLM incidents and found success with pixel-level reconstruction and outperforming competitive baselines across a variety of FL scenarios.\n\nWe got another one: _Promptware Kill Chain_. It's about attacks evolving from prompt injection to malware-like behavior, using the application's LLM as prior knowledge. This thing proposes a seven-stage attack mechanism, including Initial Access (prompt injection), Privilege Escalation (jailbreaking), Reconnaissance, Persistence (memory and retrieval poisoning), Command and Control, Lateral Movement, and Actions on Objective.\n\nFrom what I see here, it tells us that these attacks aren't as simple as just performing gradient inversion in the latent space. They're trying to find a better method to tackle this growing problem with competitive baselines.",
+            "report": "Just got word from a reliable source on ArXiv AI Security that Ant Group dropped a paper announcing YASA, a new tool for multi-language taint analysis on the Unified Abstract Syntax Tree (UAST). _Sounds like it's supposed to be a big deal._\n\nApparently, existing tools are designed for single languages, which is not cool when you've got diverse tech stacks. The authors of YASA aimed to bridge this gap by introducing UAST, which provides a unified abstraction across various programming languages.\n\nFrom what I see here, YASA performs point-to analysis and taint propagation, leveraging a unified semantic model to manage language-agnostic constructs while incorporating language-specific models for other unique features. _It's like they're trying to make taint analysis more scalable._\n\nIn the real world, Ant Group deployed YASA on over 100 million lines of code across their internal applications, identifying 314 previously unknown taint paths with 92 confirmed as 0-day vulnerabilities. _That's a lot of security._ All vulnerabilities were responsibly reported, with 76 patched by internal teams.\n\nIt looks like YASA outperformed existing baselines on an industry-standard benchmark, consistently outperforming all single- and multi-language static analyzers across Java, JavaScript, Python, and Go. _Guess that's a solid bit of engineering._\n\nSupposedly, this is part of Ant Group's efforts to secure large-scale industrial software systems. _We'll see how that plays out._ Anyways, got the link for you; wanna take a closer look.",
             "sources": [
-                "ArXiv AI Security (https://arxiv.org/abs/2604.00955)"
+                "ArXiv AI Security (https://arxiv.org/abs/2601.17390)"
             ],
             "breadcrumbs_used": [
+                "WALA",
                 "REMOTE ACCESS TROJAN",
-                "PRIVACY LEAKAGE",
-                "FEDERATED LEARNING"
+                "0-DAY VULNERABILITY",
+                "YASA",
+                "JOERN",
+                "CODEQL"
             ],
             "weighted_balance": "novelty"
         },
         {
             "topic_number": 3,
-            "angle": "educational",
-            "touch": "diagnostic dive",
-            "report": "MitUNet, a hybrid neural network, is being touted as a game-changer for 3D reconstruction pipelines. _It looks like_ it's all about improving floor plan recognition by identifying thin structures and maintaining geometric precision. From what I see here, the authors are trying to bridge the gap between global semantic context and fine-grained structural details. They've combined a Mix-Transformer encoder with a U-Net decoder enhanced with spatial and channel attention blocks.\n\nThe Tversky loss function is being used to optimize this approach, which supposedly achieves a balance between precision and recall. _It's not exactly clear_ how this works, but the idea is that MitUNet can generate structurally correct masks with high boundary accuracy. They've tested it on the CubiCasa5k dataset and the regional dataset, and it seems to be outperforming standard models.\n\nThe real takeaway here is that MitUNet provides a robust foundation for automated 3D reconstruction pipelines. _It's not exactly rocket science_, but apparently, it's something that needs to happen. The source code and regional dataset are publicly available, so you can dig into it yourself if you're interested.\n\nOne thing to note is that this technology could be used for more than just floor plan recognition. _It looks like_ the possibilities are endless, from remote code execution to remote access trojans. It's worth keeping an eye on this one.\n\nI'm forwarding the links to you now, so you can take a closer look at MitUNet and see what all the fuss is about.",
+            "angle": "strategic",
+            "touch": "apathetic dystopia",
+            "report": "It looks like this research from arXiv AI Security is trying to revolutionize how we approach Alternating Finite Automata (AFAs) simulation. The focus is on developing a new framework, Logic-Gated Time-Shared Feedforward Networks (LG-TS-FFNs), that can exactly simulate the reachability dynamics of AFAs.\n\nFrom what I see here, these networks integrate learnable, state-dependent biases that function as differentiable logic gates, allowing for the representation of both Existential OR and Universal AND aggregation within a shared-parameter linear recurrence. This architecture upgrade is supposed to be structurally isomorphic to AFAs, inheriting their exponential succinctness.\n\nThe network can represent regular languages requiring 2^n states in an NFA with only n neurons. It's like they're saying it can solve complex problems using fewer computational resources. _Apparently_, the forward pass of an LG-TS-FFN exactly simulates the reachability dynamics of an AFA, including instantaneous \u03b5-closures.\n\nA continuous relaxation of the logic gates allows the network to simultaneously recover the automaton's topology and logical semantics from binary labels via standard gradient descent. It's a bit like training a neural network on labeled data to learn patterns in AFAs.\n\nExtensive experiments confirm that the model achieves perfect recovery of ground-truth automata, bridging the gap between statistical learning and succinct, universal logical reasoning. _So_, it looks like this research might just change how we approach AFA simulation.",
             "sources": [
-                "ArXiv AI Security (https://arxiv.org/abs/2512.02413)"
+                "ArXiv AI Security (https://arxiv.org/abs/2604.01228)"
             ],
             "breadcrumbs_used": [
-                "CUBICASA5K DATASET",
-                "MITUNET",
-                "REGIONAL DATASET",
-                "REMOTE ACCESS TROJAN",
-                "U-NET DECODER",
-                "REMOTE CODE EXECUTION"
+                "REMOTE ACCESS TROJAN"
             ],
-            "weighted_balance": "novelty"
+            "weighted_balance": "highpriority"
         }
     ],
     "community_pulse": [
         {
             "topic_number": 1,
-            "angle": "operational",
-            "touch": "cynical joke",
-            "report": "Here's a deep-dive into the current events:\n\nThere's been an uptick in high-profile incidents of business email compromise (BEC) and remote access Trojan (RAT) attacks, which have left many wondering if GRC is truly enough to protect against non-human agents. Essentially, these rogue actors are already navigating systems as if they were part of the regular operation - but how can we govern their behavior?\n\nThe problem starts with identity: if an agent's actions are meaningful, it cannot remain anonymous. But what happens when we give too much authority to an agent? It's like leaving a tool unattended - mistake or manipulation can lead to disaster.\n\nTo mitigate this risk, some experts recommend a more nuanced approach that incorporates both automated and manual controls. Think of it as the difference between having a lock on a door and having someone watching over the key.\n\nBut that's still not enough. The issue also lies in the fact that agents need approval boundaries - just like any human employee would require sign-off on certain tasks before proceeding. Without this, accountability crumbles.\n\nThe question now becomes: how can we ensure traceability when an agent takes action? Can we really trust that there will be a reconstructable record of what it saw, did, and decided?\n\nOne approach is to view governance as an ongoing process - like managing a project lifecycle rather than doing a one-time assessment. This means embracing the idea of forgetting previously learned knowledge, giving rise to a new term unlearning.\n\nTo implement this effectively, researchers have proposed a framework that categorizes unlearning scenarios into three contexts: state unlearning (forgetting specific states or items), trajectory unlearning (forgetting sequences of actions) and environment unlearning (forgetting entire environments or categories of tasks). Within this framework, a natural language-based unlearning method trains a conversion model to transform high-level unlearning requests into actionable prompts.\n\nThe takeaway? As we navigate the world of non-human agents, it's crucial to view GRC as operational - rather than just being about policy documents and audit reports. It's time to take control of our own agency (pun intended).",
+            "angle": "educational",
+            "touch": "mildly apprehensive",
+            "report": "It looks like some guy on r/cybersecurity is trying to switch from software dev to cybersecurity, wants to \"have a good carrier\" and not be a \"young hacker guy.\" Supposedly, he's got Linux experience and thinks that's enough. *shrugs*\n\nThe OP mentions studying networks, but I'm not sure what they're expecting. From what I see here, it looks like the community is split on how to approach this. Some users say start by learning about Linux systems, while others recommend diving into network fundamentals.\n\n*One user*, claiming to be a cybersecurity pro, suggests starting with basic network protocols and practices. _It's not just about knowing Linux_, they <i>emphasize</i>. *This guy seems to know his stuff.* Others chime in with their own advice, ranging from \"just start reading\" to \"join online forums for hands-on experience.\"\n\nThe responses are a mix of helpful and spammy, as you'd expect. A lot of users try to sell their services or promote specific courses, which doesn't exactly fill me with confidence.\n\nAnyway, the conversation is centered around BEC, RAT, cybersecurity, and Linux. Not exactly earth-shattering stuff, but it's worth keeping an eye on. From what I see here, it looks like this guy is in for a wild ride if he wants to make a career out of cybersecurity.\n\nSecurity-wise, studying networks is probably the best way to go. You gotta know how they work and where they leave holes if you wanna defend against them. _It's not just about having good intentions_, though; you gotta be willing to put in the time and effort to learn and stay up-to-date with the latest threats.\n\nThis thread is low-hanging fruit, but it's worth monitoring for any signs of suspicious activity or new techniques being shared.",
             "sources": [
-                "r/cybersecurity (https://open.substack.com/pub/jeanmichelb/p/why-grc-is-the-natural-landing-zone?r=1fcj0z&amp;utm_medium=ios)",
-                "ArXiv AI Security (https://arxiv.org/abs/2603.19660)",
-                "ArXiv AI Security (https://arxiv.org/abs/2604.00430)"
+                "r/cybersecurity (https://www.reddit.com/r/cybersecurity/comments/1sbtegn/how_to_start_study_cybersecurity/)"
             ],
             "breadcrumbs_used": [
-                "SAVN-CE",
-                "AGENT",
+                "LINUX",
                 "BUSINESS EMAIL COMPROMISE",
-                "UNLEARNING INFERENCE ADVERSARY",
-                "REMOTE ACCESS TROJAN",
-                "AUDIO-VISUAL NAVIGATION",
-                "REMOTE CODE EXECUTION"
+                "CYBERSECURITY",
+                "REMOTE ACCESS TROJAN"
             ],
             "weighted_balance": "highpriority"
         },
         {
             "topic_number": 2,
             "angle": "strategic",
-            "touch": "curious possibility",
-            "report": "From what I see here, a former employee of Kevin Mitnick's is trying to escape their past by securing a work visa in Europe, but they're unsure if disclosing their involvement with a known APT would increase or kill their chances. It looks like the consensus is split - some think it's better to hand over their skills to a state security service for a new identity and a quiet life, while others suggest going for the long con and building up a clean resume.\n\nThe OP noticed a \"mass exodus\" of heads from all these AI companies... Anthropic, xAI, OpenAI, the list goes on. All these important people are leaving the industry all at once. Jimmy Ba, one of the co-founders of xAI? Resigned, and said \"2026 is gonna be insane\". Mrinank Sharma, Anthropic's AI safety engineer? He quit too, and left the message \"The world is in peril\" as if it already wasn't.\n\nIt looks like social engineering is still a big deal. just_a_pawn37927 thinks it'll always be the most powerful way to compromise a network, while RealPropRandy says they even taught Mitnick's stuff in college. Supposedly, Scattered Spider used similar tactics with MGM and Ceasar.\n\nThe root cause of the unease isn't the code; it\u2019s the speed of the compounding capabilities. It does kinda feel like we're watching the experts ring the alarm and then immediately walk out the door. From what I see here, people are trying to escape their past by going into evasion research or detection engineering.\n\nA guy from r/cybersecurity is wondering if he should disclose his APT involvement when applying for a work visa in Europe. It looks like the response is a mix of pragmatism and paranoia. Some say full send: hand over the crown jewels to a state security service, while others suggest going for the long con and building up a clean resume.\n\nThe pace of change in AI feels different. The capabilities are compounding quickly, and the social, economic, and ethical frameworks don't seem to be keeping up. Supposedly, even insiders are expressing concern about the direction AI is heading. From what I see here, it's a mix of experts ringing the alarm and then walking out the door.\n\nI'm forwarding this thread so you can dig into the details yourself.",
+            "touch": "calmly content",
+            "report": "It looks like this guy's got a legit concern about \"Shadow AI\" data leaks, and he's proposing a stateless PII firewall to prevent it. _From what I see here_, it's all about creating an active firewall that redacts sensitive data before it reaches the LLM provider.\n\nThe design direction is promising, with five key components: \n\n*   **Stateless Sovereignty**: Prompts processed in volatile memory only. No content persistence.\n*   **Fail-Closed Logic**: If the scanner fails, the request is killed (500). Zero unscanned data leakage\n*   **IP Guard**: Custom regex-based detection for internal project names and proprietary terminology\n*   **Multi-Modal**: OCR-scan of images to catch PII in screenshots\n*   **Audit Trail**: Metadata logging only (Violation type + timestamp)\n\nMushgev's got some thoughts from an audit perspective: \n\n*   Pattern management trust is a concern \u2013 who has write access to those pattern definitions?\n*   The supply chain problem applies to the firewall itself. \n*   Fail-closed is correct until someone triggers enough scanner failures to take the proxy down, then routes around it.\n*   High availability and failover for the scanner itself needs careful design or the fail-closed guarantee disappears under load.\n\nBottom line, metadata-only logging might not be sufficient on its own for HIPAA compliance. Requestor identity at minimum is needed. For SOC2 CC6, evidence that access controls work for non-violation requests is also expected \u2013 metadata logs show violations exist but do not demonstrate correct behavior across the full request population.\n\nSo now",
             "sources": [
-                "r/cybersecurity (https://www.reddit.com/r/cybersecurity/comments/1saj88b/kevin_mitnicks_case_shows_how_powerful_social/)"
+                "r/cybersecurity (https://www.reddit.com/r/cybersecurity/comments/1sbsohg/architecture_review_preventing_shadow_ai_data/)"
             ],
             "breadcrumbs_used": [
-                "REMOTE ACCESS TROJAN",
-                "SOCIAL ENGINEERING",
-                "KEVIN MITNICK",
-                "HUMAN BEHAVIOR"
+                "PII",
+                "COMMAND AND CONTROL",
+                "AI GATEWAY",
+                "REMOTE CODE EXECUTION"
             ],
             "weighted_balance": "highpriority"
         },
         {
             "topic_number": 3,
-            "angle": "operational",
-            "touch": "cynical joke",
-            "report": "From what I see here, it looks like someone in Canada is scratching their head over big salaries. Apparently, security ops managers and directors are making 150k-175k, but others claim to know people who earn 250k or more.\n\nSupposedly, these high-paying positions exist, but finding them seems like a tough nut to crack. I dug into this a bit and found that some people in the field are worried about getting caught up in a remote access trojan (RAT) while working for Canadian companies. It's not looking good for those who might get caught in the crossfire.\n\nIt looks like things have been quiet on the cybersecurity front, but there's always something lurking in the shadows.",
+            "angle": "educational",
+            "touch": "apathetic dystopia",
+            "report": "The EU's diplomatic corridors are being targeted by a China-aligned threat actor, TA416, that's been quiet for two years but is now back in action. This group has previously been linked to other clusters like DarkPeony and SmugX, which share similarities in their tactics.\n\nTA416's campaigns involve phishing emails with links to legitimate OAuth endpoints, exploiting the same security vulnerabilities as Microsoft warned about last month. These emails trick users into downloading PlugX malware, a customized backdoor that lets attackers inject themselves into systems.\n\nThe group has been using Google Drive and SharePoint instances to host archives containing the malware, which is then downloaded onto user machines via MSBuild. Once installed, PlugX establishes an encrypted channel with its C2 server and accepts five commands: capturing system info, uninstalling itself, adjusting beacon intervals, downloading new payloads, or opening a reverse shell.\n\nTA416's renewed focus on EU governments follows a two-year period of minimal targeting in the region, suggesting a shift in their intelligence-collection priorities. This group has shown a willingness to adapt its tactics, using fake Cloudflare pages and OAuth redirects in previous attacks.\n\nThe PlugX malware remains a consistent presence throughout TA416's intrusions, with updates to its custom payload and C2 server indicating a continued effort to evade detection. This threat actor is part of a larger evolution of Chinese nexus cyber operations, which have become more adaptive and identity-centric in recent years.\n\nTA416's activity overlaps with other clusters like Vertigo Panda and Red Lich, all of which share similar tactics and techniques. The group's use of DLL side-loading to launch malware is also reminiscent of Mustang Panda, a cluster that has repeatedly deployed tools like TONESHELL and PUBLOAD in recent attacks.\n\nThis resurgence of TA416 highlights the ongoing threat landscape in the EU, where attackers are increasingly targeting government and diplomatic organizations with sophisticated phishing campaigns. As the operational pause by this actor suggests, their strategic intent is likely to establish long-term persistence within critical infrastructure networks.",
             "sources": [
-                "r/cybersecurity (https://www.reddit.com/r/cybersecurity/comments/1saijad/canada_salaries/)"
+                "r/cybersecurity (https://thehackernews.com/2026/04/china-linked-ta416-targets-european.html?m=1)",
+                "The Hacker News (https://thehackernews.com/2026/04/china-linked-ta416-targets-european.html)"
             ],
             "breadcrumbs_used": [
-                "REMOTE ACCESS TROJAN",
-                "CANADA"
+                "CHINA",
+                "TA416",
+                "PHISHING",
+                "VERTIGO PANDA",
+                "RED LICH",
+                "PLUGX",
+                "CHINA-ALIGNED THREAT ACTOR",
+                "REDDELTA",
+                "SMUGX",
+                "DARKPEONY",
+                "EUROPEAN GOVERNMENT AND DIPLOMATIC ORGANIZATION"
             ],
             "weighted_balance": "highpriority"
         }

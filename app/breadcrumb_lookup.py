@@ -4,6 +4,8 @@ import requests
 import argparse
 import re
 
+# This script passes each breadcrumb it receives through a small context pipeline. 
+
 def defang_text(text):
     """
     Standard cybersecurity practice to make indicators non-clickable.
