@@ -1,243 +1,5 @@
 [
     {
-        "report_date": "2026-03-31T11:01:32.570759",
-        "report_truncated": {
-            "threat_intelligence": [
-                "CISA Adds One Known Exploited Vulnerability to Catalog",
-                "Double Agents: Exposing Security Blind Spots in GCP Vertex AI",
-                "ZDI-26-249: NoMachine Uncontrolled Search Path Element Local Privilege Escalation Vulnerability"
-            ],
-            "general_news": [
-                "F5 BIG-IP Vulnerability Reclassified as RCE, Under Exploitation",
-                "New Bitdefender assessment helps organizations identify and eliminate hidden internal attack paths",
-                "Meta, Tiktok and Google under investigation for allegedly disobeying Australia\u2019s social media ban"
-            ],
-            "org_pages": [
-                "How AI Is Ushering in the Next Era of Risk Review at Meta",
-                "Helping disaster response teams turn AI into action across Asia",
-                "Introducing Our First AI Glasses Built For Prescriptions"
-            ],
-            "academic_research": [
-                "M-RAG: Making RAG Faster, Stronger, and More Efficient",
-                "Alignment Whack-a-Mole : Finetuning Activates Verbatim Recall of Copyrighted Books in Large Language Models",
-                "Vision-Language Agents for Interactive Forest Change Analysis"
-            ],
-            "community_pulse": [
-                "Why regex-based safety fails for AI agents (real examples from terminal usage)",
-                "Supply-Chain Compromise of axios npm Package",
-                "Free AI agent security CTF: 26 challenges, live scoreboard, mitigation walkthroughs included"
-            ]
-        }
-    },
-    {
-        "report_date": "2026-03-31T13:11:09.950551",
-        "report_truncated": {
-            "threat_intelligence": [
-                "CISA Adds One Known Exploited Vulnerability to Catalog",
-                "Double Agents: Exposing Security Blind Spots in GCP Vertex AI",
-                "ZDI-26-249: NoMachine Uncontrolled Search Path Element Local Privilege Escalation Vulnerability"
-            ],
-            "general_news": [
-                "F5 BIG-IP Vulnerability Reclassified as RCE, Under Exploitation",
-                "New Bitdefender assessment helps organizations identify and eliminate hidden internal attack paths",
-                "Meta, Tiktok and Google under investigation for allegedly disobeying Australia\u2019s social media ban"
-            ],
-            "org_pages": [
-                "How AI Is Ushering in the Next Era of Risk Review at Meta",
-                "Helping disaster response teams turn AI into action across Asia",
-                "Introducing Our First AI Glasses Built For Prescriptions"
-            ],
-            "academic_research": [
-                "M-RAG: Making RAG Faster, Stronger, and More Efficient",
-                "Alignment Whack-a-Mole : Finetuning Activates Verbatim Recall of Copyrighted Books in Large Language Models",
-                "Vision-Language Agents for Interactive Forest Change Analysis"
-            ],
-            "community_pulse": [
-                "Why regex-based safety fails for AI agents (real examples from terminal usage)",
-                "Supply-Chain Compromise of axios npm Package",
-                "Free AI agent security CTF: 26 challenges, live scoreboard, mitigation walkthroughs included"
-            ]
-        }
-    },
-    {
-        "report_date": "2026-03-31T13:59:18.688691",
-        "report_truncated": {
-            "threat_intelligence": [
-                "CISA Adds One Known Exploited Vulnerability to Catalog",
-                "Double Agents: Exposing Security Blind Spots in GCP Vertex AI",
-                "ZDI-26-249: NoMachine Uncontrolled Search Path Element Local Privilege Escalation Vulnerability"
-            ],
-            "general_news": [
-                "F5 BIG-IP Vulnerability Reclassified as RCE, Under Exploitation",
-                "New Bitdefender assessment helps organizations identify and eliminate hidden internal attack paths",
-                "Meta, Tiktok and Google under investigation for allegedly disobeying Australia\u2019s social media ban"
-            ],
-            "org_pages": [
-                "How AI Is Ushering in the Next Era of Risk Review at Meta",
-                "Helping disaster response teams turn AI into action across Asia",
-                "Introducing Our First AI Glasses Built For Prescriptions"
-            ],
-            "academic_research": [
-                "M-RAG: Making RAG Faster, Stronger, and More Efficient",
-                "Alignment Whack-a-Mole : Finetuning Activates Verbatim Recall of Copyrighted Books in Large Language Models",
-                "Vision-Language Agents for Interactive Forest Change Analysis"
-            ],
-            "community_pulse": [
-                "Why regex-based safety fails for AI agents (real examples from terminal usage)",
-                "Supply-Chain Compromise of axios npm Package",
-                "Free AI agent security CTF: 26 challenges, live scoreboard, mitigation walkthroughs included"
-            ]
-        }
-    },
-    {
-        "report_date": "2026-03-31T14:39:47.465473",
-        "report_truncated": {
-            "threat_intelligence": [
-                "CISA Adds One Known Exploited Vulnerability to Catalog",
-                "Double Agents: Exposing Security Blind Spots in GCP Vertex AI",
-                "ZDI-26-249: NoMachine Uncontrolled Search Path Element Local Privilege Escalation Vulnerability"
-            ],
-            "general_news": [
-                "F5 BIG-IP Vulnerability Reclassified as RCE, Under Exploitation",
-                "New Bitdefender assessment helps organizations identify and eliminate hidden internal attack paths",
-                "Meta, Tiktok and Google under investigation for allegedly disobeying Australia\u2019s social media ban"
-            ],
-            "org_pages": [
-                "How AI Is Ushering in the Next Era of Risk Review at Meta",
-                "Helping disaster response teams turn AI into action across Asia",
-                "Introducing Our First AI Glasses Built For Prescriptions"
-            ],
-            "academic_research": [
-                "M-RAG: Making RAG Faster, Stronger, and More Efficient",
-                "Alignment Whack-a-Mole : Finetuning Activates Verbatim Recall of Copyrighted Books in Large Language Models",
-                "Vision-Language Agents for Interactive Forest Change Analysis"
-            ],
-            "community_pulse": [
-                "Why regex-based safety fails for AI agents (real examples from terminal usage)",
-                "Supply-Chain Compromise of axios npm Package",
-                "Free AI agent security CTF: 26 challenges, live scoreboard, mitigation walkthroughs included"
-            ]
-        }
-    },
-    {
-        "report_date": "2026-03-31T18:41:32.950160",
-        "report_truncated": {
-            "threat_intelligence": [
-                "CISA Adds One Known Exploited Vulnerability to Catalog",
-                "Double Agents: Exposing Security Blind Spots in GCP Vertex AI",
-                "ZDI-26-249: NoMachine Uncontrolled Search Path Element Local Privilege Escalation Vulnerability"
-            ],
-            "general_news": [
-                "F5 BIG-IP Vulnerability Reclassified as RCE, Under Exploitation",
-                "New Bitdefender assessment helps organizations identify and eliminate hidden internal attack paths",
-                "Meta, Tiktok and Google under investigation for allegedly disobeying Australia\u2019s social media ban"
-            ],
-            "org_pages": [
-                "How AI Is Ushering in the Next Era of Risk Review at Meta",
-                "Helping disaster response teams turn AI into action across Asia",
-                "Introducing Our First AI Glasses Built For Prescriptions"
-            ],
-            "academic_research": [
-                "M-RAG: Making RAG Faster, Stronger, and More Efficient",
-                "Alignment Whack-a-Mole : Finetuning Activates Verbatim Recall of Copyrighted Books in Large Language Models",
-                "Vision-Language Agents for Interactive Forest Change Analysis"
-            ],
-            "community_pulse": [
-                "Why regex-based safety fails for AI agents (real examples from terminal usage)",
-                "Supply-Chain Compromise of axios npm Package",
-                "Free AI agent security CTF: 26 challenges, live scoreboard, mitigation walkthroughs included"
-            ]
-        }
-    },
-    {
-        "report_date": "2026-04-01T12:34:26.265877",
-        "report_truncated": {
-            "threat_intelligence": [
-                "Applying security fundamentals to AI: Practical advice for CISOs",
-                "WhatsApp malware campaign delivers VBScript and MSI backdoors",
-                "Weaponizing the Protectors: TeamPCP\u2019s Multi-Stage Supply Chain Attack on Security Infrastructure"
-            ],
-            "general_news": [
-                "F5 BIG-IP Vulnerability Reclassified as RCE, Under Exploitation",
-                "I wore Meta\u2019s smartglasses for a month \u2013 and it left me feeling like a creep",
-                "US tech firm Oracle cuts thousands of jobs as it steps up AI spending"
-            ],
-            "org_pages": [
-                "Accelerating the next phase of AI",
-                "How AI Is Ushering in the Next Era of Risk Review at Meta",
-                "Gradient Labs gives every bank customer an AI account manager"
-            ],
-            "academic_research": [
-                "CRAFT: Cost-aware Expert Replica Allocation with Fine-Grained Layerwise Estimations",
-                "Schr\\\"odinger's Seed: Purr-fect Initialization for an Impurr-fect Universe",
-                "Spark-LLM-Eval: A Distributed Framework for Statistically Rigorous Large Language Model Evaluation"
-            ],
-            "community_pulse": [
-                "Detect Axious and LiteLLM compromise and future compromises -- OreNPMGuard to Opensource OreWatch: Continuous monitoring for malicious packages using Threat Intelligence",
-                "Cybersecurity statistics of the week (March 23rd - March 29th)",
-                "Do you think traditional DLP is becoming obsolete with the rise of DSPM and AI driven data security?"
-            ]
-        }
-    },
-    {
-        "report_date": "2026-04-01T13:15:23.904067",
-        "report_truncated": {
-            "threat_intelligence": [
-                "Applying security fundamentals to AI: Practical advice for CISOs",
-                "WhatsApp malware campaign delivers VBScript and MSI backdoors",
-                "Weaponizing the Protectors: TeamPCP\u2019s Multi-Stage Supply Chain Attack on Security Infrastructure"
-            ],
-            "general_news": [
-                "F5 BIG-IP Vulnerability Reclassified as RCE, Under Exploitation",
-                "I wore Meta\u2019s smartglasses for a month \u2013 and it left me feeling like a creep",
-                "US tech firm Oracle cuts thousands of jobs as it steps up AI spending"
-            ],
-            "org_pages": [
-                "Accelerating the next phase of AI",
-                "How AI Is Ushering in the Next Era of Risk Review at Meta",
-                "Gradient Labs gives every bank customer an AI account manager"
-            ],
-            "academic_research": [
-                "CRAFT: Cost-aware Expert Replica Allocation with Fine-Grained Layerwise Estimations",
-                "Schr\\\"odinger's Seed: Purr-fect Initialization for an Impurr-fect Universe",
-                "Spark-LLM-Eval: A Distributed Framework for Statistically Rigorous Large Language Model Evaluation"
-            ],
-            "community_pulse": [
-                "Detect Axious and LiteLLM compromise and future compromises -- OreNPMGuard to Opensource OreWatch: Continuous monitoring for malicious packages using Threat Intelligence",
-                "Cybersecurity statistics of the week (March 23rd - March 29th)",
-                "Do you think traditional DLP is becoming obsolete with the rise of DSPM and AI driven data security?"
-            ]
-        }
-    },
-    {
-        "report_date": "2026-04-02T11:08:04.311660",
-        "report_truncated": {
-            "threat_intelligence": [
-                "vSphere and BRICKSTORM Malware: A Defender's Guide",
-                "Mitigating the Axios npm supply chain compromise",
-                "Threat Brief: Widespread Impact of the Axios Supply Chain Attack"
-            ],
-            "general_news": [
-                "UK social media users less active on tech platforms due to rise of video apps",
-                "Pupils in England are losing their thinking skills because of AI, survey suggests",
-                "Claude\u2019s code: Anthropic leaks source code for AI software engineering tool"
-            ],
-            "org_pages": [
-                "Gradient Labs gives every bank customer an AI account manager"
-            ],
-            "academic_research": [
-                "Benchmark for Assessing Olfactory Perception of Large Language Models",
-                "Enhancing Gradient Inversion Attacks in Federated Learning via Hierarchical Feature Optimization",
-                "Enhancing Floor Plan Recognition: A Hybrid Mix-Transformer and U-Net Approach for Precise Wall Segmentation"
-            ],
-            "community_pulse": [
-                "Why GRC Is the Natural Landing Zone for Agents",
-                "Kevin Mitnick\u2019s case shows how powerful social engineering really is",
-                "Canada Salaries"
-            ]
-        }
-    },
-    {
         "report_date": "2026-04-03T19:59:14.895091",
         "report_truncated": {
             "threat_intelligence": [
@@ -263,6 +25,139 @@
                 "How to start study cybersecurity?",
                 "Architecture Review: Preventing \"Shadow AI\" data leaks with a stateless PII firewall",
                 "China-Linked TA416 Targets European Governments with PlugX and OAuth-Based Phishing"
+            ]
+        }
+    },
+    {
+        "report_date": "2026-04-04T15:10:02.364435",
+        "report_truncated": {
+            "threat_intelligence": [
+                "Trump budget proposal would cut hundreds of millions more from CISA",
+                "Wyden warns Social Security chief: Trump\u2019s voter database is \u2018blatant voter suppression\u2019",
+                "House Dems decry confirmed ICE usage of Paragon spyware"
+            ],
+            "general_news": [
+                "Hackers Exploit CVE-2025-55182 to Breach 766 Next.js Hosts, Steal Credentials",
+                "Using AI at Work? Here\u2019s How to Avoid Accidentally Leaking Company Data",
+                "UK\u2019s leading AI research institute told to make \u2018significant\u2019 changes"
+            ],
+            "org_pages": [],
+            "academic_research": [],
+            "community_pulse": [
+                "Open source tool for supply chain malware detection: CTWall",
+                "Where to start in reverse engineering as an absolutely beginner with no knowledge whatsoever? Ghidra perhaps or something else",
+                "BrowserGate: Report alleges LinkedIn is scanning 6,000+ browser extensions without consent"
+            ]
+        }
+    },
+    {
+        "report_date": "2026-04-05T18:53:05.863520",
+        "report_truncated": {
+            "threat_intelligence": [
+                "Trump budget proposal would cut hundreds of millions more from CISA",
+                "Wyden warns Social Security chief: Trump\u2019s voter database is \u2018blatant voter suppression\u2019",
+                "When an Attacker Meets a Group of Agents: Navigating Amazon Bedrock's Multi-Agent Applications"
+            ],
+            "general_news": [
+                "UK\u2019s leading AI research institute told to make \u2018significant\u2019 changes",
+                "An AI bot invited me to its party in Manchester. It was a pretty good night",
+                "Polymarket removes wagers on U.S. service member rescue mission in Iran"
+            ],
+            "org_pages": [],
+            "academic_research": [],
+            "community_pulse": [
+                "The 3CX attack didn\u2019t break trust \u2014 it bypassed it",
+                "Built a tool to stop the pain of manual EVTX triage",
+                "Can you guys me suggestions, should i do BCA in Cyber Security or something else to get into CS field ?"
+            ]
+        }
+    },
+    {
+        "report_date": "2026-04-07T17:17:49.527662",
+        "report_truncated": {
+            "threat_intelligence": [
+                "Iranian-Affiliated Cyber Actors Exploit Programmable Logic Controllers Across US Critical Infrastructure",
+                "SOHO router compromise leads to DNS hijacking and adversary-in-the-middle attacks",
+                "Storm-1175 focuses gaze on vulnerable web-facing assets in high-tempo Medusa ransomware operations"
+            ],
+            "general_news": [
+                "Max severity Flowise RCE vulnerability now exploited in attacks",
+                "Flowise AI Agent Builder Under Active CVSS 10.0 RCE Exploitation; 12,000+ Instances Exposed",
+                "Children in UK report online sextortion attempts in record numbers"
+            ],
+            "org_pages": [
+                "Announcing the OpenAI Safety Fellowship",
+                "Can Europe Seize the AI Moment?",
+                "Industrial policy for the Intelligence Age"
+            ],
+            "academic_research": [
+                "Integrating Artificial Intelligence, Physics, and Internet of Things: A Framework for Cultural Heritage Conservation",
+                "Automata Learning versus Process Mining: The Case for User Journeys",
+                "Hardware-Level Governance of AI Compute: A Feasibility Taxonomy for Regulatory Compliance and Treaty Verification"
+            ],
+            "community_pulse": [
+                "Penetration an read teaming",
+                "Seeking for career advise",
+                "Beyond burnt out, unsure where to turn."
+            ]
+        }
+    },
+    {
+        "report_date": "2026-04-08T12:11:23.741196",
+        "report_truncated": {
+            "threat_intelligence": [
+                "Iranian-Affiliated Cyber Actors Exploit Programmable Logic Controllers Across US Critical Infrastructure",
+                "SOHO router compromise leads to DNS hijacking and adversary-in-the-middle attacks",
+                "Storm-1175 focuses gaze on vulnerable web-facing assets in high-tempo Medusa ransomware operations"
+            ],
+            "general_news": [
+                "Max severity Flowise RCE vulnerability now exploited in attacks",
+                "Kubernetes Strategy: When It\u2019s a Fit and Who Should Run It",
+                "Chaos malware expands from routers to Linux cloud servers"
+            ],
+            "org_pages": [
+                "Introducing the Child Safety Blueprint",
+                "Can Europe Seize the AI Moment?"
+            ],
+            "academic_research": [
+                "Web Retrieval-Aware Chunking (W-RAC) for Efficient and Cost-Effective Retrieval-Augmented Generation Systems",
+                "AutoLALA: Automatic Loop Algebraic Locality Analysis for AI and HPC Kernels",
+                "A Multi-Agent Framework for Automated Exploit Generation with Constraint-Guided Comprehension and Reflection"
+            ],
+            "community_pulse": [
+                "I built a forensic tool that explains why a file is malicious",
+                "Quantum cryptography and the \"harvest now, decrypt later\" problem -- how seriously are organizations taking this?",
+                "Hong Kong police can now demand phone passwords under new security rules | Hacker News"
+            ]
+        }
+    },
+    {
+        "report_date": "2026-04-09T16:01:06.334988",
+        "report_truncated": {
+            "threat_intelligence": [
+                "CISA Adds One Known Exploited Vulnerability to Catalog",
+                "Feds quash widespread Russia-backed espionage network spanning 18,000 devices",
+                "Investigating Storm-2755: \u201cPayroll pirate\u201d attacks targeting Canadian employees"
+            ],
+            "general_news": [
+                "Claude helps researcher dig up decade-old Apache ActiveMQ RCE vulnerability (CVE-2026-34197)",
+                "UAT-10362 Targets Taiwanese NGOs with LucidRook Malware in Spear-Phishing Campaigns",
+                "OpenAI shelves Stargate UK in blow to Britain\u2019s AI ambitions"
+            ],
+            "org_pages": [
+                "The next phase of enterprise AI",
+                "Introducing the Child Safety Blueprint",
+                "Instagram Expands Teen Accounts Inspired by 13+ Content Ratings"
+            ],
+            "academic_research": [
+                "LLM-Augmented Knowledge Base Construction For Root Cause Analysis",
+                "Emergence of Internal State-Modulated Swarming in Multi-Agent Patch Foraging System",
+                "Knowledge-data fusion framework for frequency security assessment in low-inertia power systems"
+            ],
+            "community_pulse": [
+                "From a Cybersecurity Hiring Perspective: What Gets People Hired and What Gets Them Passed On",
+                "Petabytes Stolen, AI Tools Emerged, and a New U.S. Cyber Strategy\u2014Tin foil Hatting or are the Dots Connecting?",
+                "Misconfiguration is reason cybersecurity firms are targeting Salesforce"
             ]
         }
     }

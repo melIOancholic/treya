@@ -234,7 +234,7 @@ class IntelligenceBrain:
         for cwe in cwes:
             normalized_cwe = cwe.upper()
             if normalized_cwe not in breadcrumbs:
-                breadcrumbs[normalized_cve] = {
+                breadcrumbs[normalized_cwe] = {
                     "breadcrumb": normalized_cwe, "category": "vulnerability", 
                     "confidence": "high", "confidence_score": 0.80, "enriched_by": "NVDlib"
                 }

@@ -4,8 +4,8 @@ import sys
 import sqlite3
 
 # Dynamically link the 'app' directory so we can import the lookup script
-script_dir = os.path.dirname(os.path.abspath(__file__))
-project_root = os.path.abspath(os.path.join(script_dir, '..', '..'))
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+project_root = os.path.abspath(os.path.join(SCRIPT_DIR, '..', '..'))
 app_dir = os.path.join(project_root, 'app')
 sys.path.append(app_dir)
 
@@ -36,8 +36,8 @@ def extract_breadcrumbs_from_json(data):
 
 def process_report_candidates(json_filename="report_candidates.json"):
     # Set up the paths relative to this script's location
-    json_path = os.path.join(script_dir, json_filename)
-    db_path = os.path.join(script_dir, '..', 'parsed_data', 'parsed_intel.sqlite')
+    json_path = os.path.join(SCRIPT_DIR, "cache", json_filename)
+    db_path = os.path.join(SCRIPT_DIR, '..', 'parsed_data', 'parsed_intel.sqlite')
     
     if not os.path.exists(json_path):
         print(f"Error: JSON file not found at {json_path}")
