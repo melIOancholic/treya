@@ -11,5 +11,3 @@
         "last_messages":"(insert last messages here)"
     }
 ]
-
-Each of the three options for 'angle' contains an array of how to approach the operator_message, which makes me uncertain on how to respond; for example here is 'strategic': "- target: CISO / ISSM - focus: The "So What?" for the business. - analysis: - "Is there a theoretical 'maybe' or a 'happening right now' threat? What is the likelihood of impact?" - "Does this violate specific frameworks (NIST, ISO 27001, SOC2, HIPAA)?" - "What is the cost of doing nothing vs. the cost of mitigation (man-hours, new tooling)?" - "How does this affect customer trust or brand equity?")
