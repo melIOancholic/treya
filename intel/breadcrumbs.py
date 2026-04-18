@@ -8,7 +8,6 @@ import warnings
 import logging
 from dotenv import load_dotenv
 
-# --- ADDED: Fix for Windows 'charmap' UnicodeEncodeError ---
 # Forces standard output to handle complex characters (like emojis or foreign languages)
 # without throwing the 'charmap' UnicodeEncodeError during print() or log_callback().
 if hasattr(sys.stdout, 'reconfigure'):
@@ -194,9 +193,8 @@ class IntelligenceBrain:
         upper_text = clean_text.upper()
         return self.synonyms.get(upper_text, upper_text)
 
-    def extract_initial_breadcrumbs(self, text):
+    def extract_initial_breadcrumbs(self, text, pre_cves=None, pre_cwes=None):
         """Phase 1: Identification & Extraction (Creates the core dict per row)"""
-        # Note: Your original scoring and logic is 100% untouched here!
         breadcrumbs = {} 
         text_lower = text.lower()
 
@@ -221,7 +219,7 @@ class IntelligenceBrain:
                     }
 
         # === Regex/Libraries ===
-        cves = self.cve_pattern.findall(text)
+        cves = pre_cves if isinstance(pre_cves, list) else self.cve_pattern.findall(text)
         for cve in cves:
             normalized_cve = cve.upper()
             if normalized_cve not in breadcrumbs:
@@ -230,7 +228,7 @@ class IntelligenceBrain:
                     "confidence": "high", "confidence_score": 0.80, "enriched_by": "NVDlib"
                 }
 
-        cwes = self.cwe_pattern.findall(text)
+        cwes = pre_cwes if isinstance(pre_cwes, list) else self.cwe_pattern.findall(text)
         for cwe in cwes:
             normalized_cwe = cwe.upper()
             if normalized_cwe not in breadcrumbs:
@@ -429,9 +427,10 @@ def setup_database():
     conn = sqlite3.connect(SQLITE_DB_PATH)
     c = conn.cursor()
     
-    c.execute("DROP TABLE IF EXISTS breadcrumbs")
-    c.execute("DROP TABLE IF EXISTS mapping_table")
-    
+    # -------------------------------------------------------------
+    # Tables are no longer dropped to preserve existing enrichment data
+    # -------------------------------------------------------------
+
     c.execute("""
         CREATE TABLE IF NOT EXISTS raw_news (
             id INTEGER PRIMARY KEY AUTOINCREMENT, 
@@ -459,16 +458,27 @@ def setup_database():
             confidence TEXT,
             confidence_score REAL,
             enriched_by TEXT,
-            context TEXT
+            context TEXT,
+            added_on TEXT
         )
     """)
+
+    # Try altering existing db to add the added_on column
+    try:
+        c.execute("ALTER TABLE breadcrumbs ADD COLUMN added_on TEXT")
+    except sqlite3.OperationalError:
+        pass 
     
+    # Prune any breadcrumbs older than 3 days
+    c.execute("DELETE FROM breadcrumbs WHERE added_on < datetime('now', 'localtime', '-3 days')")
+
     c.execute("""
         CREATE TABLE IF NOT EXISTS mapping_table (
             breadcrumb_id INTEGER,
             news_id INTEGER,
             FOREIGN KEY(breadcrumb_id) REFERENCES breadcrumbs(id),
-            FOREIGN KEY(news_id) REFERENCES raw_news(id)
+            FOREIGN KEY(news_id) REFERENCES raw_news(id),
+            UNIQUE(breadcrumb_id, news_id)
         )
     """)
         
@@ -501,12 +511,17 @@ def main(log_callback=print):
     df['description'] = df['description'].fillna('')
     df['text_corpus'] = df['title'] + ". " + df['description']
 
-    # --- CHROMADB UPSERT (The Vector Addition) ---
+    # --- PANDAS NATIVE CHROMADB METADATA ---
     log_callback("[*] Embedding articles into ChromaDB...")
     try:
-        # We send the entire column to ChromaDB at once
         documents = df['text_corpus'].tolist()
-        metadatas = df.apply(lambda row: {"source": row['source_name'], "published": str(row['published'])}, axis=1).tolist()
+        # Create metadata dictionaries natively using Pandas optimizations
+        metadatas = (
+            df[['source_name', 'published']]
+            .rename(columns={'source_name': 'source'})
+            .assign(published=lambda x: x['published'].astype(str))
+            .to_dict(orient='records')
+        )
         ids = df['id'].astype(str).tolist()
         
         brain.collection.upsert(
@@ -518,10 +533,21 @@ def main(log_callback=print):
     except Exception as e:
         log_callback(f"[!] Warning: ChromaDB upsert failed: {e}")
 
-    # --- PANDAS VECTORIZED EXTRACTION ---
+    # --- VECTORIZED REGEX EXTRACTION ---
+    log_callback("[*] Extracting Regex indicators via Pandas vectorization...")
+    df['cves_extracted'] = df['text_corpus'].str.findall(r'(?i)CVE-\d{4}-\d{4,7}')
+    df['cwes_extracted'] = df['text_corpus'].str.findall(r'(?i)CWE-\d+')
+
+    # --- PANDAS ROW EXTRACTION ---
     log_callback("[*] Using Pandas to extract breadcrumbs across all articles. This part always takes a while...")
-    # This runs your existing algorithm on every row
-    df['extracted_entities'] = df['text_corpus'].apply(brain.extract_initial_breadcrumbs)
+    # This runs your algorithm, passing in the pre-extracted Pandas regex lists
+    df['extracted_entities'] = df.apply(
+        lambda row: brain.extract_initial_breadcrumbs(
+            row['text_corpus'], 
+            pre_cves=row['cves_extracted'], 
+            pre_cwes=row['cwes_extracted']
+        ), axis=1
+    )
 
     # Convert the nested list of dictionaries into a clean, flat table
     df_exploded = df.explode('extracted_entities').dropna(subset=['extracted_entities'])
@@ -537,7 +563,7 @@ def main(log_callback=print):
     df_entities['news_id'] = df_exploded['id'].values
     df_entities['source_name'] = df_exploded['source_name'].values
 
-    # --- UPDATE RAW_NEWS TALE ---
+    # --- UPDATE RAW_NEWS TABLE ---
     log_callback("[*] Mapping breadcrumbs back to 'raw_news'...")
     # Group by news_id and combine the names into a comma-separated string
     news_breadcrumbs = df_entities.groupby('news_id')['breadcrumb'].apply(lambda x: ", ".join(x)).reset_index()
@@ -548,7 +574,7 @@ def main(log_callback=print):
     c.executemany("UPDATE raw_news SET breadcrumbs = ? WHERE id = ?", update_data)
     conn.commit()
 
-    # --- GROUP & DEDUPLICATE (Replaces the global_breadcrumbs logic) ---
+    # --- GROUP & DEDUPLICATE ---
     log_callback("[*] Deduplicating and tracking unique sources...")
     
     # Pandas Groupby instantly aggregates our data exactly like your old code did, but faster.
@@ -567,6 +593,10 @@ def main(log_callback=print):
     # Phase 2 & 3: Enrich and Add to new 'breadcrumbs' table
     # We still loop here because APIs (like NVD) have rate limits and can't be purely vectorized
     total_breadcrumbs = len(grouped_breadcrumbs)
+    
+    # Generate the timestamp once for this run
+    current_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+
     for i, row in enumerate(grouped_breadcrumbs.itertuples(), 1):
         # Update dynamically on one line in the cmd
         print(f"\r[*] Processing breadcrumb {i}/{total_breadcrumbs}: {str(row.breadcrumb)[:50]:<50}", end="", flush=True)
@@ -582,13 +612,22 @@ def main(log_callback=print):
         
         enriched_context_str = brain.deep_enrich(data_dict)
 
-        # Upsert the breadcrumb into the isolated table
+        # Upsert the breadcrumb into the isolated table with conditional context overwrite
         c.execute("""
-            INSERT INTO breadcrumbs (breadcrumb, category, count, confidence, confidence_score, context, enriched_by)
-            VALUES (?, ?, ?, ?, ?, ?, ?)
+            INSERT INTO breadcrumbs (breadcrumb, category, count, confidence, confidence_score, context, enriched_by, added_on)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?)
             ON CONFLICT(breadcrumb) DO UPDATE SET 
+                added_on = excluded.added_on,
                 count = excluded.count,
-                context = excluded.context
+                confidence = excluded.confidence,
+                confidence_score = excluded.confidence_score,
+                category = excluded.category,
+                enriched_by = excluded.enriched_by,
+                context = CASE 
+                    WHEN breadcrumbs.context != 'status: no_additional_context_found' 
+                    THEN breadcrumbs.context 
+                    ELSE excluded.context 
+                END
         """, (
             row.breadcrumb, 
             CATEGORY_MAP.get(row.category, row.category), 
@@ -596,20 +635,33 @@ def main(log_callback=print):
             row.confidence, 
             row.confidence_score, 
             enriched_context_str, 
-            row.enriched_by
+            row.enriched_by,
+            current_time
         ))
         
-        # Map the IDs in the mapping_table
-        c.execute("SELECT id FROM breadcrumbs WHERE breadcrumb = ?", (row.breadcrumb,))
-        breadcrumb_record = c.fetchone()
-        
-        if breadcrumb_record:
-            breadcrumb_id = breadcrumb_record[0]
-            # Use Pandas list of news_ids for batch inserting to the mapping table
-            mapping_data = [(breadcrumb_id, int(n_id)) for n_id in row.news_id]
-            c.executemany("INSERT INTO mapping_table (breadcrumb_id, news_id) VALUES (?, ?)", mapping_data)
-
     print() # Add a newline when the loop finishes to preserve the last dynamic output
+    conn.commit()
+
+    # --- BULK PANDAS MAPPING INSERT ---
+    log_callback("[*] Pushing bulk relationships to 'mapping_table' using Pandas...")
+    
+    # 1. Pull the updated breadcrumbs to get their database IDs
+    df_db_breadcrumbs = pd.read_sql_query("SELECT id as breadcrumb_id, breadcrumb FROM breadcrumbs", conn)
+    
+    # 2. Merge with your original flat entities table
+    df_final_mapping = df_entities.merge(df_db_breadcrumbs, on='breadcrumb', how='inner')
+    
+    # 3. Filter down to just the mapping columns
+    df_insert_map = df_final_mapping[['breadcrumb_id', 'news_id']].drop_duplicates()
+    
+    # 4. Push to SQLite via a temporary table to avoid duplication conflicts since we stopped dropping tables
+    df_insert_map.to_sql('temp_mapping', conn, if_exists='replace', index=False)
+    c.execute("""
+        INSERT OR IGNORE INTO mapping_table (breadcrumb_id, news_id)
+        SELECT breadcrumb_id, news_id FROM temp_mapping
+    """)
+    c.execute("DROP TABLE temp_mapping")
+    
     conn.commit()
     conn.close()
     log_callback("[*] Pipeline execution successful. All breadcrumbs extracted, deduplicated, enriched, vectorized, and stored.")

@@ -101,21 +101,25 @@ def process_todays_data(conn, target_date):
         WHERE id NOT IN (SELECT id FROM breadcrumbs_trends_full)
     ''')
     
-    # Update today's date column with the count from 'breadcrumbs' table
-    conn.execute(f'''
+    # OPTIMIZATION: Instead of a correlated SQL subquery which lags on 5000+ rows, 
+    # we pull the data into memory and use executemany for a fast, single-transaction batch update.
+    cursor = conn.execute("SELECT id, count FROM breadcrumbs")
+    counts_data = cursor.fetchall()
+    
+    update_batch = [(row['count'], row['id']) for row in counts_data]
+    
+    conn.executemany(f'''
         UPDATE breadcrumbs_trends_full
-        SET "{target_date}" = COALESCE((
-            SELECT count FROM breadcrumbs
-            WHERE breadcrumbs.id = breadcrumbs_trends_full.id
-        ), 0)
-    ''')
+        SET "{target_date}" = ?
+        WHERE id = ?
+    ''', update_batch)
     
     conn.commit()
 
 def calculate_and_update_surges(conn, target_date):
     """
-    Calculates surges, identifies the top 50, filters the table to only keep those 50,
-    and updates their results and rolling_average columns.
+    Calculates surges, identifies the top 50, updates their results, 
+    and calculates global rolling_average columns for ALL history.
     (Step 4 & 5).
     """
     date_cols = get_date_columns(conn)
@@ -171,28 +175,31 @@ def calculate_and_update_surges(conn, target_date):
     # Sort by highest surge descending
     analyzed_data.sort(key=lambda x: x['surge_pct'], reverse=True)
     
-    # Keep only the top 50 records
-    top_50 = analyzed_data[:50]
-    top_50_ids = [item['id'] for item in top_50]
-    
-    if not top_50_ids:
+    if not analyzed_data:
         print("[!] No data available to update.")
         return
 
-    # 1. Delete all rows that did not make the Top 50 cutoff
-    placeholders = ','.join('?' * len(top_50_ids))
-    conn.execute(f"DELETE FROM breadcrumbs_trends_full WHERE id NOT IN ({placeholders})", top_50_ids)
+    # Split into Top 50 (who get text results) and the rest (who just get their averages updated)
+    top_50 = analyzed_data[:50]
+    the_rest = analyzed_data[50:]
+    
+    # Format the batch updates
+    # Structure: (results_text, rolling_average, id)
+    top_50_updates = [(item['result_text'], item['rolling_avg'], item['id']) for item in top_50]
+    the_rest_updates = [(None, item['rolling_avg'], item['id']) for item in the_rest]
+    
+    # Combine lists so we can perform one massive transaction update
+    all_updates = top_50_updates + the_rest_updates
 
-    # 2. Update the remaining top 50 with their calculated results
-    updates = [(item['result_text'], item['rolling_avg'], item['id']) for item in top_50]
+    # Perform the batch update using executemany (highly optimized for thousands of rows)
     conn.executemany('''
         UPDATE breadcrumbs_trends_full
         SET results = ?, "rolling_average" = ?
         WHERE id = ?
-    ''', updates)
+    ''', all_updates)
     
     conn.commit()
-    print(f"[*] Trimmed table to Top 50 and updated their surges and rolling_averages.")
+    print(f"[*] Batch updated Top 50 surges and {len(all_updates)} total rolling averages. History safely preserved.")
 
 def main():
     print("[*] Starting Trend Analysis Engine...")

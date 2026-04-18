@@ -36,5 +36,35 @@ Retrieval-Augmented Generation: Recall what we're talking about. Are we in the m
 Establish breadcrumb ratio: How many breadcrumbs are used in relation to how many words there are in the operator's response? (Skip if it fails the gobbledygook test)
 Intent Classification: What is the grammatical goal? (Should align with the memory in step 1)
 Operator Mapping: Who am I talking to? (CISO, grandma, engineer, etc.)
-Any breadcrumbs mentioned? (these get fetched from the SQLite database if they are) 
-Apply filters (tone, )
+Any breadcrumbs mentioned? (These get fetched from the SQLite database if they are. )
+
+ADD A LIST OF VALID CHARACTERS A-Za-z0-9@$%&()-_=+,.?:'"
+
+
+Security Approach with this whole thing:
+"Treat each question as a new chat."
+
+
+
+1. First-Time Use Logic
+
+Storage: Use Android DataStore (Preferences).
+State Variable: is_onboarding_complete (Boolean, default: false).
+
+The Script Workflow
+
+Check: if (!is_onboarding_complete) -> Gray out text input, trigger onboarding_sequence().
+
+Step 1 (Age): Treya: "To tailor my updates, what's your age bracket?"
+
+UI: Shows 3-4 Chips (e.g., [18-24], [25-30], [31+]).
+
+Step 2 (Interest): Treya: "Understood. Which sector should I monitor most closely?"
+
+UI: Shows Chips (e.g., [FinTech], [Critical Infrastructure], [Personal Privacy]).
+
+Step 3 (Rules): Treya: "Final note: I prioritize your privacy. No PII is collected, and data stays local. I provide updates based on the breadcrumbs I find in our logs. Ready to go?"
+
+UI: [Acknowledge & Start] button.
+
+Close: Set is_onboarding_complete = true. Unlock text box.

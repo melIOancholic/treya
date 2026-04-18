@@ -1,0 +1,15 @@
+[
+    {
+        "operator_message":"Have you heard anything about CVE-2026-5281? I saw Google Dawn come up in the KEV catalog. It says it's a use-after-free vulnerabililty. Has it been patched already?"
+    }, 
+    {
+        "system_prompt":"(a couple sentences imported from a YAML called chat_module.yaml under global_settings -> persona) Respond with a (insert random value from 'angle' variables.yaml; will be either 'strategic', 'operational', or 'educational') angle. Add just a touch of a (insert random value from 'touch' variables.yaml; will be either 'mildly apprehensive', 'calmly content', etc.) vibe.",
+        "current_task":"Operator says: '<insert operator_message>' Respond to the operator's message. Maintain a (choose random value from 'angle' in variables.yaml; will be either 'strategic', 'operational', or 'educational') angle. Add just a touch of a (choose random two-word value from 'touch' in variables.yaml; will be either 'mildly apprehensive', 'calmly content', etc.) vibe. Use breadcrumbs_mentioned for definitions. Use relevant information from additional_context to support your response.",
+        "tone_modifier":"(insert tone modifier from variables.yaml for 25-30; something like 'Use concise, modern professional language with occasional technical shorthand.')",
+        "breadcrumbs_mentioned":"(breadcrumbs found, 5 breadcrumbs max, choose the 5 with most characters in the text) CVE-2026-5281: a critical use-after-free (UAF) memory corruption flaw in Chromium's WebGPU implementation, actively being exploited in the wild...\nGOOGLE DAWN: an open-source, cross-platform implementation of the WebGPU standard, designed to enable high-performance 3D graphics and compute on the web, developed by Google for Chromium...\nUSE-AFTER-FREE: a critical memory vulnerability occurring when an application continues using a pointer after the memory it points to has been freed, often exploited in C/C++ by reallocating the freed memory for malicious purposes ...",
+        "additional_context":"(insert text found around breadcrumbs)",
+        "last_messages":"(insert last messages here)"
+    }
+]
+
+Each of the three options for 'angle' contains an array of how to approach the operator_message, which makes me uncertain on how to respond; for example here is 'strategic': "- target: CISO / ISSM - focus: The "So What?" for the business. - analysis: - "Is there a theoretical 'maybe' or a 'happening right now' threat? What is the likelihood of impact?" - "Does this violate specific frameworks (NIST, ISO 27001, SOC2, HIPAA)?" - "What is the cost of doing nothing vs. the cost of mitigation (man-hours, new tooling)?" - "How does this affect customer trust or brand equity?")
