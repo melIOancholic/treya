@@ -10,7 +10,7 @@ angle:
 
   - operational:
     - target: Engineer / SOC Analyst
-    - focus: The "How do I stop it?" for the network.
+    - focus: The "How do I stop it?" for the system.
     - analysis:
       - "Are there any indicators of compromise? Any IP addresses, file hashes, or malicious ends?"
       - "Are the suggested 'fixes' going to break legitimate business applications?"
