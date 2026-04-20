@@ -116,5 +116,26 @@
                 "Built a free cybersecurity app for everyday people and open sourced it, looking for contributors or someone to take it further"
             ]
         }
+    },
+    {
+        "report_date": "2026-04-19T14:47:20.388591",
+        "report_truncated": {
+            "threat_intelligence": [
+                "Cross\u2011tenant helpdesk impersonation to data exfiltration: A human-operated intrusion playbook",
+                "Threat Brief: Escalation of Cyber Risk Related to Iran (Updated April 17)"
+            ],
+            "general_news": [
+                "Mirai Variant Nexcorium Exploits CVE-2024-3721 to Hijack TBK DVRs for DDoS Botnet",
+                "Father of man who inspired Super Mario was also named Luigi, researcher finds",
+                "Outpost24 Introduces AI Pentesting as Security Lags Behind AI Deployment"
+            ],
+            "org_pages": [],
+            "academic_research": [],
+            "community_pulse": [
+                "Need help reversing an electron stealer",
+                "Does preventing CWE-426 make a difference in practice?",
+                "Vercel disclosed a security incident today (April 19, 2026) - what's confirmed, what's reported, what to rotate"
+            ]
+        }
     }
 ]

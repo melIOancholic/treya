@@ -3,6 +3,7 @@ import json
 import time
 import random
 import trafilatura
+import sys
 from fake_useragent import UserAgent
 
 # --- PATH CONFIGURATION ---
@@ -37,6 +38,9 @@ def get_article_content(url):
         return f"Extraction error: {str(e)}"
 
 def main():
+    # Force the stdout to use utf-8 to prevent crashes on non-standard characters
+    sys.stdout.reconfigure(encoding='utf-8')
+
     print("[*] Starting Deep Dive Extraction Process...")
     
     if not os.path.exists(CANDIDATES_FILE):

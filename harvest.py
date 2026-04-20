@@ -8,7 +8,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 CRAWL = os.path.join(SCRIPT_DIR, "intel", "crawl.py")
 BREADCRUMB = os.path.join(SCRIPT_DIR, "intel", "breadcrumbs.py")
 FEEDS = os.path.join(SCRIPT_DIR, "intel", "harvest", "external_feeds.py")
-# TRENDS = os.path.join(SCRIPT_DIR, "intel", "harvest", "calculate_trends.py")
+TRENDS = os.path.join(SCRIPT_DIR, "intel", "harvest", "calculate_trends.py")
 SELECT_TOPICS = os.path.join(SCRIPT_DIR, "intel", "harvest", "select_topics.py")
 DIVE = os.path.join(SCRIPT_DIR, "intel", "harvest", "deep_dive.py")
 DIVE_REDDIT = os.path.join(SCRIPT_DIR, "intel", "harvest", "deep_dive_reddit_formatter.py")
@@ -21,7 +21,7 @@ def run_scripts():
         {"name": "crawl.py", "path": CRAWL},
         {"name": "breadcrumbs.py", "path": BREADCRUMB},
         {"name": "external_feeds.py", "path": FEEDS},
-        # {"name": "calculate_trends.py", "path": TRENDS},
+        {"name": "calculate_trends.py", "path": TRENDS},
         {"name": "select_topics.py", "path": SELECT_TOPICS},
         {"name": "deep_dive.py", "path": DIVE},
         {"name": "deep_dive_reddit_formatter.py", "path": DIVE_REDDIT},

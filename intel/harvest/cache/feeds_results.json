@@ -1,152 +1,17 @@
 {
-    "CVE-2026-40176": {
+    "CVE-2026-32648": {
         "in_kev": false,
-        "epss_score": 0.00013,
+        "epss_score": 0.00028,
         "kev_details": null
     },
-    "CVE-2026-33104": {
+    "CVE-2026-33555": {
         "in_kev": false,
-        "epss_score": 0.00036,
+        "epss_score": 0.00011,
         "kev_details": null
     },
-    "CVE-2026-32201": {
+    "CVE-2026-40688": {
         "in_kev": false,
-        "epss_score": 0.00808,
-        "kev_details": null
-    },
-    "CVE-2026-33093": {
-        "in_kev": false,
-        "epss_score": 0.0,
-        "kev_details": null
-    },
-    "CVE-2012-1854": {
-        "in_kev": false,
-        "epss_score": 0.1007,
-        "kev_details": null
-    },
-    "CVE-2026-33569": {
-        "in_kev": false,
-        "epss_score": 0.0,
-        "kev_details": null
-    },
-    "CVE-2023-36424": {
-        "in_kev": false,
-        "epss_score": 0.10684,
-        "kev_details": null
-    },
-    "CVE-2026-33032": {
-        "in_kev": false,
-        "epss_score": 0.0006,
-        "kev_details": null
-    },
-    "CVE-2026-35546": {
-        "in_kev": false,
-        "epss_score": 0.0,
-        "kev_details": null
-    },
-    "CVE-2026-34621": {
-        "in_kev": false,
-        "epss_score": 0.04225,
-        "kev_details": null
-    },
-    "CVE-2026-34054": {
-        "in_kev": false,
-        "epss_score": 0.00069,
-        "kev_details": null
-    },
-    "CVE-2026-5487": {
-        "in_kev": false,
-        "epss_score": 0.0,
-        "kev_details": null
-    },
-    "CVE-2026-6284": {
-        "in_kev": false,
-        "epss_score": 0.0,
-        "kev_details": null
-    },
-    "CVE-2026-27282": {
-        "in_kev": false,
-        "epss_score": 0.00213,
-        "kev_details": null
-    },
-    "CVE-2026-32650": {
-        "in_kev": false,
-        "epss_score": 0.0,
-        "kev_details": null
-    },
-    "CVE-2026-39811": {
-        "in_kev": false,
-        "epss_score": 0.00092,
-        "kev_details": null
-    },
-    "CVE-2026-5387": {
-        "in_kev": false,
-        "epss_score": 0.00041,
-        "kev_details": null
-    },
-    "CVE-2026-5491": {
-        "in_kev": false,
-        "epss_score": 0.0,
-        "kev_details": null
-    },
-    "CVE-2026-32073": {
-        "in_kev": false,
-        "epss_score": 0.0004,
-        "kev_details": null
-    },
-    "CVE-2026-27913": {
-        "in_kev": false,
-        "epss_score": 0.00063,
-        "kev_details": null
-    },
-    "CVE-2009-0238": {
-        "in_kev": false,
-        "epss_score": 0.81142,
-        "kev_details": null
-    },
-    "CVE-2026-5424": {
-        "in_kev": false,
-        "epss_score": 0.0,
-        "kev_details": null
-    },
-    "CVE-2026-5489": {
-        "in_kev": false,
-        "epss_score": 0.0,
-        "kev_details": null
-    },
-    "CVE-2026-4682": {
-        "in_kev": false,
-        "epss_score": 0.00041,
-        "kev_details": null
-    },
-    "CVE-2020-9715": {
-        "in_kev": false,
-        "epss_score": 0.76037,
-        "kev_details": null
-    },
-    "CVE-2026-5490": {
-        "in_kev": false,
-        "epss_score": 0.0,
-        "kev_details": null
-    },
-    "CVE-2023-21529": {
-        "in_kev": false,
-        "epss_score": 0.35017,
-        "kev_details": null
-    },
-    "CVE-2026-27305": {
-        "in_kev": false,
-        "epss_score": 0.00119,
-        "kev_details": null
-    },
-    "CVE-2026-26179": {
-        "in_kev": false,
-        "epss_score": 0.0006,
-        "kev_details": null
-    },
-    "CVE-2026-2050": {
-        "in_kev": false,
-        "epss_score": 0.0,
+        "epss_score": 0.0043,
         "kev_details": null
     },
     "CVE-2026-21643": {
@@ -154,43 +19,9 @@
         "epss_score": 0.33907,
         "kev_details": null
     },
-    "CVE-2026-32183": {
+    "CVE-2025-0520": {
         "in_kev": false,
-        "epss_score": 0.0005,
-        "kev_details": null
-    },
-    "CVE-2025-54987": {
-        "in_kev": false,
-        "epss_score": 0.00801,
-        "kev_details": null
-    },
-    "CVE-2023-33538": {
-        "in_kev": true,
-        "epss_score": 0.91474,
-        "kev_details": {
-            "vulnerabilityName": "TP-Link Multiple Routers Command Injection Vulnerability",
-            "dateAdded": "2025-06-16",
-            "shortDescription": "TP-Link TL-WR940N V2/V4, TL-WR841N V8/V10, and TL-WR740N V1/V2 contain a command injection vulnerability via the component /userRpm/WlanNetworkRpm. The impacted products could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization."
-        }
-    },
-    "CVE-2026-40461": {
-        "in_kev": false,
-        "epss_score": 0.0,
-        "kev_details": null
-    },
-    "CVE-2026-5056": {
-        "in_kev": false,
-        "epss_score": 0.0,
-        "kev_details": null
-    },
-    "CVE-2026-32861": {
-        "in_kev": false,
-        "epss_score": 0.0002,
-        "kev_details": null
-    },
-    "CVE-2026-35682": {
-        "in_kev": false,
-        "epss_score": 0.0,
+        "epss_score": 0.0203,
         "kev_details": null
     },
     "CVE-2025-71066": {
@@ -198,29 +29,84 @@
         "epss_score": 0.00053,
         "kev_details": null
     },
-    "CVE-2025-60710": {
-        "in_kev": false,
-        "epss_score": 0.12574,
-        "kev_details": null
-    },
-    "CVE-2026-35061": {
-        "in_kev": false,
-        "epss_score": 0.0,
-        "kev_details": null
-    },
-    "CVE-2026-32324": {
-        "in_kev": false,
-        "epss_score": 0.0,
-        "kev_details": null
-    },
     "CVE-2026-5057": {
         "in_kev": false,
         "epss_score": 0.0,
         "kev_details": null
     },
+    "CVE-2026-5387": {
+        "in_kev": false,
+        "epss_score": 0.00041,
+        "kev_details": null
+    },
     "CVE-2026-34197": {
         "in_kev": false,
-        "epss_score": 0.06217,
+        "epss_score": 0.46638,
+        "kev_details": null
+    },
+    "CVE-2026-5424": {
+        "in_kev": false,
+        "epss_score": 0.0,
+        "kev_details": null
+    },
+    "CVE-2026-2050": {
+        "in_kev": false,
+        "epss_score": 0.0,
+        "kev_details": null
+    },
+    "CVE-2026-5491": {
+        "in_kev": false,
+        "epss_score": 0.0,
+        "kev_details": null
+    },
+    "CVE-2026-27282": {
+        "in_kev": false,
+        "epss_score": 0.00325,
+        "kev_details": null
+    },
+    "CVE-2026-34054": {
+        "in_kev": false,
+        "epss_score": 0.00069,
+        "kev_details": null
+    },
+    "CVE-2009-0238": {
+        "in_kev": false,
+        "epss_score": 0.81142,
+        "kev_details": null
+    },
+    "CVE-2024-3721": {
+        "in_kev": false,
+        "epss_score": 0.83865,
+        "kev_details": null
+    },
+    "CVE-2026-32860": {
+        "in_kev": false,
+        "epss_score": 0.0002,
+        "kev_details": null
+    },
+    "CVE-2026-5487": {
+        "in_kev": false,
+        "epss_score": 0.0,
+        "kev_details": null
+    },
+    "CVE-2026-32650": {
+        "in_kev": false,
+        "epss_score": 0.00022,
+        "kev_details": null
+    },
+    "CVE-2026-33104": {
+        "in_kev": false,
+        "epss_score": 0.00036,
+        "kev_details": null
+    },
+    "CVE-2026-5489": {
+        "in_kev": false,
+        "epss_score": 0.0,
+        "kev_details": null
+    },
+    "CVE-2025-60710": {
+        "in_kev": false,
+        "epss_score": 0.17969,
         "kev_details": null
     },
     "CVE-2026-5492": {
@@ -228,34 +114,68 @@
         "epss_score": 0.0,
         "kev_details": null
     },
-    "CVE-2026-40434": {
-        "in_kev": false,
-        "epss_score": 0.0,
-        "kev_details": null
-    },
-    "CVE-2026-5726": {
-        "in_kev": false,
-        "epss_score": 5e-05,
-        "kev_details": null
-    },
-    "CVE-2025-0520": {
-        "in_kev": false,
-        "epss_score": 0.0203,
-        "kev_details": null
-    },
-    "CVE-2026-25203": {
-        "in_kev": false,
-        "epss_score": 0.00011,
-        "kev_details": null
-    },
-    "CVE-2026-32648": {
-        "in_kev": false,
-        "epss_score": 0.0,
-        "kev_details": null
-    },
-    "CVE-2026-32860": {
+    "CVE-2026-33569": {
         "in_kev": false,
         "epss_score": 0.0002,
+        "kev_details": null
+    },
+    "CVE-2023-21529": {
+        "in_kev": false,
+        "epss_score": 0.35017,
+        "kev_details": null
+    },
+    "CVE-2026-32183": {
+        "in_kev": false,
+        "epss_score": 0.0005,
+        "kev_details": null
+    },
+    "CVE-2026-32324": {
+        "in_kev": false,
+        "epss_score": 7e-05,
+        "kev_details": null
+    },
+    "CVE-2026-20184": {
+        "in_kev": false,
+        "epss_score": 0.00051,
+        "kev_details": null
+    },
+    "CVE-2026-27913": {
+        "in_kev": false,
+        "epss_score": 0.00063,
+        "kev_details": null
+    },
+    "CVE-2026-31927": {
+        "in_kev": false,
+        "epss_score": 0.0003,
+        "kev_details": null
+    },
+    "CVE-2026-35682": {
+        "in_kev": false,
+        "epss_score": 0.00262,
+        "kev_details": null
+    },
+    "CVE-2026-5490": {
+        "in_kev": false,
+        "epss_score": 0.0,
+        "kev_details": null
+    },
+    "CVE-2026-6284": {
+        "in_kev": false,
+        "epss_score": 0.00028,
+        "kev_details": null
+    },
+    "CVE-2023-33538": {
+        "in_kev": true,
+        "epss_score": 0.91131,
+        "kev_details": {
+            "vulnerabilityName": "TP-Link Multiple Routers Command Injection Vulnerability",
+            "dateAdded": "2025-06-16",
+            "shortDescription": "TP-Link TL-WR940N V2/V4, TL-WR841N V8/V10, and TL-WR740N V1/V2 contain a command injection vulnerability via the component /userRpm/WlanNetworkRpm. The impacted products could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization."
+        }
+    },
+    "CVE-2026-27305": {
+        "in_kev": false,
+        "epss_score": 0.00133,
         "kev_details": null
     },
     "CVE-2025-54948": {
@@ -267,24 +187,114 @@
             "shortDescription": "Trend Micro Apex One Management Console (on-premise) contains an OS command injection vulnerability that could allow a pre-authenticated remote attacker to upload malicious code and execute commands on affected installations."
         }
     },
-    "CVE-2026-20184": {
+    "CVE-2026-27681": {
         "in_kev": false,
-        "epss_score": 0.00051,
+        "epss_score": 0.00047,
         "kev_details": null
     },
-    "CVE-2026-33555": {
+    "CVE-2026-33032": {
         "in_kev": false,
-        "epss_score": 9e-05,
+        "epss_score": 0.04973,
         "kev_details": null
     },
-    "CVE-2026-40688": {
+    "CVE-2026-26179": {
         "in_kev": false,
-        "epss_score": 0.0043,
+        "epss_score": 0.0006,
+        "kev_details": null
+    },
+    "CVE-2026-32861": {
+        "in_kev": false,
+        "epss_score": 0.0002,
+        "kev_details": null
+    },
+    "CVE-2026-40176": {
+        "in_kev": false,
+        "epss_score": 0.0001,
+        "kev_details": null
+    },
+    "CVE-2026-5056": {
+        "in_kev": false,
+        "epss_score": 0.0,
+        "kev_details": null
+    },
+    "CVE-2026-40461": {
+        "in_kev": false,
+        "epss_score": 0.00026,
+        "kev_details": null
+    },
+    "CVE-2020-9715": {
+        "in_kev": false,
+        "epss_score": 0.75863,
+        "kev_details": null
+    },
+    "CVE-2026-39811": {
+        "in_kev": false,
+        "epss_score": 0.00092,
+        "kev_details": null
+    },
+    "CVE-2026-32073": {
+        "in_kev": false,
+        "epss_score": 0.0004,
+        "kev_details": null
+    },
+    "CVE-2026-32201": {
+        "in_kev": false,
+        "epss_score": 0.00596,
+        "kev_details": null
+    },
+    "CVE-2025-54987": {
+        "in_kev": false,
+        "epss_score": 0.00801,
+        "kev_details": null
+    },
+    "CVE-2026-34621": {
+        "in_kev": false,
+        "epss_score": 0.04558,
+        "kev_details": null
+    },
+    "CVE-2026-34619": {
+        "in_kev": false,
+        "epss_score": 0.00062,
         "kev_details": null
     },
     "CVE-2026-40066": {
         "in_kev": false,
+        "epss_score": 0.00025,
+        "kev_details": null
+    },
+    "CVE-2026-40871": {
+        "in_kev": false,
         "epss_score": 0.0,
+        "kev_details": null
+    },
+    "CVE-2012-1854": {
+        "in_kev": false,
+        "epss_score": 0.1007,
+        "kev_details": null
+    },
+    "CVE-2026-40434": {
+        "in_kev": false,
+        "epss_score": 0.00019,
+        "kev_details": null
+    },
+    "CVE-2026-35061": {
+        "in_kev": false,
+        "epss_score": 0.00047,
+        "kev_details": null
+    },
+    "CVE-2026-5726": {
+        "in_kev": false,
+        "epss_score": 5e-05,
+        "kev_details": null
+    },
+    "CVE-2023-36424": {
+        "in_kev": false,
+        "epss_score": 0.05545,
+        "kev_details": null
+    },
+    "CVE-2026-35546": {
+        "in_kev": false,
+        "epss_score": 0.00059,
         "kev_details": null
     },
     "CVE-2026-22898": {
@@ -292,19 +302,19 @@
         "epss_score": 0.00412,
         "kev_details": null
     },
-    "CVE-2026-34619": {
+    "CVE-2026-4682": {
         "in_kev": false,
-        "epss_score": 0.00055,
+        "epss_score": 0.00041,
         "kev_details": null
     },
-    "CVE-2026-31927": {
+    "CVE-2026-33093": {
         "in_kev": false,
-        "epss_score": 0.0,
+        "epss_score": 0.00028,
         "kev_details": null
     },
-    "CVE-2026-27681": {
+    "CVE-2026-25203": {
         "in_kev": false,
-        "epss_score": 0.00047,
+        "epss_score": 0.00011,
         "kev_details": null
     }
 }
