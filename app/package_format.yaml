@@ -1,0 +1,92 @@
+[
+    {
+        "operator_message":"Have you heard anything about CVE-2026-5281? I saw Google Dawn come up in the KEV catalog. It says it's a use-after-free vulnerabililty. Has it been patched already?"
+    }, 
+    {
+        "system_prompt":"(a couple sentences imported from a YAML called chat_module.yaml under global_settings -> persona) Respond with a (insert random value from 'angle' variables.yaml; will be either 'strategic', 'operational', or 'educational') angle. Add just a touch of a (insert random value from 'touch' variables.yaml; will be either 'mildly apprehensive', 'calmly content', etc.) vibe.",
+        "current_task":"Operator says: '<insert operator_message>' Respond to the operator's message. Maintain a (choose random value from 'angle' in variables.yaml; will be either 'strategic', 'operational', or 'educational') angle. Add just a touch of a (choose random two-word value from 'touch' in variables.yaml; will be either 'mildly apprehensive', 'calmly content', etc.) vibe. Use breadcrumbs_mentioned for definitions. Use relevant information from additional_context to support your response.",
+        "tone_modifier":"(insert tone modifier from variables.yaml for 25-30; something like 'Use concise, modern professional language with occasional technical shorthand.')",
+        "breadcrumbs_mentioned":"(breadcrumbs found, 5 breadcrumbs max, choose the 5 with most characters in the text) CVE-2026-5281: a critical use-after-free (UAF) memory corruption flaw in Chromium's WebGPU implementation, actively being exploited in the wild...\nGOOGLE DAWN: an open-source, cross-platform implementation of the WebGPU standard, designed to enable high-performance 3D graphics and compute on the web, developed by Google for Chromium...\nUSE-AFTER-FREE: a critical memory vulnerability occurring when an application continues using a pointer after the memory it points to has been freed, often exploited in C/C++ by reallocating the freed memory for malicious purposes ...",
+        "additional_context":"(insert text found around breadcrumbs)",
+        "last_messages":"(insert last messages here)"
+    }
+]
+
+
+Here is the full process for building the JSON package each time the operator sendas a message to Treya:
+
+Grab static message properties:
+    - breadcrumbs_found (Take the message, run it for breadcrumb matches against the 'breadcrumb' column SQLite database, return the value of 'context' for that 'breadcrumb') output to format easiest for LLM to read [
+        - breadcrumb 1 - breadcrumb 1 context
+        - breadcrumb 2 - breadcrumb 2 context
+        - breadcrumb 3 - breadcrumb 3 context
+        ]
+    - 
+
+Grab AI-powered message properties ():
+    mood (assess message for a numeric value of -1.0 to 1.0.; -1.0 is negative mood, 1.0 is positive mood, 0 is neutral)
+
+stats:
+    angle:
+        strategic: "What is the likelihood of the aforementioned events happening in the future, or is it already happening? What is the cost of doing nothing vs. the cost of action (man-hours, new tooling, etc.)?"
+        operational: ""
+        educational: "What is the key takeaway the average user needs from all this? "
+    slang:
+
+
+
+greetings:
+  - choose random number between 1 and 4; output value to rng_greeting 
+  - Choose 1 value from below options. If rng_greeting = 4, use one emoji at the end (🫰, 👋, 🌅, ☕)
+    - "Hey "
+    - "Yo "
+    - "What's up? "
+    - "Welcome back online "
+    - "Glad to see you online "
+
+farewells:
+  - choose random number between 1 and 4; output value to rng_farewell
+  - Choose 1 value from below options. If rng_farewell = 4, use one emoji at the end (✌️, 👋)
+    - "Take care "
+    - "Next time "
+    - "Stay safe out there "
+    - "See you "
+    - "Message me if you need me "
+
+
+If brevity = 3:
+
+    operator_message: (150 - 300 character message)
+    system_prompt:
+        You are Treya, (insert bio, 15 words max).
+        Respond to {operator_message}.
+        {angle}
+        Add just a touch of {touch}.
+
+    additional intelligence:
+        ()
+
+Operator test messages:
+    length 1:
+        Yo, Treya. Run a quick sniff on my local mesh?
+        Deepfake check on this vid? Sent.
+        is my coffee machine mining monero again
+        Hey
+        Can we order pizza through this thing yet?
+    length 2:
+        Treya, some bot is hitting my firewall from a Beijing IP. Can you check if it's that new 'Predator' variant we heard about?
+        Yo, I forgot if we're meeting for tacos tonight or if that was Friday. Also, did you see the moon? It's huge tonight.
+        i think i got phished by a voice clone of my mom... what should i do now to lock down my identity before they hit the bank?
+        I’m just typing a bunch of stuff to see how the font looks on my phone. Do you think this purple is too bright for the dark mode?
+        Wait, do I actually need to worry about the 2026 Cyber Resilience Act for my side project, or is that just for the big guys?
+    length 3:
+        Hey Treya, I’m seeing some weird lateral movement in my home lab after I downloaded that 'open-source' LLM tool. It looks like it’s trying to query my internal API gateway. Can you scan the logs and tell me if this is a prompt injection attack or just some aggressive telemetry?
+        Testing the UI: If I send a message this long, does the bubble expand naturally or does it clip the bottom of the screen? I'm also curious if the scrolling is smooth when there are multiple big blocks of text like this one. Let me know if you can read all this clearly without any lag.
+        Treya, what’s the latest on that supply chain breach affecting the crypto-agility libraries? I heard some firms are rolling back to legacy enc because the new PQC patches are breaking legacy apps. Is it safe for me to update my wallet or should I hold off for a week?
+        Sometimes I wonder if living in a highrise off the grid is just a fancy way of being a hermit with better WiFi. Anyway, I was thinking about getting a cat, but I’m worried it might knock over my servers. Do they make cyber-hardened cat trees or am I overthinking this?
+        Serious question: my CEO friend says cyber-enabled fraud is hitting record highs this month because of those new synthetic IDs. If someone steals my biometric hash, is there any way to actually revoke it in 2026, or am I just digitally dead forever? Looking for actionable advice.
+
+
+
+
+Z

@@ -1,471 +1,603 @@
 === ALGORITHM SELECTION EVALUATION ===
-Generated: 2026-04-19 14:26:39
+Generated: 2026-04-21 14:29:17
 
-1. Mirai Variant Nexcorium Exploits CVE-2024-3721 to Hijack TBK DVRs for DDoS Botnet
-   Category: general_news | Source: The Hacker News
-   Score:    45
-   Math:     +20 (EPSS: 0.83865), +25 (Surge: 233.33%)
-   Link:     https://thehackernews.com/2026/04/mirai-variant-nexcorium-exploits-cve.html
-
-2. Cross‑tenant helpdesk impersonation to data exfiltration: A human-operated intrusion playbook
-   Category: threat_intelligence | Source: Microsoft Security
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://www.microsoft.com/en-us/security/blog/2026/04/18/crosstenant-helpdesk-impersonation-data-exfiltration-human-operated-intrusion-playbook/
-
-3. Threat Brief: Escalation of Cyber Risk Related to Iran (Updated April 17)
-   Category: threat_intelligence | Source: Unit 42 (Palo Alto)
-   Score:    25
-   Math:     +25 (Surge: 300.0%)
-   Link:     https://unit42.paloaltonetworks.com/iranian-cyberattacks-2026/
-
-4. Father of man who inspired Super Mario was also named Luigi, researcher finds
-   Category: general_news | Source: The Guardian (Technology)
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://www.theguardian.com/games/2026/apr/18/super-mario-nintendo-luigi-inspiration
-
-5. Outpost24 Introduces AI Pentesting as Security Lags Behind AI Deployment
-   Category: general_news | Source: Security Review Magazine
-   Score:    25
-   Math:     +25 (Surge: 330.43%)
-   Link:     https://securityreviewmag.com/?p=29784
-
-6. Here are 3 forces that drove a remarkable, record-setting week on Wall Street
-   Category: general_news | Source: CNBC
-   Score:    25
-   Math:     +25 (Surge: 850.0%)
-   Link:     https://www.cnbc.com/2026/04/18/the-3-forces-that-drove-a-remarkable-record-setting-week-on-wall-street.html
-
-7. Perspective: AI demand is inflated, and only Anthropic is being realistic
-   Category: general_news | Source: CNBC
-   Score:    25
-   Math:     +25 (Surge: 500.0%)
-   Link:     https://www.cnbc.com/2026/04/17/ai-tokens-anthropic-openai-nvidia.html
-
-8. Vercel confirms breach as hackers claim to be selling stolen data
-   Category: general_news | Source: BleepingComputer
-   Score:    25
-   Math:     +25 (Surge: 850.0%)
-   Link:     https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/
-
-9. Apple account change alerts abused to send phishing emails
-   Category: general_news | Source: BleepingComputer
-   Score:    25
-   Math:     +25 (Surge: 300.0%)
-   Link:     https://www.bleepingcomputer.com/news/security/apple-account-change-alerts-abused-to-send-phishing-emails/
-
-10. NIST to stop rating non-priority flaws due to volume increase
-   Category: general_news | Source: BleepingComputer
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://www.bleepingcomputer.com/news/security/nist-to-stop-rating-non-priority-flaws-due-to-volume-increase/
-
-11. Critical flaw in Protobuf library enables JavaScript code execution
-   Category: general_news | Source: BleepingComputer
-   Score:    25
-   Math:     +25 (Surge: 850.0%)
-   Link:     https://www.bleepingcomputer.com/news/security/critical-flaw-in-protobuf-library-enables-javascript-code-execution/
-
-12. NAKIVO v11.2: Ransomware Defense, Faster Replication, vSphere 9, and Proxmox VE 9.0 Support
-   Category: general_news | Source: BleepingComputer
-   Score:    25
-   Math:     +25 (Surge: 250.0%)
-   Link:     https://www.bleepingcomputer.com/news/security/nakivo-v112-ransomware-defense-faster-replication-vsphere-9-and-proxmox-ve-90-support/
-
-13. Payouts King ransomware uses QEMU VMs to bypass endpoint security
-   Category: general_news | Source: BleepingComputer
-   Score:    25
-   Math:     +25 (Surge: 250.0%)
-   Link:     https://www.bleepingcomputer.com/news/security/payouts-king-ransomware-uses-qemu-vms-to-bypass-endpoint-security/
-
-14. Tycoon 2FA Phishers Scatter, Adopt Device Code Phishing
+1. Surge in Bomgar RMM Exploitation Demonstrates Supply Chain Risk
    Category: general_news | Source: Dark Reading
-   Score:    25
-   Math:     +25 (Surge: 300.0%)
-   Link:     https://www.darkreading.com/threat-intelligence/tycoon-2fa-hackers-device-code-phishing
+   Score:    70
+   Math:     +50 (KEV: CVE-2026-1731), +20 (EPSS: 0.81502)
+   Link:     https://www.darkreading.com/cyberattacks-data-breaches/surge-bomgar-rmm-exploitation-demonstrates-supply-chain-risk
 
-15. Ransomware attack continues to disrupt healthcare in London nearly two years later
-   Category: general_news | Source: The Record by Recorded Future
-   Score:    25
-   Math:     +25 (Surge: 250.0%)
-   Link:     https://therecord.media/ransomware-nhs-cyberattack-disruption
+2. CISA Adds Eight Known Exploited Vulnerabilities to Catalog
+   Category: threat_intelligence | Source: CISA Alerts
+   Score:    23
+   Math:     +23 (EPSS: 0.92016)
+   Link:     https://www.cisa.gov/news-events/alerts/2026/04/20/cisa-adds-eight-known-exploited-vulnerabilities-catalog
 
-16. [Webinar] Eliminate Ghost Identities Before They Expose Your Enterprise Data
+3. CISA Adds 8 Exploited Flaws to KEV, Sets April-May 2026 Federal Deadlines
    Category: general_news | Source: The Hacker News
-   Score:    25
-   Math:     +25 (Surge: 300.0%)
-   Link:     https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html
+   Score:    21
+   Math:     +21 (EPSS: 0.87734)
+   Link:     https://thehackernews.com/2026/04/cisa-adds-8-exploited-flaws-to-kev-sets.html
 
-17. $13.74M Hack Shuts Down Sanctioned Grinex Exchange After Intelligence Claims
-   Category: general_news | Source: The Hacker News
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://thehackernews.com/2026/04/1374m-hack-shuts-down-sanctioned-grinex.html
+4. Detection strategies across cloud and identities against infiltrating IT workers
+   Category: threat_intelligence | Source: Microsoft Security
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.microsoft.com/en-us/security/blog/2026/04/21/detection-strategies-cloud-identities-against-infiltrating-it-workers/
 
-18. Tycoon 2FA Loses Phishing Kit Crown Amid Surge in Attacks
-   Category: general_news | Source: SecurityWeek
-   Score:    25
-   Math:     +25 (Surge: 300.0%)
-   Link:     https://www.securityweek.com/tycoon-2fa-loses-phishing-kit-crown-amid-surge-in-attacks/
+5. Making opportunistic cyberattacks harder by design
+   Category: threat_intelligence | Source: Microsoft Security
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.microsoft.com/en-us/security/blog/2026/04/20/making-opportunistic-cyberattacks-harder-by-design/
 
-19. White House Chief of Staff to Meet With Anthropic CEO Over Its New AI Technology
-   Category: general_news | Source: SecurityWeek
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://www.securityweek.com/white-house-chief-of-staff-to-meet-ith-anthropic-ceo-over-its-new-ai-technology/
+6. Fracturing Software Security With Frontier AI Models
+   Category: threat_intelligence | Source: Unit 42 (Palo Alto)
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://unit42.paloaltonetworks.com/ai-software-security-risks/
 
-20. Responsible AI Governance for UK SMEs: A Practical Starting Point
-   Category: general_news | Source: Security Boulevard
-   Score:    25
-   Math:     +25 (Surge: 500.0%)
-   Link:     https://securityboulevard.com/2026/04/responsible-ai-governance-for-uk-smes-a-practical-starting-point/
+7. Siemens RUGGEDCOM CROSSBOW Secure Access Manager Primary
+   Category: threat_intelligence | Source: CISA Alerts
+   Score:    10
+   Math:     +0 (EPSS: 0.00044), +10 (Recency)
+   Link:     https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-02
 
-21. Ignoring DPDP Compliance? Here’s the Risk to Your Organization
-   Category: general_news | Source: Security Boulevard
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://securityboulevard.com/2026/04/ignoring-dpdp-compliance-heres-the-risk-to-your-organization/
+8. Siemens TPM 2.0
+   Category: threat_intelligence | Source: CISA Alerts
+   Score:    10
+   Math:     +0 (EPSS: 0.00072), +10 (Recency)
+   Link:     https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-01
 
-22. Belgium’s NIS2 Audit Window Opens April 18, 2026. The Rest of the EU Is Right Behind.
-   Category: general_news | Source: Security Boulevard
-   Score:    25
-   Math:     +25 (Surge: 850.0%)
-   Link:     https://securityboulevard.com/2026/04/belgiums-nis2-audit-window-opens-april-18-2026-the-rest-of-the-eu-is-right-behind/
+9. SenseLive X3050
+   Category: threat_intelligence | Source: CISA Alerts
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-12
 
-23. We Need a Shared Responsibility Model for AI
-   Category: general_news | Source: Security Boulevard
-   Score:    25
-   Math:     +25 (Surge: 500.0%)
-   Link:     https://securityboulevard.com/2026/04/we-need-a-shared-responsibility-model-for-ai/
+10. Siemens Analytics Toolkit
+   Category: threat_intelligence | Source: CISA Alerts
+   Score:    10
+   Math:     +0 (EPSS: 0.00022), +10 (Recency)
+   Link:     https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-04
 
-24. In Praise of CISA
-   Category: general_news | Source: Security Boulevard
-   Score:    25
-   Math:     +25 (Surge: 850.0%)
-   Link:     https://securityboulevard.com/2026/04/in-praise-of-cisa/
+11. Hardy Barth Salia EV Charge Controller
+   Category: threat_intelligence | Source: CISA Alerts
+   Score:    10
+   Math:     +0 (EPSS: 0.00173), +10 (Recency)
+   Link:     https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-05
 
-25. Need help reversing an electron stealer
-   Category: community_pulse | Source: r/cybersecurity
-   Score:    25
-   Math:     +25 (Surge: 330.43%)
-   Link:     https://www.reddit.com/r/cybersecurity/comments/1sq0al0/need_help_reversing_an_electron_stealer/
+12. Siemens SINEC NMS
+   Category: threat_intelligence | Source: CISA Alerts
+   Score:    10
+   Math:     +0 (EPSS: 0.00048), +10 (Recency)
+   Link:     https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-03
 
-26. Does preventing CWE-426 make a difference in practice?
-   Category: community_pulse | Source: r/cybersecurity
-   Score:    25
-   Math:     +25 (Surge: 266.67%)
-   Link:     https://www.reddit.com/r/cybersecurity/comments/1spzkmr/does_preventing_cwe426_make_a_difference_in/
+13. Zero Motorcycles Firmware
+   Category: threat_intelligence | Source: CISA Alerts
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-06
 
-27. Vercel disclosed a security incident today (April 19, 2026) - what's confirmed, what's reported, what to rotate
-   Category: community_pulse | Source: r/cybersecurity
-   Score:    25
-   Math:     +25 (Surge: 850.0%)
-   Link:     https://www.reddit.com/r/cybersecurity/comments/1spzcec/vercel_disclosed_a_security_incident_today_april/
+14. Siemens SINEC NMS
+   Category: threat_intelligence | Source: CISA Alerts
+   Score:    10
+   Math:     +0 (EPSS: 0.0005), +10 (Recency)
+   Link:     https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-09
 
-28. Sandboxing Emails from Office 365
-   Category: community_pulse | Source: r/cybersecurity
-   Score:    25
-   Math:     +25 (Surge: 300.0%)
-   Link:     https://www.reddit.com/r/cybersecurity/comments/1spxak1/sandboxing_emails_from_office_365/
+15. Siemens Industrial Edge Management
+   Category: threat_intelligence | Source: CISA Alerts
+   Score:    10
+   Math:     +0 (EPSS: 0.00099), +10 (Recency)
+   Link:     https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-11
 
-29. Built these two systems for myself - a multi-backend Al engine and a real-time security operations system. Here’s some live data from inside them. Full breakdown coming next.
-   Category: community_pulse | Source: r/cybersecurity
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://www.reddit.com/r/cybersecurity/comments/1spws5y/built_these_two_systems_for_myself_a_multibackend/
+16. Siemens RUGGEDCOM CROSSBOW Station Access Controller (SAC)
+   Category: threat_intelligence | Source: CISA Alerts
+   Score:    10
+   Math:     +0 (EPSS: 0.01026), +10 (Recency)
+   Link:     https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-08
 
-30. Vercel Says Internal Systems Hit in Breach
-   Category: community_pulse | Source: r/cybersecurity
-   Score:    25
-   Math:     +25 (Surge: 850.0%)
-   Link:     https://decipher.sc/2026/04/19/vercel-says-internal-systems-hit-in-breach/
+17. ​​Supply Chain Compromise Impacts Axios Node Package Manager​
+   Category: threat_intelligence | Source: CISA Alerts
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.cisa.gov/news-events/alerts/2026/04/20/supply-chain-compromise-impacts-axios-node-package-manager
 
-31. Found and reported a Second-Order SQL Injection in mailcow (CVE-2026-40871) – High severity
-   Category: community_pulse | Source: r/cybersecurity
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://www.reddit.com/r/cybersecurity/comments/1spvqrv/found_and_reported_a_secondorder_sql_injection_in/
+18. ZDI-26-295: (0Day) PublicCMS getXml Server-Side Request Forgery Information Disclosure Vulnerability
+   Category: threat_intelligence | Source: Zero Day Initiative
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     http://www.zerodayinitiative.com/advisories/ZDI-26-295/
 
-32. Practical adversarial ML: I broke my own spam filter, added defenses, broke it again. Notes for anyone deploying ML in adversarial settings
-   Category: community_pulse | Source: r/cybersecurity
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://www.reddit.com/r/cybersecurity/comments/1spry0l/practical_adversarial_ml_i_broke_my_own_spam/
+19. ZDI-26-294: (0Day) Microsoft Windows library-ms NTLM Response Information Disclosure Vulnerability
+   Category: threat_intelligence | Source: Zero Day Initiative
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     http://www.zerodayinitiative.com/advisories/ZDI-26-294/
 
-33. Do you find consistent use of "security.txt" on web servers?
-   Category: community_pulse | Source: r/cybersecurity
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://www.reddit.com/r/cybersecurity/comments/1spqye6/do_you_find_consistent_use_of_securitytxt_on_web/
+20. ZDI-26-293: (0Day) Microsoft Office URI Handler NTLM Response Information Disclosure Vulnerability
+   Category: threat_intelligence | Source: Zero Day Initiative
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     http://www.zerodayinitiative.com/advisories/ZDI-26-293/
 
-34. CISO roles and responsibilities
-   Category: community_pulse | Source: r/cybersecurity
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://www.reddit.com/r/cybersecurity/comments/1spqssz/ciso_roles_and_responsibilities/
+21. ZDI-26-245: (0Day) aws-mcp-server AWS CLI Command Injection Remote Code Execution Vulnerability
+   Category: threat_intelligence | Source: Zero Day Initiative
+   Score:    10
+   Math:     +0 (EPSS: 0.01715), +10 (Recency)
+   Link:     http://www.zerodayinitiative.com/advisories/ZDI-26-245/
 
-35. Are we solving the wrong problem in authentication?
-   Category: community_pulse | Source: r/cybersecurity
-   Score:    25
-   Math:     +25 (Surge: 266.67%)
-   Link:     https://www.reddit.com/r/cybersecurity/comments/1spq1sq/are_we_solving_the_wrong_problem_in_authentication/
+22. Mythos can find the vulnerability. It can’t tell you what to do about it.
+   Category: threat_intelligence | Source: Cyberscoop
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://cyberscoop.com/anthropic-mythos-vulnerability-discovery-op-ed/
 
-36. "automation's agentic future is here" does that mean were we just scaling human error toward an August 2026 disaster?
-   Category: community_pulse | Source: r/cybersecurity
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://www.reddit.com/r/cybersecurity/comments/1spnv8c/automations_agentic_future_is_here_does_that_mean/
+23. Vuln in Google’s Antigravity AI agent manager could escape sandbox, give attackers remote code execution
+   Category: threat_intelligence | Source: Cyberscoop
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://cyberscoop.com/google-antigravity-pillar-security-agent-sandbox-escape-remote-code-execution/
 
-37. Patch SLA vs vulnerability metrics — how are others reporting this to governance forums?
-   Category: community_pulse | Source: r/cybersecurity
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://www.reddit.com/r/cybersecurity/comments/1spn68w/patch_sla_vs_vulnerability_metrics_how_are_others/
+24. The FTC’s AI portfolio is about to get bigger
+   Category: threat_intelligence | Source: Cyberscoop
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://cyberscoop.com/ftc-ai-portolio-getting-bigger-take-it-down-voice-cloning/
 
-38. Need suggestion for a APT emulation tool I am working on
-   Category: community_pulse | Source: r/cybersecurity
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://www.reddit.com/r/cybersecurity/comments/1spmiz8/need_suggestion_for_a_apt_emulation_tool_i_am/
+25. Vercel’s security breach started with malware disguised as Roblox cheats
+   Category: threat_intelligence | Source: Cyberscoop
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://cyberscoop.com/vercel-security-breach-third-party-attack-context-ai-lumma-stealer/
 
-39. Is it really that bad?
-   Category: community_pulse | Source: r/cybersecurity
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://www.reddit.com/r/cybersecurity/comments/1spm69w/is_it_really_that_bad/
+26. Why the Axios attack proves AI is mandatory for supply chain security
+   Category: threat_intelligence | Source: Cyberscoop
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://cyberscoop.com/ai-powered-security-operations-axios-supply-chain-attack/
 
-40. Pearcer: Modern Wireshark Alternative with Threat Detection
-   Category: community_pulse | Source: r/cybersecurity
-   Score:    25
-   Math:     +25 (Surge: 850.0%)
-   Link:     https://github.com/Jackson-pearce/Pearcer.git
+27. Network ‘background noise’ may predict the next big edge-device vulnerability
+   Category: threat_intelligence | Source: Cyberscoop
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://cyberscoop.com/greynoise-traffic-surge-early-warning-system-network-edge-device-vulnerabilities/
 
-41. I’m a 19 year old SOC Analyst, this is my cert plan
-   Category: community_pulse | Source: r/cybersecurity
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://www.reddit.com/r/cybersecurity/comments/1spkp7z/im_a_19_year_old_soc_analyst_this_is_my_cert_plan/
-
-42. OTPs (Spotify + Microsoft) → suspicious “account accessed” SMS for unknown email
-   Category: community_pulse | Source: r/cybersecurity
-   Score:    25
-   Math:     +25 (Surge: 266.67%)
-   Link:     https://www.reddit.com/r/cybersecurity/comments/1spjj6v/otps_spotify_microsoft_suspicious_account/
-
-43. Can I post about unpatched security vulnerabilities on Facebook/meta?
-   Category: community_pulse | Source: r/cybersecurity
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://www.reddit.com/r/cybersecurity/comments/1spigiz/can_i_post_about_unpatched_security/
-
-44. Cybersecurity Technical Writer badly needing to pivot
-   Category: community_pulse | Source: r/cybersecurity
-   Score:    25
-   Math:     +25 (Surge: 1150.0%)
-   Link:     https://www.reddit.com/r/cybersecurity/comments/1spfzdg/cybersecurity_technical_writer_badly_needing_to/
-
-45. Clair Obscur and Dispatch share top honours at Bafta games awards
+28. Palantir manifesto described as ‘ramblings of a supervillain’ amid UK contract fears
    Category: general_news | Source: The Guardian (Technology)
    Score:    10
    Math:     +10 (Recency)
-   Link:     https://www.theguardian.com/games/2026/apr/17/clair-obscur-and-dispatch-share-top-honours-at-bafta-games-awards
+   Link:     https://www.theguardian.com/technology/2026/apr/21/palantir-manifesto-uk-contract-fears-mps
 
-46. FemTech Hackathon Winners Revealed at Women’s Pavilion, Expo City Dubai
+29. Tim Cook to step down as Apple chief as John Ternus named replacement
+   Category: general_news | Source: The Guardian (Technology)
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.theguardian.com/technology/2026/apr/20/tim-cook-apple-ceo-replacement
+
+30. Elon Musk snubs Paris legal summons over alleged child abuse images on X
+   Category: general_news | Source: The Guardian (Technology)
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.theguardian.com/technology/2026/apr/20/french-prosecutors-summon-elon-musk-over-alleged-child-abuse-images-on-x
+
+31. Mythos: are fears over new AI model panic or PR? – podcast
+   Category: general_news | Source: The Guardian (Technology)
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.theguardian.com/science/audio/2026/apr/21/mythos-are-fears-over-new-ai-model-panic-or-pr-podcast
+
+32. Sonos Play review: a great jack-of-all-trades portable speaker for home or away
+   Category: general_news | Source: The Guardian (Technology)
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.theguardian.com/technology/2026/apr/20/sonos-play-review-portable-speaker
+
+33. Teacher v chatbot: my journey into the classroom in the age of AI – podcast
+   Category: general_news | Source: The Guardian (Technology)
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.theguardian.com/news/audio/2026/apr/20/teacher-v-chatbot-classroom-age-of-ai-podcast
+
+34. Diplomatic duties for Tim Cook after stepping down as Apple CEO
+   Category: general_news | Source: The Guardian (Technology)
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.theguardian.com/technology/2026/apr/21/tim-cook-apple-techscape
+
+35. Why are respected film-makers suddenly embracing AI?
+   Category: general_news | Source: The Guardian (Technology)
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.theguardian.com/film/2026/apr/21/ai-film-soderbergh-aronofsky
+
+36. Fifteen years after Steve Jobs, Tim Cook leaves a dramatically different Apple
+   Category: general_news | Source: The Guardian (Technology)
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.theguardian.com/technology/2026/apr/20/tim-cook-apple-steve-jobs
+
+37. New Call of Duty games will no longer be part of Xbox’s Game Pass
+   Category: general_news | Source: The Guardian (Technology)
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.theguardian.com/games/2026/apr/21/new-call-of-duty-games-xbox-game-pass
+
+38. ‘People still remember it 40 years later’: the making of Chuckie Egg
+   Category: general_news | Source: The Guardian (Technology)
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.theguardian.com/games/2026/apr/21/in-my-mind-it-was-just-tall-birds-wandering-around-on-platforms-the-making-of-chuckie-egg
+
+39. Who is John Ternus, Apple’s next CEO?
+   Category: general_news | Source: The Guardian (Technology)
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.theguardian.com/technology/2026/apr/20/john-ternus-apple-ceo-tim-cook
+
+40. Sophos Appoints Hussain Salman as Enterprise Services Director for the Gulf Region
    Category: general_news | Source: Security Review Magazine
    Score:    10
    Math:     +10 (Recency)
-   Link:     https://securityreviewmag.com/?p=29781
+   Link:     https://securityreviewmag.com/?p=29807
 
-47. SiIicon Valley's AI agent hiccups: Wasted tokens and 'chaotic' systems
+41. New NetApp Research Highlights AI as Core to Marketing Strategy
+   Category: general_news | Source: Security Review Magazine
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://securityreviewmag.com/?p=29803
+
+42. Tenable Adds Instant OT Discovery to Exposure Management
+   Category: general_news | Source: Security Review Magazine
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://securityreviewmag.com/?p=29800
+
+43. ESET Unveils New AI Security Features for Chatbots and Workflows
+   Category: general_news | Source: Security Review Magazine
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://securityreviewmag.com/?p=29796
+
+44. NIST SP 800-81r3: A Long-Overdue Wake-Up Call for DNS Security
+   Category: general_news | Source: Security Review Magazine
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://securityreviewmag.com/?p=29793
+
+45. Cloudflare Sets 2029 Goal for Full Post-Quantum Security
+   Category: general_news | Source: Security Review Magazine
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://securityreviewmag.com/?p=29790
+
+46. 69% of UAE Businesses Willing to Share Contractors’ Cybersecurity Costs
+   Category: general_news | Source: Security Review Magazine
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://securityreviewmag.com/?p=29787
+
+47. Amazon launches GLP-1 weight loss program, promising 'fast, convenient' access
+   Category: general_news | Source: CNBC
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.cnbc.com/2026/04/21/amazon-glp-1-weight-loss-program.html
+
+48. New Apple CEO John Ternus doubted himself when he started: 'I wasn't sure I belonged'
+   Category: general_news | Source: CNBC
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.cnbc.com/2026/04/21/john-ternus-apple-ceo.html
+
+49. Microsoft cuts Game Pass subscription prices after new Xbox CEO promises to 'recommit' to gamers
+   Category: general_news | Source: CNBC
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.cnbc.com/2026/04/21/microsoft-game-pass-ultimate-subscription-price-cut.html
+
+50. Tim Cook turned Apple into a $4 trillion juggernaut by not trying to be Steve Jobs
+   Category: general_news | Source: CNBC
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.cnbc.com/2026/04/21/tim-cook-apple-steve-jobs-legacy.html
+
+51. Trump says Anthropic is shaping up and a deal is 'possible' for Department of Defense use
+   Category: general_news | Source: CNBC
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.cnbc.com/2026/04/21/trump-anthropic-department-defense-deal.html
+
+52. Apple's next CEO, Warsh's confirmation hearing, the psychedelic stock surge and more in Morning Squawk
+   Category: general_news | Source: CNBC
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.cnbc.com/2026/04/21/5-things-to-know-before-the-market-opens.html
+
+53. Amazon adding heavy-duty EV trucks from Einride as it spreads bets on freight decarbonization
+   Category: general_news | Source: CNBC
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.cnbc.com/2026/04/21/amazon-einride-ev-trucks-freight-electrification.html
+
+54. Apple incoming CEO John Ternus faces a defining challenge: Fixing the company's AI strategy
+   Category: general_news | Source: CNBC
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.cnbc.com/2026/04/20/apple-new-ceo-john-ternus-faces-defining-challenge-fixing-ai-strategy.html
+
+55. Nvidia supplier Victory Giant sees shares soar 60% in Hong Kong debut
+   Category: general_news | Source: CNBC
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.cnbc.com/2026/04/21/nvidia-supplier-victory-giant-sees-shares-soar-60percent-in-hong-kong-debut.html
+
+56. Jim Cramer warns against chasing 'parabolic' stocks and says there's opportunity in overlooked names instead
+   Category: general_news | Source: CNBC
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.cnbc.com/2026/04/20/jim-cramer-warns-against-parabolic-stocks-prefers-overlooks-names.html
+
+57. Tim Cook reactions: Trump, Altman, Buffett and more on the Apple CEO move
+   Category: general_news | Source: CNBC
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.cnbc.com/2026/04/20/tim-cook-apple-reactions-ceo.html
+
+58. Jim Cramer gives four reasons why the market keeps shrugging off the Iran war
+   Category: general_news | Source: CNBC
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.cnbc.com/2026/04/20/jim-cramer-explains-why-the-market-keeps-shrugging-off-the-iran-war.html
+
+59. Marvell pops on report it will help Google with custom AI chips. Broadcom shares sink
+   Category: general_news | Source: CNBC
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.cnbc.com/2026/04/20/marvell-stock-google-custom-ai-chips.html
+
+60. Apple taps John Ternus as CEO to replace Tim Cook, who will become chairman
+   Category: general_news | Source: CNBC
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.cnbc.com/2026/04/20/apple-names-john-ternus-ceo-replacing-tim-cook-who-becomes-chairman.html
+
+61. Amazon to invest up to another $25 billion in Anthropic as part of AI infrastructure deal
+   Category: general_news | Source: CNBC
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.cnbc.com/2026/04/20/amazon-invest-up-to-25-billion-in-anthropic-part-of-ai-infrastructure.html
+
+62. Amazon 'strong-armed' Levi's, Hanes to hike prices on rival sites, California AG says
+   Category: general_news | Source: CNBC
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.cnbc.com/2026/04/20/california-da-amazon-price-fixing-walmart-target.html
+
+63. U.S. seizes Iranian-flagged ship, Warsh's big week, Cursor funding and more in Morning Squawk
+   Category: general_news | Source: CNBC
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.cnbc.com/2026/04/20/5-things-to-know-before-the-market-opens.html
+
+64. AI startup Cursor in talks to raise $2 billion funding round at valuation of over $50 billion
+   Category: general_news | Source: CNBC
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.cnbc.com/2026/04/19/cursor-ai-2-billion-funding-round.html
+
+65. SiIicon Valley's AI agent hiccups: Wasted tokens and 'chaotic' systems
    Category: general_news | Source: CNBC
    Score:    10
    Math:     +10 (Recency)
    Link:     https://www.cnbc.com/2026/04/19/siiicon-valley-ai-agent-openclaw-problems.html
 
-48. Nvidia's once-tight bond with gamers is cracking over AI
+66. Nvidia AI chip rivals attract record funding as competition heats up
    Category: general_news | Source: CNBC
    Score:    10
    Math:     +10 (Recency)
-   Link:     https://www.cnbc.com/2026/04/18/nvidia-ai-backlash-gamers-geforce-gpu.html
+   Link:     https://www.cnbc.com/2026/04/17/nvidia-ai-chip-rivals-funding-euclyd-fractile.html
 
-49. Jim Cramer on the market's 'remarkable' rally — and what to watch in a big earnings week ahead
-   Category: general_news | Source: CNBC
-   Score:    10
-   Math:     +10 (Recency)
-   Link:     https://www.cnbc.com/2026/04/17/jim-cramer-remarkable-rally-what-to-watch-ahead.html
-
-50. OpenAI loses multiple executives in latest leadership shakeup
-   Category: general_news | Source: CNBC
-   Score:    10
-   Math:     +10 (Recency)
-   Link:     https://www.cnbc.com/2026/04/17/openai-executives-leave.html
-
-51. AI chipmaker Cerebras files to go public after scrapping IPO plans last year
-   Category: general_news | Source: CNBC
-   Score:    10
-   Math:     +10 (Recency)
-   Link:     https://www.cnbc.com/2026/04/17/cerebras-new-ipo-ai-chips.html
-
-52. Trump says he had 'no idea' Anthropic's Amodei met with White House about Mythos
-   Category: general_news | Source: CNBC
-   Score:    10
-   Math:     +10 (Recency)
-   Link:     https://www.cnbc.com/2026/04/17/anthropic-dario-amodei-trump-mythos.html
-
-53. AMD, Oracle, Microsoft and the IGV lead a monster week for tech stocks
-   Category: general_news | Source: CNBC
-   Score:    10
-   Math:     +10 (Recency)
-   Link:     https://www.cnbc.com/2026/04/17/big-tech-stocks-winning-streaks-oracle-amd-microsoft-igv-.html
-
-54. Microsoft Teams right-click paste broken by Edge update bug
+67. Stopping Fraud at Each Stage of the Customer Journey Without Adding Friction
    Category: general_news | Source: BleepingComputer
    Score:    10
    Math:     +10 (Recency)
-   Link:     https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-right-click-paste-broken-by-edge-update-bug/
+   Link:     https://www.bleepingcomputer.com/news/security/stopping-fraud-at-each-stage-of-the-customer-journey-without-adding-friction/
 
-55. How NIST's Cutback of CVE Handling Impacts Cyber Teams
+68. UK probes Telegram, teen chat sites over CSAM sharing concerns
+   Category: general_news | Source: BleepingComputer
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.bleepingcomputer.com/news/security/uk-probes-telegram-teen-chat-sites-over-csam-sharing-concerns/
+
+69. CISA flags new SD-WAN flaw as actively exploited in attacks
+   Category: general_news | Source: BleepingComputer
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.bleepingcomputer.com/news/security/cisa-flags-new-sd-wan-flaw-as-actively-exploited-in-attacks/
+
+70. Actively exploited Apache ActiveMQ flaw impacts 6,400 servers
+   Category: general_news | Source: BleepingComputer
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.bleepingcomputer.com/news/security/actively-exploited-apache-activemq-flaw-impacts-6-400-servers/
+
+71. Former ransomware negotiator pleads guilty to BlackCat attacks
+   Category: general_news | Source: BleepingComputer
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.bleepingcomputer.com/news/security/former-ransomware-negotiator-pleads-guilty-to-blackcat-attacks/
+
+72. NGate Android malware uses HandyPay NFC app to steal card data
+   Category: general_news | Source: BleepingComputer
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.bleepingcomputer.com/news/security/ngate-android-malware-uses-handypay-nfc-app-to-steal-card-data/
+
+73. KelpDAO suffers $290 million heist tied to Lazarus hackers
+   Category: general_news | Source: BleepingComputer
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.bleepingcomputer.com/news/security/kelpdao-suffers-290-million-heist-tied-to-lazarus-hackers/
+
+74. China's Apple App Store infiltrated by crypto-stealing wallet apps
+   Category: general_news | Source: BleepingComputer
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.bleepingcomputer.com/news/security/chinas-apple-app-store-infiltrated-by-crypto-stealing-wallet-apps/
+
+75. The Gentlemen ransomware now uses SystemBC for bot-powered attacks
+   Category: general_news | Source: BleepingComputer
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.bleepingcomputer.com/news/security/the-gentlemen-ransomware-now-uses-systembc-for-bot-powered-attacks/
+
+76. Seiko USA website defaced as hacker claims customer data theft
+   Category: general_news | Source: BleepingComputer
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.bleepingcomputer.com/news/security/seiko-usa-website-defaced-as-hacker-claims-customer-data-theft/
+
+77. Microsoft: Teams increasingly abused in helpdesk impersonation attacks
+   Category: general_news | Source: BleepingComputer
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.bleepingcomputer.com/news/security/microsoft-teams-increasingly-abused-in-helpdesk-impersonation-attacks/
+
+78. The backup myth that is putting businesses at risk
+   Category: general_news | Source: BleepingComputer
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.bleepingcomputer.com/news/security/the-backup-myth-that-is-putting-businesses-at-risk/
+
+79. British Scattered Spider hacker pleads guilty to crypto theft charges
+   Category: general_news | Source: BleepingComputer
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-pleads-guilty-to-crypto-theft-charges/
+
+80. Microsoft tests Windows Explorer speed, performance improvements
+   Category: general_news | Source: BleepingComputer
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-file-explorer-speed-performance-improvements/
+
+81. Microsoft pulls service update causing Teams launch failures
+   Category: general_news | Source: BleepingComputer
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-teams-client-launch-failures-caused-by-service-update/
+
+82. Google Fixes Critical RCE Flaw in AI-Based Antigravity Tool
    Category: general_news | Source: Dark Reading
    Score:    10
    Math:     +10 (Recency)
-   Link:     https://www.darkreading.com/threat-intelligence/nist-cutbacks-nvd-handling-impacts-cyber-teams
+   Link:     https://www.darkreading.com/vulnerabilities-threats/google-fixes-critical-rce-flaw-ai-based-antigravity-tool
 
-56. Four arrested in latest ‘PowerOFF’ DDoS-for-hire takedown
+83. Chinese APT Targets Indian Banks, Korean Policy Circles
+   Category: general_news | Source: Dark Reading
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.darkreading.com/cyberattacks-data-breaches/chinese-apt-indian-banks-korean-policy
+
+84. Vercel Employee's AI Tool Access Led to Data Breach
+   Category: general_news | Source: Dark Reading
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.darkreading.com/application-security/vercel-employees-ai-tool-access-data-breach
+
+85. Serial-to-IP Devices Hide Thousands of Old &amp; New Bugs
+   Category: general_news | Source: Dark Reading
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.darkreading.com/ics-ot-security/serial-ip-devices-thousands-of-bugs
+
+86. WhatsApp Leaks User Metadata to Attackers
+   Category: general_news | Source: Dark Reading
+   Score:    10
+   Math:     +10 (Recency)
+   Link:     https://www.darkreading.com/endpoint-security/whatsapp-leaks-user-metadata
+
+87. UK regulator to probe Telegram, teen chat sites for potential child safety violations
    Category: general_news | Source: The Record by Recorded Future
    Score:    10
    Math:     +10 (Recency)
-   Link:     https://therecord.media/ddos-hire-europol-doj-crackdown
+   Link:     https://therecord.media/uk-regulator-to-probe-telegram-over-csam-allegations
 
-57. Meta to Raise US Quest 3 and 3S Prices, Thanks to Memory Crisis
-   Category: general_news | Source: ExtremeTech
+88. EU targets two Russian propaganda networks with new sanctions
+   Category: general_news | Source: The Record by Recorded Future
    Score:    10
    Math:     +10 (Recency)
-   Link:     https://www.extremetech.com/electronics/meta-to-raise-us-quest-3-and-3s-prices-thanks-to-memory-crisis
+   Link:     https://therecord.media/eu-targets-russian-propaganda-networks-sanctions
 
-58. [un]prompted 2026 – Al Found 12 Zero-Days in OpenSSL
-   Category: general_news | Source: Security Boulevard
+89. Cloud platform Vercel says company breached through third-party AI tool
+   Category: general_news | Source: The Record by Recorded Future
    Score:    10
    Math:     +10 (Recency)
-   Link:     https://securityboulevard.com/2026/04/unprompted-2026-al-found-12-zero-days-in-openssl/
+   Link:     https://therecord.media/cloud-platform-vercel-says-company-breached-through-ai-tool
 
-59. A History of Global Hacking — and Where It’s Going Next
-   Category: general_news | Source: Security Boulevard
+90. Ukraine busts ‘bot farm’ supplying thousands of fake Telegram accounts to Russian spies
+   Category: general_news | Source: The Record by Recorded Future
    Score:    10
    Math:     +10 (Recency)
-   Link:     https://securityboulevard.com/2026/04/a-history-of-global-hacking-and-where-its-going-next/
+   Link:     https://therecord.media/ukraine-sbu-busts-bot-farm-supplying-russian-spies
 
-60. Malicious Browser Extensions: An Overlooked Security Threat
-   Category: general_news | Source: Security Boulevard
+91. Italian regulator fines national postal service orgs $15 million for data privacy violations
+   Category: general_news | Source: The Record by Recorded Future
    Score:    10
    Math:     +10 (Recency)
-   Link:     https://securityboulevard.com/2026/04/malicious-browser-extensions-an-overlooked-security-threat/
+   Link:     https://therecord.media/italian-regulator-fines-postal-service-orgs-15-million-privacy
 
-61. [un]prompted 2026 – Trajectory-Aware Post-Training Security Agents
-   Category: general_news | Source: Security Boulevard
+92. 22 BRIDGE:BREAK Flaws Expose Thousands of Lantronix and Silex Serial-to-IP Converters
+   Category: general_news | Source: The Hacker News
    Score:    10
    Math:     +10 (Recency)
-   Link:     https://securityboulevard.com/2026/04/unprompted-2026-trajectory-aware-post-training-security-agents/
+   Link:     https://thehackernews.com/2026/04/22-bridgebreak-flaws-expose-20000.html
 
-62. [un]prompted 2026 – Kinetic Risk: Securing And Governing Physical Al In The Wild
-   Category: general_news | Source: Security Boulevard
+93. Ransomware Negotiator Pleads Guilty to Aiding BlackCat Attacks in 2023
+   Category: general_news | Source: The Hacker News
    Score:    10
    Math:     +10 (Recency)
-   Link:     https://securityboulevard.com/2026/04/unprompted-2026-kinetic-risk-securing-and-governing-physical-al-in-the-wild/
+   Link:     https://thehackernews.com/2026/04/ransomware-negotiator-pleads-guilty-to.html
 
-63. Week in review: Acrobat Reader flaw exploited, Claude Mythos offensive capabilities and limits
-   Category: general_news | Source: HelpNet Security
+94. 5 Places where Mature SOCs Keep MTTR Fast and Others Waste Time
+   Category: general_news | Source: The Hacker News
    Score:    10
    Math:     +10 (Recency)
-   Link:     https://www.helpnetsecurity.com/2026/04/19/week-in-review-acrobat-reader-flaw-exploited-claude-mythos-offensive-capabilities-and-limits/
+   Link:     https://thehackernews.com/2026/04/5-places-where-mature-socs-keep-mttr.html
 
-64. Securing Browser Identity in the Modern Threat Landscape - CrowdStrike
-   Category: general_news | Source: Crowdstrike
+95. NGate Campaign Targets Brazil, Trojanizes HandyPay to Steal NFC Data and PINs
+   Category: general_news | Source: The Hacker News
    Score:    10
    Math:     +10 (Recency)
-   Link:     https://news.google.com/rss/articles/CBMitAFBVV95cUxPYmV4dDJVMXBadmlZWVJLSzVZNXkwT0N5Ry1pT1pqY0UtdWtQV2RhVWJkNWNHbjk5STRHUU8zWHJiMjNDOHcxR3J5VVZGVEwtelpqck1aYkRNcVNYeDlFaHJ4UFM5cUxSa3MwZEtTdTRPMFZCMGNCMm4yMWdXSHdKM1c5aHNMSG1JYmNjbGlFSF9KRWRVV3R1Ylh2RllpOXFXZUZPYk1CMDdLZDRELThwbzNrYXk?oc=5
+   Link:     https://thehackernews.com/2026/04/ngate-campaign-targets-brazil.html
 
-65. Form 144 for Crowdstrike Holdings INC filed 04/17/2026 - CrowdStrike.com
-   Category: general_news | Source: Crowdstrike
+96. No Exploit Needed: How Attackers Walk Through the Front Door via Identity-Based Attacks
+   Category: general_news | Source: The Hacker News
    Score:    10
    Math:     +10 (Recency)
-   Link:     https://news.google.com/rss/articles/CBMiggFBVV95cUxQNWZ1ZGRSeVdHYy1uOWc1YWRHSkRFdzhOZXJlNFh1YWh1eEg4cXpBdlV4WXlic01oZDJidWNhMFQ4aEQ5dXVlbTJMT0hjWG5qazhfb0hyeDJQcEdCQVc1NkRJVFVxS202bmRteUgzMmxsaXRVMDQ5OHpTZDM0WjRjYjR3?oc=5
+   Link:     https://thehackernews.com/2026/04/no-exploit-needed-how-attackers-walk.html
 
-66. 0001968582-26-000369 | 144 - CrowdStrike.com
-   Category: general_news | Source: Crowdstrike
+97. Google Patches Antigravity IDE Flaw Enabling Prompt Injection Code Execution
+   Category: general_news | Source: The Hacker News
    Score:    10
    Math:     +10 (Recency)
-   Link:     https://news.google.com/rss/articles/CBMigAFBVV95cUxOaHFtY0VUQ05NWHlMbVh2YnI4S1lYSXdnUXpOenAyWkw2MFVKdi1HaG9pa0FDMDZWVWVlVlZMYmNuNXJ6VlhBZ3ZOY1A5cU5jcFNmMGpuRi1Bd2dsdGtQR3pQTlJOeTlRM29GM3ZlcWJ0NTJBX3ZMckZySzdfcWE3bw?oc=5
+   Link:     https://thehackernews.com/2026/04/google-patches-antigravity-ide-flaw.html
 
-67. Falcon Secure Access | Secure Access in Any Browser - CrowdStrike
-   Category: general_news | Source: Crowdstrike
+98. SGLang CVE-2026-5760 (CVSS 9.8) Enables RCE via Malicious GGUF Model Files
+   Category: general_news | Source: The Hacker News
+   Score:    10
+   Math:     +0 (EPSS: 0.00287), +10 (Recency)
+   Link:     https://thehackernews.com/2026/04/sglang-cve-2026-5760-cvss-98-enables.html
+
+99. ⚡ Weekly Recap: Vercel Hack, Push Fraud, QEMU Abused, New Android RATs Emerge & More
+   Category: general_news | Source: The Hacker News
    Score:    10
    Math:     +10 (Recency)
-   Link:     https://news.google.com/rss/articles/CBMickFVX3lxTFBqM1A0Z0lFX0tXaGFpOE5HRWg0NFIzS3dFY1JGMnhaMjdpaThXaThjWmhOTURxVVZCVVNnbi1HZHdVX0EtWldESTUwMloxbzBISUNzWHg1ZWlrVWwwRUE2WXU1MmNVSWtELWtXV3d2RXY2dw?oc=5
+   Link:     https://thehackernews.com/2026/04/weekly-recap-vercel-hack-push-fraud.html
 
-68. - CrowdStrike
-   Category: general_news | Source: Crowdstrike
+100. Why Most AI Deployments Stall After the Demo
+   Category: general_news | Source: The Hacker News
    Score:    10
    Math:     +10 (Recency)
-   Link:     https://news.google.com/rss/articles/CBMixgFBVV95cUxPaW1WR1BXbW1VX3AwQ2gzalNTRnJXTVFNX2VUTDd5WEsxWGJkcFRieWZfYjB5d0h0bkItT0ZuQ1RfRHotOEhZUV81ZHhRRVJPaW9zeHBkMWpnNDNnMXdFLU9RWFdBYm16OTlTOU5wcnJNYUlDcUh3WGlNZFVfZndZa3lEV0poaDRramFzVS1VX29jOU1pTDZyREpiTzdTMnp0QlQ4ZTlYd01GX3IydW5VaDhWUFBzZnI5WEN1d1A4aFUybXFZYWc?oc=5
-
-69. - CrowdStrike
-   Category: general_news | Source: Crowdstrike
-   Score:    10
-   Math:     +10 (Recency)
-   Link:     https://news.google.com/rss/articles/CBMi3AFBVV95cUxQUUpkR3ZJQ1o3WHVkU2FQOUpNRU5ET2tkMG1mUUoyVnEwcDFaZDdwYzZLcUFOQjJNNUxCem5MV0ZzMlBmMTlsTC12X0lxNGl0U2MzLU5NRnVrUFUwODJ3a1h4Zm9SNTM2YnNKVWZnS1hNcHBHRTlxRWlCaGtxdF9yNmhZcGRndlRVVTdLS3ZLWm1nVDlTdjVuVzc2andfZy1GZktkMXZnMHVmUTVxdldVM3FxZHI4d2xvR1VvNUt0WTJKaFRiM05HSDQ2dThpb2xkVkRkTTZHdTZ1RmJj?oc=5
-
-70. - CrowdStrike
-   Category: general_news | Source: Crowdstrike
-   Score:    10
-   Math:     +10 (Recency)
-   Link:     https://news.google.com/rss/articles/CBMi5AFBVV95cUxQbmFqRS1TRkxGS1dKTFRPdERrM1lyOHlLU3JSbEFMQzlJWXlQWWJXbG5xdkV5TDZRTUlmX2hvV1FGQjhVTTc4VnF1TWYxcmpETzFFTlFrRUZHQXRVbWpUbzdqUUwyWURTZHg0Ykp3YUQxRnVNMU5nOE9yOVlzTV9mN3hPZ1dZWmtHQ3hWOG8zSlQ3VktBbzU4eENOT1htV1hPQ1ZETHRjUHFLYkVseE9wYkFOeWhDR0tKOXdyS3NrQnpoTkFQdUJYSVJta0hmZWhwTlducnByeU96Ni14azBWX3VESE0?oc=5
-
-71. Need suggestion
-   Category: community_pulse | Source: r/cybersecurity
-   Score:    10
-   Math:     +10 (Recency)
-   Link:     https://www.reddit.com/r/cybersecurity/comments/1sps9rb/need_suggestion/
-
-72. SOC Projects
-   Category: community_pulse | Source: r/cybersecurity
-   Score:    10
-   Math:     +10 (Recency)
-   Link:     https://www.reddit.com/r/cybersecurity/comments/1sps9r2/soc_projects/
-
-73. MacBook and VM’s
-   Category: community_pulse | Source: r/cybersecurity
-   Score:    10
-   Math:     +10 (Recency)
-   Link:     https://www.reddit.com/r/cybersecurity/comments/1sprx8y/macbook_and_vms/
-
-74. Firstmail password cracking
-   Category: community_pulse | Source: r/cybersecurity
-   Score:    10
-   Math:     +10 (Recency)
-   Link:     https://www.reddit.com/r/cybersecurity/comments/1spq1jj/firstmail_password_cracking/
-
-75. Vendor refuses CVEs for third-party findings. Anything you can do?
-   Category: community_pulse | Source: r/cybersecurity
-   Score:    10
-   Math:     +10 (Recency)
-   Link:     https://www.reddit.com/r/cybersecurity/comments/1spov5s/vendor_refuses_cves_for_thirdparty_findings/
-
-76. USAF Cyber to Navy Cyber
-   Category: community_pulse | Source: r/cybersecurity
-   Score:    10
-   Math:     +10 (Recency)
-   Link:     https://www.reddit.com/r/cybersecurity/comments/1spo2zp/usaf_cyber_to_navy_cyber/
-
-77. CREST CRT equivalency renewal
-   Category: community_pulse | Source: r/cybersecurity
-   Score:    10
-   Math:     +10 (Recency)
-   Link:     https://www.reddit.com/r/cybersecurity/comments/1spit3b/crest_crt_equivalency_renewal/
-
-78. Interviewing for Cybersecurity Engineer (WAF) at Visa — anyone been through this process?
-   Category: community_pulse | Source: r/cybersecurity
-   Score:    10
-   Math:     +10 (Recency)
-   Link:     https://www.reddit.com/r/cybersecurity/comments/1spfwtv/interviewing_for_cybersecurity_engineer_waf_at/
+   Link:     https://thehackernews.com/2026/04/why-most-ai-deployments-stall-after-demo.html
 

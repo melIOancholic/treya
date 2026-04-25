@@ -137,5 +137,35 @@
                 "Vercel disclosed a security incident today (April 19, 2026) - what's confirmed, what's reported, what to rotate"
             ]
         }
+    },
+    {
+        "report_date": "2026-04-21T14:33:16.631893",
+        "report_truncated": {
+            "threat_intelligence": [
+                "CISA Adds Eight Known Exploited Vulnerabilities to Catalog",
+                "Detection strategies across cloud and identities against infiltrating IT workers",
+                "Making opportunistic\u00a0cyberattacks harder by design"
+            ],
+            "general_news": [
+                "Surge in Bomgar RMM Exploitation Demonstrates Supply Chain Risk",
+                "NGate NFC malware targets Android users through trojanized payment app",
+                "CISA Adds 8 Exploited Flaws to KEV, Sets April-May 2026 Federal Deadlines"
+            ],
+            "org_pages": [
+                "Scaling Codex to enterprises worldwide",
+                "OpenAI helps Hyatt advance AI among colleagues",
+                "Meta and CBRE Invest in American Jobs Through New Fiber Technician Training Program"
+            ],
+            "academic_research": [
+                "GRAIL: Autonomous Concept Grounding for Neuro-Symbolic Reinforcement Learning",
+                "Conversational AI increases political knowledge as effectively as self-directed internet search",
+                "NanoTag: Systems Support for Efficient Byte-Granular Overflow Detection on ARM MTE"
+            ],
+            "community_pulse": [
+                "How to build a career in hardware security?",
+                "\u201cI discovered a covert Wi-Fi\u2013enabled camera concealed inside a power adapter in a hotel room. The device was transmitting live footage to an overseas server (likely China-based). No cctv footage, used vpn, hotel denies their involvement",
+                "Post-Mythos: what are you actually doing differently right now?"
+            ]
+        }
     }
 ]

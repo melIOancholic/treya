@@ -81,6 +81,9 @@ intel_sources:
       - name: "SentinelOne"
         url: "https://www.sentinelone.com/feed/"
         type: "rss"
+      - name: "Tom's Hardware"
+        url: "https://www.sentinelone.com/feed/"
+        type: "rss"
 
   org_pages:
     description: "These sources cover specific information that the organization has reported on. These either use the proprietary news feed, or Google News to create an RSS feed out of recent company posts."
