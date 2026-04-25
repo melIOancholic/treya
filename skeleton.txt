@@ -21,22 +21,16 @@ app:
             watchlist (breadcrumb, context, count, count-1, count-2, count-3, count-4, count-5, count-6,)
     secrets (basically the stuff that needs to be kept private; call for Preferences DataStore in the script):
         user (alias, age_range, field)
-
-chat:
-
-
-
 harvest:
     enrichment:
         .env (for NVDLib)
     full_process:
-        "00_main.py"
         "01_crawl.py"
         "02_breadcrumbs.py"
         "03_external_feeds.py"
         "04_calculate_trends.py"
         "05_select_topics.py"
-    categories
+    categories:
         threat_intel:
             "06_main.py"
             profile.yaml
@@ -52,9 +46,9 @@ harvest:
         community_pulse:
             "06_main.py"
             profile.yaml
-
+    "run_harvest.py"
     sources:
         sources.yaml
-
 persona:
     prompts:
+        

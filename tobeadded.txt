@@ -35,6 +35,7 @@ Security Approach with this whole thing:
 
 Most open-source licenses (like MIT or Apache 2.0) already include "No Warranty" language, which is why many developers prefer them.
 
+"Never let Treya perform an "Outbound" action without a "Confirm" button." This is for identify_breadcrumb.
 
 1. First-Time Use Logic
 
